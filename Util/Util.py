@@ -14,12 +14,19 @@ class jedis(object):
     def save_info(self, name,  date, company_name):
         self.re.lpush(name, {"date": date, "company_name": company_name})
 
-    def save_infos(self,name,  item):
+    def save_infos(self, name,  item):
         self.re.lpush(name, item)
 
-    def save_company_info(self, name, company_rank, company_name,company_industry,company_contry,  company_profit, company_people_num, company_type):
-        self.re.lpush(name, {"company_rank": company_rank, "company_name": company_name,"company_contry":company_contry, "company_industry": company_industry,
-                             "company_profit": company_profit, "company_people_num": company_people_num, "company_type": company_type})
+    def save_company_info(self, name, company_rank, company_name,company_industry,company_contry,  company_profit,
+                          company_people_num, company_type):
+        self.re.lpush(name, {"company_rank": company_rank, "company_name": company_name,"company_contry": company_contry,
+                             "company_industry": company_industry,"company_profit": company_profit,
+                             "company_people_num": company_people_num, "company_type": company_type})
+
+    # 维持一个大学列表，记录每个大学list的名称
+    def add_university(self, name):
+        self.re.lpush("university", name)
+
 
 def get_header(host):
     header = {
@@ -35,7 +42,16 @@ def get_header(host):
     return header
 
 
-
 def get_short_date(date):
     time_array = time.strptime(date, "%Y-%m-%d")
     return time.strftime("%Y%m%d", time_array)
+
+
+if __name__ == '__main__':
+    re = jedis()
+    re.connect_redis()
+    re.add_university("scu_company_info")
+    re.add_university("thu_company_info")
+    re.add_university("nju_company_info")
+    re.add_university("sjtu_company_info")
+    re.add_university("jincheng_company_info")

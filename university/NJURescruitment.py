@@ -15,6 +15,7 @@ def get_nju_rescruit():
         print(i)
         content = req.get(headers=header, url=base_url + str(i)).content.decode("utf-8")
         parse_nju_info(content, re)
+    re.add_university("nju_company_info")
     print("finish")
 
 

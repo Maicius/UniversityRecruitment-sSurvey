@@ -54,6 +54,8 @@ def get_tsinghua_recruit():
         else:
             re.save_info("thu_company_info", item['qsrq'], item['zphmc'])
 
+    re.add_university("thu_company_info")
+
 
 def parse_tsinghua_info(zphid):
     zphid_url = "http://career.cic.tsinghua.edu.cn/xsglxt/f/jyxt/anony/dzxDetails?zphid=" + str(zphid)
