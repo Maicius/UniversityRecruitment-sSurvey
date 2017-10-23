@@ -24,4 +24,4 @@
 
 - 数据格式全部使用Json Array  
 ![数据格式](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/file/thu.png)
-![数据格式]()
+![数据格式](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/file/comany_info.png)
