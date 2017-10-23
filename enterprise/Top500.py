@@ -4,16 +4,25 @@ import requests
 from bs4 import BeautifulSoup
 from Util import Util
 
+
 def get_China_top500():
     base_url = "http://www.fortunechina.com/search/f500beta/search.do?facetAction=&facetStr=type%23%E6%89%80%E5%B1%9E%E6%A6%9C%E5%8D%95%23%E4%B8%AD%E5%9B%BD500%E5%BC%BA%3B&sort=1&key=&curPage="
     page_num = 83
     get_top_500(base_url, page_num, "ChinaTop500")
     print("finish")
 
+
 def get_world_top500():
     base_url = "http://www.fortunechina.com/search/f500beta/search.do?facetAction=&facetStr=type%23%E6%89%80%E5%B1%9E%E6%A6%9C%E5%8D%95%23%E4%B8%96%E7%95%8C500%E5%BC%BA%3B&sort=1&key=&curPage="
-    page_num = 73
+    page_num = 74
     get_top_500(base_url, page_num, "WorldTop500")
+    print("finish")
+
+
+def get_usa_top500():
+    base_url = "http://www.fortunechina.com/search/f500beta/search.do?facetAction=a%23type%23%E7%BE%8E%E5%9B%BD500%E5%BC%BA&facetStr=&sort=1&key=&curPage="
+    page_num = 64
+    get_top_500(base_url, page_num, "USATop500")
     print("finish")
 
 
@@ -55,3 +64,4 @@ def parse_top500(content, re, company_type):
 if __name__ == "__main__":
     get_China_top500()
     get_world_top500()
+    # get_usa_top500()
