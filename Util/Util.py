@@ -55,3 +55,4 @@ if __name__ == '__main__':
     re.add_university("nju_company_info")
     re.add_university("sjtu_company_info")
     re.add_university("jincheng_company_info")
+    re.add_university("lzu_company_info")
