@@ -33,7 +33,7 @@
 - [四川大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/SCURecruitment.py)
 - [南京大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/NJURescruitment.py)
 - [四川大学锦城学院](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/JinChengRecruitment.py)
-
+- [上海交通大学]((https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/SCURecruitment.py))
 ### 已爬取的公司名单
 
 - [世界500强、中国500强、美国500强](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/enterprise/Top500.py)
