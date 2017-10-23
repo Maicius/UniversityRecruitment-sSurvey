@@ -4,7 +4,7 @@
 import json
 import requests
 from bs4 import BeautifulSoup
-from Util import connect_redis, get_short_date
+import Util
 
 
 def get_tsinghua_recruit():
@@ -27,24 +27,30 @@ def get_tsinghua_recruit():
             item_name = item['zphmc']
         else:
             continue
-    re = connect_redis()
+    re = Util.jedis()
+    re.connect_redis()
     for item in th_info_dict:
         # 计算就业洽谈会的参展公司
         if item['zphmc'].find("就业洽谈会") != -1:
-            rq = get_short_date(item['qsrq'])
+            rq = Util.get_short_date(item['qsrq'])
             print(rq)
             company_list = req.get(url=list_url + str(rq)).content.decode("utf-8")
             json_company_list = json.loads(company_list[1:len(company_list) - 1])
             for info in json_company_list:
                 if info['bt'].find("就业洽谈会") != -1:
                     zphid = info['zphid']
-                    company_list_detail = parse_tsinghua_info(zphid)
-                    company_list_dict = {'qsrq': item['qsrq'], 'zhpmc': company_list_detail}
-                    re.lpush("th_company_info", company_list_dict)
+                    company_list_detail = parse_tsinghua_info(zphid).split("\t\t\t\t\t\t\t\t\t\t\t\t")
+                    # company_list_dict = []
+                    for company in company_list_detail:
+                        if company != "\n" and company != "\n\t" and company != "\t" and company != "\t\n" and company != "":
+                            # company_list_dict.append({'date': item['qsrq'], 'company': company.strip()})
+                            re.save_info("thu_company_info", item['qsrq'], company.strip())
+
+                    # re.save_infos("thu_company_info", company_list_dict)
                 else:
                     continue
         else:
-            re.lpush("th_company_info", item)
+            re.save_info("thu_company_info", item['qsrq'], item['zphmc'])
 
 
 def parse_tsinghua_info(zphid):
@@ -60,3 +66,5 @@ def parse_tsinghua_info(zphid):
     return company_list_detail
 
 
+if __name__ == '__main__':
+    get_tsinghua_recruit()
