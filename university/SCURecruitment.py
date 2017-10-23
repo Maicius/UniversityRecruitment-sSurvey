@@ -2,7 +2,7 @@
 import requests
 from bs4 import BeautifulSoup
 
-from university import Util
+from Util import Util
 
 
 # 获取四川大学宣讲会信息

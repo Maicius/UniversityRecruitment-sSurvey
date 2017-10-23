@@ -6,7 +6,7 @@ import json
 import requests
 from bs4 import BeautifulSoup
 
-from university import Util
+from Util import Util
 
 
 def get_tsinghua_recruit():
