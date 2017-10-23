@@ -1,7 +1,8 @@
 # coding = utf-8
 import requests
 from bs4 import BeautifulSoup
-import Util
+
+from university import Util
 
 
 def get_nju_rescruit():

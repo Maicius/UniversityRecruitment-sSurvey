@@ -2,9 +2,11 @@
 # 获取清华大学宣讲会信息
 # 清华大学的很多招聘会以 "就业洽谈会"的形式批量进行，需要另外计算
 import json
+
 import requests
 from bs4 import BeautifulSoup
-import Util
+
+from university import Util
 
 
 def get_tsinghua_recruit():

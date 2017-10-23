@@ -1,7 +1,9 @@
 # coding = utf-8
 import requests
 from bs4 import BeautifulSoup
-import Util
+
+from university import Util
+
 
 #获取四川大学锦城学院就业信息,纯静态网页
 def get_jincheng_recruit():
