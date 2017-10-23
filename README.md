@@ -30,12 +30,24 @@
 
 ### 已爬取的大学就业信息网
 
+#### C9
+
 - [清华大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/TsingHuaRecruitment.py)
-- [四川大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/Recruitment.py)
 - [南京大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/NJURescruitment.py)
-- [四川大学锦城学院](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/JinChengRecruitment.py)
 - [上海交通大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/Recruitment.py)
+
+#### 985
+- [四川大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/Recruitment.py)
 - [兰州大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/LZURecruitment.py)
+
+#### 211
+
+- [中央财经大学]()
+
+#### 其他
+
+- [四川大学锦城学院](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/JinChengRecruitment.py)
+
 
 ### 已爬取的公司名单
 
