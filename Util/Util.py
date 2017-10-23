@@ -17,6 +17,9 @@ class jedis(object):
     def save_infos(self,name,  item):
         self.re.lpush(name, item)
 
+    def save_company_info(self, name, company_rank, company_name,company_industry,company_contry,  company_profit, company_people_num, company_type):
+        self.re.lpush(name, {"company_rank": company_rank, "company_name": company_name,"company_contry":company_contry, "company_industry": company_industry,
+                             "company_profit": company_profit, "company_people_num": company_people_num, "company_type": company_type})
 
 def get_header(host):
     header = {
