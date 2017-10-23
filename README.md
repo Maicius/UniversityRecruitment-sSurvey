@@ -21,3 +21,6 @@
 
 - python 爬虫，beatuifulSoup/Requests等库
 - 利用Redis进行存储（因为真的太方便了）
+
+- 数据格式见图  
+![数据格式](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/thu.png)
