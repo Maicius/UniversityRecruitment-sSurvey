@@ -41,8 +41,10 @@
 - [清华大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/TsingHuaRecruitment.py)
 - [南京大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/NJURescruitment.py)
 - [上海交通大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/Recruitment.py)
-- [哈尔滨工业大学]()
+- [哈尔滨工业大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/HITRescruitment.py)
+
 #### 985
+
 - [四川大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/Recruitment.py)
 - [兰州大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/LZURecruitment.py)
 
