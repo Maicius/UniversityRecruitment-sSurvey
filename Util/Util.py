@@ -9,14 +9,22 @@ import time
 class jedis(object):
     def __init__(self):
         # 使用redis保存数据，如果没有redis须注释掉这两句代码
-        pool = redis.ConnectionPool(host="127.0.0.1", port=6379)
-        self.re = redis.Redis(connection_pool=pool)
 
         # 使用json文件保存数据
         self.data_array = []
+        self.host = "127.0.0.1"
+        self.port = "6379"
+        self.re = self.get_re()
+
+    # 返回一个原生的redis对象
+    def get_re(self):
+        pool = redis.ConnectionPool(host="127.0.0.1", port=6379, decode_responses=True)
+        re = redis.StrictRedis(connection_pool= pool)
+        return re
 
     def connect_redis(self):
         return self.re
+
 
     def save_info(self, name, date, company_name):
         data = {"date": date, "company_name": company_name}
@@ -125,17 +133,19 @@ def get_month(date):
 
 
 if __name__ == '__main__':
-    # re = jedis()
-    # re.connect_redis()
-    # re.add_university("scu_company_info")
-    # re.add_university("thu_company_info")
-    # re.add_university("nju_company_info")
-    # re.add_university("sjtu_company_info")
-    # re.add_university("jincheng_company_info")
-    # re.add_university("lzu_company_info")
+    re = jedis()
+    re.connect_redis()
+    re.add_university("scu_company_info")
+    re.add_university("thu_company_info")
+    re.add_university("nju_company_info")
+    re.add_university("sjtu_company_info")
+    re.add_university("jincheng_company_info")
+    re.add_university("lzu_company_info")
+    re.add_university("ustc_company_info")
+    re.add_university("cufe_company_info")
     # str1 = "Oct 19, 2017 12:00:00 AM"
     # # str1 = str1[0:12]
     # time = get_standard_date(str1)
     # print(time)
-    re = jedis()
-    re.test_add_to_file()
+    # re = jedis()
+    # re.test_add_to_file()

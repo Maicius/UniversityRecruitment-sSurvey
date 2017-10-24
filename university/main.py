@@ -7,12 +7,13 @@ from university.TsingHuaRecruitment import get_tsinghua_recruit
 
 
 if __name__ == '__main__':
+    print("Begin to collect all infomation")
     # 上海交通大学与四川大学的就业网是一个模板
-    recruit = Recruitment()
-    recruit.get_scu_recruit()
-    recruit.get_sjtu_rescruit()
-    get_tsinghua_recruit()
-    get_jincheng_recruit()
-    get_nju_rescruit()
-    get_cufe_rescruit()
-    get_lzu_rescruit()
+    # recruit = Recruitment()
+    # recruit.get_scu_recruit()
+    # recruit.get_sjtu_rescruit()
+    # get_tsinghua_recruit()
+    # get_jincheng_recruit()
+    # get_nju_rescruit()
+    # get_cufe_rescruit()
+    # get_lzu_rescruit()

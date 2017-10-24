@@ -22,7 +22,7 @@ class Recruitment(object):
         scu_header = Util.get_header(host)
         res = req.get(headers=scu_header, url=first_url)
         content = res.content.decode("utf-8")
-        table_name = "scu_company_info_test"
+        table_name = "scu_company_info"
         page_num = 224
         index_begin = 8
         index_end = 28
