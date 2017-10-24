@@ -77,6 +77,16 @@ def get_standard_date(date):
     time_array = time.strptime(date, "%b %d, %Y %X %p")
     return time.strftime("%Y-%m-%d", time_array)
 
+
+def get_standard_date2(date):
+    time_array = time.strptime(date, "%Y-%m-%d %X")
+    return time.strftime("%Y-%m-%d", time_array)
+
+
+def get_month(date):
+    time_array = time.strptime(str(date), "%Y-%m-%d")
+    return time.strftime("%Y-%m", time_array)
+
 if __name__ == '__main__':
     # re = jedis()
     # re.connect_redis()
