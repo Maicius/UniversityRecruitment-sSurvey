@@ -28,7 +28,7 @@
 ![数据格式](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/file/comany_info.png)
 
 
-### 已爬取的大学就业信息网
+### 已爬取的大学就业信息网(持续更新)
 
 #### C9
 
@@ -42,14 +42,14 @@
 
 #### 211
 
-- [中央财经大学]()
+- [中央财经大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/CUFERescruitment.py)
 
 #### 其他
 
 - [四川大学锦城学院](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/JinChengRecruitment.py)
 
 
-### 已爬取的公司名单
+### 已爬取的公司名单（持续更新）
 
 - [世界500强、中国500强、美国500强](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/enterprise/Top500.py)
 
