@@ -1,4 +1,6 @@
 # coding = utf-8
+import traceback
+
 import requests
 from bs4 import BeautifulSoup
 from Util import Util
@@ -20,13 +22,14 @@ class Recruitment(object):
         scu_header = Util.get_header(host)
         res = req.get(headers=scu_header, url=first_url)
         content = res.content.decode("utf-8")
-        table_name = "scu_company_info"
+        table_name = "scu_company_info_test"
         page_num = 224
         index_begin = 8
         index_end = 28
         self.parse_info(content, table_name, index_begin, index_end, 2)
         self.get_rescruit(base_url, req, scu_header, table_name, page_num, index_begin, index_end, 2)
         self.re.add_university(table_name)
+        self.re.add_to_file(table_name)
 
     # 获取上海交通大学就业信息
     def get_sjtu_rescruit(self):
@@ -41,8 +44,14 @@ class Recruitment(object):
         table_name = "sjtu_company_info"
         page_num = 39
         self.parse_info(res, table_name, 14, 64, 1)
+
+        # 解析数据
         self.get_rescruit(base_url, req, header, table_name, page_num, 14, 64, 1)
+        # 在大学列表里新增表名
         self.re.add_university(table_name)
+
+        # 保存到json文件
+        self.re.add_to_file(table_name)
 
     def get_rescruit(self, base_url, req, header, table_name, page_num, index_begin, index_end, company_index):
         for i in range(1, page_num):
@@ -69,11 +78,15 @@ class Recruitment(object):
             except IndexError:
                 print(len(company_info))
                 continue
-
+            except ConnectionError as e:
+                self.re.print_redis_error(e)
+                continue
+            except BaseException as e:
+                self.re.handle_error(e, table_name)
 
 if __name__ == '__main__':
     recruit = Recruitment()
     recruit.get_scu_recruit()
-    recruit.get_sjtu_rescruit()
+    # recruit.get_sjtu_rescruit()
 
 
