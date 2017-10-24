@@ -41,6 +41,7 @@
 - [清华大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/TsingHuaRecruitment.py)
 - [南京大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/NJURescruitment.py)
 - [上海交通大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/Recruitment.py)
+- 中国科学技术大学[代码](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/USTCRecruitment.py) [数据](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/data/ustc_company_info.json)
 
 #### 985
 
