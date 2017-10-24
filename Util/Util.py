@@ -1,31 +1,50 @@
+import json
+
 import redis
 import time
 
 
 class jedis(object):
-
     def __init__(self):
+        # 使用redis保存数据，如果没有redis须注释掉这两句代码
         pool = redis.ConnectionPool(host="127.0.0.1", port=6379)
         self.re = redis.Redis(connection_pool=pool)
+
+        # 使用json文件保存数据
+        self.data_array = []
 
     def connect_redis(self):
         return self.re
 
-    def save_info(self, name,  date, company_name):
-        self.re.lpush(name, {"date": date, "company_name": company_name})
+    def save_info(self, name, date, company_name):
+        data = {"date": date, "company_name": company_name}
 
-    def save_infos(self, name,  item):
+        # 如果不使用redis也要注释掉这句
+        self.re.lpush(name, data)
+
+        # 将数据缓存到data_array中，最终保存数据
+        self.data_array.append(data)
+
+    def save_infos(self, name, item):
         self.re.lpush(name, item)
 
-    def save_company_info(self, name, company_rank, company_name,company_industry,company_contry,  company_profit,
+    def save_company_info(self, name, company_rank, company_name, company_industry, company_contry, company_profit,
                           company_people_num, company_type):
-        self.re.lpush(name, {"company_rank": company_rank, "company_name": company_name,"company_contry": company_contry,
-                             "company_industry": company_industry,"company_profit": company_profit,
-                             "company_people_num": company_people_num, "company_type": company_type})
+        self.re.lpush(name,
+                      {"company_rank": company_rank, "company_name": company_name, "company_contry": company_contry,
+                       "company_industry": company_industry, "company_profit": company_profit,
+                       "company_people_num": company_people_num, "company_type": company_type})
 
     # 维持一个大学列表，记录每个大学list的名称
     def add_university(self, name):
         self.re.lpush("university", name)
+
+    def add_to_file(self, name):
+        with open('../data/' + name + '.json', 'w+', encoding='utf-8') as w:
+            json.dump(self.data_array, w, ensure_ascii=False)
+
+    def test_add_to_file(self):
+        self.add_to_file("test")
 
 
 def get_header(host):
@@ -45,6 +64,7 @@ def get_header(host):
 def get_short_date(date):
     time_array = time.strptime(date, "%Y-%m-%d")
     return time.strftime("%Y%m%d", time_array)
+
 
 # %a 星期的简写。如 星期三为Web
 # %A 星期的全写。如 星期三为Wednesday
@@ -87,6 +107,7 @@ def get_month(date):
     time_array = time.strptime(str(date), "%Y-%m-%d")
     return time.strftime("%Y-%m", time_array)
 
+
 if __name__ == '__main__':
     # re = jedis()
     # re.connect_redis()
@@ -96,7 +117,9 @@ if __name__ == '__main__':
     # re.add_university("sjtu_company_info")
     # re.add_university("jincheng_company_info")
     # re.add_university("lzu_company_info")
-    str1 = "Oct 19, 2017 12:00:00 AM"
-    # str1 = str1[0:12]
-    time = get_standard_date(str1)
-    print(time)
+    # str1 = "Oct 19, 2017 12:00:00 AM"
+    # # str1 = str1[0:12]
+    # time = get_standard_date(str1)
+    # print(time)
+    re = jedis()
+    re.test_add_to_file()
