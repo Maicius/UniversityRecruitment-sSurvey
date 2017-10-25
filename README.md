@@ -2,10 +2,11 @@
 
 ### How to Begin
 
-> 1. 配置开发环境， python 3,建议配置redis，若未配置redis，则使用json文件存储数据
+> 1. 配置开发环境, 建议配置redis，因为它非常快，若未配置redis，则使用json文件存储数据
 > 2. Fork代码,通过pull request提交
 > 3. 查看[大学名单](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/file/%E6%8B%9F%E7%88%AC%E5%8F%96%E7%9A%84%E5%A4%A7%E5%AD%A6%E5%90%8D%E5%8D%95.md) ,其中未添加链接的表示还没有爬取信息的大学，选择其中一个大学进行爬取
 > 4. 为了避免重复工作，请在正式开始爬取之前打开一个 **issue**, 告诉大家你要爬取的大学名称，并在爬取完成后在[大学名单](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/file/%E6%8B%9F%E7%88%AC%E5%8F%96%E7%9A%84%E5%A4%A7%E5%AD%A6%E5%90%8D%E5%8D%95.md)里添加相应的链接
+> 5. 可以使用任意你喜欢的语言写爬虫，比如C，但最好能保证可移植性
 
 ### 一个关于大学校园招聘的数据调查
 
@@ -117,3 +118,24 @@
    ![redis](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/file/10.png)
 - 12.这样，就完成了兰州大学的爬虫工作。大学网站大同小异，基本都是这种套路，具体的可以参考上面的源代码
 - 13.欢迎一起来玩，直接Fork这个项目提交pull request就行,我真的很想看看，什么样的企业会到什么样的大学去招聘
+
+### 一些动态网页的爬取技巧
+
+- **强烈推荐使用火狐和Chrome浏览器**,两者搭配干活不累
+- 1.动态网页的爬取着重分析URL和header的构成，建议在火狐浏览器下进行分析，因为火狐可以自动解析，方面读取，如图
+   ![火狐浏览器解析]()  
+- 2.动态网页的数据一般（只是一般）放在json格式的文件中，爬虫只需要获得该文件做解析就行。
+
+- 3.在找到了获得返回数据的url之后，可以在火狐浏览器上编辑重发链接，测试数据是否正常，如图：  
+    ![测试重发]()
+- 4.有个很bug的行为，很多大学（比如中南大学和中国科学技术大学）的网站，获取数据的参数里有个叫pageSize（大概就是指定一次返回多少数据的参数）,见图：  
+    ![pageSize]()  
+    通常默认的是15或20这样的数字，表示一页返回15或20条数据，如果改变这个参数，比如直接设定为10000，那就能直接获得所有数据，就不用改变padeIndex发送多次请求了（就是说不用翻页了）
+    
+- 5.留意http header里Referer这个参数，它表示请求从哪里传过去的，比如请求B网页的header包含网页A的URL，表示这个B网页必须从A网页跳转过去，如果header里没有这个参数的话，直接爬是爬不了的。
+
+- 6.需要登录的网站爬虫，一般使用cookie就行了，获取cookie的方式有很多，比如使用requests.Session()，但最简单的，用浏览器登录一遍再把cookie直接复制到header里就行了
+- 7.有些网站的URL构成看起来莫名其妙,需要花点时间去分析构成，这个时候可能需要一些编码转换，推荐[站长转换工具](http://tool.chinaz.com/Tools/urlencode.aspx).推荐使用Visual Studio Code来分析复杂的URL,因为它有一个很神奇的功能,见图:  
+   ![VSCode]()这样很容易发现规律
+- 8.不是所有复杂的URL都需要花时间去分析，因为那个参数可能根本就没多大影响，比如这个的:  
+   ![callback（）]()

@@ -25,7 +25,6 @@ class jedis(object):
     def connect_redis(self):
         return self.re
 
-
     def save_info(self, name, date, company_name):
         data = {"date": date, "company_name": company_name}
 
