@@ -3,7 +3,7 @@ from json import JSONDecodeError
 
 import requests
 from bs4 import BeautifulSoup
-from Jedis import jedis
+from CaptureITJUZI.Jedis import jedis
 
 
 def parse_info(table_name, json_re):

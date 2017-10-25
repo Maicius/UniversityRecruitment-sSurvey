@@ -29,7 +29,7 @@ class AnalysisTop500(object):
 
         for item in university_company_list:
             if item in self.China_company_dict:
-
+                print(item)
 
 
 if __name__ == '__main__':
