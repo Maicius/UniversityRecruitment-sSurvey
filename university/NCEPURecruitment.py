@@ -1,6 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
-
+import re
 from Util import Util
 
 
@@ -10,18 +10,33 @@ def get_ncepu_recruit():
     table_name = "ncepu_table_name"
     base_url = "http://job.ncepu.edu.cn/teachin/index?domain=ncepu&page="
     req = requests.Session()
-    re = Util.jedis()
-    re.connect_redis()
+    redis = Util.jedis()
+    redis.connect_redis()
     host = "job.ncepu.edu.cn"
     header = Util.get_header(host)
     # 获取宣讲会信息
-    for i in range(1, 30):
+    for i in range(1, 2):
         res = req.get(headers=header, url=base_url + str(i))
         html = res.content.decode("utf-8")
-        parse_info(html, re, table_name)
-    re.add_university(table_name)
-    re.add_to_file(table_name)
+        # parse_info(html, redis, table_name)
+    get_double_choose(req, header, re)
+    redis.add_university(table_name)
+    redis.add_to_file(table_name)
 
+
+def get_double_choose(req, header, redis):
+    url = "http://job.ncepu.edu.cn/jobfair/index?domain=ncepu"
+    content = req.get(url= url, headers=header).content
+    html = content.decode("utf-8")
+    soup = BeautifulSoup(html, "html5lib")
+    com_list = soup.find_all(href=re.compile('/jobfair/view/id'))
+    for item in com_list:
+        detail_url = item.get('href')
+        print(detail_url)
+        detail = req.get(url=detail_url, headers=header).content.decode("utf-8")
+        print(detail)
+
+    print(com_list)
 
 def parse_info(html, re, table_name):
     soup = BeautifulSoup(html, "html5lib")

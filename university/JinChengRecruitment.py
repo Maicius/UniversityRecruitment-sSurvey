@@ -6,7 +6,6 @@ from Util import Util
 
 #获取四川大学锦城学院就业信息,纯静态网页
 def get_jincheng_recruit():
-
     base_url = "http://www.scujcc.com.cn/channels/229"
     req = requests.Session()
     content = req.get(base_url + ".html").content.decode("utf-8")
