@@ -1,6 +1,7 @@
 # University Recruitment's Survey
 
 ### How to Begin
+
 > 1. 配置开发环境， python 3,建议配置redis，若未配置redis，则使用json文件存储数据
 > 2. Fork代码,通过pull request提交
 > 3. 查看[大学名单](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/file/%E6%8B%9F%E7%88%AC%E5%8F%96%E7%9A%84%E5%A4%A7%E5%AD%A6%E5%90%8D%E5%8D%95.md) ,其中未添加链接的表示还没有爬取信息的大学，选择其中一个大学进行爬取
@@ -42,6 +43,7 @@
 - [南京大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/NJURescruitment.py)
 - [上海交通大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/Recruitment.py)
 - 中国科学技术大学[代码](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/USTCRecruitment.py) [数据](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/data/ustc_company_info.json)
+- 浙江大学 [代码](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/ZJURescruitment.py) [数据](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/data/zju_company_info.json)
 
 #### 985
 
