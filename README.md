@@ -69,6 +69,9 @@
 
 - [世界500强、中国500强、美国500强](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/enterprise/Top500.py)
 
+### 其它
+
+- [IT橘子网](https://github.com/Maicius/UniversityRecruitment-sSurvey/tree/master/CaptureITJUZI)(可根据关键字查询IT公司的融资情况)
 
 ### 一个简单的爬虫教程（欢迎加入这个项目）
 
