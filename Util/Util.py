@@ -18,9 +18,12 @@ class jedis(object):
 
     # 返回一个原生的redis对象
     def get_re(self):
-        pool = redis.ConnectionPool(host="127.0.0.1", port=6379, decode_responses=True)
-        re = redis.StrictRedis(connection_pool= pool)
-        return re
+        try:
+            pool = redis.ConnectionPool(host="127.0.0.1", port=6379, decode_responses=True)
+            re = redis.StrictRedis(connection_pool= pool)
+            return re
+        except BaseException as e:
+            self.print_redis_error(e)
 
     def connect_redis(self):
         return self.re
@@ -32,21 +35,29 @@ class jedis(object):
 
     # 保存字典格式的数据
     def save_dict(self, name, data):
-        # 如果不使用redis也要注释掉这句
-        self.re.lpush(name, data)
-
+        try:
+            # 如果不使用redis也要注释掉这句
+            self.re.lpush(name, data)
+        except BaseException as e:
+            self.print_redis_error(e)
         # 将数据缓存到data_array中，最终保存数据
         self.data_array.append(data)
 
     def save_infos(self, name, item):
-        self.re.lpush(name, item)
+        try:
+            self.re.lpush(name, item)
+        except BaseException as e:
+            self.print_redis_error(e)
 
     def save_company_info(self, name, company_rank, company_name, company_industry, company_contry, company_profit,
                           company_people_num, company_type):
-        self.re.lpush(name,
+        try:
+            self.re.lpush(name,
                       {"company_rank": company_rank, "company_name": company_name, "company_contry": company_contry,
                        "company_industry": company_industry, "company_profit": company_profit,
                        "company_people_num": company_people_num, "company_type": company_type})
+        except BaseException as e:
+            self.print_redis_error(e)
 
     # 维持一个大学列表，记录每个大学list的名称
     def add_university(self, name):

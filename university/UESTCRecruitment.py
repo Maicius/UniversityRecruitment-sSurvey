@@ -10,7 +10,6 @@ def get_data(page, re, table_name):
         "time_type": 1
     }
     s = requests.session()
-
     query_url = "http://www.jiuye.org/new/sys/fore.php?op=listRecruit"
     content = s.post(query_url, data=query_data).text
     json_data = json.loads(content)['data']
@@ -27,14 +26,16 @@ def parse_data_and_save(x, re, table_name):
 
 
 def get_uestc_recruit():
-    data = []
     table_name = "ustc_company_info"
     re = Util.jedis()
     max_page_num = 407
-    for i in range(1, max_page_num):
-        data.extend(get_data(i, re, table_name))
-        print("page "+str(i)+" done!")
-
+    try:
+        for i in range(1, max_page_num):
+            get_data(i, re, table_name)
+            print("page "+str(i)+" done!")
+    except BaseException as e:
+        # 意外退出时保存数据到文件
+        re.handle_error(e, table_name)
     # 保存到文件
     re.add_to_file(table_name)
     # 在大学列表里增加学校名
