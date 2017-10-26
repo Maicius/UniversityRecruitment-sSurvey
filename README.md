@@ -50,12 +50,17 @@
 
 - [四川大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/Recruitment.py)
 - [兰州大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/LZURecruitment.py)
+- [电子科技大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/UESTCRecruitment.py)
 
 #### 211
 
 - [中央财经大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/CUFERescruitment.py)
 
-#### 其他
+#### 一本
+
+- [华北电力大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/NCEPURecruitment.py)暂时只获取了招聘会信息，双选会信息不全
+
+#### 二本
 
 - [四川大学锦城学院](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/JinChengRecruitment.py)
 
