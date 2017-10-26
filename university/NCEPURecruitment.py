@@ -33,14 +33,19 @@ def get_double_choose(req, header, redis):
     for item in com_list:
         detail_url = item.get('href')
         print(detail_url)
+        detail_url = "http://job.ncepu.edu.cn" + detail_url
         detail = req.get(url=detail_url, headers=header).content.decode("utf-8")
-        print(detail)
+        detail_soup = BeautifulSoup(detail, "html5lib")
+        detail_text = detail_soup.text
+        # 由于格式十分不固定，所以使用正则表达式来提取内容
+        companys = detail_text.find("详情")
+        print(companys)
 
     print(com_list)
 
 def parse_info(html, re, table_name):
     soup = BeautifulSoup(html, "html5lib")
-    company_list = soup.find_all("ul")
+    company_list = soup.find_all("")
     print(company_list)
     try:
         for j in range(3, 24):
