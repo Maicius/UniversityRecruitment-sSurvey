@@ -1,8 +1,10 @@
+# coding=utf-8
 import json
-
 import requests
 from jedis import jedis
 from util import util
+
+
 # 中国科学技术大学就业信息
 def get_ustc_recruit():
     # 专场招聘会URL
@@ -58,7 +60,7 @@ def parse_com_data(content, re, date, table_name):
     content = json.loads(content)
     for item in content['CompanyList']:
         company_name = item['CompanyName']
-            # print(company_name)
+        # print(company_name)
         re.save_info(table_name, date, company_name)
 
 

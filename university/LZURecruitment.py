@@ -4,6 +4,7 @@ from bs4 import BeautifulSoup
 from jedis import jedis
 from util import util
 
+
 # 获取兰州大学信息
 def get_lzu_rescruit():
     base_url = "http://job.lzu.edu.cn/htmlfile/article/list/119/list_"

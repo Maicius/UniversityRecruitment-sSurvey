@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 from jedis import jedis
 
 
-#获取四川大学锦城学院就业信息,纯静态网页
+# 获取四川大学锦城学院就业信息,纯静态网页
 def get_jincheng_recruit():
     base_url = "http://www.scujcc.com.cn/channels/229"
     req = requests.Session()

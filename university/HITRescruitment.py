@@ -1,11 +1,11 @@
 # coding = utf-8
 import datetime
 import json
-
 import requests
-
 from jedis import jedis
 from util import util
+
+
 # 哈尔滨工业大学
 def get_hit_rescruit():
     base_url = "http://job.hit.edu.cn/index/getZczphData"

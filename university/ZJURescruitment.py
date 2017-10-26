@@ -2,6 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 from jedis import jedis
 
+
 # 获取浙江大学就业数据
 def get_zju_rescruit():
     table_name = "zju_company_info"
@@ -40,5 +41,4 @@ def parse_info(content, re, table_name):
 
 
 if __name__ == '__main__':
-
     get_zju_rescruit()

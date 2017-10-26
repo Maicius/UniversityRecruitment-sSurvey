@@ -1,7 +1,8 @@
-#coding=utf-8
+# coding=utf-8
 import requests
 import json
 from jedis import jedis
+
 
 # 获取电子科技大学数据
 def get_data(page, re, table_name):
@@ -25,7 +26,7 @@ def get_uestc_recruit():
     try:
         for i in range(1, max_page_num):
             get_data(i, re, table_name)
-            print("page "+str(i)+" done!")
+            print("page " + str(i) + " done!")
     except BaseException as e:
         # 意外退出时保存数据到文件
         re.handle_error(e, table_name)
@@ -34,9 +35,6 @@ def get_uestc_recruit():
     # 在大学列表里增加学校名
     re.add_university(table_name)
 
+
 if __name__ == "__main__":
     get_uestc_recruit()
-
-
-
-

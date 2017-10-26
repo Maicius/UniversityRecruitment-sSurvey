@@ -1,8 +1,7 @@
 import json
 import traceback
-
 import redis
-import time
+
 
 # 封装redis的操作，统一数据接口
 # 为没有安装redis的用户提供保存到json文件的接口
@@ -20,8 +19,7 @@ class jedis(object):
     def get_re(self):
         try:
             pool = redis.ConnectionPool(host="127.0.0.1", port=6379, decode_responses=True)
-            re = redis.StrictRedis(connection_pool= pool)
-            return re
+            return redis.StrictRedis(connection_pool=pool)
         except BaseException as e:
             self.print_redis_error(e)
 
@@ -58,9 +56,9 @@ class jedis(object):
                           company_people_num, company_type):
         try:
             self.re.lpush(name,
-                      {"company_rank": company_rank, "company_name": company_name, "company_contry": company_contry,
-                       "company_industry": company_industry, "company_profit": company_profit,
-                       "company_people_num": company_people_num, "company_type": company_type})
+                          {"company_rank": company_rank, "company_name": company_name, "company_contry": company_contry,
+                           "company_industry": company_industry, "company_profit": company_profit,
+                           "company_people_num": company_people_num, "company_type": company_type})
         except BaseException as e:
             self.print_redis_error(e)
 
@@ -72,6 +70,7 @@ class jedis(object):
         with open('../data/' + name + '.json', 'w+', encoding='utf-8') as w:
             json.dump(self.data_array, w, ensure_ascii=False)
 
+    # 测试
     def test_add_to_file(self):
         self.add_to_file("test")
 

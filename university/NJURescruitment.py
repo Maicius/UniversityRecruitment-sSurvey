@@ -1,10 +1,11 @@
 # coding = utf-8
 import requests
 from bs4 import BeautifulSoup
-
 from jedis import jedis
 from util import util
 
+
+# 获取南京大学数据
 def get_nju_rescruit():
     base_url = "http://job.nju.edu.cn/login/nju/home.jsp?type=zph&DZPHBH=&sfss=sfss&zphzt=&jbksrq=&jbjsrq=&sfgq=&pageSearch=2&pageNow="
     req = requests.Session()
@@ -33,6 +34,7 @@ def parse_nju_info(content, re):
         except IndexError:
             print(company_list[i].text)
             continue
+
 
 if __name__ == '__main__':
     get_nju_rescruit()

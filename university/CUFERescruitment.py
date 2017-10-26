@@ -1,8 +1,9 @@
 import json
-
 import requests
 from jedis import jedis
 from util import util
+
+
 # 添加中央财经大学的数据
 def get_cufe_rescruit():
     base_url = "http://scc.cufe.edu.cn/recruitment-datas/15/"

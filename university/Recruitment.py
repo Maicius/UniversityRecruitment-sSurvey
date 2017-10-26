@@ -1,10 +1,9 @@
 # coding = utf-8
-import traceback
-
 import requests
 from bs4 import BeautifulSoup
 from jedis import jedis
 from util import util
+
 
 # 上海交通大学与四川大学的就业网是一个模板
 class Recruitment(object):

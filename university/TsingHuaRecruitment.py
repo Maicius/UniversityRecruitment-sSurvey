@@ -1,13 +1,13 @@
 # coding = utf-8
-# 获取清华大学宣讲会信息
-# 清华大学的很多招聘会以 "就业洽谈会"的形式批量进行，需要另外计算
 import json
 import requests
 from bs4 import BeautifulSoup
-
 from jedis import jedis
 from util import util
 
+
+# 获取清华大学宣讲会信息
+# 清华大学的很多招聘会以 "就业洽谈会"的形式批量进行，需要另外计算
 def get_tsinghua_recruit():
     base_url = "http://career.cic.tsinghua.edu.cn/xsglxt/b/jyxt/anony/jrqzph?callback=jQuery18303533298941862095_1508665403743&_=1508665403779"
     list_url = "http://career.cic.tsinghua.edu.cn/xsglxt/b/jyxt/anony/queryTodayHdList?&callback=&_=&rq="
@@ -47,7 +47,7 @@ def get_tsinghua_recruit():
                             # company_list_dict.append({'date': item['qsrq'], 'company': company.strip()})
                             re.save_info("thu_company_info", item['qsrq'], company.strip())
 
-                    # re.save_infos("thu_company_info", company_list_dict)
+                            # re.save_infos("thu_company_info", company_list_dict)
                 else:
                     continue
         else:

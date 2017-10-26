@@ -4,6 +4,7 @@ import re
 from jedis import jedis
 from util import util
 
+
 # 华北电力大学
 # 包括宣讲会与双选会
 def get_ncepu_recruit():
@@ -26,7 +27,7 @@ def get_ncepu_recruit():
 
 def get_double_choose(req, header, redis):
     url = "http://job.ncepu.edu.cn/jobfair/index?domain=ncepu"
-    content = req.get(url= url, headers=header).content
+    content = req.get(url=url, headers=header).content
     html = content.decode("utf-8")
     soup = BeautifulSoup(html, "html5lib")
     com_list = soup.find_all(href=re.compile('/jobfair/view/id'))
@@ -42,6 +43,7 @@ def get_double_choose(req, header, redis):
         print(companys)
 
     print(com_list)
+
 
 def parse_info(html, re, table_name):
     soup = BeautifulSoup(html, "html5lib")

@@ -43,6 +43,7 @@ def parse_info(table_name, json_re):
         print("Error")
         pass
 
+
 def get_intelli_data():
     # 智能驾驶
     # url2 = "https://www.itjuzi.com/search?word=%E6%99%BA%E8%83%BD%E9%A9%BE%E9%A9%B6"
@@ -95,6 +96,7 @@ def get_car_net():
         json_res = json.loads(res)
         parse_info("car_net", json_res)
 
+
 if __name__ == '__main__':
     # 车联网
     base_url = "https://www.itjuzi.com/search?word=%E8%BD%A6%E8%81%94%E7%BD%91"
@@ -142,6 +144,6 @@ if __name__ == '__main__':
         'Upgrade-Insecure-Requests': '1',
         'X-Requested-With': 'XMLHttpRequest',
         'referer': 'http://radar.itjuzi.com/company/16436',
-        'Cookie': 'Hm_lvt_1c587ad486cdb6b962e94fc2002edf89=1508856141; Hm_lpvt_1c587ad486cdb6b962e94fc2002edf89=1508864732; gr_user_id=7cbc4c46-b927-47c6-aa60-a0e178251c25; gr_session_id_eee5a46c52000d401f969f4535bdaa78=38434975-c893-422c-baef-7d957d08a58e; _ga=GA1.2.1387165269.1508856143; _gid=GA1.2.1168233932.1508856143; acw_tc=AQAAAAOV9Ud0gQoADXHS3uTwiEBRvTNa; user-radar.itjuzi.com=%7B%22n%22%3A%22%5Cu9ea6%5Cu5b50%22%2C%22v%22%3A2%7D; pgv_pvi=3755104256; pgv_si=s1401233408; Hm_lvt_80ec13defd46fe15d2c2dcf90450d14b=1508859785; Hm_lpvt_80ec13defd46fe15d2c2dcf90450d14b=1508864746; session=416ead74a07ffc77dafcad79323f6ea8a3592896; identity=18996720676%40test.com; remember_code=X9TNJOCurP; unique_token=457899; _gat=1; gr_cs1_38434975-c893-422c-baef-7d957d08a58e=user_id%3A457899'    }
+        'Cookie': 'Hm_lvt_1c587ad486cdb6b962e94fc2002edf89=1508856141; Hm_lpvt_1c587ad486cdb6b962e94fc2002edf89=1508864732; gr_user_id=7cbc4c46-b927-47c6-aa60-a0e178251c25; gr_session_id_eee5a46c52000d401f969f4535bdaa78=38434975-c893-422c-baef-7d957d08a58e; _ga=GA1.2.1387165269.1508856143; _gid=GA1.2.1168233932.1508856143; acw_tc=AQAAAAOV9Ud0gQoADXHS3uTwiEBRvTNa; user-radar.itjuzi.com=%7B%22n%22%3A%22%5Cu9ea6%5Cu5b50%22%2C%22v%22%3A2%7D; pgv_pvi=3755104256; pgv_si=s1401233408; Hm_lvt_80ec13defd46fe15d2c2dcf90450d14b=1508859785; Hm_lpvt_80ec13defd46fe15d2c2dcf90450d14b=1508864746; session=416ead74a07ffc77dafcad79323f6ea8a3592896; identity=18996720676%40test.com; remember_code=X9TNJOCurP; unique_token=457899; _gat=1; gr_cs1_38434975-c893-422c-baef-7d957d08a58e=user_id%3A457899'}
     # get_car_net()
     get_intelli_data()

@@ -1,6 +1,7 @@
 import time
 
 
+# 工具类
 def get_header(host):
     header = {
         'host': host,
