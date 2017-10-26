@@ -43,6 +43,11 @@ class jedis(object):
         # 将数据缓存到data_array中，最终保存数据
         self.data_array.append(data)
 
+    # 保存一个列表
+    def save_list(self, name, data_list):
+        for item in data_list:
+            self.save_dict(name, item)
+
     def save_infos(self, name, item):
         try:
             self.re.lpush(name, item)

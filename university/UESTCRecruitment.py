@@ -13,20 +13,13 @@ def get_data(page, re, table_name):
     query_url = "http://www.jiuye.org/new/sys/fore.php?op=listRecruit"
     content = s.post(query_url, data=query_data).text
     json_data = json.loads(content)['data']
-    data = map(lambda x: parse_data_and_save(x, re, table_name), json_data)
+    data = map(lambda x: dict(date=x["rec_time"][0:10], company_name=x["rec_enter_name"]), json_data)
+    re.save_list(table_name, data)
     return data
 
 
-def parse_data_and_save(x, re, table_name):
-    # for python 2
-    # data = dict(date=x["rec_time"].encode('utf-8'), company_name=x["rec_enter_name"].encode('utf-8'))
-    # for python 3
-    data = dict(date=x["rec_time"], company_name=x["rec_enter_name"])
-    re.save_dict(table_name, data)
-
-
 def get_uestc_recruit():
-    table_name = "ustc_company_info"
+    table_name = "uestc_company_info"
     re = Util.jedis()
     max_page_num = 407
     try:
