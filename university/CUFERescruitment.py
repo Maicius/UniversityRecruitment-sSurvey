@@ -1,18 +1,16 @@
 import json
 
 import requests
-from bs4 import BeautifulSoup
-
-from Util import Util
-
+from jedis import jedis
+from util import util
 # 添加中央财经大学的数据
 def get_cufe_rescruit():
     base_url = "http://scc.cufe.edu.cn/recruitment-datas/15/"
     url_tail = "/2.html"
     host = "scc.cufe.edu.cn"
     req = requests.Session()
-    header = Util.get_header(host)
-    re = Util.jedis()
+    header = jedis.get_header(host)
+    re = jedis.jedis()
     re.connect_redis()
     max_page_num = 422
     for i in range(1, max_page_num):
@@ -31,7 +29,7 @@ def parse_info(res, re):
             info = item['enterprise']
             company_name = info['name']
             date = item['startTime']
-            date = Util.get_standard_date(date)
+            date = util.get_standard_date(date)
         else:
             company_name = item['title']
             date = item['publishTime']

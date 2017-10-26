@@ -1,7 +1,7 @@
 #coding=utf-8
 import requests
 import json
-from Util import Util
+from jedis import jedis
 
 # 获取电子科技大学数据
 def get_data(page, re, table_name):
@@ -20,7 +20,7 @@ def get_data(page, re, table_name):
 
 def get_uestc_recruit():
     table_name = "uestc_company_info"
-    re = Util.jedis()
+    re = jedis.jedis()
     max_page_num = 407
     try:
         for i in range(1, max_page_num):

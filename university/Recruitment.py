@@ -3,14 +3,14 @@ import traceback
 
 import requests
 from bs4 import BeautifulSoup
-from Util import Util
-
+from jedis import jedis
+from util import util
 
 # 上海交通大学与四川大学的就业网是一个模板
 class Recruitment(object):
 
     def __init__(self):
-        self.re = Util.jedis()
+        self.re = jedis.jedis()
         self.re.connect_redis()
 
     # 获取四川大学宣讲会信息
@@ -19,7 +19,7 @@ class Recruitment(object):
         first_url = "http://jy.scu.edu.cn/eweb/jygl/zpfw.so?modcode=jygl_xjhxxck&subsyscode=zpfw&type=searchXjhxx"
         base_url = "http://jy.scu.edu.cn/eweb/wfc/app/pager.so?type=goPager&requestPager=pager&pageMethod=next&currentPage="
         req = requests.Session()
-        scu_header = Util.get_header(host)
+        scu_header = util.get_header(host)
         res = req.get(headers=scu_header, url=first_url)
         content = res.content.decode("utf-8")
         table_name = "scu_company_info"
@@ -36,8 +36,8 @@ class Recruitment(object):
         host = "www.job.sjtu.edu.cn"
         first_url = "http://www.job.sjtu.edu.cn/eweb/jygl/zpfw.so?modcode=jygl_xjhxxck&subsyscode=zpfw&type=searchXjhxx&xjhType=yjb"
         base_url = "http://www.job.sjtu.edu.cn/eweb/wfc/app/pager.so?type=goPager&requestPager=pager&pageMethod=next&currentPage="
-        header = Util.get_header(host)
-        re = Util.jedis()
+        header = util.get_header(host)
+        re = jedis.jedis()
         re.connect_redis()
         req = requests.Session()
         res = req.get(headers=header, url=first_url).content.decode("utf-8")

@@ -2,8 +2,8 @@
 
 import requests
 from bs4 import BeautifulSoup
-from Util import Util
-
+from jedis import jedis
+from util import util
 
 def get_China_top500():
     base_url = "http://www.fortunechina.com/search/f500beta/search.do?facetAction=&facetStr=type%23%E6%89%80%E5%B1%9E%E6%A6%9C%E5%8D%95%23%E4%B8%AD%E5%9B%BD500%E5%BC%BA%3B&sort=1&key=&curPage="
@@ -28,9 +28,9 @@ def get_usa_top500():
 
 def get_top_500(base_url, page_num, company_type):
     host = "www.fortunechina.com"
-    header = Util.get_header(host)
+    header = util.get_header(host)
     req = requests.Session()
-    re = Util.jedis()
+    re = jedis.jedis()
     re.connect_redis()
     for i in range(1, page_num):
         url = base_url + str(i)

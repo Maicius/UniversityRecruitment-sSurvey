@@ -5,8 +5,8 @@ import json
 import requests
 from bs4 import BeautifulSoup
 
-from Util import Util
-
+from jedis import jedis
+from util import util
 
 def get_tsinghua_recruit():
     base_url = "http://career.cic.tsinghua.edu.cn/xsglxt/b/jyxt/anony/jrqzph?callback=jQuery18303533298941862095_1508665403743&_=1508665403779"
@@ -28,12 +28,12 @@ def get_tsinghua_recruit():
             item_name = item['zphmc']
         else:
             continue
-    re = Util.jedis()
+    re = jedis.jedis()
     re.connect_redis()
     for item in th_info_dict:
         # 计算就业洽谈会的参展公司
         if item['zphmc'].find("就业洽谈会") != -1:
-            rq = Util.get_short_date(item['qsrq'])
+            rq = util.get_short_date(item['qsrq'])
             print(rq)
             company_list = req.get(url=list_url + str(rq)).content.decode("utf-8")
             json_company_list = json.loads(company_list[1:len(company_list) - 1])

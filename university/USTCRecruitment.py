@@ -1,9 +1,8 @@
 import json
 
 import requests
-from Util import Util
-
-
+from jedis import jedis
+from util import util
 # 中国科学技术大学就业信息
 def get_ustc_recruit():
     # 专场招聘会URL
@@ -11,8 +10,8 @@ def get_ustc_recruit():
     req = requests.Session()
     host = "www.job.ustc.edu.cn"
     table_name = "ustc_company_info"
-    header = Util.get_header(host)
-    re = Util.jedis()
+    header = util.get_header(host)
+    re = jedis.jedis()
     re.connect_redis()
     for i in range(1, 25):
         url = base_url + str(i)

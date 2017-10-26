@@ -1,18 +1,18 @@
 # coding = utf-8
 import requests
 from bs4 import BeautifulSoup
-from Util import Util
-
+from jedis import jedis
+from util import util
 
 # 获取兰州大学信息
 def get_lzu_rescruit():
     base_url = "http://job.lzu.edu.cn/htmlfile/article/list/119/list_"
     url_tail = ".shtml"
     host = "job.lzu.edu.cn"
-    header = Util.get_header(host)
+    header = util.get_header(host)
     max_page_num = 50
     req = requests.Session()
-    re = Util.jedis()
+    re = jedis.jedis()
     re.connect_redis()
     for i in range(1, max_page_num + 1):
         url = base_url + str(i) + url_tail

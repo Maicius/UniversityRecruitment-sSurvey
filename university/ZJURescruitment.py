@@ -1,6 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
-from Util import Util
+from jedis import jedis
 
 # 获取浙江大学就业数据
 def get_zju_rescruit():
@@ -9,7 +9,7 @@ def get_zju_rescruit():
     params = {'zphix': 0, 'dwmc': '', 'hylb': '', 'zphrq': '', 'pages.pageSize': 30, 'pages.currentPage': 0,
               'pages.maxPage': 17, 'pageno': ''}
     req = requests.Session()
-    re = Util.jedis()
+    re = jedis.jedis()
     re.connect_redis()
     for i in range(1, 19):
         params['pages.currentPage'] = i

@@ -1,8 +1,8 @@
 import requests
 from bs4 import BeautifulSoup
 import re
-from Util import Util
-
+from jedis import jedis
+from util import util
 
 # 华北电力大学
 # 包括宣讲会与双选会
@@ -10,10 +10,10 @@ def get_ncepu_recruit():
     table_name = "ncepu_table_name"
     base_url = "http://job.ncepu.edu.cn/teachin/index?domain=ncepu&page="
     req = requests.Session()
-    redis = Util.jedis()
+    redis = jedis.jedis()
     redis.connect_redis()
     host = "job.ncepu.edu.cn"
-    header = Util.get_header(host)
+    header = util.get_header(host)
     # 获取宣讲会信息
     for i in range(1, 2):
         res = req.get(headers=header, url=base_url + str(i))

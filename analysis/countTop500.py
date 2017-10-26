@@ -1,9 +1,9 @@
-from Util import Util
+from jedis import jedis
 
 
 class AnalysisTop500(object):
     def __init__(self):
-        self.re = Util.jedis().get_re()
+        self.re = jedis.jedis().get_re()
         self.USA_company_dict = {}
         self.China_company_dict = {}
         self.World_company_dict = {}

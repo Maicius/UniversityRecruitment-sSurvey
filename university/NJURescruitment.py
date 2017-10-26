@@ -2,14 +2,14 @@
 import requests
 from bs4 import BeautifulSoup
 
-from Util import Util
-
+from jedis import jedis
+from util import util
 
 def get_nju_rescruit():
     base_url = "http://job.nju.edu.cn/login/nju/home.jsp?type=zph&DZPHBH=&sfss=sfss&zphzt=&jbksrq=&jbjsrq=&sfgq=&pageSearch=2&pageNow="
     req = requests.Session()
-    header = Util.get_header("job.nju.edu.cn")
-    re = Util.jedis()
+    header = util.get_header("job.nju.edu.cn")
+    re = jedis.jedis()
     re.connect_redis()
     for i in range(1, 118):
         print(i)

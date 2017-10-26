@@ -1,11 +1,11 @@
 import json
 import xlwt
 
-from Util import Util
+from jedis import jedis
 
 
 def get_raw_data():
-    re = Util.jedis().get_re()
+    re = jedis.jedis().get_re()
     company_list = []
     temp = re.lrange("intelli_drive", 0, -1)
     company_list.append(temp)
