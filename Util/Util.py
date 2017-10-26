@@ -25,9 +25,13 @@ class jedis(object):
     def connect_redis(self):
         return self.re
 
+    # 保存数据，将传入的date 和company_name 格式化为字典再保存
     def save_info(self, name, date, company_name):
         data = {"date": date, "company_name": company_name}
+        self.save_dict(name, data)
 
+    # 保存字典格式的数据
+    def save_dict(self, name, data):
         # 如果不使用redis也要注释掉这句
         self.re.lpush(name, data)
 

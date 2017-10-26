@@ -17,3 +17,4 @@ if __name__ == '__main__':
     # get_nju_rescruit()
     # get_cufe_rescruit()
     # get_lzu_rescruit()
+    # get_uestc_recruit()
