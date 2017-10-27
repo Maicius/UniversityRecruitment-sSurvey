@@ -16,7 +16,6 @@ def get_data(page, re, table_name):
     json_data = json.loads(content)['data']
     data = map(lambda x: dict(date=x["rec_time"][0:10], company_name=x["rec_enter_name"]), json_data)
     re.save_list(table_name, data)
-    return data
 
 
 def get_uestc_recruit():

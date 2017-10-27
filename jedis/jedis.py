@@ -1,3 +1,4 @@
+# coding=utf-8
 import json
 import traceback
 import redis
@@ -67,12 +68,16 @@ class jedis(object):
         self.re.lpush("university", name)
 
     def add_to_file(self, name):
+        # for py3
         with open('../data/' + name + '.json', 'w+', encoding='utf-8') as w:
             json.dump(self.data_array, w, ensure_ascii=False)
+        # for py2
+        # with open('../data/' + name + '.json', 'w+') as w:
+        #     json.dump(self.data_array, w, ensure_ascii=False)
 
     # 测试
     def test_add_to_file(self):
-        self.add_to_file("test")
+        self.add_to_file("py2_test")
 
     def handle_error(self, e, name):
         msg = traceback.format_exc(e)
