@@ -1,10 +1,10 @@
 # coding=utf-8
 import json
-
 import requests
-
 from jedis import jedis
 from util import util
+
+table_name = "sufe_company_info"
 
 
 def get_sufe_recruit():
@@ -12,8 +12,7 @@ def get_sufe_recruit():
     headers = util.get_header(host)
     re = jedis.jedis()
     re.connect_redis()
-
-    url = "http://careersys.sufe.edu.cn/pros_jiuye/s/zxh/owebsiteData/recruitmentAndPreaching?callback=&type=list&eachPageRows=413&currentPageno=1&_="
+    url = "http://careersys.sufe.edu.cn/pros_jiuye/s/zxh/owebsiteData/recruitmentAndPreaching?callback=&type=list&eachPageRows=600&currentPageno=1&_="
     req = requests.Session()
     res = req.get(headers=headers, url=url)
     content = res.content.decode("utf-8")
@@ -30,9 +29,10 @@ def parse_info(content, re):
         print(i)
         company_name = item['yrdwname']
         date = item['apjssj'][:10]
-        i +=1
-        re.save_info("sufe_company_info", date, company_name)
-
+        i += 1
+        re.save_info(table_name, date, company_name)
+    re.add_university(table_name)
+    re.add_to_file(table_name)
 
 
 if __name__ == '__main__':
