@@ -5,7 +5,7 @@ from university.NJURescruitment import get_nju_rescruit
 from university.Recruitment import Recruitment
 from university.SUFERescruitment import get_sufe_recruit
 from university.TsingHuaRecruitment import get_tsinghua_recruit
-
+from university.FDURescruitment import get_fdu_rescruit
 
 if __name__ == '__main__':
     print("Begin to collect all infomation")
@@ -19,4 +19,5 @@ if __name__ == '__main__':
     # get_cufe_rescruit()
     # get_lzu_rescruit()
     # get_uestc_recruit()
-    get_sufe_recruit()
+    # get_sufe_recruit()
+    # get_fdu_rescruit()
