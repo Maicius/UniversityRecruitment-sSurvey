@@ -55,7 +55,7 @@
 #### 211
 
 - [中央财经大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/CUFERescruitment.py)
-- [上海财经大学]()
+- [上海财经大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/SUFERescruitment.py)
 
 #### 一本
 
