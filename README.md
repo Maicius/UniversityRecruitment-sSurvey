@@ -45,6 +45,7 @@
 - [上海交通大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/Recruitment.py)
 - 中国科学技术大学[代码](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/USTCRecruitment.py) [数据](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/data/ustc_company_info.json)
 - 浙江大学 [代码](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/ZJURescruitment.py) [数据](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/data/zju_company_info.json)
+- 复旦大学 [代码](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/FDURescruitment.py) [数据](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/data/fdu_company_info.json)
 
 #### 985
 
