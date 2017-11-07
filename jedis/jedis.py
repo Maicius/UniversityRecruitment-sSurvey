@@ -36,8 +36,8 @@ class jedis(object):
     def save_dict(self, name, data):
         try:
             # 如果不使用redis也要注释掉这句
-            pass
-            # self.re.lpush(name, data)
+            self.re.lpush(name, data)
+            # pass
         except BaseException as e:
             self.print_redis_error(e)
         # 将数据缓存到data_array中，最终保存数据
@@ -70,11 +70,11 @@ class jedis(object):
 
     def add_to_file(self, name):
         # for py3
-        # with open('../data/' + name + '.json', 'w+', encoding='utf-8') as w:
-        #     json.dump(self.data_array, w, ensure_ascii=False)
-        # for py2
-        with open('../data/' + name + '.json', 'w+') as w:
+        with open('../data/' + name + '.json', 'w+', encoding='utf-8') as w:
             json.dump(self.data_array, w, ensure_ascii=False)
+        # for py2
+        # with open('../data/' + name + '.json', 'w+') as w:
+        #     json.dump(self.data_array, w, ensure_ascii=False)
 
     # 测试
     def test_add_to_file(self):
