@@ -40,34 +40,34 @@
 
 #### C9
 
-- [清华大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/TsingHuaRecruitment.py)
-- [南京大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/NJURescruitment.py)
+- [清华大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/c9/TsingHuaRecruitment.py)
+- [南京大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/c9/NJURescruitment.py)
 - [上海交通大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/Recruitment.py)
-- 中国科学技术大学[代码](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/USTCRecruitment.py) [数据](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/data/ustc_company_info.json)
-- 浙江大学 [代码](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/ZJURescruitment.py) [数据](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/data/zju_company_info.json)
-- 复旦大学 [代码](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/FDURescruitment.py) [数据](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/data/fdu_company_info.json)
-- [哈尔滨工业大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/HITRescruitment.py)
+- 中国科学技术大学[代码](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/c9/USTCRecruitment.py) [数据](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/data/ustc_company_info.json)
+- 浙江大学 [代码](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/c9/ZJURescruitment.py) [数据](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/data/zju_company_info.json)
+- 复旦大学 [代码](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/c9/FDURescruitment.py) [数据](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/data/fdu_company_info.json)
+- [哈尔滨工业大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/c9/HITRescruitment.py)
 
 #### 985
 
 - [四川大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/Recruitment.py)
-- [兰州大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/LZURecruitment.py)
-- [电子科技大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/UESTCRecruitment.py)
-- [重庆大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/CQURescruitment.py)
-- [华中科技大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/HUSTRecruitment.py)
+- [兰州大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/985/LZURecruitment.py)
+- [电子科技大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/985/UESTCRecruitment.py)
+- [重庆大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/985/CQURescruitment.py)
+- [华中科技大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/985/HUSTRecruitment.py)
 
 #### 211
 
-- [中央财经大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/CUFERescruitment.py)
-- [上海财经大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/SUFERescruitment.py)
+- [中央财经大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/211/CUFERescruitment.py)
+- [上海财经大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/211/SUFERescruitment.py)
 
 #### 一本
 
-- [华北电力大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/NCEPURecruitment.py)暂时只获取了招聘会信息，双选会信息不全
+- [华北电力大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/top_public/NCEPURecruitment.py)暂时只获取了招聘会信息，双选会信息不全
 
 #### 二本
 
-- [四川大学锦城学院](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/JinChengRecruitment.py)
+- [四川大学锦城学院](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/basic_public/JinChengRecruitment.py)
 
 
 ### 已爬取的公司名单（持续更新）
