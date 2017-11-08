@@ -106,6 +106,8 @@ if __name__ == '__main__':
     re.add_university("lzu_company_info")
     re.add_university("ustc_company_info")
     re.add_university("cufe_company_info")
+    re.add_university("cqu_company_info")
+    re.add_university("hust_company_info")
     # str1 = "Oct 19, 2017 12:00:00 AM"
     # # str1 = str1[0:12]
     # time = get_standard_date(str1)

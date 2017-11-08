@@ -26,7 +26,7 @@ def get_data(page, re, table_name):
                                       date=date))
 
 
-def get_cqu_recruit():
+def get_hust_recruit():
     table_name = 'HUST_company_info'
     re = jedis.jedis()
     max_page = 212

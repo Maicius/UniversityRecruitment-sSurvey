@@ -6,6 +6,8 @@ from university.Recruitment import Recruitment
 from university.SUFERescruitment import get_sufe_recruit
 from university.TsingHuaRecruitment import get_tsinghua_recruit
 from university.FDURescruitment import get_fdu_rescruit
+from university.CQURescruitment import get_cqu_recruit
+from university.HUSTRecruitment import get_hust_recruit
 
 if __name__ == '__main__':
     print("Begin to collect all infomation")
@@ -21,3 +23,5 @@ if __name__ == '__main__':
     # get_uestc_recruit()
     # get_sufe_recruit()
     # get_fdu_rescruit()
+    get_cqu_recruit()
+    get_hust_recruit()
