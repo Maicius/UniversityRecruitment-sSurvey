@@ -35,7 +35,7 @@ def get_cqu_recruit():
         for i in range(3, max_page):
             get_data(i, re, table_name)
             print('page ' + str(i) + ' done!')
-    except BaseException, e:
+    except BaseException as e:
         re.handle_error(e, table_name)
     re.add_to_file(table_name)
     re.add_university(table_name)

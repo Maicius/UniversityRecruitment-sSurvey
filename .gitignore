@@ -1,2 +1,9 @@
 *.pyc
 py2_test
+CaptureITJUZI/__pycache__/
+__pycache__/
+jedis/__pycache__/
+university/__pycache__/
+util/__pycache__/
+.idea/
+
