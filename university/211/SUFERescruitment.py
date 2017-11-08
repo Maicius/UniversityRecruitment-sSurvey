@@ -6,7 +6,7 @@ from util import util
 
 table_name = "sufe_company_info"
 
-
+# 上海财经大学
 def get_sufe_recruit():
     host = "career.sufe.edu.cn/"
     headers = util.get_header(host)

@@ -1,12 +1,5 @@
-from university.CUFERescruitment import get_cufe_rescruit
-from university.JinChengRecruitment import get_jincheng_recruit
-from university.LZURecruitment import get_lzu_rescruit
-from university.NJURescruitment import get_nju_rescruit
-from university.Recruitment import Recruitment
-from university.SUFERescruitment import get_sufe_recruit
-from university.TsingHuaRecruitment import get_tsinghua_recruit
-from university.FDURescruitment import get_fdu_rescruit
 from university.CQURescruitment import get_cqu_recruit
+
 from university.HUSTRecruitment import get_hust_recruit
 
 if __name__ == '__main__':
