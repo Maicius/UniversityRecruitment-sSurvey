@@ -2,8 +2,10 @@
 import requests
 from bs4 import BeautifulSoup
 from jedis import jedis
-
-
+# python 2
+# sudo pip install lxml
+# python 3
+# sudo pip3 install lxml
 # 重庆大学校招信息
 def get_data(url, page, re, table_name):
     form_data = {
@@ -40,7 +42,7 @@ def get_cqu_recruit():
         for i in range(1, max_page):
             get_data(url, i, re, table_name)
             print('page ' + str(i) + ' done!')
-    except BaseException, e:
+    except BaseException as e:
         re.handle_error(e, table_name)
     re.add_to_file(table_name)
     re.add_university(table_name)
