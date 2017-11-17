@@ -34,12 +34,12 @@ class jedis(object):
 
     # 保存字典格式的数据
     def save_dict(self, name, data):
-        # try:
-        #     # 如果不使用redis也要注释掉这句
-        #     self.re.lpush(name, data)
-        #     # pass
-        # except BaseException as e:
-        #     self.print_redis_error(e)
+        try:
+            # 如果不使用redis也要注释掉这句
+            self.re.lpush(name, data)
+            # pass
+        except BaseException as e:
+            self.print_redis_error(e)
         # 将数据缓存到data_array中，最终保存数据
         self.data_array.append(data)
 
