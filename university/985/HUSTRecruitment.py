@@ -42,4 +42,4 @@ def get_hust_recruit():
 
 
 if __name__ == '__main__':
-    get_cqu_recruit()
+    get_hust_recruit()

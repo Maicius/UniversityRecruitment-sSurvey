@@ -2,6 +2,8 @@
 import requests
 from bs4 import BeautifulSoup
 from jedis import jedis
+
+
 # python 2
 # sudo pip install lxml
 # python 3
