@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5e2365b2-8ad1-439b-99c8-7eb2f0aca63a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jedis/jedis.py" afterPath="$PROJECT_DIR$/jedis/jedis.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
