@@ -309,7 +309,8 @@
     <MESSAGE value="add HUST" />
     <MESSAGE value="pull" />
     <MESSAGE value="update CSU" />
-    <option name="LAST_COMMIT_MESSAGE" value="update CSU" />
+    <MESSAGE value="update XJTU" />
+    <option name="LAST_COMMIT_MESSAGE" value="update XJTU" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
