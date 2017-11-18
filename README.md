@@ -51,17 +51,17 @@
 
 #### 985
 
-- [四川大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/Recruitment.py)
-- [兰州大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/985/LZURecruitment.py)
-- [电子科技大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/985/UESTCRecruitment.py)
-- [重庆大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/985/CQURescruitment.py)
-- [华中科技大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/985/HUSTRecruitment.py)
+- [四川大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/main/Recruitment.py)
+- [兰州大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/part985/LZURecruitment.py)
+- [电子科技大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/part985/UESTCRecruitment.py)
+- [重庆大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/part985/CQURescruitment.py)
+- [华中科技大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/part985/HUSTRecruitment.py)
 - [中南大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/part985/CSURecruitment.py)
 
 #### 211
 
-- [中央财经大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/211/CUFERescruitment.py)
-- [上海财经大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/211/SUFERescruitment.py)
+- [中央财经大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/part211/CUFERescruitment.py)
+- [上海财经大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/part211/SUFERescruitment.py)
 
 #### 一本
 

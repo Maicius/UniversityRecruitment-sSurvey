@@ -21,8 +21,7 @@ def get_c9_info():
     get_hit_rescruit()
     get_zju_rescruit()
     get_XJTU_recruit()
-
-    # get_nju_rescruit()
+    get_nju_rescruit()
 
 if __name__ == "__main__":
     get_c9_info()
