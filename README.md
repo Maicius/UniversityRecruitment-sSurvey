@@ -47,6 +47,7 @@
 - 复旦大学 [代码](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/c9/FDURescruitment.py) [数据](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/data/fdu_company_info.json)
 - [哈尔滨工业大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/c9/HITRescruitment.py)
 - [北京大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/c9/PKURecruitment.py)
+- [西安交通大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/c9/XJTURecruitment.py)
 
 #### 985
 
@@ -55,6 +56,7 @@
 - [电子科技大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/985/UESTCRecruitment.py)
 - [重庆大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/985/CQURescruitment.py)
 - [华中科技大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/985/HUSTRecruitment.py)
+- [中南大学]()
 
 #### 211
 
