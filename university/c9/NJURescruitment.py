@@ -8,7 +8,7 @@ from util import util
 # 获取南京大学数据
 def get_nju_rescruit():
     print("NJU Begin===================================================")
-    base_url = "http://job.nju.edu.cn/login/nju/home.jsp?type=zph&DZPHBH=&sfss=sfss&zphzt=&jbksrq=&jbjsrq=&sfgq=&pageSearch=2&pageNow="
+    base_url = "http://job.nju.edu.cn:9081/login/nju/home.jsp?type=zph&DZPHBH=&sfss=sfss&zphzt=&jbksrq=&jbjsrq=&sfgq=&pageSearch=2&pageNow="
     req = requests.Session()
     header = util.get_header("job.nju.edu.cn")
     re = jedis.jedis()
@@ -30,8 +30,12 @@ def parse_nju_info(content, re):
         try:
             info = company_list[i].text.split("\n")
             company_name = info[3].split("\t")[1].strip()
-            date = info[5].strip().split("\xa0\xa0")
-            print("南京大学" + company_name)
+            time = info[5].strip().split("\xa0\xa0")
+            if len(time) == 3:
+                date = time[1]
+            else:
+                date = time[0]
+            print("南京大学:" + date + "\t" + company_name)
             re.save_info("nju_company_info", date, company_name)
         except IndexError:
             print("error:" + company_list[i].text)
