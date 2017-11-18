@@ -9,6 +9,7 @@ from util import util
 # 获取清华大学宣讲会信息
 # 清华大学的很多招聘会以 "就业洽谈会"的形式批量进行，需要另外计算
 def get_tsinghua_recruit():
+    print("THU Begin ===================================================")
     base_url = "http://career.cic.tsinghua.edu.cn/xsglxt/b/jyxt/anony/jrqzph?callback=jQuery18303533298941862095_1508665403743&_=1508665403779"
     list_url = "http://career.cic.tsinghua.edu.cn/xsglxt/b/jyxt/anony/queryTodayHdList?&callback=&_=&rq="
     req = requests.Session()
@@ -54,6 +55,8 @@ def get_tsinghua_recruit():
             re.save_info("thu_company_info", item['qsrq'], item['zphmc'])
 
     re.add_university("thu_company_info")
+    re.add_to_file("thu_company_info")
+    print("THU Finish ===================================================")
 
 
 def parse_tsinghua_info(zphid):

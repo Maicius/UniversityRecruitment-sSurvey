@@ -11,6 +11,7 @@ table_name = "pku_company_info"
 
 # 获取北京大学的宣讲会信息
 def get_pku_recruit():
+    print("PKU Begin ===================================================")
     base_url = "https://scc.pku.edu.cn/information/base-job-fair!findFairInfoByMonth.action"
     host = "scc.pku.edu.cn"
     headers = util.get_header(host)
@@ -49,6 +50,7 @@ def get_pku_recruit():
     parse_info2(info.content.decode("utf-8"), re)
     re.add_university(table_name)
     re.add_to_file(table_name)
+    print("PKU Finish ===================================================")
 
 
 # 解析双选会的数据
@@ -65,6 +67,7 @@ def get_pku_recruit():
 #         re.save_info(table_name, date, company_name)
 def parse_info2(content, re):
     info = BeautifulSoup(content, "html5lib")
+    print(info)
     table_list = info.table.find_all("td")
     length = len(table_list)
 
