@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="5e2365b2-8ad1-439b-99c8-7eb2f0aca63a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/XJTU_company_info.json" afterPath="$PROJECT_DIR$/data/XJTU_company_info.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/university/c9/XJTU.py" afterPath="$PROJECT_DIR$/university/c9/XJTU.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,7 +19,7 @@
         <entry file="file://$PROJECT_DIR$/university/c9/XJTU.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="186">
-              <caret line="44" column="35" lean-forward="true" selection-start-line="44" selection-start-column="35" selection-end-line="44" selection-end-column="35" />
+              <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -54,8 +56,8 @@
         <option value="$PROJECT_DIR$/py2_test/CSU.py" />
         <option value="$PROJECT_DIR$/university/985/CSU.py" />
         <option value="$PROJECT_DIR$/py2_test/XJTU.py" />
-        <option value="$PROJECT_DIR$/data/XJTU_company_info.json" />
         <option value="$PROJECT_DIR$/jedis/jedis.py" />
+        <option value="$PROJECT_DIR$/data/XJTU_company_info.json" />
         <option value="$PROJECT_DIR$/university/c9/XJTU.py" />
       </list>
     </option>
@@ -101,11 +103,6 @@
             <path>
               <item name="UniversityRecruitment-sSurvey" type="b2602c69:ProjectViewProjectNode" />
               <item name="UniversityRecruitment-sSurvey" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UniversityRecruitment-sSurvey" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UniversityRecruitment-sSurvey" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -261,7 +258,7 @@
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1705757" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962587" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962587" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3852376" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3852376" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -310,7 +307,8 @@
     <MESSAGE value="pull" />
     <MESSAGE value="update CSU" />
     <MESSAGE value="update XJTU" />
-    <option name="LAST_COMMIT_MESSAGE" value="update XJTU" />
+    <MESSAGE value="add XJTU" />
+    <option name="LAST_COMMIT_MESSAGE" value="add XJTU" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -571,14 +569,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/XJTU_company_info.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1953">
-          <caret line="41138" column="44" lean-forward="true" selection-start-line="41138" selection-start-column="44" selection-end-line="41138" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jedis/jedis.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="186">
@@ -592,7 +582,7 @@
         <state relative-caret-position="93">
           <caret line="36" column="18" lean-forward="true" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#0#9#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -605,10 +595,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/data/XJTU_company_info.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="722">
+          <caret line="41141" column="2" lean-forward="false" selection-start-line="41141" selection-start-column="2" selection-end-line="41141" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/university/c9/XJTU.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="186">
-          <caret line="44" column="35" lean-forward="true" selection-start-line="44" selection-start-column="35" selection-end-line="44" selection-end-column="35" />
+          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
           <folding />
         </state>
       </provider>

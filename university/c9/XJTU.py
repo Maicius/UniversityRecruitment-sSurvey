@@ -42,6 +42,7 @@ def get_data2(page, redis, table_name):
 
 def get_XJTU_recruit():
     # 西安交通大学
+
     table_name = 'XJTU_company_info'
     redis = jedis.jedis()
 
