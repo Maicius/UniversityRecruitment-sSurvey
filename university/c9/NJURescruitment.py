@@ -6,6 +6,7 @@ from util import util
 
 
 # 获取南京大学数据
+table_name = "nju_company_info"
 def get_nju_rescruit():
     print("NJU Begin===================================================")
     base_url = "http://job.nju.edu.cn:9081/login/nju/home.jsp?type=zph&DZPHBH=&sfss=sfss&zphzt=&jbksrq=&jbjsrq=&sfgq=&pageSearch=2&pageNow="
@@ -13,12 +14,13 @@ def get_nju_rescruit():
     header = util.get_header("job.nju.edu.cn")
     re = jedis.jedis()
     re.connect_redis()
-    for i in range(1, 118):
+    re.clear_list(table_name)
+    for i in range(1, 120):
         print(i)
         content = req.get(headers=header, url=base_url + str(i)).content.decode("utf-8")
         parse_nju_info(content, re)
-    re.add_university("nju_company_info")
-    re.add_to_file("nju_company_info")
+    re.add_university(table_name)
+    re.add_to_file(table_name)
     print("NJU finish ===================================================")
 
 
@@ -36,7 +38,7 @@ def parse_nju_info(content, re):
             else:
                 date = time[0]
             print("南京大学:" + date + "\t" + company_name)
-            re.save_info("nju_company_info", date, company_name)
+            re.save_info(table_name, date, company_name)
         except IndexError:
             print("error:" + company_list[i].text)
             continue

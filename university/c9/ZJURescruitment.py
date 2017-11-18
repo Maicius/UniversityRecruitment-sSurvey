@@ -12,6 +12,7 @@ def get_zju_rescruit():
     req = requests.Session()
     re = jedis.jedis()
     re.connect_redis()
+    re.clear_list(table_name)
     for i in range(1, 23):
         print(i)
         params['pages.currentPage'] = i

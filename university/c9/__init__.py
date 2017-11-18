@@ -1,6 +1,6 @@
 from university.c9.FDURescruitment import get_fdu_rescruit
 from university.c9.NJURescruitment import get_nju_rescruit
-from university.c9.TsingHuaRecruitment import get_tsinghua_recruit
+from university.c9.THURecruitment import get_tsinghua_recruit
 from university.c9.USTCRecruitment import get_ustc_recruit
 from university.c9.XJTURecruitment import get_XJTU_recruit
 from university.main.Recruitment import Recruitment

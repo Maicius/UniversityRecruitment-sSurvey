@@ -45,7 +45,8 @@ def get_XJTU_recruit():
 
     table_name = 'xjtu_company_info'
     redis = jedis.jedis()
-
+    redis.connect_redis()
+    redis.clear_list(table_name)
     # 招聘会
     max_page = 516
     # max_page = 20

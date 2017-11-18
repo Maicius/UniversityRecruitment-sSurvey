@@ -21,6 +21,7 @@ def get_pku_recruit():
     req = requests.Session()
     re = jedis.jedis()
     re.connect_redis()
+    re.clear_list(table_name)
     #
     # 获取宣讲会信息
     for i in range(1, 13):

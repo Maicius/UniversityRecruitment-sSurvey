@@ -15,6 +15,7 @@ def get_ustc_recruit():
     header = util.get_header(host)
     re = jedis.jedis()
     re.connect_redis()
+    re.clear_list(table_name)
     for i in range(1, 25):
         url = base_url + str(i)
         res = req.get(headers=header, url=url)
