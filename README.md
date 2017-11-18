@@ -56,7 +56,7 @@
 - [电子科技大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/985/UESTCRecruitment.py)
 - [重庆大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/985/CQURescruitment.py)
 - [华中科技大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/985/HUSTRecruitment.py)
-- [中南大学]()
+- [中南大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/part985/CSURecruitment.py)
 
 #### 211
 
