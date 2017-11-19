@@ -19,13 +19,14 @@ class AnalysisTop500(object):
         for item in company_info:
             try:
                 item = item.replace('\'', '"')
+                item = item.replace('==', '\'')
                 print(item)
                 item = json.loads(item)
                 company_name = item['company_name']
+                company_name = company_name.replace('++', '\"')
                 company_type = item['company_type']
                 print(company_name)
                 if company_type == "USATop500":
-
                     self.USA_company_list.append(company_name)
                 elif company_type == "ChinaTop500":
                     self.China_company_list.append(company_name)
