@@ -5,8 +5,10 @@ from jedis import jedis
 from util import util
 
 
-# 获取南京大学数据
 table_name = "nju_company_info"
+
+
+# 获取南京大学数据
 def get_nju_rescruit():
     print("NJU Begin===================================================")
     base_url = "http://job.nju.edu.cn:9081/login/nju/home.jsp?type=zph&DZPHBH=&sfss=sfss&zphzt=&jbksrq=&jbjsrq=&sfgq=&pageSearch=2&pageNow="
@@ -19,9 +21,30 @@ def get_nju_rescruit():
         print(i)
         content = req.get(headers=header, url=base_url + str(i)).content.decode("utf-8")
         parse_nju_info(content, re)
+    get_zph_info(req, header, re)
     re.add_university(table_name)
     re.add_to_file(table_name)
     print("NJU finish ===================================================")
+
+
+# 获取大型招聘会的信息
+def get_zph_info(req, header, re):
+    base_url = "http://job.nju.edu.cn:9081/login/nju/home.jsp?type=dw&DZPHBH=61or8m5y-vn4s-kqae-zahn-zp4epxsp0mt4&pageNow="
+    for i in range(1, 10):
+        url = base_url + str(i)
+        print("专场招聘会:" + str(i))
+        content = req.get(headers=header, url=url).content.decode("utf-8")
+        parse_zph_info(content, re)
+
+
+def parse_zph_info(content, re):
+    soup = BeautifulSoup(content, "html5lib")
+    company_list = soup.find_all("li")
+    for item in company_list:
+        info = item.text.split("\n")
+        company_name = info[3].strip()
+        date = "2017-11-25"
+        re.save_info(table_name, date, company_name)
 
 
 def parse_nju_info(content, re):
