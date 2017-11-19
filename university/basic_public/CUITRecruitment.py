@@ -31,6 +31,7 @@ def get_data(table_name, redis):
 
 
 def get_cuit_recruit():
+    # 成都信息工程大学
     table_name = 'cuit_company_info'
     redis = jedis.jedis()
     redis.connect_redis()
