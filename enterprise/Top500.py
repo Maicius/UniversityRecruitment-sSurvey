@@ -6,6 +6,7 @@ from jedis import jedis
 from util import util
 
 
+table_name = "company_info"
 def get_China_top500():
     base_url = "http://www.fortunechina.com/search/f500beta/search.do?facetAction=&facetStr=type%23%E6%89%80%E5%B1%9E%E6%A6%9C%E5%8D%95%23%E4%B8%AD%E5%9B%BD500%E5%BC%BA%3B&sort=1&key=&curPage="
     page_num = 83
@@ -33,11 +34,13 @@ def get_top_500(base_url, page_num, company_type):
     req = requests.Session()
     re = jedis.jedis()
     re.connect_redis()
+    re.clear_list(table_name)
     for i in range(1, page_num):
         url = base_url + str(i)
         print(i)
         res = req.get(headers=header, url=url).content.decode("utf-8")
         parse_top500(res, re, company_type)
+    re.add_to_file_tail(table_name)
 
 
 def parse_top500(content, re, company_type):
@@ -56,7 +59,10 @@ def parse_top500(content, re, company_type):
                 company_profit = company_list[index + 8].text.strip()
                 company_people_num = company_list[index + 10].text.strip()
                 company_type = company_type
-                re.save_company_info("company_info", company_rank, company_name, company_industry, company_contry,
+
+                # 替换company_name中的特殊符号
+                company_name = company_name.replace('\'', '==')
+                re.save_company_info(table_name, company_rank, company_name, company_industry, company_contry,
                                      company_profit, company_people_num, company_type)
             except IndexError:
                 print(len(company_list))

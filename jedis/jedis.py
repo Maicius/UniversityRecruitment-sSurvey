@@ -56,11 +56,14 @@ class jedis(object):
     def save_company_info(self, name, company_rank, company_name, company_industry, company_contry, company_profit,
                           company_people_num, company_type):
         try:
+            com_data = {"company_rank": company_rank, "company_name": company_name, "company_contry": company_contry,
+                        "company_industry": company_industry, "company_profit": company_profit,
+                        "company_people_num": company_people_num, "company_type": company_type}
             self.re.lpush(name,
-                          {"company_rank": company_rank, "company_name": company_name, "company_contry": company_contry,
-                           "company_industry": company_industry, "company_profit": company_profit,
-                           "company_people_num": company_people_num, "company_type": company_type})
+                          com_data)
+            self.data_array.append(com_data)
         except BaseException as e:
+            self.add_to_file(name)
             self.print_redis_error(e)
 
     # 维持一个大学列表，记录每个大学list的名称
@@ -73,13 +76,25 @@ class jedis(object):
         # for py3
         with open('../../data/' + name + '.json', 'w', encoding='utf-8') as w:
             json.dump(self.data_array, w, ensure_ascii=False)
-        # for py2
-        # with open('../data/' + name + '.json', 'w+') as w:
-        #     json.dump(self.data_array, w, ensure_ascii=False)
+            # for py2
+            # with open('../data/' + name + '.json', 'w+') as w:
+            #     json.dump(self.data_array, w, ensure_ascii=False)
+
+    def add_to_file_tail(self, name):
+        # for py3
+        with open('../data/' + name + '.json', 'w+', encoding='utf-8') as w:
+            json.dump(self.data_array, w, ensure_ascii=False)
+            # for py2
+            # with open('../data/' + name + '.json', 'w+') as w:
+            #     json.dump(self.data_array, w, ensure_ascii=False)
 
     # 测试
     def test_add_to_file(self):
         self.add_to_file("py2_test")
+
+    # 测试
+    def test_add_to_file_tail(self):
+        self.add_to_file_tail("py2_test")
 
     def get_university_list(self):
         return self.re.lrange("university", 0, -1)
@@ -103,21 +118,21 @@ class jedis(object):
 
 
 if __name__ == '__main__':
-    re = jedis()
-    re.connect_redis()
-    re.add_university("scu_company_info")
-    re.add_university("thu_company_info")
-    re.add_university("nju_company_info")
-    re.add_university("sjtu_company_info")
-    re.add_university("jincheng_company_info")
-    re.add_university("lzu_company_info")
-    re.add_university("ustc_company_info")
-    re.add_university("cufe_company_info")
-    re.add_university("cqu_company_info")
-    re.add_university("hust_company_info")
+    # re = jedis()
+    # re.connect_redis()
+    # re.add_university("scu_company_info")
+    # re.add_university("thu_company_info")
+    # re.add_university("nju_company_info")
+    # re.add_university("sjtu_company_info")
+    # re.add_university("jincheng_company_info")
+    # re.add_university("lzu_company_info")
+    # re.add_university("ustc_company_info")
+    # re.add_university("cufe_company_info")
+    # re.add_university("cqu_company_info")
+    # re.add_university("hust_company_info")
     # str1 = "Oct 19, 2017 12:00:00 AM"
     # # str1 = str1[0:12]
     # time = get_standard_date(str1)
     # print(time)
-    # re = jedis()
-    # re.test_add_to_file()
+    re = jedis()
+    re.test_add_to_file_tail()
