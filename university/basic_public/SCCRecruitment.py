@@ -14,6 +14,7 @@ def get_data(table_name, redis):
         tds = tr.find_all('td')
         company_name = pattern.sub('', tds[1].contents[0].text)
         date = tds[2].contents[0].text[5:]
+        print(company_name + date)
         redis.save_dict(table_name, dict(
             company_name=company_name,
             date=date,

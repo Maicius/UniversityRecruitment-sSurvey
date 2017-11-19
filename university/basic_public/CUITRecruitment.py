@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 from jedis import jedis
 
-
+# 成都信息工程大学
 def get_data(table_name, redis):
     host = 'http://cuit.njc100.com/eweb/jygl/zpfw.so?modcode=jygl_xjhxxck&subsyscode=zpfw&type=searchXjhxx&xjhType=yjb'
     url = 'http://cuit.njc100.com/eweb/wfc/app/pager.so?type=goPager&requestPager=pager&'
@@ -24,6 +24,7 @@ def get_data(table_name, redis):
         divs = i.find_all('div')
         company_name = divs[2].contents[0].text
         date = divs[0].text
+        print(company_name + date)
         redis.save_dict(table_name, dict(
             date=date,
             company_name=company_name,

@@ -70,7 +70,8 @@
 #### 二本
 
 - [四川大学锦城学院](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/basic_public/JinChengRecruitment.py)
-
+- [上海海关学院](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/basic_public/SCCRecruitment.py)
+- [成都信息工程大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/basic_public/CUITRecruitment.py)
 
 ### 已爬取的公司名单（持续更新）
 
