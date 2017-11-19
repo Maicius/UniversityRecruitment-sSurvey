@@ -18,6 +18,7 @@ def get_fdu_rescruit():
     req = requests.Session()
     re = jedis.jedis()
     re.connect_redis()
+    re.clear_list(table_name)
     res = req.get(headers=headers, url=url)
     content = res.content.decode("utf-8")
     parse_info(content, re)

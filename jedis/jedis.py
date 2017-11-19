@@ -9,7 +9,6 @@ import redis
 class jedis(object):
     def __init__(self):
         # 使用redis保存数据，如果没有redis须注释掉这两句代码
-
         # 使用json文件保存数据
         self.data_array = []
         self.host = "127.0.0.1"
@@ -66,11 +65,13 @@ class jedis(object):
 
     # 维持一个大学列表，记录每个大学list的名称
     def add_university(self, name):
-        self.re.lpush("university", name)
+        university_list = self.get_university_list()
+        if name not in university_list:
+            self.re.lpush("university", name)
 
     def add_to_file(self, name):
         # for py3
-        with open('../data/' + name + '.json', 'w+', encoding='utf-8') as w:
+        with open('../../data/' + name + '.json', 'w', encoding='utf-8') as w:
             json.dump(self.data_array, w, ensure_ascii=False)
         # for py2
         # with open('../data/' + name + '.json', 'w+') as w:
@@ -80,6 +81,9 @@ class jedis(object):
     def test_add_to_file(self):
         self.add_to_file("py2_test")
 
+    def get_university_list(self):
+        return self.re.lrange("university", 0, -1)
+
     def handle_error(self, e, name):
         msg = traceback.format_exc(e)
         print(msg)
@@ -87,6 +91,9 @@ class jedis(object):
         print("The program will save the data and exit")
         # 程序意外退出时保存文件
         self.add_to_file(name)
+
+    def clear_list(self, name):
+        self.re.ltrim(name, -1, 0)
 
     def print_redis_error(self, e):
         msg = traceback.format_exc(e)

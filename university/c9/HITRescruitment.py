@@ -7,7 +7,9 @@ from util import util
 
 
 # 哈尔滨工业大学
+table_name = "hit_company_info"
 def get_hit_rescruit():
+    print("HIT Begin ===================================================")
     base_url = "http://job.hit.edu.cn/index/getZczphData"
     host = "job.hit.edu.cn"
     header = util.get_header(host)
@@ -19,6 +21,7 @@ def get_hit_rescruit():
     req.get("http://job.hit.edu.cn/info?dj=MQ--")
     re = jedis.jedis()
     re.connect_redis()
+    re.clear_list(table_name)
     # 哈工大最新的就业网站是从2016年9月开始的，至今一共有13个月的数据
     for i in range(0, 14):
         month = 9
@@ -37,6 +40,9 @@ def get_hit_rescruit():
         content = res.content.decode("utf-8")
         # print(content)
         parse_hit_info(content, re)
+    re.add_to_file(table_name)
+    re.add_university(table_name)
+    print("HIT finish ===================================================")
 
 
 def parse_hit_info(content, re):
@@ -47,7 +53,7 @@ def parse_hit_info(content, re):
         date = util.get_standard_date2(date)
         print(company_name)
         print(date)
-        re.save_info("hit_company_info", date, company_name)
+        re.save_info(table_name, date, company_name)
 
 
 if __name__ == '__main__':

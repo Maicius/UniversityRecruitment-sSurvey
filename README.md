@@ -2,11 +2,10 @@
 
 ### How to Begin
 
-> 1. 配置开发环境, 建议配置redis，因为它非常快，若未配置redis，则使用json文件存储数据
+> 1. 配置开发环境python3, 建议配置redis，若未配置redis，则使用json文件存储数据
 > 2. Fork代码,通过pull request提交
 > 3. 查看[大学名单](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/file/%E6%8B%9F%E7%88%AC%E5%8F%96%E7%9A%84%E5%A4%A7%E5%AD%A6%E5%90%8D%E5%8D%95.md) ,其中未添加链接的表示还没有爬取信息的大学，选择其中一个大学进行爬取
 > 4. 为了避免重复工作，请在正式开始爬取之前打开一个 **issue**, 告诉大家你要爬取的大学名称，并在爬取完成后在[大学名单](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/file/%E6%8B%9F%E7%88%AC%E5%8F%96%E7%9A%84%E5%A4%A7%E5%AD%A6%E5%90%8D%E5%8D%95.md)里添加相应的链接
-> 5. 可以使用任意你喜欢的语言写爬虫，比如C，但最好能保证可移植性
 
 ### 一个关于大学校园招聘的数据调查
 
@@ -40,34 +39,37 @@
 
 #### C9
 
-- [清华大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/TsingHuaRecruitment.py)
-- [南京大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/NJURescruitment.py)
+- [清华大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/c9/TsingHuaRecruitment.py)
+- [南京大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/c9/NJURescruitment.py)
 - [上海交通大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/Recruitment.py)
-- 中国科学技术大学[代码](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/USTCRecruitment.py) [数据](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/data/ustc_company_info.json)
-- 浙江大学 [代码](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/ZJURescruitment.py) [数据](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/data/zju_company_info.json)
-- 复旦大学 [代码](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/FDURescruitment.py) [数据](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/data/fdu_company_info.json)
-- [哈尔滨工业大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/HITRescruitment.py)
+- 中国科学技术大学[代码](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/c9/USTCRecruitment.py) [数据](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/data/ustc_company_info.json)
+- 浙江大学 [代码](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/c9/ZJURescruitment.py) [数据](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/data/zju_company_info.json)
+- 复旦大学 [代码](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/c9/FDURescruitment.py) [数据](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/data/fdu_company_info.json)
+- [哈尔滨工业大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/c9/HITRescruitment.py)
+- [北京大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/c9/PKURecruitment.py)
+- [西安交通大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/c9/XJTURecruitment.py)
 
 #### 985
 
-- [四川大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/Recruitment.py)
-- [兰州大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/LZURecruitment.py)
-- [电子科技大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/UESTCRecruitment.py)
-- [重庆大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/CQURescruitment.py)
-- [华中科技大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/HUSTRecruitment.py)
+- [四川大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/main/Recruitment.py)
+- [兰州大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/part985/LZURecruitment.py)
+- [电子科技大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/part985/UESTCRecruitment.py)
+- [重庆大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/part985/CQURescruitment.py)
+- [华中科技大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/part985/HUSTRecruitment.py)
+- [中南大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/part985/CSURecruitment.py)
 
 #### 211
 
-- [中央财经大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/CUFERescruitment.py)
-- [上海财经大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/SUFERescruitment.py)
+- [中央财经大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/part211/CUFERescruitment.py)
+- [上海财经大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/part211/SUFERescruitment.py)
 
 #### 一本
 
-- [华北电力大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/NCEPURecruitment.py)暂时只获取了招聘会信息，双选会信息不全
+- [华北电力大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/top_public/NCEPURecruitment.py)暂时只获取了招聘会信息，双选会信息不全
 
 #### 二本
 
-- [四川大学锦城学院](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/JinChengRecruitment.py)
+- [四川大学锦城学院](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/basic_public/JinChengRecruitment.py)
 
 
 ### 已爬取的公司名单（持续更新）

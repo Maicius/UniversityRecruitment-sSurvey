@@ -8,7 +8,9 @@ from util import util
 
 # 获取清华大学宣讲会信息
 # 清华大学的很多招聘会以 "就业洽谈会"的形式批量进行，需要另外计算
+table_name = "thu_company_info"
 def get_tsinghua_recruit():
+    print("THU Begin ===================================================")
     base_url = "http://career.cic.tsinghua.edu.cn/xsglxt/b/jyxt/anony/jrqzph?callback=jQuery18303533298941862095_1508665403743&_=1508665403779"
     list_url = "http://career.cic.tsinghua.edu.cn/xsglxt/b/jyxt/anony/queryTodayHdList?&callback=&_=&rq="
     req = requests.Session()
@@ -30,6 +32,7 @@ def get_tsinghua_recruit():
             continue
     re = jedis.jedis()
     re.connect_redis()
+    re.clear_list(table_name)
     for item in th_info_dict:
         # 计算就业洽谈会的参展公司
         if item['zphmc'].find("就业洽谈会") != -1:
@@ -45,15 +48,17 @@ def get_tsinghua_recruit():
                     for company in company_list_detail:
                         if company != "\n" and company != "\n\t" and company != "\t" and company != "\t\n" and company != "":
                             # company_list_dict.append({'date': item['qsrq'], 'company': company.strip()})
-                            re.save_info("thu_company_info", item['qsrq'], company.strip())
+                            re.save_info(table_name, item['qsrq'], company.strip())
 
                             # re.save_infos("thu_company_info", company_list_dict)
                 else:
                     continue
         else:
-            re.save_info("thu_company_info", item['qsrq'], item['zphmc'])
+            re.save_info(table_name, item['qsrq'], item['zphmc'])
 
-    re.add_university("thu_company_info")
+    re.add_university(table_name)
+    re.add_to_file(table_name)
+    print("THU Finish ===================================================")
 
 
 def parse_tsinghua_info(zphid):
