@@ -3,6 +3,8 @@ import json
 from jedis import jedis
 import jieba
 
+waste_words = "有限公司 公司 集团 股份 2017 2016 2015 宣讲会 招聘会 招聘 正式启动 "
+
 class AnalysisTop500(object):
     def __init__(self):
         self.re = jedis.jedis().get_re()
@@ -15,7 +17,6 @@ class AnalysisTop500(object):
 
     def get_top_500_list(self):
         company_info = self.re.lrange("company_info", 0, -1)
-
         for item in company_info:
             try:
                 item = item.replace('\'', '"')
@@ -62,8 +63,11 @@ class AnalysisTop500(object):
                 short_names = jieba.cut(company_name, cut_all=False)
                 print("===============")
                 print(company_name + ":" + " ".join(short_names))
+
             except BaseException as e:
+                print("error=============================================================")
                 print(company)
+                print("error=============================================================")
                 continue
 
 if __name__ == '__main__':

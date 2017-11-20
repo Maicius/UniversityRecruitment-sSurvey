@@ -37,7 +37,6 @@ def get_top_500(base_url, page_num, company_type):
     req = requests.Session()
     re = jedis.jedis()
     re.connect_redis()
-    re.clear_list(table_name)
     for i in range(1, page_num):
         url = base_url + str(i)
         print(i)
@@ -66,6 +65,7 @@ def parse_top500(content, re, company_type):
                 # 替换company_name中的特殊符号
                 company_name = company_name.replace('\'', '==')
                 company_name = company_name.replace('\"', '++')
+                print(company_name + ":" + company_type)
                 re.save_company_info(table_name, company_rank, company_name, company_industry, company_contry,
                                      company_profit, company_people_num, company_type)
             except IndexError:
