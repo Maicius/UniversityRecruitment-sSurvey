@@ -67,7 +67,22 @@ class AnalysisTop500(object):
                     self.world_top500_dict[university].append(name)
                 if self.usa_company_str.find(name) != -1:
                     self.usa_top500_dict[university].append(name)
-        print(self.china_top500_dict)
+        print("===================================================")
+        print("中国500强:")
+        for item in self.china_top500_dict:
+            print(item + ":" + str(len(self.china_top500_dict[item])))
+        print("===================================================")
+        print("===================================================")
+        print("世界500强:")
+        for item in self.china_top500_dict:
+            print(item + ":" + str(len(self.world_top500_dict[item])))
+        print("===================================================")
+        print("===================================================")
+        print("美国500强:")
+        for item in self.china_top500_dict:
+            print(item + ":" + str(len(self.usa_top500_dict[item])))
+        print("===================================================")
+
 
     # 获取到大学招聘的公司的真名
     def get_company_short_name(self, university):
@@ -195,6 +210,6 @@ class AnalysisTop500(object):
 
 if __name__ == '__main__':
     analysis = AnalysisTop500()
-    # analysis.get_top_500_list()
-    # analysis.get_university_top_500("university")
-    analysis.test_fenci()
+    analysis.get_top_500_list()
+    analysis.get_university_top_500("university")
+    # analysis.test_fenci()
