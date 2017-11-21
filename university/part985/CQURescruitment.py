@@ -22,9 +22,9 @@ def get_data(url, page, re, table_name):
     }
     response = requests.post(url, data=form_data)
     content = response.text
-    soup = BeautifulSoup(content, 'lxml')
+    soup = BeautifulSoup(content, 'html5lib')
     trs = soup.find('div', attrs={'class': 'result_con'}).find('table', attrs={'width': '960'}).find_all('tr')
-    for tr in trs:
+    for tr in trs[1:]:
         tds = tr.find_all('td')
         # py2
         # re.save_dict(table_name, dict(company_name=tds[0].find('a').text.strip().encode('utf-8'),
@@ -38,8 +38,7 @@ def get_cqu_recruit():
     table_name = 'cqu_company_info'
     re = jedis.jedis()
     url = 'http://www.job.cqu.edu.cn/jyxt/zczphxxlistlogin.do'
-    # max_page = 117
-    max_page = 10
+    max_page = 124
     try:
         for i in range(1, max_page):
             get_data(url, i, re, table_name)
