@@ -62,6 +62,7 @@
 
 - [中央财经大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/part211/CUFERescruitment.py)
 - [上海财经大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/part211/SUFERescruitment.py)
+- [北京科技大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/part211/USTBRecruitment.py)
 
 #### 一本
 
@@ -72,6 +73,9 @@
 - [四川大学锦城学院](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/basic_public/JinChengRecruitment.py)
 - [上海海关学院](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/basic_public/SCCRecruitment.py)
 - [成都信息工程大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/basic_public/CUITRecruitment.py)
+- [天津工业大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/basic_public/TJPURecruitment.py)
+- [温州大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/basic_public/WZURecruitment.py)
+- [烟台大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/basic_public/YTURecruitment.py)
 
 ### 已爬取的公司名单（持续更新）
 
