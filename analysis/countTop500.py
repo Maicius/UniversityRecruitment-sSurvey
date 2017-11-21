@@ -48,17 +48,30 @@ class AnalysisTop500(object):
                 pass
 
     def get_university_company_name(self, university_list):
+        china_top500_dict = {}
+        world_top500_dict = {}
+        usa_top500_dict = {}
         for university in university_list:
-            self.get_company_short_name(university)
+            real_name_list = self.get_company_short_name(university)
+            for name in real_name_list:
+                if name in self.China_company_list:
+                    china_top500_dict[university].append(name)
+                if name in self.World_company_list:
+                    world_top500_dict[university].append(name)
+                if name in self.USA_company_list:
+                    usa_top500_dict[university].append(name)
+        print(china_top500_dict)
 
     def get_company_short_name(self, university):
         company_list = self.re.lrange(university, 0, -1)
+        real_name_list = []
         for company in company_list:
             try:
                 company = company.replace('\'', '"')
                 company = json.loads(company)
                 company_name = company['company_name']
                 real_name = self.get_jieba_fenci(company_name)
+                real_name_list.append(real_name)
                 # print(real_name)
             except BaseException as e:
                 print("error=============================================================")
@@ -66,6 +79,7 @@ class AnalysisTop500(object):
                 print(e)
                 print("error=============================================================")
                 continue
+        return real_name_list
 
     def get_jieba_fenci(self, company_name):
         waste_words = ['碧', '股票代码', '600180', '宣讲会', '招聘会', '招聘', '正式启动', '实习', '校园', '实习生', '管培生', '选调生', '已更改',
