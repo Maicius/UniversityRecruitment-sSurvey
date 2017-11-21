@@ -40,7 +40,7 @@ def get_one_week_data(week, redis, table_name, s):
         dates.append(date)
     for i in range(len(companies_name)):
         redis.save_dict(table_name, dict(
-            companies_name=companies_name[i],
+            company_name=companies_name[i],
             date=dates[i]
         ))
 
