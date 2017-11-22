@@ -205,17 +205,20 @@ if __name__ == '__main__':
     analysis.get_company_short_name()
     university = analysis.get_university_list()
     analysis.get_univeristy_company_list(university_list=university)
-    print("中国五百强================================")
+    print("到这些学校开宣讲会的中国五百强数量================================")
     for key, values in analysis.china_top500_result.items():
-        print(key + ":" + str(len(values)) + "\n" + " ".join(values))
+        # print(key + ":" + str(len(values)) + "\n" + " ".join(values))
+        print(key + ":" + str(len(values)))
 
-    print("美国五百强================================")
+    print("到这些学校开宣讲会的美国五百强================================")
     for key, values in analysis.usa_top500_result.items():
-        print(key + ":" + str(len(values)) + "\n" + " ".join(values))
+        # print(key + ":" + str(len(values)) + "\n" + " ".join(values))
+        print(key + ":" + str(len(values)))
 
-    print("世界五百强================================")
+    print("到这些学校开宣讲会的世界五百强================================")
     for key, values in analysis.world_top500_result.items():
-        print(key + ":" + str(len(values)) + "\n" + " ".join(values))
+        # print(key + ":" + str(len(values)) + "\n" + " ".join(values))
+        print(key + ":" + str(len(values)))
 
     print(analysis.china_top500_result)
     print(analysis.usa_top500_result)
