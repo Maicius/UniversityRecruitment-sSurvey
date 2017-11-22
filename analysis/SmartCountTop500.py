@@ -2,6 +2,7 @@
 import json
 
 import jieba
+import re
 
 from jedis import jedis
 
@@ -65,15 +66,28 @@ class AnalysisTop500(object):
     def get_jieba_fenci(self, company_name):
         print("================================")
         waste_words = ['控股', '股份', '有限公司', '有限', '公司', '集团', '（', '）', '资产管理', '通信', '集团股份',
-                       '电子商务', '商城', ')', '(', '出版', '传媒', '矿业集团', '信息产业', '发展股份', '控股集团', '企业', '-', '&', ' ']
+                       '电子商务', '商城', '出版', '传媒', '矿业集团', '信息产业', '发展股份', '控股集团',
+                       '企业', '&', '综合']
         # waste_words = " ".join(waste_words)
-        real_names = jieba.cut(company_name, cut_all=False)
+
+        english_name = re.findall('(\(.*?\))', company_name)
+        if len(english_name) > 0 and len(re.findall('[\u4e00-\u9fa5]', english_name[0])) == 0:
+            english_name = english_name[0][1: len(english_name[0]) - 1]
+            print("english name:" + english_name)
+            chinese_name = company_name[:company_name.find('(')]
+        else:
+            chinese_name = company_name
+        print("chinese name:" + chinese_name)
+        real_names = jieba.cut(chinese_name, cut_all=False)
         real_name = []
         for item in real_names:
             print(item)
             if item not in waste_words:
                 real_name.append(item)
-        # short_name = "".join(real_name)
+        short_name = "".join(real_name)
+        # short_name = short_name[0:short_name.find('集团') + 2]
+        # short_name = short_name[0:short_name.find('公司') + 2]
+        print("short_name:" + short_name)
         self.data_array.append(dict(company_name=company_name, short_name=real_name))
 
     def add_to_file(self, file_name):
