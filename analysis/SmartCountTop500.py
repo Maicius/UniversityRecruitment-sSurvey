@@ -53,15 +53,15 @@ class AnalysisTop500(object):
     def get_top_500_real_name(self):
         for company in self.China_company_list:
             self.get_jieba_fenci(company)
-        self.add_to_file("China_Top_500")
+        self.add_to_file("China_Top_500_2")
 
         for company in self.USA_company_list:
             self.get_jieba_fenci(company)
-        self.add_to_file("USA_Top_500")
+        self.add_to_file("USA_Top_500_2")
 
         for company in self.World_company_list:
             self.get_jieba_fenci(company)
-        self.add_to_file("World_Top_500")
+        self.add_to_file("World_Top_500_2")
 
     def get_jieba_fenci(self, company_name):
         print("================================")
