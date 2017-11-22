@@ -54,7 +54,7 @@ class AnalysisTop500(object):
         for company in self.China_company_list:
             self.get_jieba_fenci(company)
         self.add_to_file("China_Top_500")
-
+        ''.find()
         for company in self.USA_company_list:
             self.get_jieba_fenci(company)
         self.add_to_file("USA_Top_500")

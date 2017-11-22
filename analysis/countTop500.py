@@ -83,12 +83,12 @@ class AnalysisTop500(object):
             print(item + ":" + str(len(self.usa_top500_dict[item])))
         print("===================================================")
 
-
     # 获取到大学招聘的公司的真名
     def get_company_short_name(self, university):
         company_list = self.re.lrange(university, 0, -1)
         real_name_list = []
-        province = ['北京', '上海', '天津', '重庆', '云南', '西藏', '新疆','广西', '内蒙古', '湖南','湖北', '广东', '贵州', '河北', '黑龙江', '沈阳', '辽宁']
+        province = ['北京', '上海', '天津', '重庆', '云南', '西藏', '新疆', '广西', '内蒙古', '湖南', '湖北', '广东', '贵州', '河北', '黑龙江', '沈阳',
+                    '辽宁']
         for company in company_list:
             try:
                 company = company.replace('\'', '"')
@@ -97,24 +97,28 @@ class AnalysisTop500(object):
                 real_name = self.get_jieba_fenci(company_name)
                 if real_name != '' and real_name != '(' and real_name != '）' and real_name not in province:
                     real_name_list.append(real_name)
-                # print(real_name)
+                    # print(real_name)
             except BaseException as e:
                 print("error=============================================================")
                 print(company)
                 print(e)
                 print("error=============================================================")
                 continue
+        print(real_name_list)
         return real_name_list
 
     # 根据标题内容截取公司的真名
     def get_jieba_fenci(self, company_name):
         waste_words = ['碧', '股票代码', '600180', '宣讲会', '招聘会', '招聘', '正式启动', '实习', '校园', '实习生', '管培生', '选调生', '已更改',
-                       '春季', '秋季', '届', '级', '部门','集团', '公司', '有限', '事务所', '资本', '？', '研究院', '研究所', '有限公司', '股份有限公司'
-                       '蜂', '起', '云涌', '名企', '面向', '应届', '毕业生', '...', '专场', '年', '面试', '及', '启事', '招聘启事', '上', '双选会',
-                       '人才','取消', '·', '梦想校园行',
+                       '春季', '秋季', '届', '级', '部门', '集团', '公司', '有限', '事务所', '资本', '？', '研究院', '研究所', '有限公司', '股份有限公司'
+                                                                                                             '蜂', '起',
+                       '云涌', '名企', '面向', '应届', '毕业生', '...', '专场', '年', '面试', '及', '启事', '招聘启事', '上', '双选会',
+                       '人才', '取消', '·', '梦想校园行',
                        '引进', '推介会', '暑期', '冬季', '公告', '引进人才', '互娱'
-                       '已来', '不来' '与你共创未来！' '与你', '共创', '计划', '“', '无界', '”', '近期', '【','】', '，']
-        years = ['2018', '2017', '2016', '2015', '2014', '2013', '2012', '2011','(', '（', '18', '17', '16', '15', '14', '13' '12', '11']
+                                                              '已来', '不来' '与你共创未来！' '与你', '共创', '计划', '“', '无界', '”',
+                       '近期', '【', '】', '，']
+        years = ['2018', '2017', '2016', '2015', '2014', '2013', '2012', '2011', '(', '（', '18', '17', '16', '15', '14',
+                 '13' '12', '11']
         title = ['公司', '集团', '务所', '学校', '大学', '中学', '小学', '究院', '资本', '银行', '航空', '工业']
 
         city = ['上海', '北京']
@@ -133,7 +137,8 @@ class AnalysisTop500(object):
         for item in title:
             index = company_name.find(item)
             if (index + 2) < len(company_name):
-                if index != -1 and company_name[index + 2] != '附' and company_name[index + 2] != '工' and company_name[index + 2] != '和':
+                if index != -1 and company_name[index + 2] != '附' and company_name[index + 2] != '工' and company_name[
+                            index + 2] != '和':
                     company_name = company_name[:index + 2]
 
         # 对于文字中出现了年度等字样的标题
