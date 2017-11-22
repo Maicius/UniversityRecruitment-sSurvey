@@ -24,11 +24,11 @@ class jedis(object):
             self.print_redis_error(e)
 
     def connect_redis(self):
-
         return self.re
 
     # 保存数据，将传入的date 和company_name 格式化为字典再保存
     def save_info(self, name, date, company_name):
+        company_name = company_name.replace('\"', '”')
         data = {"date": date, "company_name": company_name}
         self.save_dict(name, data)
 
