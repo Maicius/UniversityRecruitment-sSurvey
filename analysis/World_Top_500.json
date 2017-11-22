@@ -2311,7 +2311,7 @@
     "company_name": "海航集团(HNA GROUP)",
     "short_name": [
       "HNA GROUP",
-      "海航"
+      "海航集团"
     ]
   },
   {
@@ -3235,7 +3235,7 @@
     "company_name": "中国农业银行(AGRICULTURAL BANK OF CHINA)",
     "short_name": [
       "AGRICULTURAL BANK OF CHINA",
-      "中国农业银行"
+      "中国农业银行", "农业银行", "农行"
     ]
   },
   {
@@ -3305,7 +3305,7 @@
     "company_name": "中国建设银行(CHINA CONSTRUCTION BANK)",
     "short_name": [
       "CHINA CONSTRUCTION BANK",
-      "中国建设银行"
+      "中国建设银行", "建设银行", "建行"
     ]
   },
   {
@@ -3333,7 +3333,7 @@
     "company_name": "中国建筑工程总公司(CHINA STATE CONSTRUCTION ENGINEERING)",
     "short_name": [
       "CHINA STATE CONSTRUCTION ENGINEERING",
-      "中国建筑工程总"
+      "中国建筑工程总", "中国建筑", "中建"
     ]
   },
   {
@@ -3375,7 +3375,7 @@
     "company_name": "通用汽车公司(GENERAL MOTORS)",
     "short_name": [
       "GENERAL MOTORS",
-      "通用汽车"
+      "通用汽车", "通用"
     ]
   },
   {
@@ -3403,7 +3403,7 @@
     "company_name": "CVS Health公司(CVS HEALTH)",
     "short_name": [
       "CVS HEALTH",
-      "CVS Health"
+      "CVS Health", "CVS"
     ]
   },
   {
@@ -3431,7 +3431,7 @@
     "company_name": "埃克森美孚(EXXON MOBIL)",
     "short_name": [
       "EXXON MOBIL",
-      "埃克森美孚"
+      "埃克森美孚", "美孚"
     ]
   },
   {
@@ -3452,7 +3452,7 @@
     "company_name": "荷兰皇家壳牌石油公司(ROYAL DUTCH SHELL)",
     "short_name": [
       "ROYAL DUTCH SHELL",
-      "荷兰皇家壳牌石油"
+      "荷兰皇家壳牌石油", "壳牌"
     ]
   },
   {
@@ -3466,28 +3466,28 @@
     "company_name": "丰田汽车公司(TOYOTA MOTOR)",
     "short_name": [
       "TOYOTA MOTOR",
-      "丰田汽车"
+      "丰田汽车", "丰田"
     ]
   },
   {
     "company_name": "中国石油天然气集团公司(CHINA NATIONAL PETROLEUM)",
     "short_name": [
       "CHINA NATIONAL PETROLEUM",
-      "中国石油天然气"
+      "中国石油天然气","中国石油天然气", "中国石油", "中石油"
     ]
   },
   {
     "company_name": "中国石油化工集团公司(SINOPEC GROUP)",
     "short_name": [
       "SINOPEC GROUP",
-      "中国石油化工"
+      "中国石油化工",  "中国石油化工", "中国石化", "中石化"
     ]
   },
   {
     "company_name": "国家电网公司(STATE GRID)",
     "short_name": [
       "STATE GRID",
-      "国家电网"
+      "国家电网", "国网"
     ]
   },
   {
