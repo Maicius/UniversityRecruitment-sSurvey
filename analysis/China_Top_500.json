@@ -1,1 +1,3002 @@
-[{"company_name": "亨得利控股有限公司", "short_name": ["亨得利"]}, {"company_name": "融信中国控股有限公司", "short_name": ["融信", "中国"]}, {"company_name": "国电南瑞科技股份有限公司", "short_name": ["国电", "南瑞", "科技股份"]}, {"company_name": "安徽水利开发股份有限公司", "short_name": ["安徽", "水利", "开发"]}, {"company_name": "中建西部建设股份有限公司", "short_name": ["中建", "西部", "建设"]}, {"company_name": "隆基绿能科技股份有限公司", "short_name": ["隆基绿能", "科技股份"]}, {"company_name": "航天时代电子技术股份有限公司", "short_name": ["航天", "时代", "电子", "技术"]}, {"company_name": "北京燕京啤酒股份有限公司", "short_name": ["北京", "燕京啤酒"]}, {"company_name": "北京城建投资发展股份有限公司", "short_name": ["北京城", "建", "投资", "发展"]}, {"company_name": "五矿资本股份有限公司", "short_name": ["五矿", "资本"]}, {"company_name": "招商证券股份有限公司", "short_name": ["招商", "证券"]}, {"company_name": "开滦能源化工股份有限公司", "short_name": ["开滦", "能源", "化工"]}, {"company_name": "阜丰集团有限公司", "short_name": ["阜丰"]}, {"company_name": "天津银行股份有限公司", "short_name": ["天津", "银行"]}, {"company_name": "航天通信控股集团股份有限公司", "short_name": ["航天"]}, {"company_name": "中国奥园地产集团股份有限公司", "short_name": ["中国", "奥", "园地", "产"]}, {"company_name": "合力泰科技股份有限公司", "short_name": ["合力", "泰", "科技股份"]}, {"company_name": "辽宁禾丰牧业股份有限公司", "short_name": ["辽宁", "禾丰", "牧业"]}, {"company_name": "北京京客隆商业集团股份有限公司", "short_name": ["北京", "京客隆", "商业"]}, {"company_name": "海洋石油工程股份有限公司", "short_name": ["海洋", "石油", "工程"]}, {"company_name": "长春一汽富维汽车零部件股份有限公司", "short_name": ["长春", "一汽", "富维", "汽车", "零部件"]}, {"company_name": "协鑫集成科技股份有限公司", "short_name": ["协鑫", "集成", "科技股份"]}, {"company_name": "广东江粉磁材股份有限公司", "short_name": ["广东", "江粉", "磁材"]}, {"company_name": "北京同仁堂股份有限公司", "short_name": ["北京", "同仁堂"]}, {"company_name": "安徽山鹰纸业股份有限公司", "short_name": ["安徽", "山鹰", "纸业"]}, {"company_name": "远东智慧能源股份有限公司", "short_name": ["远东", "智慧", "能源"]}, {"company_name": "北京蓝色光标品牌管理顾问股份有限公司", "short_name": ["北京", "蓝色", "光标", "品牌", "管理", "顾问"]}, {"company_name": "山东步长制药股份有限公司", "short_name": ["山东", "步长", "制药"]}, {"company_name": "人福医药集团股份公司", "short_name": ["人福", "医药集团", "股份公司"]}, {"company_name": "唐山冀东水泥股份有限公司", "short_name": ["唐山", "冀东水泥"]}, {"company_name": "浙江龙盛集团股份有限公司", "short_name": ["浙江", "龙盛"]}, {"company_name": "北京华联综合超市股份有限公司", "short_name": ["北京", "华联", "超市"]}, {"company_name": "佛山市海天调味食品股份有限公司", "short_name": ["佛山市", "海天", "调味", "食品"]}, {"company_name": "中骏置业控股有限公司", "short_name": ["中骏", "置业"]}, {"company_name": "宜宾天原集团股份有限公司", "short_name": ["宜宾", "天", "原"]}, {"company_name": "宁波华翔电子股份有限公司", "short_name": ["宁波", "华翔", "电子"]}, {"company_name": "中航直升机股份有限公司", "short_name": ["中航", "直升机"]}, {"company_name": "浪潮电子信息产业股份有限公司", "short_name": ["浪潮", "电子"]}, {"company_name": "株洲冶炼集团股份有限公司", "short_name": ["株洲", "冶炼"]}, {"company_name": "盛屯矿业集团股份有限公司", "short_name": ["盛屯"]}, {"company_name": "国信证券股份有限公司", "short_name": ["国信", "证券"]}, {"company_name": "中文天地出版传媒股份有限公司", "short_name": ["中文", "天地"]}, {"company_name": "上海陆家嘴金融贸易区开发股份有限公司", "short_name": ["上海", "陆家嘴金融贸易区", "开发"]}, {"company_name": "大连港股份有限公司", "short_name": ["大连港"]}, {"company_name": "银座集团股份有限公司", "short_name": ["银座"]}, {"company_name": "天地科技股份有限公司", "short_name": ["天地", "科技股份"]}, {"company_name": "中远海运能源运输股份有限公司", "short_name": ["中远", "海运", "能源", "运输"]}, {"company_name": "长春欧亚集团股份有限公司", "short_name": ["长春", "欧亚"]}, {"company_name": "北大资源(控股)有限公司", "short_name": ["北大", "资源", "(", ")"]}, {"company_name": "山东南山铝业股份有限公司", "short_name": ["山东", "南", "山铝业"]}, {"company_name": "中国银河证券股份有限公司", "short_name": ["中国", "银河证券"]}, {"company_name": "珠海华发实业股份有限公司", "short_name": ["珠海", "华发", "实业"]}, {"company_name": "浙江大华技术股份有限公司", "short_name": ["浙江", "大华", "技术"]}, {"company_name": "安踏体育用品有限公司", "short_name": ["安踏", "体育用品"]}, {"company_name": "中茵股份有限公司", "short_name": ["中茵"]}, {"company_name": "供销大集集团股份有限公司", "short_name": ["供销", "大集"]}, {"company_name": "苏州胜利精密制造科技股份有限公司", "short_name": ["苏州", "胜利", "精密", "制造", "科技股份"]}, {"company_name": "华新水泥股份有限公司", "short_name": ["华新水泥"]}, {"company_name": "中国生物制药有限公司", "short_name": ["中国", "生物制药"]}, {"company_name": "中粮屯河糖业股份有限公司", "short_name": ["中粮", "屯河", "糖业"]}, {"company_name": "河南豫光金铅股份有限公司", "short_name": ["河南", "豫光金", "铅"]}, {"company_name": "深圳市海王生物工程股份有限公司", "short_name": ["深圳市", "海王", "生物工程"]}, {"company_name": "新湖中宝股份有限公司", "short_name": ["新", "湖中", "宝"]}, {"company_name": "冀中能源股份有限公司", "short_name": ["冀中", "能源"]}, {"company_name": "天虹纺织集团有限公司", "short_name": ["天虹", "纺织"]}, {"company_name": "玉柴国际有限公司", "short_name": ["玉柴", "国际"]}, {"company_name": "禹洲地产股份有限公司", "short_name": ["禹洲", "地产"]}, {"company_name": "宁波建工股份有限公司", "short_name": ["宁波", "建工"]}, {"company_name": "永泰能源股份有限公司", "short_name": ["永泰", "能源"]}, {"company_name": "上海世茂股份有限公司", "short_name": ["上海", "世茂"]}, {"company_name": "杭州银行股份有限公司", "short_name": ["杭州", "银行"]}, {"company_name": "立讯精密工业股份有限公司", "short_name": ["立讯", "精密", "工业"]}, {"company_name": "长江出版传媒股份有限公司", "short_name": ["长江"]}, {"company_name": "上海梅林正广和股份有限公司", "short_name": ["上海", "梅林", "正广", "和"]}, {"company_name": "合生创展集团有限公司", "short_name": ["合生", "创展"]}, {"company_name": "河南中孚实业股份有限公司", "short_name": ["河南", "中孚", "实业"]}, {"company_name": "远东宏信有限公司", "short_name": ["远东", "宏信"]}, {"company_name": "天士力医药集团股份有限公司", "short_name": ["天士力", "医药集团"]}, {"company_name": "广东韶钢松山股份有限公司", "short_name": ["广东", "韶钢", "松山"]}, {"company_name": "天津港发展控股有限公司", "short_name": ["天津港", "发展"]}, {"company_name": "云南驰宏锌锗股份有限公司", "short_name": ["云南", "驰宏", "锌", "锗"]}, {"company_name": "福建三钢闽光股份有限公司", "short_name": ["福建", "三钢", "闽光"]}, {"company_name": "哈药集团股份有限公司", "short_name": ["哈药集团"]}, {"company_name": "哈尔滨银行股份有限公司", "short_name": ["哈尔滨", "银行"]}, {"company_name": "中国西电电气股份有限公司", "short_name": ["中国", "西电", "电气"]}, {"company_name": "中华企业股份有限公司", "short_name": ["中华"]}, {"company_name": "山西潞安环保能源开发股份有限公司", "short_name": ["山西", "潞安", "环保", "能源开发"]}, {"company_name": "海马汽车集团股份有限公司", "short_name": ["海马", "汽车"]}, {"company_name": "重庆市迪马实业股份有限公司", "short_name": ["重庆市", "迪马", "实业"]}, {"company_name": "中国雨润食品集团有限公司", "short_name": ["中国", "雨润", "食品"]}, {"company_name": "宝龙地产控股有限公司", "short_name": ["宝龙", "地产"]}, {"company_name": "上海大生农业金融科技股份有限公司", "short_name": ["上海", "大生", "农业", "金融", "科技股份"]}, {"company_name": "山东太阳纸业股份有限公司", "short_name": ["山东", "太阳", "纸业"]}, {"company_name": "凌源钢铁股份有限公司", "short_name": ["凌源", "钢铁"]}, {"company_name": "湖北兴发化工集团股份有限公司", "short_name": ["湖北", "兴发", "化工集团"]}, {"company_name": "龙元建设集团股份有限公司", "short_name": ["龙元", "建设"]}, {"company_name": "舜宇光学科技（集团）有限公司", "short_name": ["舜宇", "光学", "科技"]}, {"company_name": "北京京能清洁能源电力股份有限公司", "short_name": ["北京", "京能", "清洁", "能源", "电力"]}, {"company_name": "平顶山天安煤业股份有限公司", "short_name": ["平顶山", "天安", "煤业"]}, {"company_name": "申万宏源集团股份有限公司", "short_name": ["申万", "宏源"]}, {"company_name": "北控水务集团有限公司", "short_name": ["北控", "水务"]}, {"company_name": "雅戈尔集团股份有限公司", "short_name": ["雅戈尔集团"]}, {"company_name": "中化化肥控股有限公司", "short_name": ["中化", "化肥"]}, {"company_name": "景瑞控股有限公司", "short_name": ["景瑞"]}, {"company_name": "深圳长城开发科技股份有限公司", "short_name": ["深圳", "长城", "开发", "科技股份"]}, {"company_name": "深圳市中金岭南有色金属股份有限公司", "short_name": ["深圳市", "中", "金", "岭南", "有色金属"]}, {"company_name": "扬子江船业（控股）有限公司", "short_name": ["扬子江", "船业"]}, {"company_name": "申洲国际集团控股有限公司", "short_name": ["申洲", "国际"]}, {"company_name": "宝胜科技创新股份有限公司", "short_name": ["宝胜", "科技", "创新"]}, {"company_name": "中海油田服务股份有限公司", "short_name": ["中海", "油田", "服务"]}, {"company_name": "北京迪信通商贸股份有限公司", "short_name": ["北京", "迪信通", "商贸"]}, {"company_name": "湖北宜化化工股份有限公司", "short_name": ["湖北", "宜化", "化工"]}, {"company_name": "蓝思科技股份有限公司", "short_name": ["蓝思", "科技股份"]}, {"company_name": "江河创建集团股份有限公司", "short_name": ["江河", "创建"]}, {"company_name": "中储发展股份有限公司", "short_name": ["中储", "发展"]}, {"company_name": "中百控股集团股份有限公司", "short_name": ["中百"]}, {"company_name": "东方国际创业股份有限公司", "short_name": ["东方", "国际", "创业"]}, {"company_name": "步步高商业连锁股份有限公司", "short_name": ["步步高", "商业", "连锁"]}, {"company_name": "云南铝业股份有限公司", "short_name": ["云南", "铝业"]}, {"company_name": "瑞康医药股份有限公司", "short_name": ["瑞康", "医药"]}, {"company_name": "天津泰达股份有限公司", "short_name": ["天津泰达"]}, {"company_name": "理文造纸有限公司", "short_name": ["理文", "造纸"]}, {"company_name": "晶澳太阳能控股有限公司", "short_name": ["晶澳", "太阳能"]}, {"company_name": "唐山三友化工股份有限公司", "short_name": ["唐山", "三友", "化工"]}, {"company_name": "国电科技环保集团股份有限公司", "short_name": ["国电", "科技", "环保"]}, {"company_name": "上海龙宇燃油股份有限公司", "short_name": ["上海", "龙宇", "燃油"]}, {"company_name": "华电福新能源股份有限公司", "short_name": ["华电", "福", "新能源"]}, {"company_name": "中远海运发展股份有限公司", "short_name": ["中远", "海运", "发展"]}, {"company_name": "上海电力股份有限公司", "short_name": ["上海", "电力"]}, {"company_name": "盛京银行股份有限公司", "short_name": ["盛京", "银行"]}, {"company_name": "易见供应链管理股份有限公司", "short_name": ["易", "见", "供应链", "管理"]}, {"company_name": "重庆小康工业集团股份有限公司", "short_name": ["重庆", "小康", "工业"]}, {"company_name": "时代地产控股有限公司", "short_name": ["时代", "地产"]}, {"company_name": "南京新街口百货商店股份有限公司", "short_name": ["南京", "新街口", "百货商店"]}, {"company_name": "宁波舟山港股份有限公司", "short_name": ["宁波", "舟山", "港"]}, {"company_name": "山东恒邦冶炼股份有限公司", "short_name": ["山东", "恒邦", "冶炼"]}, {"company_name": "锦州银行股份有限公司", "short_name": ["锦州", "银行"]}, {"company_name": "上海物资贸易股份有限公司", "short_name": ["上海", "物资贸易"]}, {"company_name": "五矿资源有限公司", "short_name": ["五矿", "资源"]}, {"company_name": "内蒙古鄂尔多斯资源股份有限公司", "short_name": ["内蒙古", "鄂尔多斯", "资源"]}, {"company_name": "阳煤化工股份有限公司", "short_name": ["阳", "煤化工"]}, {"company_name": "福耀玻璃工业集团股份有限公司", "short_name": ["福耀", "玻璃", "工业"]}, {"company_name": "五菱汽车集团控股有限公司", "short_name": ["五菱", "汽车集团"]}, {"company_name": "中国忠旺控股有限公司", "short_name": ["中国", "忠旺"]}, {"company_name": "江苏国信股份有限公司", "short_name": ["江苏", "国信"]}, {"company_name": "圆通速递股份有限公司", "short_name": ["圆通", "速递"]}, {"company_name": "北京大北农科技集团股份有限公司", "short_name": ["北京", "大北农", "科技"]}, {"company_name": "徐工集团工程机械股份有限公司", "short_name": ["徐工", "工程机械"]}, {"company_name": "河南神火煤电股份有限公司", "short_name": ["河南", "神火", "煤电"]}, {"company_name": "华泰证券股份有限公司", "short_name": ["华泰", "证券"]}, {"company_name": "海澜之家股份有限公司", "short_name": ["海澜", "之家"]}, {"company_name": "上海锦江国际酒店（集团）股份有限公司", "short_name": ["上海", "锦江", "国际", "酒店"]}, {"company_name": "江苏洋河酒厂股份有限公司", "short_name": ["江苏", "洋河", "酒厂"]}, {"company_name": "中国联塑集团控股有限公司", "short_name": ["中国", "联塑"]}, {"company_name": "浙江英特集团股份有限公司", "short_name": ["浙江", "英特"]}, {"company_name": "天虹商场股份有限公司", "short_name": ["天虹", "商场"]}, {"company_name": "广深铁路股份有限公司", "short_name": ["广深铁路"]}, {"company_name": "烽火通信科技股份有限公司", "short_name": ["烽火", "科技股份"]}, {"company_name": "北京三聚环保新材料股份有限公司", "short_name": ["北京", "三聚", "环保", "新", "材料"]}, {"company_name": "中信建投证券股份有限公司", "short_name": ["中信", "建投", "证券"]}, {"company_name": "延长石油国际有限公司", "short_name": ["延长", "石油", "国际"]}, {"company_name": "武汉武商集团股份有限公司", "short_name": ["武汉", "武商"]}, {"company_name": "佳兆业集团控股有限公司", "short_name": ["佳兆业"]}, {"company_name": "王府井集团股份有限公司", "short_name": ["王府井"]}, {"company_name": "达利食品集团有限公司", "short_name": ["达利", "食品"]}, {"company_name": "中国润东汽车集团有限公司", "short_name": ["中国", "润东", "汽车集团"]}, {"company_name": "金发科技股份有限公司", "short_name": ["金发", "科技股份"]}, {"company_name": "浙江海亮股份有限公司", "short_name": ["浙江", "海亮"]}, {"company_name": "中粮地产（集团）股份有限公司", "short_name": ["中粮", "地产"]}, {"company_name": "宝业集团股份有限公司", "short_name": ["宝业"]}, {"company_name": "深圳控股有限公司", "short_name": ["深圳"]}, {"company_name": "宁波均胜电子股份有限公司", "short_name": ["宁波", "均", "胜", "电子"]}, {"company_name": "阳泉煤业（集团）股份有限公司", "short_name": ["阳泉", "煤业"]}, {"company_name": "金正大生态工程集团股份有限公司", "short_name": ["金", "正大", "生态", "工程"]}, {"company_name": "中国电力国际发展有限公司", "short_name": ["中国", "电力", "国际", "发展"]}, {"company_name": "信利国际有限公司", "short_name": ["信利", "国际"]}, {"company_name": "江西正邦科技股份有限公司", "short_name": ["江西", "正邦", "科技股份"]}, {"company_name": "上海实业控股有限公司", "short_name": ["上海", "实业"]}, {"company_name": "阿特斯太阳能有限公司", "short_name": ["阿", "特斯", "太阳能"]}, {"company_name": "安徽华信国际控股股份有限公司", "short_name": ["安徽", "华信", "国际"]}, {"company_name": "中国有色金属建设股份有限公司", "short_name": ["中国有色金属建设股份有限公司"]}, {"company_name": "江苏长电科技股份有限公司", "short_name": ["江苏", "长电", "科技股份"]}, {"company_name": "恒力石化股份有限公司", "short_name": ["恒力", "石化"]}, {"company_name": "恒安国际集团有限公司", "short_name": ["恒安", "国际"]}, {"company_name": "歌尔股份有限公司", "short_name": ["歌尔"]}, {"company_name": "江苏亨通光电股份有限公司", "short_name": ["江苏", "亨通", "光电"]}, {"company_name": "中芯国际集成电路制造有限公司", "short_name": ["中芯", "国际", "集成电路", "制造"]}, {"company_name": "上海东方明珠新媒体股份有限公司", "short_name": ["上海", "东方明珠", "新", "媒体"]}, {"company_name": "杭州滨江房产集团股份有限公司", "short_name": ["杭州", "滨江", "房产"]}, {"company_name": "中天金融集团股份有限公司", "short_name": ["中", "天", "金融"]}, {"company_name": "阳光城集团股份有限公司", "short_name": ["阳光城"]}, {"company_name": "苏州金螳螂建筑装饰股份有限公司", "short_name": ["苏州", "金", "螳螂", "建筑", "装饰"]}, {"company_name": "山西西山煤电股份有限公司", "short_name": ["山西", "西山", "煤电"]}, {"company_name": "杭州钢铁股份有限公司", "short_name": ["杭州", "钢铁"]}, {"company_name": "携程国际有限公司", "short_name": ["携程", "国际"]}, {"company_name": "金融街控股股份有限公司", "short_name": ["金融街"]}, {"company_name": "东华能源股份有限公司", "short_name": ["东华", "能源"]}, {"company_name": "中联重科股份有限公司", "short_name": ["中联重科"]}, {"company_name": "广州白云山医药集团股份有限公司", "short_name": ["广州", "白云山", "医药集团"]}, {"company_name": "浙江正泰电器股份有限公司", "short_name": ["浙江", "正泰", "电器"]}, {"company_name": "光明乳业股份有限公司", "short_name": ["光明", "乳业"]}, {"company_name": "康佳集团股份有限公司", "short_name": ["康佳集团"]}, {"company_name": "首创置业股份有限公司", "short_name": ["首创", "置业"]}, {"company_name": "江苏宏图高科技股份有限公司", "short_name": ["江苏", "宏图", "高科技"]}, {"company_name": "大明国际控股有限公司", "short_name": ["大明", "国际"]}, {"company_name": "龙光地产控股有限公司", "short_name": ["龙光", "地产"]}, {"company_name": "广发证券股份有限公司", "short_name": ["广发", "证券"]}, {"company_name": "泰禾集团股份有限公司", "short_name": ["泰禾"]}, {"company_name": "光明房地产集团股份有限公司", "short_name": ["光明", "房地产"]}, {"company_name": "越秀地产股份有限公司", "short_name": ["越秀", "地产"]}, {"company_name": "通威股份有限公司", "short_name": ["通威"]}, {"company_name": "徽商银行股份有限公司", "short_name": ["徽商", "银行"]}, {"company_name": "中国机械设备工程股份有限公司", "short_name": ["中国", "机械设备", "工程"]}, {"company_name": "江苏中天科技股份有限公司", "short_name": ["江苏", "中", "天", "科技股份"]}, {"company_name": "瑞茂通供应链管理股份有限公司", "short_name": ["瑞茂通", "供应链", "管理"]}, {"company_name": "四川蓝光发展股份有限公司", "short_name": ["四川", "蓝光", "发展"]}, {"company_name": "晶科能源控股有限公司", "short_name": ["晶科", "能源"]}, {"company_name": "超威动力控股有限公司", "short_name": ["超威", "动力"]}, {"company_name": "中国船舶工业股份有限公司", "short_name": ["中国", "船舶工业"]}, {"company_name": "天能动力国际有限公司", "short_name": ["天能", "动力", "国际"]}, {"company_name": "康美药业股份有限公司", "short_name": ["康美", "药业"]}, {"company_name": "重庆农村商业银行股份有限公司", "short_name": ["重庆", "农村", "商业银行"]}, {"company_name": "厦门金龙汽车集团股份有限公司", "short_name": ["厦门", "金龙", "汽车"]}, {"company_name": "华润水泥控股有限公司", "short_name": ["华润", "水泥"]}, {"company_name": "乐视网信息技术（北京）股份有限公司", "short_name": ["乐", "视网", "信息技术", "北京"]}, {"company_name": "保利协鑫能源控股有限公司", "short_name": ["保利", "协鑫", "能源"]}, {"company_name": "广州发展集团股份有限公司", "short_name": ["广州", "发展"]}, {"company_name": "安阳钢铁股份有限公司", "short_name": ["安阳", "钢铁"]}, {"company_name": "中国航发动力股份有限公司", "short_name": ["中国", "航发", "动力"]}, {"company_name": "旭辉控股（集团）有限公司", "short_name": ["旭辉"]}, {"company_name": "龙源电力集团股份有限公司", "short_name": ["龙源", "电力集团"]}, {"company_name": "内蒙古伊泰煤炭股份有限公司", "short_name": ["内蒙古", "伊泰", "煤炭"]}, {"company_name": "中国国旅股份有限公司", "short_name": ["中国", "国旅"]}, {"company_name": "云南白药集团股份有限公司", "short_name": ["云南白药"]}, {"company_name": "广东电力发展股份有限公司", "short_name": ["广东", "电力", "发展"]}, {"company_name": "一汽轿车股份有限公司", "short_name": ["一汽", "轿车"]}, {"company_name": "山东晨鸣纸业集团股份有限公司", "short_name": ["山东", "晨鸣", "纸业"]}, {"company_name": "三一重工股份有限公司", "short_name": ["三一", "重工"]}, {"company_name": "中船海洋与防务装备股份有限公司", "short_name": ["中", "船", "海洋", "与", "防务", "装备"]}, {"company_name": "新疆中泰化学股份有限公司", "short_name": ["新疆", "中", "泰", "化学"]}, {"company_name": "宁波银行股份有限公司", "short_name": ["宁波", "银行"]}, {"company_name": "中国燃气控股有限公司", "short_name": ["中国", "燃气"]}, {"company_name": "中国食品有限公司", "short_name": ["中国", "食品"]}, {"company_name": "环旭电子股份有限公司", "short_name": ["环旭", "电子"]}, {"company_name": "渤海金控投资股份有限公司", "short_name": ["渤海", "金控", "投资"]}, {"company_name": "宜宾五粮液股份有限公司", "short_name": ["宜宾", "五粮液"]}, {"company_name": "泛海控股股份有限公司", "short_name": ["泛海"]}, {"company_name": "中铝国际工程股份有限公司", "short_name": ["中铝", "国际", "工程"]}, {"company_name": "华东医药股份有限公司", "short_name": ["华东", "医药"]}, {"company_name": "耐世特汽车系统集团有限公司", "short_name": ["耐世特", "汽车", "系统"]}, {"company_name": "桐昆集团股份有限公司", "short_name": ["桐昆"]}, {"company_name": "航天信息股份有限公司", "short_name": ["航天", "信息"]}, {"company_name": "仁恒置地集团有限公司", "short_name": ["仁恒置", "地"]}, {"company_name": "中国医药健康产业股份有限公司", "short_name": ["中国", "医药", "健康", "产业"]}, {"company_name": "国泰君安证券股份有限公司", "short_name": ["国泰君安证券股份有限公司"]}, {"company_name": "青岛啤酒股份有限公司", "short_name": ["青岛", "啤酒"]}, {"company_name": "中航飞机股份有限公司", "short_name": ["中航", "飞机"]}, {"company_name": "保利置业集团有限公司", "short_name": ["保利", "置业"]}, {"company_name": "新疆金风科技股份有限公司", "short_name": ["新疆", "金风", "科技股份"]}, {"company_name": "中国东方集团控股有限公司", "short_name": ["中国", "东方集团"]}, {"company_name": "南京银行股份有限公司", "short_name": ["南京", "银行"]}, {"company_name": "江铃汽车股份有限公司", "short_name": ["江铃", "汽车"]}, {"company_name": "柳州钢铁股份有限公司", "short_name": ["柳州", "钢铁"]}, {"company_name": "联华超市股份有限公司", "short_name": ["联华", "超市"]}, {"company_name": "南京医药股份有限公司", "short_name": ["南京", "医药"]}, {"company_name": "海信科龙电器股份有限公司", "short_name": ["海信", "科龙电器"]}, {"company_name": "深圳欧菲光科技股份有限公司", "short_name": ["深圳", "欧菲光", "科技股份"]}, {"company_name": "际华集团股份有限公司", "short_name": ["际华"]}, {"company_name": "同方股份有限公司", "short_name": ["同方"]}, {"company_name": "广东海大集团股份有限公司", "short_name": ["广东", "海大"]}, {"company_name": "中国金茂控股集团有限公司", "short_name": ["中国", "金茂"]}, {"company_name": "紫光股份有限公司", "short_name": ["紫光"]}, {"company_name": "申能股份有限公司", "short_name": ["申能"]}, {"company_name": "西部矿业股份有限公司", "short_name": ["西部", "矿业"]}, {"company_name": "海通证券股份有限公司", "short_name": ["海通", "证券"]}, {"company_name": "大商股份有限公司", "short_name": ["大商股份"]}, {"company_name": "华润燃气控股有限公司", "short_name": ["华润", "燃气"]}, {"company_name": "新城发展控股有限公司", "short_name": ["新城", "发展"]}, {"company_name": "华润啤酒（控股）有限公司", "short_name": ["华润", "啤酒"]}, {"company_name": "上海隧道工程股份有限公司", "short_name": ["上海", "隧道", "工程"]}, {"company_name": "中国石油集团资本股份有限公司", "short_name": ["中国", "石油", "资本"]}, {"company_name": "绿城中国控股有限公司", "short_name": ["绿城", "中国"]}, {"company_name": "北方华锦化学工业股份有限公司", "short_name": ["北方", "华锦", "化学工业"]}, {"company_name": "国投电力控股股份有限公司", "short_name": ["国投", "电力"]}, {"company_name": "中国铁路通信信号股份有限公司", "short_name": ["中国", "铁路", "信号"]}, {"company_name": "本钢板材股份有限公司", "short_name": ["本钢", "板材"]}, {"company_name": "江苏国泰国际集团国贸股份有限公司", "short_name": ["江苏", "国泰", "国际", "国贸"]}, {"company_name": "北京首都开发股份有限公司", "short_name": ["北京", "首都", "开发"]}, {"company_name": "中国核能电力股份有限公司", "short_name": ["中国", "核能", "电力"]}, {"company_name": "万华化学集团股份有限公司", "short_name": ["万华", "化学"]}, {"company_name": "四川路桥建设集团股份有限公司", "short_name": ["四川", "路桥", "建设"]}, {"company_name": "新余钢铁股份有限公司", "short_name": ["新余", "钢铁"]}, {"company_name": "内蒙古西水创业股份有限公司", "short_name": ["内蒙古", "西", "水", "创业"]}, {"company_name": "荣盛房地产发展股份有限公司", "short_name": ["荣盛", "房地产", "发展"]}, {"company_name": "内蒙古包钢钢联股份有限公司", "short_name": ["内蒙古", "包钢", "钢联"]}, {"company_name": "哈尔滨电气股份有限公司", "short_name": ["哈尔滨", "电气"]}, {"company_name": "江苏银行股份有限公司", "short_name": ["江苏", "银行"]}, {"company_name": "上海国际港务（集团）股份有限公司", "short_name": ["上海", "国际", "港务"]}, {"company_name": "中国正通汽车服务控股有限公司", "short_name": ["中国", "正通", "汽车", "服务"]}, {"company_name": "青岛海信电器股份有限公司", "short_name": ["青岛", "海信", "电器"]}, {"company_name": "杭州海康威视数字技术股份有限公司", "short_name": ["杭州", "海康", "威视", "数字", "技术"]}, {"company_name": "江苏汇鸿国际集团股份有限公司", "short_name": ["江苏", "汇鸿", "国际"]}, {"company_name": "金科地产集团股份有限公司", "short_name": ["金科", "地产"]}, {"company_name": "恒逸石化股份有限公司", "short_name": ["恒逸", "石化"]}, {"company_name": "中国广核电力股份有限公司", "short_name": ["中国", "广核", "电力"]}, {"company_name": "中国重汽（香港）有限公司", "short_name": ["中国", "重汽", "香港"]}, {"company_name": "浙商中拓集团股份有限公司", "short_name": ["浙商", "中拓"]}, {"company_name": "中航国际控股股份有限公司", "short_name": ["中航", "国际"]}, {"company_name": "陕西煤业股份有限公司", "short_name": ["陕西", "煤业"]}, {"company_name": "东方电气股份有限公司", "short_name": ["东方", "电气"]}, {"company_name": "云南锡业股份有限公司", "short_name": ["云南", "锡业股份"]}, {"company_name": "浙商银行股份有限公司", "short_name": ["浙商", "银行"]}, {"company_name": "天音通信控股股份有限公司", "short_name": ["天音"]}, {"company_name": "重庆百货大楼股份有限公司", "short_name": ["重庆百货大楼股份有限公司"]}, {"company_name": "新奥能源控股有限公司", "short_name": ["新奥", "能源"]}, {"company_name": "上海银行股份有限公司", "short_name": ["上海银行"]}, {"company_name": "江苏中南建设集团股份有限公司", "short_name": ["江苏", "中南", "建设"]}, {"company_name": "远洋集团控股有限公司", "short_name": ["远洋"]}, {"company_name": "玖龙纸业（控股）有限公司", "short_name": ["玖", "龙", "纸业"]}, {"company_name": "老凤祥股份有限公司", "short_name": ["老凤祥"]}, {"company_name": "甘肃酒钢集团宏兴钢铁股份有限公司", "short_name": ["甘肃", "酒钢", "宏兴", "钢铁"]}, {"company_name": "融创中国控股有限公司", "short_name": ["融创", "中国"]}, {"company_name": "深圳华侨城股份有限公司", "short_name": ["深圳华侨城"]}, {"company_name": "郑州宇通客车股份有限公司", "short_name": ["郑州", "宇通", "客车"]}, {"company_name": "创维数码控股有限公司", "short_name": ["创维", "数码"]}, {"company_name": "中国航空科技工业股份有限公司", "short_name": ["中国", "航空", "科技", "工业"]}, {"company_name": "天津天海投资发展股份有限公司", "short_name": ["天津", "天海", "投资", "发展"]}, {"company_name": "网易公司", "short_name": ["网易公司"]}, {"company_name": "中国大冶有色金属矿业有限公司", "short_name": ["中国", "大冶", "有色金属", "矿业"]}, {"company_name": "中金黄金股份有限公司", "short_name": ["中", "金", "黄金"]}, {"company_name": "浙江浙能电力股份有限公司", "short_name": ["浙江", "浙能", "电力"]}, {"company_name": "中石化炼化工程(集团)股份有限公司", "short_name": ["中石化", "炼化", "工程", "(", ")"]}, {"company_name": "大昌行集团有限公司", "short_name": ["大昌", "行"]}, {"company_name": "特变电工股份有限公司", "short_name": ["特变", "电工"]}, {"company_name": "贵州茅台酒股份有限公司", "short_name": ["贵州", "茅台酒"]}, {"company_name": "厦门信达股份有限公司", "short_name": ["厦门信达"]}, {"company_name": "神州数码集团股份有限公司", "short_name": ["神州数码"]}, {"company_name": "中化国际（控股）股份有限公司", "short_name": ["中化", "国际"]}, {"company_name": "海南航空股份有限公司", "short_name": ["海南", "航空"]}, {"company_name": "五矿发展股份有限公司", "short_name": ["五矿", "发展"]}, {"company_name": "上海华谊集团股份有限公司", "short_name": ["上海", "华谊"]}, {"company_name": "上海钢联电子商务股份有限公司", "short_name": ["上海", "钢联"]}, {"company_name": "中国核工业建设股份有限公司", "short_name": ["中国", "核工业", "建设"]}, {"company_name": "百丽国际控股有限公司", "short_name": ["百丽", "国际"]}, {"company_name": "北京首钢股份有限公司", "short_name": ["北京", "首钢"]}, {"company_name": "中石化石油工程技术服务股份有限公司", "short_name": ["中石化", "石油", "工程技术", "服务"]}, {"company_name": "重庆建工集团股份有限公司", "short_name": ["重庆", "建工"]}, {"company_name": "大秦铁路股份有限公司", "short_name": ["大秦铁路"]}, {"company_name": "荣盛石化股份有限公司", "short_name": ["荣盛", "石化"]}, {"company_name": "北汽福田汽车股份有限公司", "short_name": ["北汽", "福田", "汽车"]}, {"company_name": "雅居乐集团控股有限公司", "short_name": ["雅居乐"]}, {"company_name": "中国外运股份有限公司", "short_name": ["中国", "外运"]}, {"company_name": "上海百联集团股份有限公司", "short_name": ["上海", "百联"]}, {"company_name": "北京银行股份有限公司", "short_name": ["北京", "银行"]}, {"company_name": "北京金隅股份有限公司", "short_name": ["北京", "金隅"]}, {"company_name": "北京控股有限公司", "short_name": ["北京"]}, {"company_name": "马鞍山钢铁股份有限公司", "short_name": ["马鞍山", "钢铁"]}, {"company_name": "深圳市爱施德股份有限公司", "short_name": ["深圳市", "爱施德"]}, {"company_name": "中国长江电力股份有限公司", "short_name": ["中国", "长江", "电力"]}, {"company_name": "山煤国际能源集团股份有限公司", "short_name": ["山煤", "国际", "能源"]}, {"company_name": "永辉超市股份有限公司", "short_name": ["永辉", "超市"]}, {"company_name": "光汇石油（控股）有限公司", "short_name": ["光汇", "石油"]}, {"company_name": "广州汽车集团股份有限公司", "short_name": ["广州", "汽车"]}, {"company_name": "湖南华菱钢铁股份有限公司", "short_name": ["湖南", "华菱", "钢铁"]}, {"company_name": "山东钢铁股份有限公司", "short_name": ["山东", "钢铁"]}, {"company_name": "常林股份有限公司", "short_name": ["常林"]}, {"company_name": "山东黄金矿业股份有限公司", "short_name": ["山东", "黄金", "矿业"]}, {"company_name": "中国中材股份有限公司", "short_name": ["中国", "中", "材"]}, {"company_name": "国机汽车股份有限公司", "short_name": ["国机", "汽车"]}, {"company_name": "中国石油集团工程股份有限公司", "short_name": ["中国", "石油", "工程"]}, {"company_name": "中国国际海运集装箱（集团）股份有限公司", "short_name": ["中国", "国际", "海运", "集装箱"]}, {"company_name": "中国船舶重工股份有限公司", "short_name": ["中国", "船舶", "重工"]}, {"company_name": "新兴铸管股份有限公司", "short_name": ["新兴", "铸管"]}, {"company_name": "深圳市飞马国际供应链股份有限公司", "short_name": ["深圳市", "飞马", "国际", "供应链"]}, {"company_name": "安徽江淮汽车集团股份有限公司", "short_name": ["安徽", "江淮", "汽车"]}, {"company_name": "云南云天化股份有限公司", "short_name": ["云南", "云天化"]}, {"company_name": "中国化学工程股份有限公司", "short_name": ["中国", "化学工程"]}, {"company_name": "吉利汽车控股有限公司", "short_name": ["吉利", "汽车"]}, {"company_name": "广州富力地产股份有限公司", "short_name": ["广州", "富力", "地产"]}, {"company_name": "中国蒙牛乳业有限公司", "short_name": ["中国", "蒙牛", "乳业"]}, {"company_name": "华夏幸福基业股份有限公司", "short_name": ["华夏", "幸福", "基业"]}, {"company_name": "龙湖地产有限公司", "short_name": ["龙湖", "地产"]}, {"company_name": "金地（集团）股份有限公司", "short_name": ["金", "地"]}, {"company_name": "安徽海螺水泥股份有限公司", "short_name": ["安徽", "海螺", "水泥"]}, {"company_name": "白银有色集团股份有限公司", "short_name": ["白银", "有色"]}, {"company_name": "唯品会控股有限公司", "short_name": ["唯品", "会"]}, {"company_name": "华润电力控股有限公司", "short_name": ["华润", "电力"]}, {"company_name": "山西太钢不锈钢股份有限公司", "short_name": ["山西", "太钢", "不锈钢"]}, {"company_name": "顺丰控股股份有限公司", "short_name": ["顺丰"]}, {"company_name": "鞍钢股份有限公司", "short_name": ["鞍钢"]}, {"company_name": "深圳市怡亚通供应链股份有限公司", "short_name": ["深圳市", "怡亚通", "供应链"]}, {"company_name": "国电电力发展股份有限公司", "short_name": ["国电电力", "发展"]}, {"company_name": "大唐国际发电股份有限公司", "short_name": ["大唐", "国际", "发电"]}, {"company_name": "云南铜业股份有限公司", "short_name": ["云南铜业"]}, {"company_name": "世茂房地产控股有限公司", "short_name": ["世茂", "房地产"]}, {"company_name": "广东温氏食品集团股份有限公司", "short_name": ["广东", "温氏", "食品"]}, {"company_name": "内蒙古伊利实业集团股份有限公司", "short_name": ["内蒙古", "伊利", "实业集团"]}, {"company_name": "中国中煤能源股份有限公司", "short_name": ["中国", "中", "煤", "能源"]}, {"company_name": "新希望六和股份有限公司", "short_name": ["新", "希望", "六", "和"]}, {"company_name": "九州通医药集团股份有限公司", "short_name": ["九州", "通", "医药集团"]}, {"company_name": "华电国际电力股份有限公司", "short_name": ["华电", "国际", "电力"]}, {"company_name": "招商局蛇口工业区控股股份有限公司", "short_name": ["招商局", "蛇口工业区"]}, {"company_name": "华夏银行股份有限公司", "short_name": ["华夏银行"]}, {"company_name": "庞大汽贸集团股份有限公司", "short_name": ["庞大", "汽贸"]}, {"company_name": "四川长虹电器股份有限公司", "short_name": ["四川长虹", "电器"]}, {"company_name": "京东方科技集团股份有限公司", "short_name": ["京东方", "科技"]}, {"company_name": "中国长城科技集团股份有限公司", "short_name": ["中国", "长城", "科技"]}, {"company_name": "昆仑能源有限公司", "short_name": ["昆仑", "能源"]}, {"company_name": "百度股份有限公司", "short_name": ["百度"]}, {"company_name": "中远海运控股股份有限公司", "short_name": ["中远", "海运"]}, {"company_name": "中升集团控股有限公司", "short_name": ["中升"]}, {"company_name": "复星国际有限公司", "short_name": ["复星", "国际"]}, {"company_name": "河钢股份有限公司", "short_name": ["河钢"]}, {"company_name": "远大产业控股股份有限公司", "short_name": ["远大", "产业"]}, {"company_name": "中国粮油控股有限公司", "short_name": ["中国", "粮油"]}, {"company_name": "国美电器控股有限公司", "short_name": ["国美", "电器"]}, {"company_name": "中国航油（新加坡）股份有限公司", "short_name": ["中国", "航油", "新加坡"]}, {"company_name": "重庆长安汽车股份有限公司", "short_name": ["重庆", "长安汽车"]}, {"company_name": "紫金矿业集团股份有限公司", "short_name": ["紫金"]}, {"company_name": "上海电气集团股份有限公司", "short_name": ["上海", "电气"]}, {"company_name": "铜陵有色金属集团股份有限公司", "short_name": ["铜陵", "有色金属"]}, {"company_name": "中国通信服务股份有限公司", "short_name": ["中国", "服务"]}, {"company_name": "中国信达资产管理股份有限公司", "short_name": ["中国", "信", "达", "资产", "管理"]}, {"company_name": "中国再保险（集团）股份有限公司", "short_name": ["中国", "再保险"]}, {"company_name": "潍柴动力股份有限公司", "short_name": ["潍柴", "动力"]}, {"company_name": "华润置地有限公司", "short_name": ["华润", "置", "地"]}, {"company_name": "中国光大银行股份有限公司", "short_name": ["中国光大银行"]}, {"company_name": "中国华融资产管理股份有限公司", "short_name": ["中国", "华融", "资产", "管理"]}, {"company_name": "厦门国贸集团股份有限公司", "short_name": ["厦门", "国贸"]}, {"company_name": "中国东方航空股份有限公司", "short_name": ["中国东方航空"]}, {"company_name": "长城汽车股份有限公司", "short_name": ["长城汽车"]}, {"company_name": "中国葛洲坝集团股份有限公司", "short_name": ["中国", "葛洲坝"]}, {"company_name": "中兴通讯股份有限公司", "short_name": ["中兴通讯"]}, {"company_name": "中国建材股份有限公司", "short_name": ["中国建材"]}, {"company_name": "兖州煤业股份有限公司", "short_name": ["兖州煤业"]}, {"company_name": "比亚迪股份有限公司", "short_name": ["比亚迪"]}, {"company_name": "TCL集团股份有限公司", "short_name": ["TCL"]}, {"company_name": "珠海格力电器股份有限公司", "short_name": ["珠海", "格力电器"]}, {"company_name": "华能国际电力股份有限公司", "short_name": ["华能", "国际", "电力"]}, {"company_name": "中国国际航空股份有限公司", "short_name": ["中国", "国际航空"]}, {"company_name": "中国南方航空股份有限公司", "short_name": ["中国", "南方", "航空"]}, {"company_name": "北京汽车股份有限公司", "short_name": ["北京", "汽车"]}, {"company_name": "青岛海尔股份有限公司", "short_name": ["青岛海尔"]}, {"company_name": "厦门象屿股份有限公司", "short_name": ["厦门", "象屿"]}, {"company_name": "上海医药集团股份有限公司", "short_name": ["上海", "医药集团"]}, {"company_name": "东风汽车集团股份有限公司", "short_name": ["东风汽车"]}, {"company_name": "上海建工集团股份有限公司", "short_name": ["上海", "建工"]}, {"company_name": "华润医药集团有限公司", "short_name": ["华润", "医药集团"]}, {"company_name": "广汇汽车服务股份公司", "short_name": ["广汇", "汽车", "服务", "股份公司"]}, {"company_name": "中国太平保险控股有限公司", "short_name": ["中国", "太平", "保险"]}, {"company_name": "万洲国际有限公司", "short_name": ["万洲", "国际"]}, {"company_name": "阿里巴巴集团控股有限公司", "short_name": ["阿里巴巴"]}, {"company_name": "中国铝业股份有限公司", "short_name": ["中国", "铝业"]}, {"company_name": "厦门建发股份有限公司", "short_name": ["厦门", "建发"]}, {"company_name": "新华人寿保险股份有限公司", "short_name": ["新华", "人寿保险"]}, {"company_name": "中国海洋石油有限公司", "short_name": ["中国", "海洋", "石油"]}, {"company_name": "苏宁云商集团股份有限公司", "short_name": ["苏宁", "云商"]}, {"company_name": "腾讯控股有限公司", "short_name": ["腾讯"]}, {"company_name": "碧桂园控股有限公司", "short_name": ["碧桂园"]}, {"company_name": "保利房地产（集团）股份有限公司", "short_name": ["保利", "房地产"]}, {"company_name": "中国民生银行股份有限公司", "short_name": ["中国民生银行"]}, {"company_name": "兴业银行股份有限公司", "short_name": ["兴业银行"]}, {"company_name": "美的集团股份有限公司", "short_name": ["美的"]}, {"company_name": "上海浦东发展银行股份有限公司", "short_name": ["上海浦东发展银行"]}, {"company_name": "中国神华能源股份有限公司", "short_name": ["中国", "神华", "能源"]}, {"company_name": "宝山钢铁股份有限公司", "short_name": ["宝山", "钢铁"]}, {"company_name": "中国邮政储蓄银行股份有限公司", "short_name": ["中国", "邮政储蓄", "银行"]}, {"company_name": "交通银行股份有限公司", "short_name": ["交通银行"]}, {"company_name": "江西铜业股份有限公司", "short_name": ["江西", "铜业"]}, {"company_name": "物产中大集团股份有限公司", "short_name": ["物产", "中", "大"]}, {"company_name": "招商银行股份有限公司", "short_name": ["招商银行"]}, {"company_name": "中国恒大集团", "short_name": ["中国", "恒大"]}, {"company_name": "中国冶金科工股份有限公司", "short_name": ["中国", "冶金", "科工"]}, {"company_name": "中国能源建设股份有限公司", "short_name": ["中国", "能源建设"]}, {"company_name": "中国中车股份有限公司", "short_name": ["中国", "中车"]}, {"company_name": "中国电力建设股份有限公司", "short_name": ["中国", "电力", "建设"]}, {"company_name": "万科企业股份有限公司", "short_name": ["万科"]}, {"company_name": "绿地控股集团股份有限公司", "short_name": ["绿地"]}, {"company_name": "国药控股股份有限公司", "short_name": ["国药"]}, {"company_name": "京东商城电子商务有限公司", "short_name": ["京东"]}, {"company_name": "中国太平洋保险（集团）股份有限公司", "short_name": ["中国", "太平洋保险"]}, {"company_name": "中国联合网络通信股份有限公司", "short_name": ["中国", "联合", "网络通信"]}, {"company_name": "联想控股股份有限公司", "short_name": ["联想"]}, {"company_name": "中国中信股份有限公司", "short_name": ["中国", "中信"]}, {"company_name": "中国电信股份有限公司", "short_name": ["中国电信"]}, {"company_name": "中国交通建设股份有限公司", "short_name": ["中国", "交通", "建设"]}, {"company_name": "中国人民保险集团股份有限公司", "short_name": ["中国", "人民保险"]}, {"company_name": "中国银行股份有限公司", "short_name": ["中国银行"]}, {"company_name": "中国农业银行股份有限公司", "short_name": ["中国农业银行"]}, {"company_name": "中国人寿保险股份有限公司", "short_name": ["中国", "人寿保险"]}, {"company_name": "中国建设银行股份有限公司", "short_name": ["中国建设银行"]}, {"company_name": "中国铁建股份有限公司", "short_name": ["中国", "铁建"]}, {"company_name": "中国中铁股份有限公司", "short_name": ["中国", "中铁"]}, {"company_name": "中国工商银行股份有限公司", "short_name": ["中国工商银行"]}, {"company_name": "中国移动有限公司", "short_name": ["中国移动"]}, {"company_name": "中国平安保险（集团）股份有限公司", "short_name": ["中国", "平安保险"]}, {"company_name": "上海汽车集团股份有限公司", "short_name": ["上海", "汽车"]}, {"company_name": "中国建筑股份有限公司", "short_name": ["中国", "建筑"]}, {"company_name": "中国石油天然气股份有限公司", "short_name": ["中国", "石油", "天然气"]}, {"company_name": "中国石油化工股份有限公司", "short_name": ["中国", "石油化工"]}]
+[
+  {
+    "company_name": "亨得利控股有限公司",
+    "short_name": [
+      "亨得利"
+    ]
+  },
+  {
+    "company_name": "融信中国控股有限公司",
+    "short_name": [
+      "融信中国"
+    ]
+  },
+  {
+    "company_name": "国电南瑞科技股份有限公司",
+    "short_name": [
+      "国电南瑞科技股份"
+    ]
+  },
+  {
+    "company_name": "安徽水利开发股份有限公司",
+    "short_name": [
+      "安徽水利开发"
+    ]
+  },
+  {
+    "company_name": "中建西部建设股份有限公司",
+    "short_name": [
+      "中建西部建设"
+    ]
+  },
+  {
+    "company_name": "隆基绿能科技股份有限公司",
+    "short_name": [
+      "隆基绿能科技股份"
+    ]
+  },
+  {
+    "company_name": "航天时代电子技术股份有限公司",
+    "short_name": [
+      "航天时代电子技术"
+    ]
+  },
+  {
+    "company_name": "北京燕京啤酒股份有限公司",
+    "short_name": [
+      "北京燕京啤酒"
+    ]
+  },
+  {
+    "company_name": "北京城建投资发展股份有限公司",
+    "short_name": [
+      "北京城建投资发展"
+    ]
+  },
+  {
+    "company_name": "五矿资本股份有限公司",
+    "short_name": [
+      "五矿资本"
+    ]
+  },
+  {
+    "company_name": "招商证券股份有限公司",
+    "short_name": [
+      "招商证券"
+    ]
+  },
+  {
+    "company_name": "开滦能源化工股份有限公司",
+    "short_name": [
+      "开滦能源化工"
+    ]
+  },
+  {
+    "company_name": "阜丰集团有限公司",
+    "short_name": [
+      "阜丰"
+    ]
+  },
+  {
+    "company_name": "天津银行股份有限公司",
+    "short_name": [
+      "天津银行"
+    ]
+  },
+  {
+    "company_name": "航天通信控股集团股份有限公司",
+    "short_name": [
+      "航天通信"
+    ]
+  },
+  {
+    "company_name": "中国奥园地产集团股份有限公司",
+    "short_name": [
+      "中国奥园地产"
+    ]
+  },
+  {
+    "company_name": "合力泰科技股份有限公司",
+    "short_name": [
+      "合力泰科技股份"
+    ]
+  },
+  {
+    "company_name": "辽宁禾丰牧业股份有限公司",
+    "short_name": [
+      "辽宁禾丰牧业"
+    ]
+  },
+  {
+    "company_name": "北京京客隆商业集团股份有限公司",
+    "short_name": [
+      "北京京客隆商业"
+    ]
+  },
+  {
+    "company_name": "海洋石油工程股份有限公司",
+    "short_name": [
+      "海洋石油工程"
+    ]
+  },
+  {
+    "company_name": "长春一汽富维汽车零部件股份有限公司",
+    "short_name": [
+      "长春一汽富维汽车零部件"
+    ]
+  },
+  {
+    "company_name": "协鑫集成科技股份有限公司",
+    "short_name": [
+      "协鑫集成科技股份"
+    ]
+  },
+  {
+    "company_name": "广东江粉磁材股份有限公司",
+    "short_name": [
+      "广东江粉磁材"
+    ]
+  },
+  {
+    "company_name": "北京同仁堂股份有限公司",
+    "short_name": [
+      "北京同仁堂"
+    ]
+  },
+  {
+    "company_name": "安徽山鹰纸业股份有限公司",
+    "short_name": [
+      "安徽山鹰纸业"
+    ]
+  },
+  {
+    "company_name": "远东智慧能源股份有限公司",
+    "short_name": [
+      "远东智慧能源"
+    ]
+  },
+  {
+    "company_name": "北京蓝色光标品牌管理顾问股份有限公司",
+    "short_name": [
+      "北京蓝色光标品牌管理顾问"
+    ]
+  },
+  {
+    "company_name": "山东步长制药股份有限公司",
+    "short_name": [
+      "山东步长制药"
+    ]
+  },
+  {
+    "company_name": "人福医药集团股份公司",
+    "short_name": [
+      "人福医药"
+    ]
+  },
+  {
+    "company_name": "唐山冀东水泥股份有限公司",
+    "short_name": [
+      "唐山冀东水泥"
+    ]
+  },
+  {
+    "company_name": "浙江龙盛集团股份有限公司",
+    "short_name": [
+      "浙江龙盛"
+    ]
+  },
+  {
+    "company_name": "北京华联综合超市股份有限公司",
+    "short_name": [
+      "北京华联超市"
+    ]
+  },
+  {
+    "company_name": "佛山市海天调味食品股份有限公司",
+    "short_name": [
+      "佛山市海天调味食品"
+    ]
+  },
+  {
+    "company_name": "中骏置业控股有限公司",
+    "short_name": [
+      "中骏置业"
+    ]
+  },
+  {
+    "company_name": "宜宾天原集团股份有限公司",
+    "short_name": [
+      "宜宾天原"
+    ]
+  },
+  {
+    "company_name": "宁波华翔电子股份有限公司",
+    "short_name": [
+      "宁波华翔电子"
+    ]
+  },
+  {
+    "company_name": "中航直升机股份有限公司",
+    "short_name": [
+      "中航直升机"
+    ]
+  },
+  {
+    "company_name": "浪潮电子信息产业股份有限公司",
+    "short_name": [
+      "浪潮电子"
+    ]
+  },
+  {
+    "company_name": "株洲冶炼集团股份有限公司",
+    "short_name": [
+      "株洲冶炼"
+    ]
+  },
+  {
+    "company_name": "盛屯矿业集团股份有限公司",
+    "short_name": [
+      "盛屯"
+    ]
+  },
+  {
+    "company_name": "国信证券股份有限公司",
+    "short_name": [
+      "国信证券"
+    ]
+  },
+  {
+    "company_name": "中文天地出版传媒股份有限公司",
+    "short_name": [
+      "中文天地"
+    ]
+  },
+  {
+    "company_name": "上海陆家嘴金融贸易区开发股份有限公司",
+    "short_name": [
+      "上海陆家嘴金融贸易区开发"
+    ]
+  },
+  {
+    "company_name": "大连港股份有限公司",
+    "short_name": [
+      "大连港"
+    ]
+  },
+  {
+    "company_name": "银座集团股份有限公司",
+    "short_name": [
+      "银座"
+    ]
+  },
+  {
+    "company_name": "天地科技股份有限公司",
+    "short_name": [
+      "天地科技股份"
+    ]
+  },
+  {
+    "company_name": "中远海运能源运输股份有限公司",
+    "short_name": [
+      "中远海运能源运输"
+    ]
+  },
+  {
+    "company_name": "长春欧亚集团股份有限公司",
+    "short_name": [
+      "长春欧亚"
+    ]
+  },
+  {
+    "company_name": "北大资源(控股)有限公司",
+    "short_name": [
+      "北大资源"
+    ]
+  },
+  {
+    "company_name": "山东南山铝业股份有限公司",
+    "short_name": [
+      "山东南山铝业"
+    ]
+  },
+  {
+    "company_name": "中国银河证券股份有限公司",
+    "short_name": [
+      "中国银河证券"
+    ]
+  },
+  {
+    "company_name": "珠海华发实业股份有限公司",
+    "short_name": [
+      "珠海华发实业"
+    ]
+  },
+  {
+    "company_name": "浙江大华技术股份有限公司",
+    "short_name": [
+      "浙江大华技术"
+    ]
+  },
+  {
+    "company_name": "安踏体育用品有限公司",
+    "short_name": [
+      "安踏体育用品"
+    ]
+  },
+  {
+    "company_name": "中茵股份有限公司",
+    "short_name": [
+      "中茵"
+    ]
+  },
+  {
+    "company_name": "供销大集集团股份有限公司",
+    "short_name": [
+      "供销大集"
+    ]
+  },
+  {
+    "company_name": "苏州胜利精密制造科技股份有限公司",
+    "short_name": [
+      "苏州胜利精密制造科技股份"
+    ]
+  },
+  {
+    "company_name": "华新水泥股份有限公司",
+    "short_name": [
+      "华新水泥"
+    ]
+  },
+  {
+    "company_name": "中国生物制药有限公司",
+    "short_name": [
+      "中国生物制药"
+    ]
+  },
+  {
+    "company_name": "中粮屯河糖业股份有限公司",
+    "short_name": [
+      "中粮屯河糖业"
+    ]
+  },
+  {
+    "company_name": "河南豫光金铅股份有限公司",
+    "short_name": [
+      "河南豫光金铅"
+    ]
+  },
+  {
+    "company_name": "深圳市海王生物工程股份有限公司",
+    "short_name": [
+      "深圳市海王生物工程"
+    ]
+  },
+  {
+    "company_name": "新湖中宝股份有限公司",
+    "short_name": [
+      "新湖中宝"
+    ]
+  },
+  {
+    "company_name": "冀中能源股份有限公司",
+    "short_name": [
+      "冀中能源"
+    ]
+  },
+  {
+    "company_name": "天虹纺织集团有限公司",
+    "short_name": [
+      "天虹纺织"
+    ]
+  },
+  {
+    "company_name": "玉柴国际有限公司",
+    "short_name": [
+      "玉柴国际"
+    ]
+  },
+  {
+    "company_name": "禹洲地产股份有限公司",
+    "short_name": [
+      "禹洲地产"
+    ]
+  },
+  {
+    "company_name": "宁波建工股份有限公司",
+    "short_name": [
+      "宁波建工"
+    ]
+  },
+  {
+    "company_name": "永泰能源股份有限公司",
+    "short_name": [
+      "永泰能源"
+    ]
+  },
+  {
+    "company_name": "上海世茂股份有限公司",
+    "short_name": [
+      "上海世茂"
+    ]
+  },
+  {
+    "company_name": "杭州银行股份有限公司",
+    "short_name": [
+      "杭州银行"
+    ]
+  },
+  {
+    "company_name": "立讯精密工业股份有限公司",
+    "short_name": [
+      "立讯精密工业"
+    ]
+  },
+  {
+    "company_name": "长江出版传媒股份有限公司",
+    "short_name": [
+      "长江"
+    ]
+  },
+  {
+    "company_name": "上海梅林正广和股份有限公司",
+    "short_name": [
+      "上海梅林正广和"
+    ]
+  },
+  {
+    "company_name": "合生创展集团有限公司",
+    "short_name": [
+      "合生创展"
+    ]
+  },
+  {
+    "company_name": "河南中孚实业股份有限公司",
+    "short_name": [
+      "河南中孚实业"
+    ]
+  },
+  {
+    "company_name": "远东宏信有限公司",
+    "short_name": [
+      "远东宏信"
+    ]
+  },
+  {
+    "company_name": "天士力医药集团股份有限公司",
+    "short_name": [
+      "天士力医药"
+    ]
+  },
+  {
+    "company_name": "广东韶钢松山股份有限公司",
+    "short_name": [
+      "广东韶钢松山"
+    ]
+  },
+  {
+    "company_name": "天津港发展控股有限公司",
+    "short_name": [
+      "天津港发展"
+    ]
+  },
+  {
+    "company_name": "云南驰宏锌锗股份有限公司",
+    "short_name": [
+      "云南驰宏锌锗"
+    ]
+  },
+  {
+    "company_name": "福建三钢闽光股份有限公司",
+    "short_name": [
+      "福建三钢闽光"
+    ]
+  },
+  {
+    "company_name": "哈药集团股份有限公司",
+    "short_name": [
+      "哈药"
+    ]
+  },
+  {
+    "company_name": "哈尔滨银行股份有限公司",
+    "short_name": [
+      "哈尔滨银行"
+    ]
+  },
+  {
+    "company_name": "中国西电电气股份有限公司",
+    "short_name": [
+      "中国西电电气"
+    ]
+  },
+  {
+    "company_name": "中华企业股份有限公司",
+    "short_name": [
+      "中华"
+    ]
+  },
+  {
+    "company_name": "山西潞安环保能源开发股份有限公司",
+    "short_name": [
+      "山西潞安环保能源开发"
+    ]
+  },
+  {
+    "company_name": "海马汽车集团股份有限公司",
+    "short_name": [
+      "海马汽车"
+    ]
+  },
+  {
+    "company_name": "重庆市迪马实业股份有限公司",
+    "short_name": [
+      "重庆市迪马实业"
+    ]
+  },
+  {
+    "company_name": "中国雨润食品集团有限公司",
+    "short_name": [
+      "中国雨润食品"
+    ]
+  },
+  {
+    "company_name": "宝龙地产控股有限公司",
+    "short_name": [
+      "宝龙地产"
+    ]
+  },
+  {
+    "company_name": "上海大生农业金融科技股份有限公司",
+    "short_name": [
+      "上海大生农业金融科技股份"
+    ]
+  },
+  {
+    "company_name": "山东太阳纸业股份有限公司",
+    "short_name": [
+      "山东太阳纸业"
+    ]
+  },
+  {
+    "company_name": "凌源钢铁股份有限公司",
+    "short_name": [
+      "凌源钢铁"
+    ]
+  },
+  {
+    "company_name": "湖北兴发化工集团股份有限公司",
+    "short_name": [
+      "湖北兴发化工"
+    ]
+  },
+  {
+    "company_name": "龙元建设集团股份有限公司",
+    "short_name": [
+      "龙元建设"
+    ]
+  },
+  {
+    "company_name": "舜宇光学科技（集团）有限公司",
+    "short_name": [
+      "舜宇光学科技"
+    ]
+  },
+  {
+    "company_name": "北京京能清洁能源电力股份有限公司",
+    "short_name": [
+      "北京京能清洁能源电力"
+    ]
+  },
+  {
+    "company_name": "平顶山天安煤业股份有限公司",
+    "short_name": [
+      "平顶山天安煤业"
+    ]
+  },
+  {
+    "company_name": "申万宏源集团股份有限公司",
+    "short_name": [
+      "申万宏源"
+    ]
+  },
+  {
+    "company_name": "北控水务集团有限公司",
+    "short_name": [
+      "北控水务"
+    ]
+  },
+  {
+    "company_name": "雅戈尔集团股份有限公司",
+    "short_name": [
+      "雅戈尔"
+    ]
+  },
+  {
+    "company_name": "中化化肥控股有限公司",
+    "short_name": [
+      "中化化肥"
+    ]
+  },
+  {
+    "company_name": "景瑞控股有限公司",
+    "short_name": [
+      "景瑞"
+    ]
+  },
+  {
+    "company_name": "深圳长城开发科技股份有限公司",
+    "short_name": [
+      "深圳长城开发科技股份"
+    ]
+  },
+  {
+    "company_name": "深圳市中金岭南有色金属股份有限公司",
+    "short_name": [
+      "深圳市中金岭南有色金属"
+    ]
+  },
+  {
+    "company_name": "扬子江船业（控股）有限公司",
+    "short_name": [
+      "扬子江船业"
+    ]
+  },
+  {
+    "company_name": "申洲国际集团控股有限公司",
+    "short_name": [
+      "申洲国际"
+    ]
+  },
+  {
+    "company_name": "宝胜科技创新股份有限公司",
+    "short_name": [
+      "宝胜科技创新"
+    ]
+  },
+  {
+    "company_name": "中海油田服务股份有限公司",
+    "short_name": [
+      "中海油田服务"
+    ]
+  },
+  {
+    "company_name": "北京迪信通商贸股份有限公司",
+    "short_name": [
+      "北京迪信通商贸"
+    ]
+  },
+  {
+    "company_name": "湖北宜化化工股份有限公司",
+    "short_name": [
+      "湖北宜化化工"
+    ]
+  },
+  {
+    "company_name": "蓝思科技股份有限公司",
+    "short_name": [
+      "蓝思科技股份"
+    ]
+  },
+  {
+    "company_name": "江河创建集团股份有限公司",
+    "short_name": [
+      "江河创建"
+    ]
+  },
+  {
+    "company_name": "中储发展股份有限公司",
+    "short_name": [
+      "中储发展"
+    ]
+  },
+  {
+    "company_name": "中百控股集团股份有限公司",
+    "short_name": [
+      "中百"
+    ]
+  },
+  {
+    "company_name": "东方国际创业股份有限公司",
+    "short_name": [
+      "东方国际创业"
+    ]
+  },
+  {
+    "company_name": "步步高商业连锁股份有限公司",
+    "short_name": [
+      "步步高商业连锁"
+    ]
+  },
+  {
+    "company_name": "云南铝业股份有限公司",
+    "short_name": [
+      "云南铝业"
+    ]
+  },
+  {
+    "company_name": "瑞康医药股份有限公司",
+    "short_name": [
+      "瑞康医药"
+    ]
+  },
+  {
+    "company_name": "天津泰达股份有限公司",
+    "short_name": [
+      "天津泰达"
+    ]
+  },
+  {
+    "company_name": "理文造纸有限公司",
+    "short_name": [
+      "理文造纸"
+    ]
+  },
+  {
+    "company_name": "晶澳太阳能控股有限公司",
+    "short_name": [
+      "晶澳太阳能"
+    ]
+  },
+  {
+    "company_name": "唐山三友化工股份有限公司",
+    "short_name": [
+      "唐山三友化工"
+    ]
+  },
+  {
+    "company_name": "国电科技环保集团股份有限公司",
+    "short_name": [
+      "国电科技环保"
+    ]
+  },
+  {
+    "company_name": "上海龙宇燃油股份有限公司",
+    "short_name": [
+      "上海龙宇燃油"
+    ]
+  },
+  {
+    "company_name": "华电福新能源股份有限公司",
+    "short_name": [
+      "华电福新能源"
+    ]
+  },
+  {
+    "company_name": "中远海运发展股份有限公司",
+    "short_name": [
+      "中远海运发展"
+    ]
+  },
+  {
+    "company_name": "上海电力股份有限公司",
+    "short_name": [
+      "上海电力"
+    ]
+  },
+  {
+    "company_name": "盛京银行股份有限公司",
+    "short_name": [
+      "盛京银行"
+    ]
+  },
+  {
+    "company_name": "易见供应链管理股份有限公司",
+    "short_name": [
+      "易见供应链管理"
+    ]
+  },
+  {
+    "company_name": "重庆小康工业集团股份有限公司",
+    "short_name": [
+      "重庆小康工业"
+    ]
+  },
+  {
+    "company_name": "时代地产控股有限公司",
+    "short_name": [
+      "时代地产"
+    ]
+  },
+  {
+    "company_name": "南京新街口百货商店股份有限公司",
+    "short_name": [
+      "南京新街口百货商店"
+    ]
+  },
+  {
+    "company_name": "宁波舟山港股份有限公司",
+    "short_name": [
+      "宁波舟山港"
+    ]
+  },
+  {
+    "company_name": "山东恒邦冶炼股份有限公司",
+    "short_name": [
+      "山东恒邦冶炼"
+    ]
+  },
+  {
+    "company_name": "锦州银行股份有限公司",
+    "short_name": [
+      "锦州银行"
+    ]
+  },
+  {
+    "company_name": "上海物资贸易股份有限公司",
+    "short_name": [
+      "上海物资贸易"
+    ]
+  },
+  {
+    "company_name": "五矿资源有限公司",
+    "short_name": [
+      "五矿资源"
+    ]
+  },
+  {
+    "company_name": "内蒙古鄂尔多斯资源股份有限公司",
+    "short_name": [
+      "内蒙古鄂尔多斯资源"
+    ]
+  },
+  {
+    "company_name": "阳煤化工股份有限公司",
+    "short_name": [
+      "阳煤化工"
+    ]
+  },
+  {
+    "company_name": "福耀玻璃工业集团股份有限公司",
+    "short_name": [
+      "福耀玻璃工业"
+    ]
+  },
+  {
+    "company_name": "五菱汽车集团控股有限公司",
+    "short_name": [
+      "五菱汽车"
+    ]
+  },
+  {
+    "company_name": "中国忠旺控股有限公司",
+    "short_name": [
+      "中国忠旺"
+    ]
+  },
+  {
+    "company_name": "江苏国信股份有限公司",
+    "short_name": [
+      "江苏国信"
+    ]
+  },
+  {
+    "company_name": "圆通速递股份有限公司",
+    "short_name": [
+      "圆通速递"
+    ]
+  },
+  {
+    "company_name": "北京大北农科技集团股份有限公司",
+    "short_name": [
+      "北京大北农科技"
+    ]
+  },
+  {
+    "company_name": "徐工集团工程机械股份有限公司",
+    "short_name": [
+      "徐工工程机械"
+    ]
+  },
+  {
+    "company_name": "河南神火煤电股份有限公司",
+    "short_name": [
+      "河南神火煤电"
+    ]
+  },
+  {
+    "company_name": "华泰证券股份有限公司",
+    "short_name": [
+      "华泰证券"
+    ]
+  },
+  {
+    "company_name": "海澜之家股份有限公司",
+    "short_name": [
+      "海澜之家"
+    ]
+  },
+  {
+    "company_name": "上海锦江国际酒店（集团）股份有限公司",
+    "short_name": [
+      "上海锦江国际酒店"
+    ]
+  },
+  {
+    "company_name": "江苏洋河酒厂股份有限公司",
+    "short_name": [
+      "江苏洋河酒厂"
+    ]
+  },
+  {
+    "company_name": "中国联塑集团控股有限公司",
+    "short_name": [
+      "中国联塑"
+    ]
+  },
+  {
+    "company_name": "浙江英特集团股份有限公司",
+    "short_name": [
+      "浙江英特"
+    ]
+  },
+  {
+    "company_name": "天虹商场股份有限公司",
+    "short_name": [
+      "天虹商场"
+    ]
+  },
+  {
+    "company_name": "广深铁路股份有限公司",
+    "short_name": [
+      "广深铁路"
+    ]
+  },
+  {
+    "company_name": "烽火通信科技股份有限公司",
+    "short_name": [
+      "烽火科技股份"
+    ]
+  },
+  {
+    "company_name": "北京三聚环保新材料股份有限公司",
+    "short_name": [
+      "北京三聚环保新材料"
+    ]
+  },
+  {
+    "company_name": "中信建投证券股份有限公司",
+    "short_name": [
+      "中信建投证券"
+    ]
+  },
+  {
+    "company_name": "延长石油国际有限公司",
+    "short_name": [
+      "延长石油国际"
+    ]
+  },
+  {
+    "company_name": "武汉武商集团股份有限公司",
+    "short_name": [
+      "武汉武商"
+    ]
+  },
+  {
+    "company_name": "佳兆业集团控股有限公司",
+    "short_name": [
+      "佳兆业"
+    ]
+  },
+  {
+    "company_name": "王府井集团股份有限公司",
+    "short_name": [
+      "王府井"
+    ]
+  },
+  {
+    "company_name": "达利食品集团有限公司",
+    "short_name": [
+      "达利食品"
+    ]
+  },
+  {
+    "company_name": "中国润东汽车集团有限公司",
+    "short_name": [
+      "中国润东汽车"
+    ]
+  },
+  {
+    "company_name": "金发科技股份有限公司",
+    "short_name": [
+      "金发科技股份"
+    ]
+  },
+  {
+    "company_name": "浙江海亮股份有限公司",
+    "short_name": [
+      "浙江海亮"
+    ]
+  },
+  {
+    "company_name": "中粮地产（集团）股份有限公司",
+    "short_name": [
+      "中粮地产"
+    ]
+  },
+  {
+    "company_name": "宝业集团股份有限公司",
+    "short_name": [
+      "宝业"
+    ]
+  },
+  {
+    "company_name": "深圳控股有限公司",
+    "short_name": [
+      "深圳"
+    ]
+  },
+  {
+    "company_name": "宁波均胜电子股份有限公司",
+    "short_name": [
+      "宁波均胜电子"
+    ]
+  },
+  {
+    "company_name": "阳泉煤业（集团）股份有限公司",
+    "short_name": [
+      "阳泉煤业"
+    ]
+  },
+  {
+    "company_name": "金正大生态工程集团股份有限公司",
+    "short_name": [
+      "金正大生态工程"
+    ]
+  },
+  {
+    "company_name": "中国电力国际发展有限公司",
+    "short_name": [
+      "中国电力国际发展"
+    ]
+  },
+  {
+    "company_name": "信利国际有限公司",
+    "short_name": [
+      "信利国际"
+    ]
+  },
+  {
+    "company_name": "江西正邦科技股份有限公司",
+    "short_name": [
+      "江西正邦科技股份"
+    ]
+  },
+  {
+    "company_name": "上海实业控股有限公司",
+    "short_name": [
+      "上海实业"
+    ]
+  },
+  {
+    "company_name": "阿特斯太阳能有限公司",
+    "short_name": [
+      "阿特斯太阳能"
+    ]
+  },
+  {
+    "company_name": "安徽华信国际控股股份有限公司",
+    "short_name": [
+      "安徽华信国际"
+    ]
+  },
+  {
+    "company_name": "中国有色金属建设股份有限公司",
+    "short_name": [
+      "中国有色金属建设股份有限"
+    ]
+  },
+  {
+    "company_name": "江苏长电科技股份有限公司",
+    "short_name": [
+      "江苏长电科技股份"
+    ]
+  },
+  {
+    "company_name": "恒力石化股份有限公司",
+    "short_name": [
+      "恒力石化"
+    ]
+  },
+  {
+    "company_name": "恒安国际集团有限公司",
+    "short_name": [
+      "恒安国际"
+    ]
+  },
+  {
+    "company_name": "歌尔股份有限公司",
+    "short_name": [
+      "歌尔"
+    ]
+  },
+  {
+    "company_name": "江苏亨通光电股份有限公司",
+    "short_name": [
+      "江苏亨通光电"
+    ]
+  },
+  {
+    "company_name": "中芯国际集成电路制造有限公司",
+    "short_name": [
+      "中芯国际集成电路制造"
+    ]
+  },
+  {
+    "company_name": "上海东方明珠新媒体股份有限公司",
+    "short_name": [
+      "上海东方明珠新媒体"
+    ]
+  },
+  {
+    "company_name": "杭州滨江房产集团股份有限公司",
+    "short_name": [
+      "杭州滨江房产"
+    ]
+  },
+  {
+    "company_name": "中天金融集团股份有限公司",
+    "short_name": [
+      "中天金融"
+    ]
+  },
+  {
+    "company_name": "阳光城集团股份有限公司",
+    "short_name": [
+      "阳光城"
+    ]
+  },
+  {
+    "company_name": "苏州金螳螂建筑装饰股份有限公司",
+    "short_name": [
+      "苏州金螳螂建筑装饰"
+    ]
+  },
+  {
+    "company_name": "山西西山煤电股份有限公司",
+    "short_name": [
+      "山西西山煤电"
+    ]
+  },
+  {
+    "company_name": "杭州钢铁股份有限公司",
+    "short_name": [
+      "杭州钢铁"
+    ]
+  },
+  {
+    "company_name": "携程国际有限公司",
+    "short_name": [
+      "携程国际"
+    ]
+  },
+  {
+    "company_name": "金融街控股股份有限公司",
+    "short_name": [
+      "金融街"
+    ]
+  },
+  {
+    "company_name": "东华能源股份有限公司",
+    "short_name": [
+      "东华能源"
+    ]
+  },
+  {
+    "company_name": "中联重科股份有限公司",
+    "short_name": [
+      "中联重科"
+    ]
+  },
+  {
+    "company_name": "广州白云山医药集团股份有限公司",
+    "short_name": [
+      "广州白云山医药"
+    ]
+  },
+  {
+    "company_name": "浙江正泰电器股份有限公司",
+    "short_name": [
+      "浙江正泰电器"
+    ]
+  },
+  {
+    "company_name": "光明乳业股份有限公司",
+    "short_name": [
+      "光明乳业"
+    ]
+  },
+  {
+    "company_name": "康佳集团股份有限公司",
+    "short_name": [
+      "康佳"
+    ]
+  },
+  {
+    "company_name": "首创置业股份有限公司",
+    "short_name": [
+      "首创置业"
+    ]
+  },
+  {
+    "company_name": "江苏宏图高科技股份有限公司",
+    "short_name": [
+      "江苏宏图高科技"
+    ]
+  },
+  {
+    "company_name": "大明国际控股有限公司",
+    "short_name": [
+      "大明国际"
+    ]
+  },
+  {
+    "company_name": "龙光地产控股有限公司",
+    "short_name": [
+      "龙光地产"
+    ]
+  },
+  {
+    "company_name": "广发证券股份有限公司",
+    "short_name": [
+      "广发证券"
+    ]
+  },
+  {
+    "company_name": "泰禾集团股份有限公司",
+    "short_name": [
+      "泰禾"
+    ]
+  },
+  {
+    "company_name": "光明房地产集团股份有限公司",
+    "short_name": [
+      "光明房地产"
+    ]
+  },
+  {
+    "company_name": "越秀地产股份有限公司",
+    "short_name": [
+      "越秀地产"
+    ]
+  },
+  {
+    "company_name": "通威股份有限公司",
+    "short_name": [
+      "通威"
+    ]
+  },
+  {
+    "company_name": "徽商银行股份有限公司",
+    "short_name": [
+      "徽商银行"
+    ]
+  },
+  {
+    "company_name": "中国机械设备工程股份有限公司",
+    "short_name": [
+      "中国机械设备工程"
+    ]
+  },
+  {
+    "company_name": "江苏中天科技股份有限公司",
+    "short_name": [
+      "江苏中天科技股份"
+    ]
+  },
+  {
+    "company_name": "瑞茂通供应链管理股份有限公司",
+    "short_name": [
+      "瑞茂通供应链管理"
+    ]
+  },
+  {
+    "company_name": "四川蓝光发展股份有限公司",
+    "short_name": [
+      "四川蓝光发展"
+    ]
+  },
+  {
+    "company_name": "晶科能源控股有限公司",
+    "short_name": [
+      "晶科能源"
+    ]
+  },
+  {
+    "company_name": "超威动力控股有限公司",
+    "short_name": [
+      "超威动力"
+    ]
+  },
+  {
+    "company_name": "中国船舶工业股份有限公司",
+    "short_name": [
+      "中国船舶工业"
+    ]
+  },
+  {
+    "company_name": "天能动力国际有限公司",
+    "short_name": [
+      "天能动力国际"
+    ]
+  },
+  {
+    "company_name": "康美药业股份有限公司",
+    "short_name": [
+      "康美药业"
+    ]
+  },
+  {
+    "company_name": "重庆农村商业银行股份有限公司",
+    "short_name": [
+      "重庆农村商业银行"
+    ]
+  },
+  {
+    "company_name": "厦门金龙汽车集团股份有限公司",
+    "short_name": [
+      "厦门金龙汽车", "金龙"
+    ]
+  },
+  {
+    "company_name": "华润水泥控股有限公司",
+    "short_name": [
+      "华润水泥"
+    ]
+  },
+  {
+    "company_name": "乐视网信息技术（北京）股份有限公司",
+    "short_name": [
+      "乐视网信息技术北京", "乐视"
+    ]
+  },
+  {
+    "company_name": "保利协鑫能源控股有限公司",
+    "short_name": [
+      "保利协鑫能源"
+    ]
+  },
+  {
+    "company_name": "广州发展集团股份有限公司",
+    "short_name": [
+      "广州发展"
+    ]
+  },
+  {
+    "company_name": "安阳钢铁股份有限公司",
+    "short_name": [
+      "安阳钢铁"
+    ]
+  },
+  {
+    "company_name": "中国航发动力股份有限公司",
+    "short_name": [
+      "中国航发动力"
+    ]
+  },
+  {
+    "company_name": "旭辉控股（集团）有限公司",
+    "short_name": [
+      "旭辉"
+    ]
+  },
+  {
+    "company_name": "龙源电力集团股份有限公司",
+    "short_name": [
+      "龙源电力"
+    ]
+  },
+  {
+    "company_name": "内蒙古伊泰煤炭股份有限公司",
+    "short_name": [
+      "内蒙古伊泰煤炭"
+    ]
+  },
+  {
+    "company_name": "中国国旅股份有限公司",
+    "short_name": [
+      "中国国旅"
+    ]
+  },
+  {
+    "company_name": "云南白药集团股份有限公司",
+    "short_name": [
+      "云南白药"
+    ]
+  },
+  {
+    "company_name": "广东电力发展股份有限公司",
+    "short_name": [
+      "广东电力发展"
+    ]
+  },
+  {
+    "company_name": "一汽轿车股份有限公司",
+    "short_name": [
+      "一汽轿车"
+    ]
+  },
+  {
+    "company_name": "山东晨鸣纸业集团股份有限公司",
+    "short_name": [
+      "山东晨鸣纸业"
+    ]
+  },
+  {
+    "company_name": "三一重工股份有限公司",
+    "short_name": [
+      "三一重工"
+    ]
+  },
+  {
+    "company_name": "中船海洋与防务装备股份有限公司",
+    "short_name": [
+      "中船海洋与防务装备"
+    ]
+  },
+  {
+    "company_name": "新疆中泰化学股份有限公司",
+    "short_name": [
+      "新疆中泰化学"
+    ]
+  },
+  {
+    "company_name": "宁波银行股份有限公司",
+    "short_name": [
+      "宁波银行"
+    ]
+  },
+  {
+    "company_name": "中国燃气控股有限公司",
+    "short_name": [
+      "中国燃气"
+    ]
+  },
+  {
+    "company_name": "中国食品有限公司",
+    "short_name": [
+      "中国食品"
+    ]
+  },
+  {
+    "company_name": "环旭电子股份有限公司",
+    "short_name": [
+      "环旭电子"
+    ]
+  },
+  {
+    "company_name": "渤海金控投资股份有限公司",
+    "short_name": [
+      "渤海金控投资"
+    ]
+  },
+  {
+    "company_name": "宜宾五粮液股份有限公司",
+    "short_name": [
+      "宜宾五粮液"
+    ]
+  },
+  {
+    "company_name": "泛海控股股份有限公司",
+    "short_name": [
+      "泛海"
+    ]
+  },
+  {
+    "company_name": "中铝国际工程股份有限公司",
+    "short_name": [
+      "中铝国际工程"
+    ]
+  },
+  {
+    "company_name": "华东医药股份有限公司",
+    "short_name": [
+      "华东医药"
+    ]
+  },
+  {
+    "company_name": "耐世特汽车系统集团有限公司",
+    "short_name": [
+      "耐世特汽车系统"
+    ]
+  },
+  {
+    "company_name": "桐昆集团股份有限公司",
+    "short_name": [
+      "桐昆"
+    ]
+  },
+  {
+    "company_name": "航天信息股份有限公司",
+    "short_name": [
+      "航天信息"
+    ]
+  },
+  {
+    "company_name": "仁恒置地集团有限公司",
+    "short_name": [
+      "仁恒置地"
+    ]
+  },
+  {
+    "company_name": "中国医药健康产业股份有限公司",
+    "short_name": [
+      "中国医药健康产业"
+    ]
+  },
+  {
+    "company_name": "国泰君安证券股份有限公司",
+    "short_name": [
+      "国泰君安证券股份有限"
+    ]
+  },
+  {
+    "company_name": "青岛啤酒股份有限公司",
+    "short_name": [
+      "青岛啤酒"
+    ]
+  },
+  {
+    "company_name": "中航飞机股份有限公司",
+    "short_name": [
+      "中航飞机"
+    ]
+  },
+  {
+    "company_name": "保利置业集团有限公司",
+    "short_name": [
+      "保利置业"
+    ]
+  },
+  {
+    "company_name": "新疆金风科技股份有限公司",
+    "short_name": [
+      "新疆金风科技股份"
+    ]
+  },
+  {
+    "company_name": "中国东方集团控股有限公司",
+    "short_name": [
+      "中国东方"
+    ]
+  },
+  {
+    "company_name": "南京银行股份有限公司",
+    "short_name": [
+      "南京银行"
+    ]
+  },
+  {
+    "company_name": "江铃汽车股份有限公司",
+    "short_name": [
+      "江铃汽车"
+    ]
+  },
+  {
+    "company_name": "柳州钢铁股份有限公司",
+    "short_name": [
+      "柳州钢铁"
+    ]
+  },
+  {
+    "company_name": "联华超市股份有限公司",
+    "short_name": [
+      "联华超市"
+    ]
+  },
+  {
+    "company_name": "南京医药股份有限公司",
+    "short_name": [
+      "南京医药"
+    ]
+  },
+  {
+    "company_name": "海信科龙电器股份有限公司",
+    "short_name": [
+      "海信科龙电器"
+    ]
+  },
+  {
+    "company_name": "深圳欧菲光科技股份有限公司",
+    "short_name": [
+      "深圳欧菲光科技股份"
+    ]
+  },
+  {
+    "company_name": "际华集团股份有限公司",
+    "short_name": [
+      "际华"
+    ]
+  },
+  {
+    "company_name": "同方股份有限公司",
+    "short_name": [
+      "同方"
+    ]
+  },
+  {
+    "company_name": "广东海大集团股份有限公司",
+    "short_name": [
+      "广东海大"
+    ]
+  },
+  {
+    "company_name": "中国金茂控股集团有限公司",
+    "short_name": [
+      "中国金茂"
+    ]
+  },
+  {
+    "company_name": "紫光股份有限公司",
+    "short_name": [
+      "紫光"
+    ]
+  },
+  {
+    "company_name": "申能股份有限公司",
+    "short_name": [
+      "申能"
+    ]
+  },
+  {
+    "company_name": "西部矿业股份有限公司",
+    "short_name": [
+      "西部矿业"
+    ]
+  },
+  {
+    "company_name": "海通证券股份有限公司",
+    "short_name": [
+      "海通证券"
+    ]
+  },
+  {
+    "company_name": "大商股份有限公司",
+    "short_name": [
+      "大商股份"
+    ]
+  },
+  {
+    "company_name": "华润燃气控股有限公司",
+    "short_name": [
+      "华润燃气"
+    ]
+  },
+  {
+    "company_name": "新城发展控股有限公司",
+    "short_name": [
+      "新城发展"
+    ]
+  },
+  {
+    "company_name": "华润啤酒（控股）有限公司",
+    "short_name": [
+      "华润啤酒"
+    ]
+  },
+  {
+    "company_name": "上海隧道工程股份有限公司",
+    "short_name": [
+      "上海隧道工程"
+    ]
+  },
+  {
+    "company_name": "中国石油集团资本股份有限公司",
+    "short_name": [
+      "中国石油资本"
+    ]
+  },
+  {
+    "company_name": "绿城中国控股有限公司",
+    "short_name": [
+      "绿城中国", "绿城"
+    ]
+  },
+  {
+    "company_name": "北方华锦化学工业股份有限公司",
+    "short_name": [
+      "北方华锦化学工业"
+    ]
+  },
+  {
+    "company_name": "国投电力控股股份有限公司",
+    "short_name": [
+      "国投电力"
+    ]
+  },
+  {
+    "company_name": "中国铁路通信信号股份有限公司",
+    "short_name": [
+      "中国铁路信号"
+    ]
+  },
+  {
+    "company_name": "本钢板材股份有限公司",
+    "short_name": [
+      "本钢板材"
+    ]
+  },
+  {
+    "company_name": "江苏国泰国际集团国贸股份有限公司",
+    "short_name": [
+      "江苏国泰国际国贸"
+    ]
+  },
+  {
+    "company_name": "北京首都开发股份有限公司",
+    "short_name": [
+      "北京首都开发"
+    ]
+  },
+  {
+    "company_name": "中国核能电力股份有限公司",
+    "short_name": [
+      "中国核能电力"
+    ]
+  },
+  {
+    "company_name": "万华化学集团股份有限公司",
+    "short_name": [
+      "万华化学"
+    ]
+  },
+  {
+    "company_name": "四川路桥建设集团股份有限公司",
+    "short_name": [
+      "四川路桥建设"
+    ]
+  },
+  {
+    "company_name": "新余钢铁股份有限公司",
+    "short_name": [
+      "新余钢铁"
+    ]
+  },
+  {
+    "company_name": "内蒙古西水创业股份有限公司",
+    "short_name": [
+      "内蒙古西水创业"
+    ]
+  },
+  {
+    "company_name": "荣盛房地产发展股份有限公司",
+    "short_name": [
+      "荣盛房地产发展"
+    ]
+  },
+  {
+    "company_name": "内蒙古包钢钢联股份有限公司",
+    "short_name": [
+      "内蒙古包钢钢联"
+    ]
+  },
+  {
+    "company_name": "哈尔滨电气股份有限公司",
+    "short_name": [
+      "哈尔滨电气"
+    ]
+  },
+  {
+    "company_name": "江苏银行股份有限公司",
+    "short_name": [
+      "江苏银行"
+    ]
+  },
+  {
+    "company_name": "上海国际港务（集团）股份有限公司",
+    "short_name": [
+      "上海国际港务"
+    ]
+  },
+  {
+    "company_name": "中国正通汽车服务控股有限公司",
+    "short_name": [
+      "中国正通汽车服务", "正通汽车"
+    ]
+  },
+  {
+    "company_name": "青岛海信电器股份有限公司",
+    "short_name": [
+      "青岛海信电器", "海信"
+    ]
+  },
+  {
+    "company_name": "杭州海康威视数字技术股份有限公司",
+    "short_name": [
+      "杭州海康威视数字技术", "海康威视"
+    ]
+  },
+  {
+    "company_name": "江苏汇鸿国际集团股份有限公司",
+    "short_name": [
+      "江苏汇鸿国际"
+    ]
+  },
+  {
+    "company_name": "金科地产集团股份有限公司",
+    "short_name": [
+      "金科地产", "金科"
+    ]
+  },
+  {
+    "company_name": "恒逸石化股份有限公司",
+    "short_name": [
+      "恒逸石化"
+    ]
+  },
+  {
+    "company_name": "中国广核电力股份有限公司",
+    "short_name": [
+      "中国广核电力"
+    ]
+  },
+  {
+    "company_name": "中国重汽（香港）有限公司",
+    "short_name": [
+      "中国重汽香港"
+    ]
+  },
+  {
+    "company_name": "浙商中拓集团股份有限公司",
+    "short_name": [
+      "浙商中拓"
+    ]
+  },
+  {
+    "company_name": "中航国际控股股份有限公司",
+    "short_name": [
+      "中航国际"
+    ]
+  },
+  {
+    "company_name": "陕西煤业股份有限公司",
+    "short_name": [
+      "陕西煤业"
+    ]
+  },
+  {
+    "company_name": "东方电气股份有限公司",
+    "short_name": [
+      "东方电气"
+    ]
+  },
+  {
+    "company_name": "云南锡业股份有限公司",
+    "short_name": [
+      "云南锡业股份"
+    ]
+  },
+  {
+    "company_name": "浙商银行股份有限公司",
+    "short_name": [
+      "浙商银行"
+    ]
+  },
+  {
+    "company_name": "天音通信控股股份有限公司",
+    "short_name": [
+      "天音"
+    ]
+  },
+  {
+    "company_name": "重庆百货大楼股份有限公司",
+    "short_name": [
+      "重庆百货大楼股份有限"
+    ]
+  },
+  {
+    "company_name": "新奥能源控股有限公司",
+    "short_name": [
+      "新奥能源"
+    ]
+  },
+  {
+    "company_name": "上海银行股份有限公司",
+    "short_name": [
+      "上海银行"
+    ]
+  },
+  {
+    "company_name": "江苏中南建设集团股份有限公司",
+    "short_name": [
+      "江苏中南建设", "中南建设"
+    ]
+  },
+  {
+    "company_name": "远洋集团控股有限公司",
+    "short_name": [
+      "远洋"
+    ]
+  },
+  {
+    "company_name": "玖龙纸业（控股）有限公司",
+    "short_name": [
+      "玖龙纸业"
+    ]
+  },
+  {
+    "company_name": "老凤祥股份有限公司",
+    "short_name": [
+      "老凤祥"
+    ]
+  },
+  {
+    "company_name": "甘肃酒钢集团宏兴钢铁股份有限公司",
+    "short_name": [
+      "甘肃酒钢宏兴钢铁"
+    ]
+  },
+  {
+    "company_name": "融创中国控股有限公司",
+    "short_name": [
+      "融创中国", "融创"
+    ]
+  },
+  {
+    "company_name": "深圳华侨城股份有限公司",
+    "short_name": [
+      "深圳华侨城"
+    ]
+  },
+  {
+    "company_name": "郑州宇通客车股份有限公司",
+    "short_name": [
+      "郑州宇通客车"
+    ]
+  },
+  {
+    "company_name": "创维数码控股有限公司",
+    "short_name": [
+      "创维数码"
+    ]
+  },
+  {
+    "company_name": "中国航空科技工业股份有限公司",
+    "short_name": [
+      "中国航空科技工业"
+    ]
+  },
+  {
+    "company_name": "天津天海投资发展股份有限公司",
+    "short_name": [
+      "天津天海投资发展"
+    ]
+  },
+  {
+    "company_name": "网易公司",
+    "short_name": [
+      "网易"
+    ]
+  },
+  {
+    "company_name": "中国大冶有色金属矿业有限公司",
+    "short_name": [
+      "中国大冶有色金属矿业"
+    ]
+  },
+  {
+    "company_name": "中金黄金股份有限公司",
+    "short_name": [
+      "中金黄金"
+    ]
+  },
+  {
+    "company_name": "浙江浙能电力股份有限公司",
+    "short_name": [
+      "浙江浙能电力"
+    ]
+  },
+  {
+    "company_name": "中石化炼化工程(集团)股份有限公司",
+    "short_name": [
+      "中石化炼化工程"
+    ]
+  },
+  {
+    "company_name": "大昌行集团有限公司",
+    "short_name": [
+      "大昌行"
+    ]
+  },
+  {
+    "company_name": "特变电工股份有限公司",
+    "short_name": [
+      "特变电工"
+    ]
+  },
+  {
+    "company_name": "贵州茅台酒股份有限公司",
+    "short_name": [
+      "贵州茅台酒", "茅台"
+    ]
+  },
+  {
+    "company_name": "厦门信达股份有限公司",
+    "short_name": [
+      "厦门信达"
+    ]
+  },
+  {
+    "company_name": "神州数码集团股份有限公司",
+    "short_name": [
+      "神州数码"
+    ]
+  },
+  {
+    "company_name": "中化国际（控股）股份有限公司",
+    "short_name": [
+      "中化国际"
+    ]
+  },
+  {
+    "company_name": "海南航空股份有限公司",
+    "short_name": [
+      "海南航空"
+    ]
+  },
+  {
+    "company_name": "五矿发展股份有限公司",
+    "short_name": [
+      "五矿发展"
+    ]
+  },
+  {
+    "company_name": "上海华谊集团股份有限公司",
+    "short_name": [
+      "上海华谊"
+    ]
+  },
+  {
+    "company_name": "上海钢联电子商务股份有限公司",
+    "short_name": [
+      "上海钢联"
+    ]
+  },
+  {
+    "company_name": "中国核工业建设股份有限公司",
+    "short_name": [
+      "中国核工业建设"
+    ]
+  },
+  {
+    "company_name": "百丽国际控股有限公司",
+    "short_name": [
+      "百丽国际"
+    ]
+  },
+  {
+    "company_name": "北京首钢股份有限公司",
+    "short_name": [
+      "北京首钢", "首钢"
+    ]
+  },
+  {
+    "company_name": "中石化石油工程技术服务股份有限公司",
+    "short_name": [
+      "中石化石油工程技术服务"
+    ]
+  },
+  {
+    "company_name": "重庆建工集团股份有限公司",
+    "short_name": [
+      "重庆建工"
+    ]
+  },
+  {
+    "company_name": "大秦铁路股份有限公司",
+    "short_name": [
+      "大秦铁路"
+    ]
+  },
+  {
+    "company_name": "荣盛石化股份有限公司",
+    "short_name": [
+      "荣盛石化"
+    ]
+  },
+  {
+    "company_name": "北汽福田汽车股份有限公司",
+    "short_name": [
+      "北汽福田汽车", "福田"
+    ]
+  },
+  {
+    "company_name": "雅居乐集团控股有限公司",
+    "short_name": [
+      "雅居乐"
+    ]
+  },
+  {
+    "company_name": "中国外运股份有限公司",
+    "short_name": [
+      "中国外运"
+    ]
+  },
+  {
+    "company_name": "上海百联集团股份有限公司",
+    "short_name": [
+      "上海百联", "百联"
+    ]
+  },
+  {
+    "company_name": "北京银行股份有限公司",
+    "short_name": [
+      "北京银行"
+    ]
+  },
+  {
+    "company_name": "北京金隅股份有限公司",
+    "short_name": [
+      "北京金隅"
+    ]
+  },
+  {
+    "company_name": "北京控股有限公司",
+    "short_name": [
+      "北京控股"
+    ]
+  },
+  {
+    "company_name": "马鞍山钢铁股份有限公司",
+    "short_name": [
+      "马鞍山钢铁"
+    ]
+  },
+  {
+    "company_name": "深圳市爱施德股份有限公司",
+    "short_name": [
+      "深圳市爱施德", "爱施德"
+    ]
+  },
+  {
+    "company_name": "中国长江电力股份有限公司",
+    "short_name": [
+      "中国长江电力", "长江电力"
+    ]
+  },
+  {
+    "company_name": "山煤国际能源集团股份有限公司",
+    "short_name": [
+      "山煤国际能源"
+    ]
+  },
+  {
+    "company_name": "永辉超市股份有限公司",
+    "short_name": [
+      "永辉超市"
+    ]
+  },
+  {
+    "company_name": "光汇石油（控股）有限公司",
+    "short_name": [
+      "光汇石油"
+    ]
+  },
+  {
+    "company_name": "广州汽车集团股份有限公司",
+    "short_name": [
+      "广州汽车"
+    ]
+  },
+  {
+    "company_name": "湖南华菱钢铁股份有限公司",
+    "short_name": [
+      "湖南华菱钢铁", "华菱"
+    ]
+  },
+  {
+    "company_name": "山东钢铁股份有限公司",
+    "short_name": [
+      "山东钢铁"
+    ]
+  },
+  {
+    "company_name": "常林股份有限公司",
+    "short_name": [
+      "常林"
+    ]
+  },
+  {
+    "company_name": "山东黄金矿业股份有限公司",
+    "short_name": [
+      "山东黄金矿业", "黄金矿业"
+    ]
+  },
+  {
+    "company_name": "中国中材股份有限公司",
+    "short_name": [
+      "中国中材", "中材"
+    ]
+  },
+  {
+    "company_name": "国机汽车股份有限公司",
+    "short_name": [
+      "国机汽车"
+    ]
+  },
+  {
+    "company_name": "中国石油集团工程股份有限公司",
+    "short_name": [
+      "中国石油工程"
+    ]
+  },
+  {
+    "company_name": "中国国际海运集装箱（集团）股份有限公司",
+    "short_name": [
+      "中国国际海运集装箱", "国际海运"
+    ]
+  },
+  {
+    "company_name": "中国船舶重工股份有限公司",
+    "short_name": [
+      "中国船舶重工"
+    ]
+  },
+  {
+    "company_name": "新兴铸管股份有限公司",
+    "short_name": [
+      "新兴铸管"
+    ]
+  },
+  {
+    "company_name": "深圳市飞马国际供应链股份有限公司",
+    "short_name": [
+      "深圳市飞马国际供应链", "飞马"
+    ]
+  },
+  {
+    "company_name": "安徽江淮汽车集团股份有限公司",
+    "short_name": [
+      "安徽江淮汽车", "江淮"
+    ]
+  },
+  {
+    "company_name": "云南云天化股份有限公司",
+    "short_name": [
+      "云南云天化"
+    ]
+  },
+  {
+    "company_name": "中国化学工程股份有限公司",
+    "short_name": [
+      "中国化学工程", "中国化工"
+    ]
+  },
+  {
+    "company_name": "吉利汽车控股有限公司",
+    "short_name": [
+      "吉利汽车", "吉利"
+    ]
+  },
+  {
+    "company_name": "广州富力地产股份有限公司",
+    "short_name": [
+      "广州富力地产"
+    ]
+  },
+  {
+    "company_name": "中国蒙牛乳业有限公司",
+    "short_name": [
+      "中国蒙牛乳业", "蒙牛"
+    ]
+  },
+  {
+    "company_name": "华夏幸福基业股份有限公司",
+    "short_name": [
+      "华夏幸福基业"
+    ]
+  },
+  {
+    "company_name": "龙湖地产有限公司",
+    "short_name": [
+      "龙湖地产"
+    ]
+  },
+  {
+    "company_name": "金地（集团）股份有限公司",
+    "short_name": [
+      "金地"
+    ]
+  },
+  {
+    "company_name": "安徽海螺水泥股份有限公司",
+    "short_name": [
+      "安徽海螺水泥"
+    ]
+  },
+  {
+    "company_name": "白银有色集团股份有限公司",
+    "short_name": [
+      "白银有色"
+    ]
+  },
+  {
+    "company_name": "唯品会控股有限公司",
+    "short_name": [
+      "唯品会"
+    ]
+  },
+  {
+    "company_name": "华润电力控股有限公司",
+    "short_name": [
+      "华润电力"
+    ]
+  },
+  {
+    "company_name": "山西太钢不锈钢股份有限公司",
+    "short_name": [
+      "山西太钢不锈钢", "太钢"
+    ]
+  },
+  {
+    "company_name": "顺丰控股股份有限公司",
+    "short_name": [
+      "顺丰"
+    ]
+  },
+  {
+    "company_name": "鞍钢股份有限公司",
+    "short_name": [
+      "鞍钢"
+    ]
+  },
+  {
+    "company_name": "深圳市怡亚通供应链股份有限公司",
+    "short_name": [
+      "深圳市怡亚通供应链"
+    ]
+  },
+  {
+    "company_name": "国电电力发展股份有限公司",
+    "short_name": [
+      "国电电力发展"
+    ]
+  },
+  {
+    "company_name": "大唐国际发电股份有限公司",
+    "short_name": [
+      "大唐国际发电"
+    ]
+  },
+  {
+    "company_name": "云南铜业股份有限公司",
+    "short_name": [
+      "云南铜业"
+    ]
+  },
+  {
+    "company_name": "世茂房地产控股有限公司",
+    "short_name": [
+      "世茂房地产", "世茂"
+    ]
+  },
+  {
+    "company_name": "广东温氏食品集团股份有限公司",
+    "short_name": [
+      "广东温氏食品", "温氏"
+    ]
+  },
+  {
+    "company_name": "内蒙古伊利实业集团股份有限公司",
+    "short_name": [
+      "内蒙古伊利实业", "伊利"
+    ]
+  },
+  {
+    "company_name": "中国中煤能源股份有限公司",
+    "short_name": [
+      "中国中煤能源", "中煤"
+    ]
+  },
+  {
+    "company_name": "新希望六和股份有限公司",
+    "short_name": [
+      "新希望六和", "新希望", "六和"
+    ]
+  },
+  {
+    "company_name": "九州通医药集团股份有限公司",
+    "short_name": [
+      "九州通医药", "九州通"
+    ]
+  },
+  {
+    "company_name": "华电国际电力股份有限公司",
+    "short_name": [
+      "华电国际电力", "华电"
+    ]
+  },
+  {
+    "company_name": "招商局蛇口工业区控股股份有限公司",
+    "short_name": [
+      "招商局蛇口工业区"
+    ]
+  },
+  {
+    "company_name": "华夏银行股份有限公司",
+    "short_name": [
+      "华夏银行"
+    ]
+  },
+  {
+    "company_name": "庞大汽贸集团股份有限公司",
+    "short_name": [
+      "庞大汽贸"
+    ]
+  },
+  {
+    "company_name": "四川长虹电器股份有限公司",
+    "short_name": [
+      "四川长虹电器", "长虹"
+    ]
+  },
+  {
+    "company_name": "京东方科技集团股份有限公司",
+    "short_name": [
+      "京东方科技", "京东方"
+    ]
+  },
+  {
+    "company_name": "中国长城科技集团股份有限公司",
+    "short_name": [
+      "中国长城科技", "长城"
+    ]
+  },
+  {
+    "company_name": "昆仑能源有限公司",
+    "short_name": [
+      "昆仑能源"
+    ]
+  },
+  {
+    "company_name": "百度股份有限公司",
+    "short_name": [
+      "百度"
+    ]
+  },
+  {
+    "company_name": "中远海运控股股份有限公司",
+    "short_name": [
+      "中远海运", "中远"
+    ]
+  },
+  {
+    "company_name": "中升集团控股有限公司",
+    "short_name": [
+      "中升"
+    ]
+  },
+  {
+    "company_name": "复星国际有限公司",
+    "short_name": [
+      "复星国际", "复星"
+    ]
+  },
+  {
+    "company_name": "河钢股份有限公司",
+    "short_name": [
+      "河钢"
+    ]
+  },
+  {
+    "company_name": "远大产业控股股份有限公司",
+    "short_name": [
+      "远大产业"
+    ]
+  },
+  {
+    "company_name": "中国粮油控股有限公司",
+    "short_name": [
+      "中国粮油", "中粮"
+    ]
+  },
+  {
+    "company_name": "国美电器控股有限公司",
+    "short_name": [
+      "国美电器", "国美"
+    ]
+  },
+  {
+    "company_name": "中国航油（新加坡）股份有限公司",
+    "short_name": [
+      "中国航油"
+    ]
+  },
+  {
+    "company_name": "重庆长安汽车股份有限公司",
+    "short_name": [
+      "重庆长安汽车", "长安"
+    ]
+  },
+  {
+    "company_name": "紫金矿业集团股份有限公司",
+    "short_name": [
+      "紫金"
+    ]
+  },
+  {
+    "company_name": "上海电气集团股份有限公司",
+    "short_name": [
+      "上海电气"
+    ]
+  },
+  {
+    "company_name": "铜陵有色金属集团股份有限公司",
+    "short_name": [
+      "铜陵有色金属"
+    ]
+  },
+  {
+    "company_name": "中国通信服务股份有限公司",
+    "short_name": [
+      "中国服务"
+    ]
+  },
+  {
+    "company_name": "中国信达资产管理股份有限公司",
+    "short_name": [
+      "中国信达资产管理", "信达", "中国信达"
+    ]
+  },
+  {
+    "company_name": "中国再保险（集团）股份有限公司",
+    "short_name": [
+      "中国再保险"
+    ]
+  },
+  {
+    "company_name": "潍柴动力股份有限公司",
+    "short_name": [
+      "潍柴动力"
+    ]
+  },
+  {
+    "company_name": "华润置地有限公司",
+    "short_name": [
+      "华润置地"
+    ]
+  },
+  {
+    "company_name": "中国光大银行股份有限公司",
+    "short_name": [
+      "中国光大银行", "光行", "光大银行"
+    ]
+  },
+  {
+    "company_name": "中国华融资产管理股份有限公司",
+    "short_name": [
+      "中国华融资产管理", "华融"
+    ]
+  },
+  {
+    "company_name": "厦门国贸集团股份有限公司",
+    "short_name": [
+      "厦门国贸"
+    ]
+  },
+  {
+    "company_name": "中国东方航空股份有限公司",
+    "short_name": [
+      "中国东方航空", "东方航空"
+    ]
+  },
+  {
+    "company_name": "长城汽车股份有限公司",
+    "short_name": [
+      "长城汽车"
+    ]
+  },
+  {
+    "company_name": "中国葛洲坝集团股份有限公司",
+    "short_name": [
+      "中国葛洲坝"
+    ]
+  },
+  {
+    "company_name": "中兴通讯股份有限公司",
+    "short_name": [
+      "中兴通讯", "中兴"
+    ]
+  },
+  {
+    "company_name": "中国建材股份有限公司",
+    "short_name": [
+      "中国建材"
+    ]
+  },
+  {
+    "company_name": "兖州煤业股份有限公司",
+    "short_name": [
+      "兖州煤业"
+    ]
+  },
+  {
+    "company_name": "比亚迪股份有限公司",
+    "short_name": [
+      "比亚迪"
+    ]
+  },
+  {
+    "company_name": "TCL集团股份有限公司",
+    "short_name": [
+      "TCL"
+    ]
+  },
+  {
+    "company_name": "珠海格力电器股份有限公司",
+    "short_name": [
+      "珠海格力电器", "格力"
+    ]
+  },
+  {
+    "company_name": "华能国际电力股份有限公司",
+    "short_name": [
+      "华能国际电力", "华能"
+    ]
+  },
+  {
+    "company_name": "中国国际航空股份有限公司",
+    "short_name": [
+      "中国国际航空", "国际航空"
+    ]
+  },
+  {
+    "company_name": "中国南方航空股份有限公司",
+    "short_name": [
+      "中国南方航空", "南方航空"
+    ]
+  },
+  {
+    "company_name": "北京汽车股份有限公司",
+    "short_name": [
+      "北京汽车"
+    ]
+  },
+  {
+    "company_name": "青岛海尔股份有限公司",
+    "short_name": [
+      "青岛海尔", "海尔"
+    ]
+  },
+  {
+    "company_name": "厦门象屿股份有限公司",
+    "short_name": [
+      "厦门象屿"
+    ]
+  },
+  {
+    "company_name": "上海医药集团股份有限公司",
+    "short_name": [
+      "上海医药"
+    ]
+  },
+  {
+    "company_name": "东风汽车集团股份有限公司",
+    "short_name": [
+      "东风汽车", "东风"
+    ]
+  },
+  {
+    "company_name": "上海建工集团股份有限公司",
+    "short_name": [
+      "上海建工"
+    ]
+  },
+  {
+    "company_name": "华润医药集团有限公司",
+    "short_name": [
+      "华润医药"
+    ]
+  },
+  {
+    "company_name": "广汇汽车服务股份公司",
+    "short_name": [
+      "广汇汽车服务股份", "广汇"
+    ]
+  },
+  {
+    "company_name": "中国太平保险控股有限公司",
+    "short_name": [
+      "中国太平保险", "太平保险", "中国太平"
+    ]
+  },
+  {
+    "company_name": "万洲国际有限公司",
+    "short_name": [
+      "万洲国际", "万洲"
+    ]
+  },
+  {
+    "company_name": "阿里巴巴集团控股有限公司",
+    "short_name": [
+      "阿里巴巴", "阿里"
+    ]
+  },
+  {
+    "company_name": "中国铝业股份有限公司",
+    "short_name": [
+      "中国铝业", "中铝"
+    ]
+  },
+  {
+    "company_name": "厦门建发股份有限公司",
+    "short_name": [
+      "厦门建发"
+    ]
+  },
+  {
+    "company_name": "新华人寿保险股份有限公司",
+    "short_name": [
+      "新华人寿保险", "新华人寿"
+    ]
+  },
+  {
+    "company_name": "中国海洋石油有限公司",
+    "short_name": [
+      "中国海洋石油", "中海油", "中国海油"
+    ]
+  },
+  {
+    "company_name": "苏宁云商集团股份有限公司",
+    "short_name": [
+      "苏宁云商", "苏宁"
+    ]
+  },
+  {
+    "company_name": "腾讯控股有限公司",
+    "short_name": [
+      "腾讯"
+    ]
+  },
+  {
+    "company_name": "碧桂园控股有限公司",
+    "short_name": [
+      "碧桂园"
+    ]
+  },
+  {
+    "company_name": "保利房地产（集团）股份有限公司",
+    "short_name": [
+      "保利房地产", "保利"
+    ]
+  },
+  {
+    "company_name": "中国民生银行股份有限公司",
+    "short_name": [
+      "中国民生银行", "民生银行"
+    ]
+  },
+  {
+    "company_name": "兴业银行股份有限公司",
+    "short_name": [
+      "兴业银行"
+    ]
+  },
+  {
+    "company_name": "美的集团股份有限公司",
+    "short_name": [
+      "美的"
+    ]
+  },
+  {
+    "company_name": "上海浦东发展银行股份有限公司",
+    "short_name": [
+      "上海浦东发展银行", "浦东发展银行", "浦发", "浦发银行"
+    ]
+  },
+  {
+    "company_name": "中国神华能源股份有限公司",
+    "short_name": [
+      "中国神华能源", "神华"
+    ]
+  },
+  {
+    "company_name": "宝山钢铁股份有限公司",
+    "short_name": [
+      "宝山钢铁", "宝钢"
+    ]
+  },
+  {
+    "company_name": "中国邮政储蓄银行股份有限公司",
+    "short_name": [
+      "中国邮政储蓄银行", "邮政", "中国邮政"
+    ]
+  },
+  {
+    "company_name": "交通银行股份有限公司",
+    "short_name": [
+      "交通银行", "交行"
+    ]
+  },
+  {
+    "company_name": "江西铜业股份有限公司",
+    "short_name": [
+      "江西铜业"
+    ]
+  },
+  {
+    "company_name": "物产中大集团股份有限公司",
+    "short_name": [
+      "物产中大"
+    ]
+  },
+  {
+    "company_name": "招商银行股份有限公司",
+    "short_name": [
+      "招商银行", "招行"
+    ]
+  },
+  {
+    "company_name": "中国恒大集团",
+    "short_name": [
+      "中国恒大", "恒大"
+    ]
+  },
+  {
+    "company_name": "中国冶金科工股份有限公司",
+    "short_name": [
+      "中国冶金科工"
+    ]
+  },
+  {
+    "company_name": "中国能源建设股份有限公司",
+    "short_name": [
+      "中国能源建设"
+    ]
+  },
+  {
+    "company_name": "中国中车股份有限公司",
+    "short_name": [
+      "中国中车"
+    ]
+  },
+  {
+    "company_name": "中国电力建设股份有限公司",
+    "short_name": [
+      "中国电力建设"
+    ]
+  },
+  {
+    "company_name": "万科企业股份有限公司",
+    "short_name": [
+      "万科"
+    ]
+  },
+  {
+    "company_name": "绿地控股集团股份有限公司",
+    "short_name": [
+      "绿地"
+    ]
+  },
+  {
+    "company_name": "国药控股股份有限公司",
+    "short_name": [
+      "国药"
+    ]
+  },
+  {
+    "company_name": "京东商城电子商务有限公司",
+    "short_name": [
+      "京东"
+    ]
+  },
+  {
+    "company_name": "中国太平洋保险（集团）股份有限公司",
+    "short_name": [
+      "中国太平洋保险", "太平洋保险"
+    ]
+  },
+  {
+    "company_name": "中国联合网络通信股份有限公司",
+    "short_name": [
+      "中国联合网络通信", "中国联通", "联通"
+    ]
+  },
+  {
+    "company_name": "联想控股股份有限公司",
+    "short_name": [
+      "联想"
+    ]
+  },
+  {
+    "company_name": "中国中信股份有限公司",
+    "short_name": [
+      "中国中信", "中信"
+    ]
+  },
+  {
+    "company_name": "中国电信股份有限公司",
+    "short_name": [
+      "中国电信", "电信"
+    ]
+  },
+  {
+    "company_name": "中国交通建设股份有限公司",
+    "short_name": [
+      "中国交通建设"
+    ]
+  },
+  {
+    "company_name": "中国人民保险集团股份有限公司",
+    "short_name": [
+      "中国人民保险", "人民保险"
+    ]
+  },
+  {
+    "company_name": "中国银行股份有限公司",
+    "short_name": [
+      "中国银行"
+    ]
+  },
+  {
+    "company_name": "中国农业银行股份有限公司",
+    "short_name": [
+      "中国农业银行", "农行", "农业银行"
+    ]
+  },
+  {
+    "company_name": "中国人寿保险股份有限公司",
+    "short_name": [
+      "中国人寿保险", "中国人寿"
+    ]
+  },
+  {
+    "company_name": "中国建设银行股份有限公司",
+    "short_name": [
+      "中国建设银行", "建设银行", "建行"
+    ]
+  },
+  {
+    "company_name": "中国铁建股份有限公司",
+    "short_name": [
+      "中国铁建", "铁建"
+    ]
+  },
+  {
+    "company_name": "中国中铁股份有限公司",
+    "short_name": [
+      "中国中铁", "中铁"
+    ]
+  },
+  {
+    "company_name": "中国工商银行股份有限公司",
+    "short_name": [
+      "中国工商银行", "工商银行", "工行"
+    ]
+  },
+  {
+    "company_name": "中国移动有限公司",
+    "short_name": [
+      "中国移动", "移动"
+    ]
+  },
+  {
+    "company_name": "中国平安保险（集团）股份有限公司",
+    "short_name": [
+      "中国平安保险", "平安", "平安保险"
+    ]
+  },
+  {
+    "company_name": "上海汽车集团股份有限公司",
+    "short_name": [
+      "上海汽车", "上汽"
+    ]
+  },
+  {
+    "company_name": "中国建筑股份有限公司",
+    "short_name": [
+      "中国建筑", "中建"
+    ]
+  },
+  {
+    "company_name": "中国石油天然气股份有限公司",
+    "short_name": [
+      "中国石油天然气", "中国石油", "中石油"
+    ]
+  },
+  {
+    "company_name": "中国石油化工股份有限公司",
+    "short_name": [
+      "中国石油化工", "中国石化", "中石化"
+    ]
+  }
+]
