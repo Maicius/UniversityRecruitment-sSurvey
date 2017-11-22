@@ -77,12 +77,12 @@ def parse_info2(content, re):
         try:
             company_name = table_list[i + 1].text.strip()
             # 去掉实习
-            if company_name.find("实习") == -1:
-                if company_name.find("]") != -1:
-                    company_name = company_name.split("]")[1]
-                date = table_list[i + 2].text.strip()
-                print(company_name + ":" + date)
-                re.save_info(table_name, date, company_name)
+            if company_name.find("]") != -1:
+                company_name = company_name.split("]")[1]
+            date = table_list[i + 2].text.strip()
+            print(company_name + ":" + date)
+            re.save_info(table_name, date, company_name)
+
         except BaseException as e:
             print(len(table_list))
             print(e)
