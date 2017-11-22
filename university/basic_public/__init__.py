@@ -9,12 +9,14 @@ from university.basic_public.YTURecruitment import get_ytu_recruitment
 
 
 def get_basic_public_info():
-    get_bipt_recruitment()
+    # get_bipt_recruitment()
     get_cuit_recruit()
     get_jhu_recruitment()
     get_jincheng_recruit()
     get_scc_recuit()
     get_tjpu_recruitment()
     get_wzu_recruitment()
-    get_wzu_recruitment()
     get_ytu_recruitment()
+
+if __name__ == '__main__':
+    get_basic_public_info()
