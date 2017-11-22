@@ -1,1 +1,3500 @@
-[{"company_name": "AutoNation公司(AUTONATION)", "short_name": ["AutoNation"]}, {"company_name": "途易(TUI)", "short_name": ["途易"]}, {"company_name": "威廉莫里森超市连锁公司(WM. MORRISON SUPERMARKETS)", "short_name": ["威廉", "莫里森", "超市", "连锁"]}, {"company_name": "新华人寿保险股份有限公司(NEW CHINA LIFE INSURANCE)", "short_name": ["新华", "人寿保险"]}, {"company_name": "梯瓦制药工业公司(TEVA PHARMACEUTICAL INDUSTRIES)", "short_name": ["梯瓦", "制药", "工业"]}, {"company_name": "新疆广汇实业投资（集团）有限责任公司(XINJIANG GUANGHUI INDUSTRY INVESTMENT)", "short_name": ["新疆", "广汇", "实业", "投资", "有限责任"]}, {"company_name": "厦门国贸控股集团有限公司(XIAMEN ITG HOLDING GROUP)", "short_name": ["厦门", "国贸"]}, {"company_name": "意大利电信(TELECOM ITALIA)", "short_name": ["意大利", "电信"]}, {"company_name": "Dollar General公司(DOLLAR GENERAL)", "short_name": ["Dollar", " ", "General"]}, {"company_name": "英国国家电网(NATIONAL GRID)", "short_name": ["英国", "国家电网"]}, {"company_name": "中国通用技术(集团)控股有限责任公司(CHINA GENERAL TECHNOLOGY)", "short_name": ["中国", "通用", "技术", "(", ")", "有限责任", "(", "CHINA", " ", "GENERAL", " ", "TECHNOLOGY", ")"]}, {"company_name": "西尔斯控股(SEARS HOLDINGS)", "short_name": ["西尔斯"]}, {"company_name": "厦门建发集团有限公司(XIAMEN C&D)", "short_name": ["厦门", "建发"]}, {"company_name": "Ultrapar控股公司(ULTRAPAR HOLDINGS)", "short_name": ["Ultrapar", "控股公司"]}, {"company_name": "GS加德士(GS CALTEX)", "short_name": ["GS", "加德士"]}, {"company_name": "苏宁云商集团(SUNING COMMERCE GROUP)", "short_name": ["苏宁", "云商"]}, {"company_name": "索迪斯(SODEXO)", "short_name": ["索迪斯"]}, {"company_name": "美国家庭人寿保险公司(AFLAC)", "short_name": ["美国", "家庭", "人寿保险"]}, {"company_name": "H&M公司(H & M HENNES & MAURITZ)", "short_name": ["H", "M"]}, {"company_name": "美国合众银行(U.S. BANCORP)", "short_name": ["美国", "合众", "银行"]}, {"company_name": "Emirates Group公司(EMIRATES GROUP)", "short_name": ["Emirates", " ", "Group"]}, {"company_name": "LG DISPLAY公司(LG DISPLAY)", "short_name": ["LG", " ", "DISPLAY"]}, {"company_name": "腾讯控股有限公司(TENCENT HOLDINGS)", "short_name": ["腾讯"]}, {"company_name": "任仕达控股公司(RANDSTAD HOLDING)", "short_name": ["任仕达", "控股公司"]}, {"company_name": "山西晋城无烟煤矿业集团有限责任公司(SHANXI JINCHENG ANTHRACITE COAL MINING GROUP)", "short_name": ["山西", "晋城", "无烟煤", "有限责任"]}, {"company_name": "US Foods Holding公司(US FOODS HOLDING)", "short_name": ["US", " ", "Foods", " ", "Holding"]}, {"company_name": "Onex公司(ONEX)", "short_name": ["Onex"]}, {"company_name": "Altice公司(ALTICE)", "short_name": ["Altice"]}, {"company_name": "荷兰合作银行(RABOBANK GROUP)", "short_name": ["荷兰", "合作", "银行"]}, {"company_name": "安进(AMGEN)", "short_name": ["安进"]}, {"company_name": "阿斯利康(ASTRAZENECA)", "short_name": ["阿斯利康"]}, {"company_name": "ENTERPRISE PRODUCTS PARTNERS公司(ENTERPRISE PRODUCTS PARTNERS)", "short_name": ["ENTERPRISE", " ", "PRODUCTS", " ", "PARTNERS"]}, {"company_name": "喜力控股公司(HEINEKEN HOLDING)", "short_name": ["喜力", "控股公司"]}, {"company_name": "碧桂园控股有限公司(COUNTRY GARDEN HOLDINGS)", "short_name": ["碧桂园"]}, {"company_name": "米其林公司(MICHELIN)", "short_name": ["米其林"]}, {"company_name": "杜克能源(DUKE ENERGY)", "short_name": ["杜克", "能源"]}, {"company_name": "前进保险公司(PROGRESSIVE)", "short_name": ["前进", "保险公司"]}, {"company_name": "KOC集团(KOÇ HOLDING)", "short_name": ["KOC"]}, {"company_name": "阿里巴巴集团(ALIBABA GROUP HOLDING)", "short_name": ["阿里巴巴"]}, {"company_name": "阿弗瑞萨控股公司(ALFRESA HOLDINGS)", "short_name": ["阿弗瑞萨", "控股公司"]}, {"company_name": "高通(QUALCOMM)", "short_name": ["高通"]}, {"company_name": "阳光金控投资集团有限公司(YANGO FINANCIAL HOLDING)", "short_name": ["阳光", "金控", "投资"]}, {"company_name": "仁宝电脑(COMPAL ELECTRONICS)", "short_name": ["仁宝", "电脑"]}, {"company_name": "贺利氏控股集团(HERAEUS HOLDING)", "short_name": ["贺利氏"]}, {"company_name": "艾睿电子(ARROW ELECTRONICS)", "short_name": ["艾睿", "电子"]}, {"company_name": "伟创力公司(FLEX)", "short_name": ["伟创力"]}, {"company_name": "中国大唐集团公司(CHINA DATANG)", "short_name": ["中国", "大唐", "集团公司"]}, {"company_name": "Tesoro公司(TESORO)", "short_name": ["Tesoro"]}, {"company_name": "BAE系统公司(BAE SYSTEMS)", "short_name": ["BAE", "系统"]}, {"company_name": "日本中部电力(CHUBU ELECTRIC POWER)", "short_name": ["日本", "中部", "电力"]}, {"company_name": "美的集团股份有限公司(MIDEA GROUP)", "short_name": ["美的"]}, {"company_name": "雷神公司(RAYTHEON)", "short_name": ["雷神"]}, {"company_name": "潞安集团(SHANXI LUAN MINING GROUP)", "short_name": ["潞安"]}, {"company_name": "三星C&T公司(SAMSUNG C&T)", "short_name": ["三星", "C", "T"]}, {"company_name": "达能(DANONE)", "short_name": ["达能"]}, {"company_name": "山西阳泉煤业(集团)有限责任公司(YANGQUAN COAL INDUSTRY GROUP)", "short_name": ["山西", "阳泉", "煤业", "(", ")", "有限责任", "(", "YANGQUAN", " ", "COAL", " ", "INDUSTRY", " ", "GROUP", ")"]}, {"company_name": "康菲石油公司(CONOCOPHILLIPS)", "short_name": ["康菲", "石油"]}, {"company_name": "SAP公司(SAP)", "short_name": ["SAP"]}, {"company_name": "委内瑞拉商业金融服务公司(MERCANTIL SERVICIOS FINANCIEROS)", "short_name": ["委内瑞拉", "商业", "金融服务"]}, {"company_name": "布鲁克菲尔德资产管理公司(BROOKFIELD ASSET MANAGEMENT)", "short_name": ["布鲁克", "菲尔德", "资产", "管理"]}, {"company_name": "美国诺斯洛普格拉曼公司(NORTHROP GRUMMAN)", "short_name": ["美国", "诺", "斯洛普格", "拉曼"]}, {"company_name": "中国航空油料集团公司(CHINA NATIONAL AVIATION FUEL GROUP)", "short_name": ["中国", "航空", "油料", "集团公司"]}, {"company_name": "杜邦公司(DUPONT)", "short_name": ["杜邦公司"]}, {"company_name": "日本电气公司(NEC)", "short_name": ["日本", "电气"]}, {"company_name": "麦当劳(MCDONALD'S)", "short_name": ["麦当劳"]}, {"company_name": "国际航空集团(INTERNATIONAL AIRLINES GROUP)", "short_name": ["国际航空"]}, {"company_name": "德科集团(ADECCO GROUP)", "short_name": ["德科"]}, {"company_name": "山西焦煤集团有限责任公司(SHANXI COKING COAL GROUP)", "short_name": ["山西", "焦煤", "有限责任"]}, {"company_name": "英国标准人寿保险公司(STANDARD LIFE)", "short_name": ["英国", "标准", "人寿保险"]}, {"company_name": "乐天百货(LOTTE SHOPPING)", "short_name": ["乐天", "百货"]}, {"company_name": "大同煤矿集团有限责任公司(DATONG COAL MINE GROUP)", "short_name": ["大同", "煤矿", "有限责任"]}, {"company_name": "艾伯维(ABBVIE)", "short_name": ["艾伯维"]}, {"company_name": "Inditex公司(INDITEX)", "short_name": ["Inditex"]}, {"company_name": "法国邮政(LA POSTE)", "short_name": ["法国", "邮政"]}, {"company_name": "曼福集团(MAPFRE GROUP)", "short_name": ["曼福"]}, {"company_name": "梅西百货(MACY'S)", "short_name": ["梅西", "百货"]}, {"company_name": "加拿大丰业银行(BANK OF NOVA SCOTIA)", "short_name": ["加拿大", "丰业", "银行"]}, {"company_name": "日本出光兴产株式会社(IDEMITSU KOSAN)", "short_name": ["日本", "出光", "兴产", "株式会社"]}, {"company_name": "英国耆卫保险公司(OLD MUTUAL)", "short_name": ["英国", "耆卫", "保险公司"]}, {"company_name": "亿滋国际(MONDELEZ INTERNATIONAL)", "short_name": ["亿滋", "国际"]}, {"company_name": "住友电工(SUMITOMO ELECTRIC INDUSTRIES)", "short_name": ["住友", "电工"]}, {"company_name": "爱立信公司(LM ERICSSON)", "short_name": ["爱立信公司"]}, {"company_name": "澳新银行集团(AUSTRALIA & NEW ZEALAND BANKING GROUP)", "short_name": ["澳新", "银行"]}, {"company_name": "西班牙天然气公司(GAS NATURAL FENOSA)", "short_name": ["西班牙", "天然气"]}, {"company_name": "Enbridge公司(ENBRIDGE)", "short_name": ["Enbridge"]}, {"company_name": "诺基亚(NOKIA)", "short_name": ["诺基亚"]}, {"company_name": "安富利公司(AVNET)", "short_name": ["安富利"]}, {"company_name": "三星人寿保险(SAMSUNG LIFE INSURANCE)", "short_name": ["三星", "人寿保险"]}, {"company_name": "Tech Data公司(TECH DATA)", "short_name": ["Tech", " ", "Data"]}, {"company_name": "国泰人寿保险股份有限公司(CATHAY LIFE INSURANCE)", "short_name": ["国泰人寿", "保险"]}, {"company_name": "卡夫亨氏公司(KRAFT HEINZ)", "short_name": ["卡夫", "亨氏"]}, {"company_name": "Achmea公司(ACHMEA)", "short_name": ["Achmea"]}, {"company_name": "东日本旅客铁道株式会社(EAST JAPAN RAILWAY)", "short_name": ["东", "日本", "旅客", "铁道", "株式会社"]}, {"company_name": "迪尔公司(DEERE)", "short_name": ["迪尔"]}, {"company_name": "菲利普－莫里斯国际公司(PHILIP MORRIS INTERNATIONAL)", "short_name": ["菲利普", "－", "莫里斯", "国际"]}, {"company_name": "澳大利亚国民银行(NATIONAL AUSTRALIA BANK)", "short_name": ["澳大利亚", "国民", "银行"]}, {"company_name": "法国威立雅环境集团(VEOLIA ENVIRONNEMENT)", "short_name": ["法国", "威立雅", "环境"]}, {"company_name": "PHOENIX PHARMAHANDEL公司(PHOENIX PHARMAHANDEL)", "short_name": ["PHOENIX", " ", "PHARMAHANDEL"]}, {"company_name": "全球燃料服务公司(WORLD FUEL SERVICES)", "short_name": ["全球", "燃料", "服务公司"]}, {"company_name": "联合服务汽车协会(UNITED SERVICES AUTOMOBILE ASSN.)", "short_name": ["联合", "服务", "汽车", "协会"]}, {"company_name": "中国电子科技集团公司(CHINA ELECTRONICS TECHNOLOGY GROUP)", "short_name": ["中国", "电子科技", "集团公司"]}, {"company_name": "施耐德电气(SCHNEIDER ELECTRIC)", "short_name": ["施耐德", "电气"]}, {"company_name": "LafargeHolcim公司(LAFARGEHOLCIM)", "short_name": ["LafargeHolcim"]}, {"company_name": "中国国电集团公司(CHINA GUODIAN)", "short_name": ["中国", "国电", "集团公司"]}, {"company_name": "二十一世纪福克斯(TWENTY-FIRST CENTURY FOX)", "short_name": ["二十一", "世纪", "福克斯"]}, {"company_name": "第一资本金融公司(CAPITAL ONE FINANCIAL)", "short_name": ["第一", "资本", "金融公司"]}, {"company_name": "Travelers Cos.公司(TRAVELERS COS.)", "short_name": ["Travelers", " ", "Cos", "."]}, {"company_name": "Facebook公司(FACEBOOK)", "short_name": ["Facebook"]}, {"company_name": "Coop集团(COOP GROUP)", "short_name": ["Coop"]}, {"company_name": "西太平洋银行(WESTPAC BANKING)", "short_name": ["西太平洋", "银行"]}, {"company_name": "广达电脑公司(QUANTA COMPUTER)", "short_name": ["广达", "电脑公司"]}, {"company_name": "关西电力(KANSAI ELECTRIC POWER)", "short_name": ["关西", "电力"]}, {"company_name": "斯伦贝谢公司(SCHLUMBERGER)", "short_name": ["斯伦贝谢"]}, {"company_name": "金巴斯集团(COMPASS GROUP)", "short_name": ["金", "巴斯"]}, {"company_name": "法国航空－荷兰皇家航空集团(AIR FRANCE-KLM GROUP)", "short_name": ["法国", "航空", "－", "荷兰", "皇家", "航空"]}, {"company_name": "Migros集团(MIGROS GROUP)", "short_name": ["Migros"]}, {"company_name": "印度斯坦石油公司(HINDUSTAN PETROLEUM)", "short_name": ["印度斯坦", "石油"]}, {"company_name": "友邦保险集团(AIA GROUP)", "short_name": ["友邦保险"]}, {"company_name": "中国华电集团公司(CHINA HUADIAN)", "short_name": ["中国", "华电", "集团公司"]}, {"company_name": "Medipal控股公司(MEDIPAL HOLDINGS)", "short_name": ["Medipal", "控股公司"]}, {"company_name": "大连万达集团(DALIAN WANDA GROUP)", "short_name": ["大连", "万达"]}, {"company_name": "欧莱雅(L'ORÉAL)", "short_name": ["欧莱雅"]}, {"company_name": "西北互助人寿保险公司(NORTHWESTERN MUTUAL)", "short_name": ["西北", "互助", "人寿保险"]}, {"company_name": "美敦力公司(MEDTRONIC)", "short_name": ["美敦力"]}, {"company_name": "特许通讯公司(CHARTER COMMUNICATIONS)", "short_name": ["特许", "通讯"]}, {"company_name": "荷兰皇家飞利浦公司(ROYAL PHILIPS)", "short_name": ["荷兰", "皇家", "飞利浦公司"]}, {"company_name": "利安德巴塞尔工业公司(LYONDELLBASELL INDUSTRIES)", "short_name": ["利安德", "巴塞尔", "工业"]}, {"company_name": "铃木汽车(SUZUKI MOTOR)", "short_name": ["铃木", "汽车"]}, {"company_name": "山东能源集团有限公司(SHANDONG ENERGY GROUP)", "short_name": ["山东", "能源"]}, {"company_name": "时代华纳(TIME WARNER)", "short_name": ["时代华纳"]}, {"company_name": "巴西淡水河谷公司(VALE)", "short_name": ["巴西", "淡水", "河谷"]}, {"company_name": "台积电(TAIWAN SEMICONDUCTOR MANUFACTURING)", "short_name": ["台积", "电"]}, {"company_name": "国家电力投资集团公司(STATE POWER INVESTMENT)", "short_name": ["国家", "电力", "投资", "集团公司"]}, {"company_name": "马自达汽车株式会社(MAZDA MOTOR)", "short_name": ["马自达", "汽车", "株式会社"]}, {"company_name": "中国远洋海运集团有限公司(CHINA COSCO SHIPPING)", "short_name": ["中国", "远洋", "海运"]}, {"company_name": "江苏沙钢集团(JIANGSU SHAGANG GROUP)", "short_name": ["江苏", "沙钢"]}, {"company_name": "中国船舶工业集团公司(CHINA STATE SHIPBUILDING)", "short_name": ["中国船舶工业集团公司"]}, {"company_name": "CRH公司(CRH)", "short_name": ["CRH"]}, {"company_name": "中国电子信息产业集团有限公司(CHINA ELECTRONICS)", "short_name": ["中国", "电子"]}, {"company_name": "3M公司(3M)", "short_name": ["3M"]}, {"company_name": "巴拉特石油公司(BHARAT PETROLEUM)", "short_name": ["巴拉特", "石油"]}, {"company_name": "CHS公司(CHS)", "short_name": ["CHS"]}, {"company_name": "Gilead Sciences公司(GILEAD SCIENCES)", "short_name": ["Gilead", " ", "Sciences"]}, {"company_name": "日本瑞穗金融集团(MIZUHO FINANCIAL GROUP)", "short_name": ["日本", "瑞穗", "金融"]}, {"company_name": "日本钢铁工程控股公司(JFE HOLDINGS)", "short_name": ["日本", "钢铁", "工程", "控股公司"]}, {"company_name": "中国航天科工集团公司(CHINA AEROSPACE SCIENCE & INDUSTRY)", "short_name": ["中国航天", "科工", "集团公司"]}, {"company_name": "瑞士信贷(CREDIT SUISSE GROUP)", "short_name": ["瑞士", "信贷"]}, {"company_name": "普利司通(BRIDGESTONE)", "short_name": ["普利司通"]}, {"company_name": "斯巴鲁公司(SUBARU)", "short_name": ["斯巴鲁"]}, {"company_name": "多伦多道明银行(TORONTO-DOMINION BANK)", "short_name": ["多伦多", "道", "明", "银行"]}, {"company_name": "必和必拓(BHP BILLITON)", "short_name": ["必", "和", "必拓"]}, {"company_name": "三菱化学控股(MITSUBISHI CHEMICAL HOLDINGS)", "short_name": ["三菱", "化学"]}, {"company_name": "物产中大集团(WUCHAN ZHONGDA GROUP)", "short_name": ["物产", "中", "大"]}, {"company_name": "佳能(CANON)", "short_name": ["佳能"]}, {"company_name": "英国电信集团(BT GROUP)", "short_name": ["英国", "电信"]}, {"company_name": "通用动力(GENERAL DYNAMICS)", "short_name": ["通用", "动力"]}, {"company_name": "Exelon公司(EXELON)", "short_name": ["Exelon"]}, {"company_name": "浙江吉利控股集团(ZHEJIANG GEELY HOLDING GROUP)", "short_name": ["浙江", "吉利"]}, {"company_name": "安达保险公司(CHUBB)", "short_name": ["安达", "保险公司"]}, {"company_name": "中国保利集团(CHINA POLY GROUP)", "short_name": ["中国", "保利"]}, {"company_name": "损保控股有限公司(SOMPO HOLDINGS)", "short_name": ["损保"]}, {"company_name": "江西铜业集团公司(JIANGXI COPPER)", "short_name": ["江西", "铜业", "集团公司"]}, {"company_name": "中国恒大集团(CHINA EVERGRANDE GROUP)", "short_name": ["中国", "恒大"]}, {"company_name": "陕西煤业化工集团(SHAANXI COAL & CHEMICAL INDUSTRY)", "short_name": ["陕西", "煤业", "化工集团"]}, {"company_name": "中国航天科技集团公司(CHINA AEROSPACE SCIENCE & TECHNOLOGY)", "short_name": ["中国航天科技集团公司"]}, {"company_name": "费森尤斯集团(FRESENIUS)", "short_name": ["费森尤斯"]}, {"company_name": "中国机械工业集团有限公司(SINOMACH)", "short_name": ["中国", "机械", "工业"]}, {"company_name": "澳洲联邦银行(COMMONWEALTH BANK OF AUSTRALIA)", "short_name": ["澳洲", "联邦", "银行"]}, {"company_name": "Iberdrola公司(IBERDROLA)", "short_name": ["Iberdrola"]}, {"company_name": "耐克公司(NIKE)", "short_name": ["耐克公司"]}, {"company_name": "大和房建(DAIWA HOUSE INDUSTRY)", "short_name": ["大", "和", "房建"]}, {"company_name": "中国光大集团(CHINA EVERBRIGHT GROUP)", "short_name": ["中国", "光大"]}, {"company_name": "联合信贷集团(UNICREDIT GROUP)", "short_name": ["联合", "信贷"]}, {"company_name": "德国中央合作银行(DZ BANK)", "short_name": ["德国", "中央", "合作", "银行"]}, {"company_name": "陕西延长石油（集团）有限责任公司(SHAANXI YANCHANG PETROLEUM (GROUP))", "short_name": ["陕西", "延长", "石油", "有限责任"]}, {"company_name": "来德爱(RITE AID)", "short_name": ["来德爱"]}, {"company_name": "爱信精机(AISIN SEIKI)", "short_name": ["爱信", "精机"]}, {"company_name": "现代摩比斯公司(HYUNDAI MOBIS)", "short_name": ["现代", "摩", "比斯"]}, {"company_name": "新兴际华集团(XINXING CATHAY INTERNATIONAL GROUP)", "short_name": ["新兴", "际华"]}, {"company_name": "TJX公司(TJX)", "short_name": ["TJX"]}, {"company_name": "冀中能源集团(JIZHONG ENERGY GROUP)", "short_name": ["冀中", "能源"]}, {"company_name": "长江和记实业有限公司(CK HUTCHISON HOLDINGS)", "short_name": ["长江", "和", "记", "实业"]}, {"company_name": "中国中车股份有限公司(CRRC)", "short_name": ["中国", "中车"]}, {"company_name": "SNCF Mobilités公司(SNCF MOBILITÉS)", "short_name": ["SNCF", " ", "Mobilit", "é", "s"]}, {"company_name": "力拓集团(RIO TINTO GROUP)", "short_name": ["力拓"]}, {"company_name": "美国运通公司(AMERICAN EXPRESS)", "short_name": ["美国运通公司"]}, {"company_name": "瑞士ABB集团(ABB)", "short_name": ["瑞士", "ABB"]}, {"company_name": "韩国现代重工集团(HYUNDAI HEAVY INDUSTRIES)", "short_name": ["韩国现代", "重工"]}, {"company_name": "中国能源建设集团有限公司(CHINA ENERGY ENGINEERING GROUP)", "short_name": ["中国", "能源建设"]}, {"company_name": "Alimentation Couche-Tard公司(ALIMENTATION COUCHE-TARD)", "short_name": ["Alimentation", " ", "Couche", "-", "Tard"]}, {"company_name": "森宝利(J. SAINSBURY)", "short_name": ["森宝利"]}, {"company_name": "德国艾德卡公司(EDEKA ZENTRALE)", "short_name": ["德国", "艾", "德卡"]}, {"company_name": "大众超级市场公司(PUBLIX SUPER MARKETS)", "short_name": ["大众", "超级市场"]}, {"company_name": "万科企业股份有限公司(CHINA VANKE)", "short_name": ["万科"]}, {"company_name": "雷普索尔公司(REPSOL)", "short_name": ["雷普", "索尔"]}, {"company_name": "埃森哲(ACCENTURE)", "short_name": ["埃森哲"]}, {"company_name": "加拿大皇家银行(ROYAL BANK OF CANADA)", "short_name": ["加拿大", "皇家", "银行"]}, {"company_name": "汉莎集团(LUFTHANSA GROUP)", "short_name": ["汉莎"]}, {"company_name": "Talanx公司(TALANX)", "short_name": ["Talanx"]}, {"company_name": "沃尔沃集团(VOLVO)", "short_name": ["沃尔沃"]}, {"company_name": "法国布伊格集团(BOUYGUES)", "short_name": ["法国", "布", "伊格"]}, {"company_name": "沙特基础工业公司(SABIC)", "short_name": ["沙特", "基础", "工业"]}, {"company_name": "马士基集团(MAERSK GROUP)", "short_name": ["马士基"]}, {"company_name": "日本明治安田生命保险公司(MEIJI YASUDA LIFE INSURANCE)", "short_name": ["日本", "明", "治安", "田", "生命", "保险公司"]}, {"company_name": "和硕(PEGATRON)", "short_name": ["和硕"]}, {"company_name": "Rajesh Exports公司(RAJESH EXPORTS)", "short_name": ["Rajesh", " ", "Exports"]}, {"company_name": "日本三菱重工业股份有限公司(MITSUBISHI HEAVY INDUSTRIES)", "short_name": ["日本", "三菱", "重工业"]}, {"company_name": "加拿大乔治威斯顿公司(GEORGE WESTON)", "short_name": ["加拿大", "乔治", "威斯", "顿"]}, {"company_name": "意大利联合圣保罗银行(INTESA SANPAOLO)", "short_name": ["意大利", "联合", "圣保罗", "银行"]}, {"company_name": "瑞银集团(UBS GROUP)", "short_name": ["瑞银"]}, {"company_name": "麦格纳国际(MAGNA INTERNATIONAL)", "short_name": ["麦格纳", "国际"]}, {"company_name": "印尼国家石油公司(PERTAMINA)", "short_name": ["印尼", "国家", "石油"]}, {"company_name": "好事达(ALLSTATE)", "short_name": ["好事", "达"]}, {"company_name": "美国联合大陆控股有限公司(UNITED CONTINENTAL HOLDINGS)", "short_name": ["美国", "联合", "大陆"]}, {"company_name": "英国森特理克集团(CENTRICA)", "short_name": ["英国", "森特理克"]}, {"company_name": "意大利邮政集团(POSTE ITALIANE)", "short_name": ["意大利", "邮政"]}, {"company_name": "巴克莱(BARCLAYS)", "short_name": ["巴克莱"]}, {"company_name": "泰森食品(TYSON FOODS)", "short_name": ["泰森", "食品"]}, {"company_name": "住友商事(SUMITOMO)", "short_name": ["住友", "商事"]}, {"company_name": "西班牙ACS集团(ACS)", "short_name": ["西班牙", "ACS"]}, {"company_name": "甲骨文公司(ORACLE)", "short_name": ["甲骨文公司"]}, {"company_name": "怡和集团(JARDINE MATHESON)", "short_name": ["怡和"]}, {"company_name": "美国教师退休基金会(TIAA)", "short_name": ["美国", "教师", "退休", "基金会"]}, {"company_name": "绿地控股集团有限公司(GREENLAND HOLDING GROUP)", "short_name": ["绿地"]}, {"company_name": "神华集团(SHENHUA GROUP)", "short_name": ["神华集团"]}, {"company_name": "Energy Transfer Equity公司(ENERGY TRANSFER EQUITY)", "short_name": ["Energy", " ", "Transfer", " ", "Equity"]}, {"company_name": "中国华能集团公司(CHINA HUANENG GROUP)", "short_name": ["中国", "华能", "集团公司"]}, {"company_name": "英国葛兰素史克公司(GLAXOSMITHKLINE)", "short_name": ["英国", "葛兰素", "史克"]}, {"company_name": "江森自控国际公司(JOHNSON CONTROLS INTERNATIONAL)", "short_name": ["江森", "自控", "国际"]}, {"company_name": "高盛(GOLDMAN SACHS GROUP)", "short_name": ["高盛"]}, {"company_name": "万通互惠理财(MASSACHUSETTS MUTUAL LIFE INSURANCE)", "short_name": ["万通", "互惠", "理财"]}, {"company_name": "南苏格兰电力(SSE)", "short_name": ["南", "苏格兰", "电力"]}, {"company_name": "恒力集团(HENGLI GROUP)", "short_name": ["恒力"]}, {"company_name": "摩根士丹利(MORGAN STANLEY)", "short_name": ["摩根士丹利"]}, {"company_name": "加拿大鲍尔集团(POWER CORP. OF CANADA)", "short_name": ["加拿大", "鲍尔"]}, {"company_name": "美国利宝互助保险集团(LIBERTY MUTUAL INSURANCE GROUP)", "short_name": ["美国", "利宝", "互助", "保险"]}, {"company_name": "卡特彼勒(CATERPILLAR)", "short_name": ["卡特彼勒"]}, {"company_name": "采埃孚(ZF FRIEDRICHSHAFEN)", "short_name": ["采埃孚"]}, {"company_name": "三菱电机股份有限公司(MITSUBISHI ELECTRIC)", "short_name": ["三菱", "电机"]}, {"company_name": "京东集团(JD.COM)", "short_name": ["京东"]}, {"company_name": "霍尼韦尔国际公司(HONEYWELL INTERNATIONAL)", "short_name": ["霍尼韦尔", "国际"]}, {"company_name": "中国建材集团(CHINA NATIONAL BUILDING MATERIAL GROUP)", "short_name": ["中国建材"]}, {"company_name": "百思买(BEST BUY)", "short_name": ["百思买"]}, {"company_name": "达美航空(DELTA AIR LINES)", "short_name": ["达美", "航空"]}, {"company_name": "信诺(CIGNA)", "short_name": ["信诺"]}, {"company_name": "默沙东(MERCK)", "short_name": ["默沙东"]}, {"company_name": "美国全国保险公司(NATIONWIDE)", "short_name": ["美国", "全国", "保险公司"]}, {"company_name": "美国航空集团(AMERICAN AIRLINES GROUP)", "short_name": ["美国", "航空"]}, {"company_name": "中国太平洋保险（集团）股份有限公司(CHINA PACIFIC INSURANCE (GROUP))", "short_name": ["中国", "太平洋保险"]}, {"company_name": "中国民生银行(CHINA MINSHENG BANKING)", "short_name": ["中国民生银行"]}, {"company_name": "宏利金融(MANULIFE FINANCIAL)", "short_name": ["宏利", "金融"]}, {"company_name": "三井物产株式会社(MITSUI)", "short_name": ["三井", "物产", "株式会社"]}, {"company_name": "中国铝业公司(ALUMINUM CORP. OF CHINA)", "short_name": ["中国", "铝业"]}, {"company_name": "印度塔塔汽车公司(TATA MOTORS)", "short_name": ["印度", "塔塔", "汽车"]}, {"company_name": "韩华集团(HANWHA)", "short_name": ["韩华"]}, {"company_name": "上海浦东发展银行股份有限公司(SHANGHAI PUDONG DEVELOPMENT BANK)", "short_name": ["上海浦东发展银行"]}, {"company_name": "Centene公司(CENTENE)", "short_name": ["Centene"]}, {"company_name": "美国纽约人寿保险公司(NEW YORK LIFE INSURANCE)", "short_name": ["美国纽约", "人寿保险"]}, {"company_name": "住友生命保险公司(SUMITOMO LIFE INSURANCE)", "short_name": ["住友", "生命", "保险公司"]}, {"company_name": "中国联合网络通信股份有限公司(CHINA UNITED NETWORK COMMUNICATIONS)", "short_name": ["中国", "联合", "网络通信"]}, {"company_name": "赛诺菲(SANOFI)", "short_name": ["赛诺菲"]}, {"company_name": "丰益国际(WILMAR INTERNATIONAL)", "short_name": ["丰益", "国际"]}, {"company_name": "广州汽车工业集团(GUANGZHOU AUTOMOBILE INDUSTRY GROUP)", "short_name": ["广州", "汽车", "工业"]}, {"company_name": "富士通(FUJITSU)", "short_name": ["富士通"]}, {"company_name": "电装公司(DENSO)", "short_name": ["电装"]}, {"company_name": "可口可乐公司(COCA-COLA)", "short_name": ["可口可乐公司"]}, {"company_name": "迪奥(CHRISTIAN DIOR)", "short_name": ["迪奥"]}, {"company_name": "中国船舶重工集团公司(CHINA SHIPBUILDING INDUSTRY)", "short_name": ["中国船舶重工集团公司"]}, {"company_name": "俄罗斯联邦储蓄银行(SBERBANK)", "short_name": ["俄罗斯联邦", "储蓄银行"]}, {"company_name": "意昂集团(E.ON)", "short_name": ["意昂"]}, {"company_name": "兴业银行(INDUSTRIAL BANK)", "short_name": ["兴业银行"]}, {"company_name": "邦吉公司(BUNGE)", "short_name": ["邦", "吉"]}, {"company_name": "新日铁住金(NIPPON STEEL & SUMITOMO METAL)", "short_name": ["新日", "铁住", "金"]}, {"company_name": "万喜集团(VINCI)", "short_name": ["万喜"]}, {"company_name": "联想集团(LENOVO GROUP)", "short_name": ["联想集团"]}, {"company_name": "圣戈班集团(SAINT-GOBAIN)", "short_name": ["圣戈班"]}, {"company_name": "蒂森克虏伯(THYSSENKRUPP)", "short_name": ["蒂森", "克虏伯"]}, {"company_name": "西班牙对外银行(BANCO BILBAO VIZCAYA ARGENTARIA)", "short_name": ["西班牙", "对外", "银行"]}, {"company_name": "中国华信能源有限公司(CEFC CHINA ENERGY)", "short_name": ["中国", "华信", "能源"]}, {"company_name": "河钢集团(HBIS GROUP)", "short_name": ["河钢"]}, {"company_name": "瑞士再保险股份有限公司(SWISS RE)", "short_name": ["瑞士", "再保险"]}, {"company_name": "日本KDDI电信公司(KDDI)", "short_name": ["日本", "KDDI", "电信公司"]}, {"company_name": "澳大利亚伍尔沃斯公司(WOOLWORTHS)", "short_name": ["澳大利亚", "伍尔沃斯"]}, {"company_name": "印度国家银行(STATE BANK OF INDIA)", "short_name": ["印度", "国家银行"]}, {"company_name": "招商银行(CHINA MERCHANTS BANK)", "short_name": ["招商银行"]}, {"company_name": "日本伊藤忠商事株式会社(ITOCHU)", "short_name": ["日本", "伊藤忠", "商事", "株式会社"]}, {"company_name": "HCA公司(HCA HOLDINGS)", "short_name": ["HCA"]}, {"company_name": "德国大陆集团(CONTINENTAL)", "short_name": ["德国", "大陆"]}, {"company_name": "德国联邦铁路公司(DEUTSCHE BAHN)", "short_name": ["德国联邦", "铁路"]}, {"company_name": "中国化工集团公司(CHEMCHINA)", "short_name": ["中国", "化工", "集团公司"]}, {"company_name": "Orange公司(ORANGE)", "short_name": ["Orange"]}, {"company_name": "起亚汽车(KIA MOTORS)", "short_name": ["起亚", "汽车"]}, {"company_name": "韩国浦项制铁公司(POSCO)", "short_name": ["韩国", "浦项", "制铁"]}, {"company_name": "挪威国家石油公司(STATOIL)", "short_name": ["挪威", "国家", "石油"]}, {"company_name": "百威英博(ANHEUSER-BUSCH INBEV)", "short_name": ["百威", "英博"]}, {"company_name": "来宝集团(NOBLE GROUP)", "short_name": ["来宝"]}, {"company_name": "中国宝武钢铁集团(CHINA BAOWU STEEL GROUP)", "short_name": ["中国", "宝武", "钢铁集团"]}, {"company_name": "信实工业公司(RELIANCE INDUSTRIES)", "short_name": ["信实", "工业"]}, {"company_name": "日本三井住友金融集团(SUMITOMO MITSUI FINANCIAL GROUP)", "short_name": ["日本", "三井", "住友", "金融"]}, {"company_name": "LG电子(LG ELECTRONICS)", "short_name": ["LG", "电子"]}, {"company_name": "法国国家人寿保险公司(CNP ASSURANCES)", "short_name": ["法国", "国家", "人寿保险"]}, {"company_name": "中国医药集团(SINOPHARM)", "short_name": ["中国", "医药集团"]}, {"company_name": "西农(WESFARMERS)", "short_name": ["西农"]}, {"company_name": "Finatis公司(FINATIS)", "short_name": ["Finatis"]}, {"company_name": "陶氏化学(DOW CHEMICAL)", "short_name": ["陶氏", "化学"]}, {"company_name": "莱茵集团(RWE)", "short_name": ["莱茵"]}, {"company_name": "惠普公司(HP)", "short_name": ["惠普公司"]}, {"company_name": "东京海上日动火灾保险公司(TOKIO MARINE HOLDINGS)", "short_name": ["东京", "海上", "日动", "火灾保险"]}, {"company_name": "泰国国家石油有限公司(PTT)", "short_name": ["泰国", "国家", "石油"]}, {"company_name": "巴西JBS公司(JBS)", "short_name": ["巴西", "JBS"]}, {"company_name": "中国电力建设集团有限公司(POWERCHINA)", "short_name": ["中国", "电力", "建设"]}, {"company_name": "德意志银行(DEUTSCHE BANK)", "short_name": ["德意志银行"]}, {"company_name": "MS&AD保险集团控股有限公司(MS&AD INSURANCE GROUP HOLDINGS)", "short_name": ["MS", "AD", "保险"]}, {"company_name": "思科公司(CISCO SYSTEMS)", "short_name": ["思科公司"]}, {"company_name": "诺华公司(NOVARTIS)", "short_name": ["诺华"]}, {"company_name": "东京电力公司(TOKYO ELECTRIC POWER)", "short_name": ["东京", "电力公司"]}, {"company_name": "马来西亚国家石油公司(PETRONAS)", "short_name": ["马来西亚", "国家", "石油"]}, {"company_name": "正威国际集团(AMER INTERNATIONAL GROUP)", "short_name": ["正威", "国际"]}, {"company_name": "路易达孚集团(LOUIS DREYFUS)", "short_name": ["路易", "达孚"]}, {"company_name": "慧与公司(HEWLETT PACKARD ENTERPRISE)", "short_name": ["慧", "与"]}, {"company_name": "联邦快递(FEDEX)", "short_name": ["联邦快递"]}, {"company_name": "西斯科公司(SYSCO)", "short_name": ["西斯科"]}, {"company_name": "洛克希德－马丁(LOCKHEED MARTIN)", "short_name": ["洛克希德", "－", "马丁"]}, {"company_name": "韩国电力公司(KOREA ELECTRIC POWER)", "short_name": ["韩国", "电力公司"]}, {"company_name": "美洲电信(AMÉRICA MÓVIL)", "short_name": ["美洲", "电信"]}, {"company_name": "美国国际集团(AMERICAN INTERNATIONAL GROUP)", "short_name": ["美国", "国际"]}, {"company_name": "拜耳集团(BAYER)", "short_name": ["拜耳"]}, {"company_name": "辉瑞制药有限公司(PFIZER)", "short_name": ["辉瑞", "制药"]}, {"company_name": "中国中信集团有限公司(CITIC GROUP)", "short_name": ["中国", "中信集团"]}, {"company_name": "交通银行(BANK OF COMMUNICATIONS)", "short_name": ["交通银行"]}, {"company_name": "海航集团(HNA GROUP)", "short_name": ["海航"]}, {"company_name": "瑞士罗氏公司(ROCHE GROUP)", "short_name": ["瑞士", "罗氏公司"]}, {"company_name": "印度石油公司(INDIAN OIL)", "short_name": ["印度", "石油"]}, {"company_name": "Seven & I 控股公司(SEVEN & I HOLDINGS)", "short_name": ["Seven", " ", " ", "I", " ", "控股公司"]}, {"company_name": "哈门那公司(HUMANA)", "short_name": ["哈门", "那"]}, {"company_name": "皇家阿霍德德尔海兹集团(ROYAL AHOLD DELHAIZE)", "short_name": ["皇家", "阿霍德", "德尔海", "兹"]}, {"company_name": "三菱日联金融集团(MITSUBISHI UFJ FINANCIAL GROUP)", "short_name": ["三菱", "日联", "金融"]}, {"company_name": "荷兰国际集团(ING GROUP)", "short_name": ["荷兰", "国际"]}, {"company_name": "中国航空工业集团公司(AVIATION INDUSTRY CORP. OF CHINA)", "short_name": ["中国", "航空工业", "集团公司"]}, {"company_name": "华特迪士尼公司(WALT DISNEY)", "short_name": ["华特", "迪士尼"]}, {"company_name": "马拉松原油公司(MARATHON PETROLEUM)", "short_name": ["马拉松", "原油"]}, {"company_name": "山东魏桥创业集团有限公司(SHANDONG WEIQIAO PIONEERING GROUP)", "short_name": ["山东", "魏桥", "创业"]}, {"company_name": "俄罗斯石油公司(ROSNEFT OIL)", "short_name": ["俄罗斯", "石油"]}, {"company_name": "雷诺(RENAULT)", "short_name": ["雷诺"]}, {"company_name": "安赛乐米塔尔(ARCELORMITTAL)", "short_name": ["安赛乐", "米塔尔"]}, {"company_name": "联合技术公司(UNITED TECHNOLOGIES)", "short_name": ["联合", "技术"]}, {"company_name": "巴西布拉德斯科银行(BANCO BRADESCO)", "short_name": ["巴西", "布拉德", "斯科", "银行"]}, {"company_name": "西班牙电话公司(TELEFÓNICA)", "short_name": ["西班牙", "电话公司"]}, {"company_name": "墨西哥石油公司(PEMEX)", "short_name": ["墨西哥", "石油"]}, {"company_name": "巴西银行(BANCO DO BRASIL)", "short_name": ["巴西", "银行"]}, {"company_name": "联合利华(UNILEVER)", "short_name": ["联合利华"]}, {"company_name": "沃达丰集团(VODAFONE GROUP)", "short_name": ["沃达丰"]}, {"company_name": "保德信金融集团(PRUDENTIAL FINANCIAL)", "short_name": ["保德信", "金融"]}, {"company_name": "荷兰全球保险集团(AEGON)", "short_name": ["荷兰", "全球", "保险"]}, {"company_name": "欧尚集团(AUCHAN HOLDING)", "short_name": ["欧尚"]}, {"company_name": "三菱商事株式会社(MITSUBISHI)", "short_name": ["三菱", "商事", "株式会社"]}, {"company_name": "英特尔公司(INTEL)", "short_name": ["英特尔公司"]}, {"company_name": "中国中化集团公司(SINOCHEM GROUP)", "short_name": ["中国", "中化", "集团公司"]}, {"company_name": "第一生命控股有限公司(DAI-ICHI LIFE HOLDINGS)", "short_name": ["第一", "生命"]}, {"company_name": "艾伯森公司(ALBERTSONS COS.)", "short_name": ["艾伯森"]}, {"company_name": "标致(PEUGEOT)", "short_name": ["标致"]}, {"company_name": "安邦保险集团(ANBANG INSURANCE GROUP)", "short_name": ["安邦", "保险"]}, {"company_name": "联合包裹速递服务公司(UNITED PARCEL SERVICE)", "short_name": ["联合", "包裹", "速递", "服务公司"]}, {"company_name": "北京汽车集团(BEIJING AUTOMOTIVE GROUP)", "short_name": ["北京", "汽车集团"]}, {"company_name": "中粮集团有限公司(COFCO)", "short_name": ["中粮"]}, {"company_name": "中国兵器工业集团公司(CHINA NORTH INDUSTRIES GROUP)", "short_name": ["中国", "兵器工业集团公司"]}, {"company_name": "ADM公司(ARCHER DANIELS MIDLAND)", "short_name": ["ADM"]}, {"company_name": "中国电信集团公司(CHINA TELECOMMUNICATIONS)", "short_name": ["中国电信集团"]}, {"company_name": "埃尼石油公司(ENI)", "short_name": ["埃尼", "石油"]}, {"company_name": "百事公司(PEPSICO)", "short_name": ["百事公司"]}, {"company_name": "安泰保险(AETNA)", "short_name": ["安泰", "保险"]}, {"company_name": "天津物产集团有限公司(TEWOO GROUP)", "short_name": ["天津", "物产"]}, {"company_name": "大都会人寿(METLIFE)", "short_name": ["大都会", "人寿"]}, {"company_name": "JXTG控股有限公司(JXTG HOLDINGS)", "short_name": ["JXTG"]}, {"company_name": "巴斯夫公司(BASF)", "short_name": ["巴斯夫"]}, {"company_name": "中国第一汽车集团公司(CHINA FAW GROUP)", "short_name": ["中国", "第一", "汽车", "集团公司"]}, {"company_name": "戴尔科技公司(DELL TECHNOLOGIES)", "short_name": ["戴尔", "科技"]}, {"company_name": "麦德龙(METRO)", "short_name": ["麦德龙"]}, {"company_name": "美国劳氏公司(LOWE'S)", "short_name": ["美国", "劳氏"]}, {"company_name": "英国劳埃德银行集团(LLOYDS BANKING GROUP)", "short_name": ["英国", "劳埃德银行"]}, {"company_name": "中国五矿集团公司(CHINA MINMETALS)", "short_name": ["中国", "五矿", "集团公司"]}, {"company_name": "中国邮政集团公司(CHINA POST GROUP)", "short_name": ["中国邮政", "集团公司"]}, {"company_name": "房地美(FREDDIE MAC)", "short_name": ["房地", "美"]}, {"company_name": "德国邮政(DEUTSCHE POST)", "short_name": ["德国", "邮政"]}, {"company_name": "丸红株式会社(MARUBENI)", "short_name": ["丸", "红", "株式会社"]}, {"company_name": "中国海洋石油总公司(CHINA NATIONAL OFFSHORE OIL)", "short_name": ["中国海洋石油总公司"]}, {"company_name": "中国人民保险集团股份有限公司(PEOPLE'S INSURANCE CO. OF CHINA)", "short_name": ["中国", "人民保险"]}, {"company_name": "伊塔乌联合银行控股公司(ITAÚ UNIBANCO HOLDING)", "short_name": ["伊塔", "乌", "联合", "银行", "控股公司"]}, {"company_name": "苏黎世保险集团(ZURICH INSURANCE GROUP)", "short_name": ["苏黎世", "保险"]}, {"company_name": "日本生命保险公司(NIPPON LIFE INSURANCE)", "short_name": ["日本", "生命", "保险公司"]}, {"company_name": "松下(PANASONIC)", "short_name": ["松下"]}, {"company_name": "慕尼黑再保险公司(MUNICH RE GROUP)", "short_name": ["慕尼黑", "再", "保险公司"]}, {"company_name": "法国兴业银行(SOCIÉTÉ GÉNÉRALE)", "short_name": ["法国", "兴业银行"]}, {"company_name": "塔吉特公司(TARGET)", "short_name": ["塔", "吉特"]}, {"company_name": "瓦莱罗能源公司(VALERO ENERGY)", "short_name": ["瓦莱", "罗", "能源"]}, {"company_name": "索尼(SONY)", "short_name": ["索尼"]}, {"company_name": "法国BPCE银行集团(GROUPE BPCE)", "short_name": ["法国", "BPCE", "银行"]}, {"company_name": "中国交通建设集团有限公司(CHINA COMMUNICATIONS CONSTRUCTION)", "short_name": ["中国", "交通", "建设"]}, {"company_name": "卢克石油公司(LUKOIL)", "short_name": ["卢克", "石油"]}, {"company_name": "中国兵器装备集团公司(CHINA SOUTH INDUSTRIES GROUP)", "short_name": ["中国", "兵器装备集团公司"]}, {"company_name": "中国南方电网有限责任公司(CHINA SOUTHERN POWER GRID)", "short_name": ["中国", "南方电网", "有限责任"]}, {"company_name": "美国邮政(U.S. POSTAL SERVICE)", "short_name": ["美国", "邮政"]}, {"company_name": "宝洁公司(PROCTER & GAMBLE)", "short_name": ["宝洁公司"]}, {"company_name": "强生(JOHNSON & JOHNSON)", "short_name": ["强生"]}, {"company_name": "Phillips 66公司(PHILLIPS 66)", "short_name": ["Phillips", " ", "66"]}, {"company_name": "SK集团(SK HOLDINGS)", "short_name": ["SK"]}, {"company_name": "空中客车集团(AIRBUS GROUP)", "short_name": ["空中客车"]}, {"company_name": "Engie集团(ENGIE)", "short_name": ["Engie"]}, {"company_name": "乐购(TESCO)", "short_name": ["乐购"]}, {"company_name": "Uniper公司(UNIPER)", "short_name": ["Uniper"]}, {"company_name": "英杰华集团(AVIVA)", "short_name": ["英杰", "华"]}, {"company_name": "太平洋建设集团(PACIFIC CONSTRUCTION GROUP)", "short_name": ["太平洋", "建设"]}, {"company_name": "汇丰银行控股公司(HSBC HOLDINGS)", "short_name": ["汇丰银行", "控股公司"]}, {"company_name": "日本永旺集团(AEON)", "short_name": ["日本", "永旺"]}, {"company_name": "中国华润总公司(CHINA RESOURCES NATIONAL)", "short_name": ["中国", "华润", "总公司"]}, {"company_name": "州立农业保险公司(STATE FARM INSURANCE COS.)", "short_name": ["州立", "农业", "保险公司"]}, {"company_name": "意大利国家电力公司(ENEL)", "short_name": ["意大利", "国家", "电力公司"]}, {"company_name": "华为投资控股有限公司(HUAWEI INVESTMENT & HOLDING)", "short_name": ["华为", "投资"]}, {"company_name": "法国电力公司(ÉLECTRICITÉ DE FRANCE)", "short_name": ["法国", "电力公司"]}, {"company_name": "国际商业机器公司(INTERNATIONAL BUSINESS MACHINES)", "short_name": ["国际商业机器公司"]}, {"company_name": "法国农业信贷银行(CRÉDIT AGRICOLE)", "short_name": ["法国", "农业", "信贷", "银行"]}, {"company_name": "美国康卡斯特电信公司(COMCAST)", "short_name": ["美国", "康", "卡斯特", "电信公司"]}, {"company_name": "现代汽车(HYUNDAI MOTOR)", "short_name": ["现代", "汽车"]}, {"company_name": "德国电信(DEUTSCHE TELEKOM)", "short_name": ["德国", "电信"]}, {"company_name": "博世公司(ROBERT BOSCH)", "short_name": ["博世"]}, {"company_name": "巴西国家石油公司(PETROBRAS)", "short_name": ["巴西", "国家", "石油"]}, {"company_name": "花旗集团(CITIGROUP)", "short_name": ["花旗集团"]}, {"company_name": "西班牙国家银行(BANCO SANTANDER)", "short_name": ["西班牙", "国家银行"]}, {"company_name": "软银集团(SOFTBANK GROUP)", "short_name": ["软银"]}, {"company_name": "日立(HITACHI)", "short_name": ["日立"]}, {"company_name": "Anthem公司(ANTHEM)", "short_name": ["Anthem"]}, {"company_name": "微软(MICROSOFT)", "short_name": ["微软"]}, {"company_name": "东风汽车公司(DONGFENG MOTOR)", "short_name": ["东风汽车公司"]}, {"company_name": "家乐福(CARREFOUR)", "short_name": ["家乐福"]}, {"company_name": "西门子(SIEMENS)", "short_name": ["西门子"]}, {"company_name": "Alphabet公司(ALPHABET)", "short_name": ["Alphabet"]}, {"company_name": "雀巢公司(NESTLÉ)", "short_name": ["雀巢公司"]}, {"company_name": "俄罗斯天然气工业股份公司(GAZPROM)", "short_name": ["俄罗斯", "天然气", "工业", "股份公司"]}, {"company_name": "美国银行(BANK OF AMERICA CORP.)", "short_name": ["美国银行"]}, {"company_name": "美国富国银行(WELLS FARGO)", "short_name": ["美国", "富国银行"]}, {"company_name": "波音(BOEING)", "short_name": ["波音"]}, {"company_name": "家得宝(HOME DEPOT)", "short_name": ["家得宝"]}, {"company_name": "中国铁道建筑总公司(CHINA RAILWAY CONSTRUCTION)", "short_name": ["中国", "铁道", "建筑", "总公司"]}, {"company_name": "意大利忠利保险公司(ASSICURAZIONI GENERALI)", "short_name": ["意大利", "忠利", "保险公司"]}, {"company_name": "英国保诚集团(PRUDENTIAL)", "short_name": ["英国", "保诚"]}, {"company_name": "中国铁路工程总公司(CHINA RAILWAY ENGINEERING)", "short_name": ["中国铁路工程总公司"]}, {"company_name": "托克集团(TRAFIGURA GROUP)", "short_name": ["托克"]}, {"company_name": "美国快捷药方控股公司(EXPRESS SCRIPTS HOLDING)", "short_name": ["美国", "快捷", "药方", "控股公司"]}, {"company_name": "宝马集团(BMW GROUP)", "short_name": ["宝马"]}, {"company_name": "中国人寿保险（集团）公司(CHINA LIFE INSURANCE)", "short_name": ["中国", "人寿保险"]}, {"company_name": "日本电报电话公司(NIPPON TELEGRAPH & TELEPHONE)", "short_name": ["日本", "电报", "电话公司"]}, {"company_name": "英国法通保险公司(LEGAL & GENERAL GROUP)", "short_name": ["英国法", "通", "保险公司"]}, {"company_name": "摩根大通公司(JPMORGAN CHASE & CO.)", "short_name": ["摩根", "大通"]}, {"company_name": "中国移动通信集团公司(CHINA MOBILE COMMUNICATIONS)", "short_name": ["中国移动通信集团公司"]}, {"company_name": "房利美(FANNIE MAE)", "short_name": ["房利美"]}, {"company_name": "雪佛龙(CHEVRON)", "short_name": ["雪佛龙"]}, {"company_name": "日产汽车(NISSAN MOTOR)", "short_name": ["日产", "汽车"]}, {"company_name": "法国巴黎银行(BNP PARIBAS)", "short_name": ["法国巴黎", "银行"]}, {"company_name": "中国银行(BANK OF CHINA)", "short_name": ["中国银行"]}, {"company_name": "上海汽车集团股份有限公司(SAIC MOTOR)", "short_name": ["上海", "汽车"]}, {"company_name": "克罗格(KROGER)", "short_name": ["克罗格"]}, {"company_name": "中国平安保险（集团）股份有限公司(PING AN INSURANCE)", "short_name": ["中国", "平安保险"]}, {"company_name": "中国农业银行(AGRICULTURAL BANK OF CHINA)", "short_name": ["中国农业银行"]}, {"company_name": "沃博联(WALGREENS BOOTS ALLIANCE)", "short_name": ["沃博联"]}, {"company_name": "好市多(COSTCO WHOLESALE)", "short_name": ["好市", "多"]}, {"company_name": "康德乐(CARDINAL HEALTH)", "short_name": ["康德", "乐"]}, {"company_name": "安联保险集团(ALLIANZ)", "short_name": ["安联", "保险"]}, {"company_name": "日本邮政控股公司(JAPAN POST HOLDINGS)", "short_name": ["日本", "邮政", "控股公司"]}, {"company_name": "威瑞森电信(VERIZON COMMUNICATIONS)", "short_name": ["威瑞森", "电信"]}, {"company_name": "通用电气公司(GENERAL ELECTRIC)", "short_name": ["通用电气公司"]}, {"company_name": "道达尔公司(TOTAL)", "short_name": ["道", "达尔"]}, {"company_name": "本田汽车(HONDA MOTOR)", "short_name": ["本田", "汽车"]}, {"company_name": "中国建设银行(CHINA CONSTRUCTION BANK)", "short_name": ["中国建设银行"]}, {"company_name": "鸿海精密工业股份有限公司(HON HAI PRECISION INDUSTRY)", "short_name": ["鸿海", "精密", "工业"]}, {"company_name": "亚马逊(AMAZON.COM)", "short_name": ["亚马逊"]}, {"company_name": "安盛(AXA)", "short_name": ["安盛"]}, {"company_name": "中国建筑工程总公司(CHINA STATE CONSTRUCTION ENGINEERING)", "short_name": ["中国", "建筑工程", "总公司"]}, {"company_name": "美源伯根公司(AMERISOURCEBERGEN)", "short_name": ["美源伯根"]}, {"company_name": "中国工商银行(INDUSTRIAL & COMMERCIAL BANK OF CHINA)", "short_name": ["中国工商银行"]}, {"company_name": "福特汽车公司(FORD MOTOR)", "short_name": ["福特汽车公司"]}, {"company_name": "EXOR集团(EXOR GROUP)", "short_name": ["EXOR"]}, {"company_name": "美国电话电报公司(AT&T)", "short_name": ["美国电话电报公司"]}, {"company_name": "通用汽车公司(GENERAL MOTORS)", "short_name": ["通用汽车公司"]}, {"company_name": "戴姆勒股份公司(DAIMLER)", "short_name": ["戴姆勒", "股份公司"]}, {"company_name": "嘉能可(GLENCORE)", "short_name": ["嘉能", "可"]}, {"company_name": "三星电子(SAMSUNG ELECTRONICS)", "short_name": ["三星电子"]}, {"company_name": "CVS Health公司(CVS HEALTH)", "short_name": ["CVS", " ", "Health"]}, {"company_name": "联合健康集团(UNITEDHEALTH GROUP)", "short_name": ["联合", "健康"]}, {"company_name": "英国石油公司(BP)", "short_name": ["英国", "石油"]}, {"company_name": "麦克森公司(MCKESSON)", "short_name": ["麦克", "森"]}, {"company_name": "埃克森美孚(EXXON MOBIL)", "short_name": ["埃克森", "美孚"]}, {"company_name": "苹果公司(APPLE)", "short_name": ["苹果公司"]}, {"company_name": "伯克希尔－哈撒韦公司(BERKSHIRE HATHAWAY)", "short_name": ["伯克", "希尔", "－", "哈撒韦"]}, {"company_name": "荷兰皇家壳牌石油公司(ROYAL DUTCH SHELL)", "short_name": ["荷兰", "皇家", "壳牌石油公司"]}, {"company_name": "大众公司(VOLKSWAGEN)", "short_name": ["大众公司"]}, {"company_name": "丰田汽车公司(TOYOTA MOTOR)", "short_name": ["丰田汽车公司"]}, {"company_name": "中国石油天然气集团公司(CHINA NATIONAL PETROLEUM)", "short_name": ["中国石油天然气集团公司"]}, {"company_name": "中国石油化工集团公司(SINOPEC GROUP)", "short_name": ["中国石油化工集团公司"]}, {"company_name": "国家电网公司(STATE GRID)", "short_name": ["国家电网"]}, {"company_name": "沃尔玛(WAL-MART STORES)", "short_name": ["沃尔玛"]}]
+[
+  {
+    "company_name": "AutoNation公司(AUTONATION)",
+    "short_name": [
+      "AUTONATION",
+      "AutoNation"
+    ]
+  },
+  {
+    "company_name": "途易(TUI)",
+    "short_name": [
+      "TUI",
+      "途易"
+    ]
+  },
+  {
+    "company_name": "威廉莫里森超市连锁公司(WM. MORRISON SUPERMARKETS)",
+    "short_name": [
+      "WM. MORRISON SUPERMARKETS",
+      "威廉莫里森超市连锁"
+    ]
+  },
+  {
+    "company_name": "新华人寿保险股份有限公司(NEW CHINA LIFE INSURANCE)",
+    "short_name": [
+      "NEW CHINA LIFE INSURANCE",
+      "新华人寿保险"
+    ]
+  },
+  {
+    "company_name": "梯瓦制药工业公司(TEVA PHARMACEUTICAL INDUSTRIES)",
+    "short_name": [
+      "TEVA PHARMACEUTICAL INDUSTRIES",
+      "梯瓦制药工业"
+    ]
+  },
+  {
+    "company_name": "新疆广汇实业投资（集团）有限责任公司(XINJIANG GUANGHUI INDUSTRY INVESTMENT)",
+    "short_name": [
+      "XINJIANG GUANGHUI INDUSTRY INVESTMENT",
+      "新疆广汇实业投资有限责任"
+    ]
+  },
+  {
+    "company_name": "厦门国贸控股集团有限公司(XIAMEN ITG HOLDING GROUP)",
+    "short_name": [
+      "XIAMEN ITG HOLDING GROUP",
+      "厦门国贸"
+    ]
+  },
+  {
+    "company_name": "意大利电信(TELECOM ITALIA)",
+    "short_name": [
+      "TELECOM ITALIA",
+      "意大利电信"
+    ]
+  },
+  {
+    "company_name": "Dollar General公司(DOLLAR GENERAL)",
+    "short_name": [
+      "DOLLAR GENERAL",
+      "Dollar General"
+    ]
+  },
+  {
+    "company_name": "英国国家电网(NATIONAL GRID)",
+    "short_name": [
+      "NATIONAL GRID",
+      "英国国家电网"
+    ]
+  },
+  {
+    "company_name": "中国通用技术(集团)控股有限责任公司(CHINA GENERAL TECHNOLOGY)",
+    "short_name": [
+      "中国通用技术有限责任CHINA GENERAL TECHNOLOGY"
+    ]
+  },
+  {
+    "company_name": "西尔斯控股(SEARS HOLDINGS)",
+    "short_name": [
+      "SEARS HOLDINGS",
+      "西尔斯"
+    ]
+  },
+  {
+    "company_name": "厦门建发集团有限公司(XIAMEN C&D)",
+    "short_name": [
+      "XIAMEN C&D",
+      "厦门建发"
+    ]
+  },
+  {
+    "company_name": "Ultrapar控股公司(ULTRAPAR HOLDINGS)",
+    "short_name": [
+      "ULTRAPAR HOLDINGS",
+      "Ultrapar控股"
+    ]
+  },
+  {
+    "company_name": "GS加德士(GS CALTEX)",
+    "short_name": [
+      "GS CALTEX",
+      "GS加德士"
+    ]
+  },
+  {
+    "company_name": "苏宁云商集团(SUNING COMMERCE GROUP)",
+    "short_name": [
+      "SUNING COMMERCE GROUP",
+      "苏宁云商"
+    ]
+  },
+  {
+    "company_name": "索迪斯(SODEXO)",
+    "short_name": [
+      "SODEXO",
+      "索迪斯"
+    ]
+  },
+  {
+    "company_name": "美国家庭人寿保险公司(AFLAC)",
+    "short_name": [
+      "AFLAC",
+      "美国家庭人寿保险"
+    ]
+  },
+  {
+    "company_name": "H&M公司(H & M HENNES & MAURITZ)",
+    "short_name": [
+      "H & M HENNES & MAURITZ",
+      "HM"
+    ]
+  },
+  {
+    "company_name": "美国合众银行(U.S. BANCORP)",
+    "short_name": [
+      "U.S. BANCORP",
+      "美国合众银行"
+    ]
+  },
+  {
+    "company_name": "Emirates Group公司(EMIRATES GROUP)",
+    "short_name": [
+      "EMIRATES GROUP",
+      "Emirates Group"
+    ]
+  },
+  {
+    "company_name": "LG DISPLAY公司(LG DISPLAY)",
+    "short_name": [
+      "LG DISPLAY",
+      "LG DISPLAY"
+    ]
+  },
+  {
+    "company_name": "腾讯控股有限公司(TENCENT HOLDINGS)",
+    "short_name": [
+      "TENCENT HOLDINGS",
+      "腾讯"
+    ]
+  },
+  {
+    "company_name": "任仕达控股公司(RANDSTAD HOLDING)",
+    "short_name": [
+      "RANDSTAD HOLDING",
+      "任仕达控股"
+    ]
+  },
+  {
+    "company_name": "山西晋城无烟煤矿业集团有限责任公司(SHANXI JINCHENG ANTHRACITE COAL MINING GROUP)",
+    "short_name": [
+      "SHANXI JINCHENG ANTHRACITE COAL MINING GROUP",
+      "山西晋城无烟煤有限责任"
+    ]
+  },
+  {
+    "company_name": "US Foods Holding公司(US FOODS HOLDING)",
+    "short_name": [
+      "US FOODS HOLDING",
+      "US Foods Holding"
+    ]
+  },
+  {
+    "company_name": "Onex公司(ONEX)",
+    "short_name": [
+      "ONEX",
+      "Onex"
+    ]
+  },
+  {
+    "company_name": "Altice公司(ALTICE)",
+    "short_name": [
+      "ALTICE",
+      "Altice"
+    ]
+  },
+  {
+    "company_name": "荷兰合作银行(RABOBANK GROUP)",
+    "short_name": [
+      "RABOBANK GROUP",
+      "荷兰合作银行"
+    ]
+  },
+  {
+    "company_name": "安进(AMGEN)",
+    "short_name": [
+      "AMGEN",
+      "安进"
+    ]
+  },
+  {
+    "company_name": "阿斯利康(ASTRAZENECA)",
+    "short_name": [
+      "ASTRAZENECA",
+      "阿斯利康"
+    ]
+  },
+  {
+    "company_name": "ENTERPRISE PRODUCTS PARTNERS公司(ENTERPRISE PRODUCTS PARTNERS)",
+    "short_name": [
+      "ENTERPRISE PRODUCTS PARTNERS",
+      "ENTERPRISE PRODUCTS PARTNERS"
+    ]
+  },
+  {
+    "company_name": "喜力控股公司(HEINEKEN HOLDING)",
+    "short_name": [
+      "HEINEKEN HOLDING",
+      "喜力控股"
+    ]
+  },
+  {
+    "company_name": "碧桂园控股有限公司(COUNTRY GARDEN HOLDINGS)",
+    "short_name": [
+      "COUNTRY GARDEN HOLDINGS",
+      "碧桂园"
+    ]
+  },
+  {
+    "company_name": "米其林公司(MICHELIN)",
+    "short_name": [
+      "MICHELIN",
+      "米其林"
+    ]
+  },
+  {
+    "company_name": "杜克能源(DUKE ENERGY)",
+    "short_name": [
+      "DUKE ENERGY",
+      "杜克能源"
+    ]
+  },
+  {
+    "company_name": "前进保险公司(PROGRESSIVE)",
+    "short_name": [
+      "PROGRESSIVE",
+      "前进保险"
+    ]
+  },
+  {
+    "company_name": "KOC集团(KOÇ HOLDING)",
+    "short_name": [
+      "KOÇ HOLDING",
+      "KOC"
+    ]
+  },
+  {
+    "company_name": "阿里巴巴集团(ALIBABA GROUP HOLDING)",
+    "short_name": [
+      "ALIBABA GROUP HOLDING",
+      "阿里巴巴"
+    ]
+  },
+  {
+    "company_name": "阿弗瑞萨控股公司(ALFRESA HOLDINGS)",
+    "short_name": [
+      "ALFRESA HOLDINGS",
+      "阿弗瑞萨控股"
+    ]
+  },
+  {
+    "company_name": "高通(QUALCOMM)",
+    "short_name": [
+      "QUALCOMM",
+      "高通"
+    ]
+  },
+  {
+    "company_name": "阳光金控投资集团有限公司(YANGO FINANCIAL HOLDING)",
+    "short_name": [
+      "YANGO FINANCIAL HOLDING",
+      "阳光金控投资"
+    ]
+  },
+  {
+    "company_name": "仁宝电脑(COMPAL ELECTRONICS)",
+    "short_name": [
+      "COMPAL ELECTRONICS",
+      "仁宝电脑"
+    ]
+  },
+  {
+    "company_name": "贺利氏控股集团(HERAEUS HOLDING)",
+    "short_name": [
+      "HERAEUS HOLDING",
+      "贺利氏"
+    ]
+  },
+  {
+    "company_name": "艾睿电子(ARROW ELECTRONICS)",
+    "short_name": [
+      "ARROW ELECTRONICS",
+      "艾睿电子"
+    ]
+  },
+  {
+    "company_name": "伟创力公司(FLEX)",
+    "short_name": [
+      "FLEX",
+      "伟创力"
+    ]
+  },
+  {
+    "company_name": "中国大唐集团公司(CHINA DATANG)",
+    "short_name": [
+      "CHINA DATANG",
+      "中国大唐"
+    ]
+  },
+  {
+    "company_name": "Tesoro公司(TESORO)",
+    "short_name": [
+      "TESORO",
+      "Tesoro"
+    ]
+  },
+  {
+    "company_name": "BAE系统公司(BAE SYSTEMS)",
+    "short_name": [
+      "BAE SYSTEMS",
+      "BAE系统"
+    ]
+  },
+  {
+    "company_name": "日本中部电力(CHUBU ELECTRIC POWER)",
+    "short_name": [
+      "CHUBU ELECTRIC POWER",
+      "日本中部电力"
+    ]
+  },
+  {
+    "company_name": "美的集团股份有限公司(MIDEA GROUP)",
+    "short_name": [
+      "MIDEA GROUP",
+      "美的"
+    ]
+  },
+  {
+    "company_name": "雷神公司(RAYTHEON)",
+    "short_name": [
+      "RAYTHEON",
+      "雷神"
+    ]
+  },
+  {
+    "company_name": "潞安集团(SHANXI LUAN MINING GROUP)",
+    "short_name": [
+      "SHANXI LUAN MINING GROUP",
+      "潞安"
+    ]
+  },
+  {
+    "company_name": "三星C&T公司(SAMSUNG C&T)",
+    "short_name": [
+      "SAMSUNG C&T",
+      "三星CT"
+    ]
+  },
+  {
+    "company_name": "达能(DANONE)",
+    "short_name": [
+      "DANONE",
+      "达能"
+    ]
+  },
+  {
+    "company_name": "山西阳泉煤业(集团)有限责任公司(YANGQUAN COAL INDUSTRY GROUP)",
+    "short_name": [
+      "山西阳泉煤业有限责任YANGQUAN COAL INDUSTRY GROUP"
+    ]
+  },
+  {
+    "company_name": "康菲石油公司(CONOCOPHILLIPS)",
+    "short_name": [
+      "CONOCOPHILLIPS",
+      "康菲石油"
+    ]
+  },
+  {
+    "company_name": "SAP公司(SAP)",
+    "short_name": [
+      "SAP",
+      "SAP"
+    ]
+  },
+  {
+    "company_name": "委内瑞拉商业金融服务公司(MERCANTIL SERVICIOS FINANCIEROS)",
+    "short_name": [
+      "MERCANTIL SERVICIOS FINANCIEROS",
+      "委内瑞拉商业金融服务"
+    ]
+  },
+  {
+    "company_name": "布鲁克菲尔德资产管理公司(BROOKFIELD ASSET MANAGEMENT)",
+    "short_name": [
+      "BROOKFIELD ASSET MANAGEMENT",
+      "布鲁克菲尔德资产管理"
+    ]
+  },
+  {
+    "company_name": "美国诺斯洛普格拉曼公司(NORTHROP GRUMMAN)",
+    "short_name": [
+      "NORTHROP GRUMMAN",
+      "美国诺斯洛普格拉曼"
+    ]
+  },
+  {
+    "company_name": "中国航空油料集团公司(CHINA NATIONAL AVIATION FUEL GROUP)",
+    "short_name": [
+      "CHINA NATIONAL AVIATION FUEL GROUP",
+      "中国航空油料"
+    ]
+  },
+  {
+    "company_name": "杜邦公司(DUPONT)",
+    "short_name": [
+      "DUPONT",
+      "杜邦"
+    ]
+  },
+  {
+    "company_name": "日本电气公司(NEC)",
+    "short_name": [
+      "NEC",
+      "日本电气"
+    ]
+  },
+  {
+    "company_name": "麦当劳(MCDONALD'S)",
+    "short_name": [
+      "MCDONALD'S",
+      "麦当劳"
+    ]
+  },
+  {
+    "company_name": "国际航空集团(INTERNATIONAL AIRLINES GROUP)",
+    "short_name": [
+      "INTERNATIONAL AIRLINES GROUP",
+      "国际航空"
+    ]
+  },
+  {
+    "company_name": "德科集团(ADECCO GROUP)",
+    "short_name": [
+      "ADECCO GROUP",
+      "德科"
+    ]
+  },
+  {
+    "company_name": "山西焦煤集团有限责任公司(SHANXI COKING COAL GROUP)",
+    "short_name": [
+      "SHANXI COKING COAL GROUP",
+      "山西焦煤有限责任"
+    ]
+  },
+  {
+    "company_name": "英国标准人寿保险公司(STANDARD LIFE)",
+    "short_name": [
+      "STANDARD LIFE",
+      "英国标准人寿保险"
+    ]
+  },
+  {
+    "company_name": "乐天百货(LOTTE SHOPPING)",
+    "short_name": [
+      "LOTTE SHOPPING",
+      "乐天百货"
+    ]
+  },
+  {
+    "company_name": "大同煤矿集团有限责任公司(DATONG COAL MINE GROUP)",
+    "short_name": [
+      "DATONG COAL MINE GROUP",
+      "大同煤矿有限责任"
+    ]
+  },
+  {
+    "company_name": "艾伯维(ABBVIE)",
+    "short_name": [
+      "ABBVIE",
+      "艾伯维"
+    ]
+  },
+  {
+    "company_name": "Inditex公司(INDITEX)",
+    "short_name": [
+      "INDITEX",
+      "Inditex"
+    ]
+  },
+  {
+    "company_name": "法国邮政(LA POSTE)",
+    "short_name": [
+      "LA POSTE",
+      "法国邮政"
+    ]
+  },
+  {
+    "company_name": "曼福集团(MAPFRE GROUP)",
+    "short_name": [
+      "MAPFRE GROUP",
+      "曼福"
+    ]
+  },
+  {
+    "company_name": "梅西百货(MACY'S)",
+    "short_name": [
+      "MACY'S",
+      "梅西百货"
+    ]
+  },
+  {
+    "company_name": "加拿大丰业银行(BANK OF NOVA SCOTIA)",
+    "short_name": [
+      "BANK OF NOVA SCOTIA",
+      "加拿大丰业银行"
+    ]
+  },
+  {
+    "company_name": "日本出光兴产株式会社(IDEMITSU KOSAN)",
+    "short_name": [
+      "IDEMITSU KOSAN",
+      "日本出光兴产株式会社"
+    ]
+  },
+  {
+    "company_name": "英国耆卫保险公司(OLD MUTUAL)",
+    "short_name": [
+      "OLD MUTUAL",
+      "英国耆卫保险"
+    ]
+  },
+  {
+    "company_name": "亿滋国际(MONDELEZ INTERNATIONAL)",
+    "short_name": [
+      "MONDELEZ INTERNATIONAL",
+      "亿滋国际"
+    ]
+  },
+  {
+    "company_name": "住友电工(SUMITOMO ELECTRIC INDUSTRIES)",
+    "short_name": [
+      "SUMITOMO ELECTRIC INDUSTRIES",
+      "住友电工"
+    ]
+  },
+  {
+    "company_name": "爱立信公司(LM ERICSSON)",
+    "short_name": [
+      "LM ERICSSON",
+      "爱立信"
+    ]
+  },
+  {
+    "company_name": "澳新银行集团(AUSTRALIA & NEW ZEALAND BANKING GROUP)",
+    "short_name": [
+      "AUSTRALIA & NEW ZEALAND BANKING GROUP",
+      "澳新银行"
+    ]
+  },
+  {
+    "company_name": "西班牙天然气公司(GAS NATURAL FENOSA)",
+    "short_name": [
+      "GAS NATURAL FENOSA",
+      "西班牙天然气"
+    ]
+  },
+  {
+    "company_name": "Enbridge公司(ENBRIDGE)",
+    "short_name": [
+      "ENBRIDGE",
+      "Enbridge"
+    ]
+  },
+  {
+    "company_name": "诺基亚(NOKIA)",
+    "short_name": [
+      "NOKIA",
+      "诺基亚"
+    ]
+  },
+  {
+    "company_name": "安富利公司(AVNET)",
+    "short_name": [
+      "AVNET",
+      "安富利"
+    ]
+  },
+  {
+    "company_name": "三星人寿保险(SAMSUNG LIFE INSURANCE)",
+    "short_name": [
+      "SAMSUNG LIFE INSURANCE",
+      "三星人寿保险"
+    ]
+  },
+  {
+    "company_name": "Tech Data公司(TECH DATA)",
+    "short_name": [
+      "TECH DATA",
+      "Tech Data"
+    ]
+  },
+  {
+    "company_name": "国泰人寿保险股份有限公司(CATHAY LIFE INSURANCE)",
+    "short_name": [
+      "CATHAY LIFE INSURANCE",
+      "国泰人寿保险"
+    ]
+  },
+  {
+    "company_name": "卡夫亨氏公司(KRAFT HEINZ)",
+    "short_name": [
+      "KRAFT HEINZ",
+      "卡夫亨氏"
+    ]
+  },
+  {
+    "company_name": "Achmea公司(ACHMEA)",
+    "short_name": [
+      "ACHMEA",
+      "Achmea"
+    ]
+  },
+  {
+    "company_name": "东日本旅客铁道株式会社(EAST JAPAN RAILWAY)",
+    "short_name": [
+      "EAST JAPAN RAILWAY",
+      "东日本旅客铁道株式会社"
+    ]
+  },
+  {
+    "company_name": "迪尔公司(DEERE)",
+    "short_name": [
+      "DEERE",
+      "迪尔"
+    ]
+  },
+  {
+    "company_name": "菲利普－莫里斯国际公司(PHILIP MORRIS INTERNATIONAL)",
+    "short_name": [
+      "PHILIP MORRIS INTERNATIONAL",
+      "菲利普－莫里斯国际"
+    ]
+  },
+  {
+    "company_name": "澳大利亚国民银行(NATIONAL AUSTRALIA BANK)",
+    "short_name": [
+      "NATIONAL AUSTRALIA BANK",
+      "澳大利亚国民银行"
+    ]
+  },
+  {
+    "company_name": "法国威立雅环境集团(VEOLIA ENVIRONNEMENT)",
+    "short_name": [
+      "VEOLIA ENVIRONNEMENT",
+      "法国威立雅环境"
+    ]
+  },
+  {
+    "company_name": "PHOENIX PHARMAHANDEL公司(PHOENIX PHARMAHANDEL)",
+    "short_name": [
+      "PHOENIX PHARMAHANDEL",
+      "PHOENIX PHARMAHANDEL"
+    ]
+  },
+  {
+    "company_name": "全球燃料服务公司(WORLD FUEL SERVICES)",
+    "short_name": [
+      "WORLD FUEL SERVICES",
+      "全球燃料服务"
+    ]
+  },
+  {
+    "company_name": "联合服务汽车协会(UNITED SERVICES AUTOMOBILE ASSN.)",
+    "short_name": [
+      "UNITED SERVICES AUTOMOBILE ASSN.",
+      "联合服务汽车协会"
+    ]
+  },
+  {
+    "company_name": "中国电子科技集团公司(CHINA ELECTRONICS TECHNOLOGY GROUP)",
+    "short_name": [
+      "CHINA ELECTRONICS TECHNOLOGY GROUP",
+      "中国电子科技"
+    ]
+  },
+  {
+    "company_name": "施耐德电气(SCHNEIDER ELECTRIC)",
+    "short_name": [
+      "SCHNEIDER ELECTRIC",
+      "施耐德电气"
+    ]
+  },
+  {
+    "company_name": "LafargeHolcim公司(LAFARGEHOLCIM)",
+    "short_name": [
+      "LAFARGEHOLCIM",
+      "LafargeHolcim"
+    ]
+  },
+  {
+    "company_name": "中国国电集团公司(CHINA GUODIAN)",
+    "short_name": [
+      "CHINA GUODIAN",
+      "中国国电"
+    ]
+  },
+  {
+    "company_name": "二十一世纪福克斯(TWENTY-FIRST CENTURY FOX)",
+    "short_name": [
+      "TWENTY-FIRST CENTURY FOX",
+      "二十一世纪福克斯"
+    ]
+  },
+  {
+    "company_name": "第一资本金融公司(CAPITAL ONE FINANCIAL)",
+    "short_name": [
+      "CAPITAL ONE FINANCIAL",
+      "第一资本金融"
+    ]
+  },
+  {
+    "company_name": "Travelers Cos.公司(TRAVELERS COS.)",
+    "short_name": [
+      "TRAVELERS COS.",
+      "Travelers Cos."
+    ]
+  },
+  {
+    "company_name": "Facebook公司(FACEBOOK)",
+    "short_name": [
+      "FACEBOOK",
+      "Facebook"
+    ]
+  },
+  {
+    "company_name": "Coop集团(COOP GROUP)",
+    "short_name": [
+      "COOP GROUP",
+      "Coop"
+    ]
+  },
+  {
+    "company_name": "西太平洋银行(WESTPAC BANKING)",
+    "short_name": [
+      "WESTPAC BANKING",
+      "西太平洋银行"
+    ]
+  },
+  {
+    "company_name": "广达电脑公司(QUANTA COMPUTER)",
+    "short_name": [
+      "QUANTA COMPUTER",
+      "广达电脑"
+    ]
+  },
+  {
+    "company_name": "关西电力(KANSAI ELECTRIC POWER)",
+    "short_name": [
+      "KANSAI ELECTRIC POWER",
+      "关西电力"
+    ]
+  },
+  {
+    "company_name": "斯伦贝谢公司(SCHLUMBERGER)",
+    "short_name": [
+      "SCHLUMBERGER",
+      "斯伦贝谢"
+    ]
+  },
+  {
+    "company_name": "金巴斯集团(COMPASS GROUP)",
+    "short_name": [
+      "COMPASS GROUP",
+      "金巴斯"
+    ]
+  },
+  {
+    "company_name": "法国航空－荷兰皇家航空集团(AIR FRANCE-KLM GROUP)",
+    "short_name": [
+      "AIR FRANCE-KLM GROUP",
+      "法国航空－荷兰皇家航空"
+    ]
+  },
+  {
+    "company_name": "Migros集团(MIGROS GROUP)",
+    "short_name": [
+      "MIGROS GROUP",
+      "Migros"
+    ]
+  },
+  {
+    "company_name": "印度斯坦石油公司(HINDUSTAN PETROLEUM)",
+    "short_name": [
+      "HINDUSTAN PETROLEUM",
+      "印度斯坦石油"
+    ]
+  },
+  {
+    "company_name": "友邦保险集团(AIA GROUP)",
+    "short_name": [
+      "AIA GROUP",
+      "友邦保险"
+    ]
+  },
+  {
+    "company_name": "中国华电集团公司(CHINA HUADIAN)",
+    "short_name": [
+      "CHINA HUADIAN",
+      "中国华电"
+    ]
+  },
+  {
+    "company_name": "Medipal控股公司(MEDIPAL HOLDINGS)",
+    "short_name": [
+      "MEDIPAL HOLDINGS",
+      "Medipal控股"
+    ]
+  },
+  {
+    "company_name": "大连万达集团(DALIAN WANDA GROUP)",
+    "short_name": [
+      "DALIAN WANDA GROUP",
+      "大连万达"
+    ]
+  },
+  {
+    "company_name": "欧莱雅(L'ORÉAL)",
+    "short_name": [
+      "L'ORÉAL",
+      "欧莱雅"
+    ]
+  },
+  {
+    "company_name": "西北互助人寿保险公司(NORTHWESTERN MUTUAL)",
+    "short_name": [
+      "NORTHWESTERN MUTUAL",
+      "西北互助人寿保险"
+    ]
+  },
+  {
+    "company_name": "美敦力公司(MEDTRONIC)",
+    "short_name": [
+      "MEDTRONIC",
+      "美敦力"
+    ]
+  },
+  {
+    "company_name": "特许通讯公司(CHARTER COMMUNICATIONS)",
+    "short_name": [
+      "CHARTER COMMUNICATIONS",
+      "特许通讯"
+    ]
+  },
+  {
+    "company_name": "荷兰皇家飞利浦公司(ROYAL PHILIPS)",
+    "short_name": [
+      "ROYAL PHILIPS",
+      "荷兰皇家飞利浦"
+    ]
+  },
+  {
+    "company_name": "利安德巴塞尔工业公司(LYONDELLBASELL INDUSTRIES)",
+    "short_name": [
+      "LYONDELLBASELL INDUSTRIES",
+      "利安德巴塞尔工业"
+    ]
+  },
+  {
+    "company_name": "铃木汽车(SUZUKI MOTOR)",
+    "short_name": [
+      "SUZUKI MOTOR",
+      "铃木汽车"
+    ]
+  },
+  {
+    "company_name": "山东能源集团有限公司(SHANDONG ENERGY GROUP)",
+    "short_name": [
+      "SHANDONG ENERGY GROUP",
+      "山东能源"
+    ]
+  },
+  {
+    "company_name": "时代华纳(TIME WARNER)",
+    "short_name": [
+      "TIME WARNER",
+      "时代华纳"
+    ]
+  },
+  {
+    "company_name": "巴西淡水河谷公司(VALE)",
+    "short_name": [
+      "VALE",
+      "巴西淡水河谷"
+    ]
+  },
+  {
+    "company_name": "台积电(TAIWAN SEMICONDUCTOR MANUFACTURING)",
+    "short_name": [
+      "TAIWAN SEMICONDUCTOR MANUFACTURING",
+      "台积电"
+    ]
+  },
+  {
+    "company_name": "国家电力投资集团公司(STATE POWER INVESTMENT)",
+    "short_name": [
+      "STATE POWER INVESTMENT",
+      "国家电力投资"
+    ]
+  },
+  {
+    "company_name": "马自达汽车株式会社(MAZDA MOTOR)",
+    "short_name": [
+      "MAZDA MOTOR",
+      "马自达汽车株式会社"
+    ]
+  },
+  {
+    "company_name": "中国远洋海运集团有限公司(CHINA COSCO SHIPPING)",
+    "short_name": [
+      "CHINA COSCO SHIPPING",
+      "中国远洋海运"
+    ]
+  },
+  {
+    "company_name": "江苏沙钢集团(JIANGSU SHAGANG GROUP)",
+    "short_name": [
+      "JIANGSU SHAGANG GROUP",
+      "江苏沙钢"
+    ]
+  },
+  {
+    "company_name": "中国船舶工业集团公司(CHINA STATE SHIPBUILDING)",
+    "short_name": [
+      "CHINA STATE SHIPBUILDING",
+      "中国船舶工业"
+    ]
+  },
+  {
+    "company_name": "CRH公司(CRH)",
+    "short_name": [
+      "CRH",
+      "CRH"
+    ]
+  },
+  {
+    "company_name": "中国电子信息产业集团有限公司(CHINA ELECTRONICS)",
+    "short_name": [
+      "CHINA ELECTRONICS",
+      "中国电子"
+    ]
+  },
+  {
+    "company_name": "3M公司(3M)",
+    "short_name": [
+      "3M",
+      "3M"
+    ]
+  },
+  {
+    "company_name": "巴拉特石油公司(BHARAT PETROLEUM)",
+    "short_name": [
+      "BHARAT PETROLEUM",
+      "巴拉特石油"
+    ]
+  },
+  {
+    "company_name": "CHS公司(CHS)",
+    "short_name": [
+      "CHS",
+      "CHS"
+    ]
+  },
+  {
+    "company_name": "Gilead Sciences公司(GILEAD SCIENCES)",
+    "short_name": [
+      "GILEAD SCIENCES",
+      "Gilead Sciences"
+    ]
+  },
+  {
+    "company_name": "日本瑞穗金融集团(MIZUHO FINANCIAL GROUP)",
+    "short_name": [
+      "MIZUHO FINANCIAL GROUP",
+      "日本瑞穗金融"
+    ]
+  },
+  {
+    "company_name": "日本钢铁工程控股公司(JFE HOLDINGS)",
+    "short_name": [
+      "JFE HOLDINGS",
+      "日本钢铁工程控股"
+    ]
+  },
+  {
+    "company_name": "中国航天科工集团公司(CHINA AEROSPACE SCIENCE & INDUSTRY)",
+    "short_name": [
+      "CHINA AEROSPACE SCIENCE & INDUSTRY",
+      "中国航天科工"
+    ]
+  },
+  {
+    "company_name": "瑞士信贷(CREDIT SUISSE GROUP)",
+    "short_name": [
+      "CREDIT SUISSE GROUP",
+      "瑞士信贷"
+    ]
+  },
+  {
+    "company_name": "普利司通(BRIDGESTONE)",
+    "short_name": [
+      "BRIDGESTONE",
+      "普利司通"
+    ]
+  },
+  {
+    "company_name": "斯巴鲁公司(SUBARU)",
+    "short_name": [
+      "SUBARU",
+      "斯巴鲁"
+    ]
+  },
+  {
+    "company_name": "多伦多道明银行(TORONTO-DOMINION BANK)",
+    "short_name": [
+      "TORONTO-DOMINION BANK",
+      "多伦多道明银行"
+    ]
+  },
+  {
+    "company_name": "必和必拓(BHP BILLITON)",
+    "short_name": [
+      "BHP BILLITON",
+      "必和必拓"
+    ]
+  },
+  {
+    "company_name": "三菱化学控股(MITSUBISHI CHEMICAL HOLDINGS)",
+    "short_name": [
+      "MITSUBISHI CHEMICAL HOLDINGS",
+      "三菱化学"
+    ]
+  },
+  {
+    "company_name": "物产中大集团(WUCHAN ZHONGDA GROUP)",
+    "short_name": [
+      "WUCHAN ZHONGDA GROUP",
+      "物产中大"
+    ]
+  },
+  {
+    "company_name": "佳能(CANON)",
+    "short_name": [
+      "CANON",
+      "佳能"
+    ]
+  },
+  {
+    "company_name": "英国电信集团(BT GROUP)",
+    "short_name": [
+      "BT GROUP",
+      "英国电信"
+    ]
+  },
+  {
+    "company_name": "通用动力(GENERAL DYNAMICS)",
+    "short_name": [
+      "GENERAL DYNAMICS",
+      "通用动力"
+    ]
+  },
+  {
+    "company_name": "Exelon公司(EXELON)",
+    "short_name": [
+      "EXELON",
+      "Exelon"
+    ]
+  },
+  {
+    "company_name": "浙江吉利控股集团(ZHEJIANG GEELY HOLDING GROUP)",
+    "short_name": [
+      "ZHEJIANG GEELY HOLDING GROUP",
+      "浙江吉利"
+    ]
+  },
+  {
+    "company_name": "安达保险公司(CHUBB)",
+    "short_name": [
+      "CHUBB",
+      "安达保险"
+    ]
+  },
+  {
+    "company_name": "中国保利集团(CHINA POLY GROUP)",
+    "short_name": [
+      "CHINA POLY GROUP",
+      "中国保利"
+    ]
+  },
+  {
+    "company_name": "损保控股有限公司(SOMPO HOLDINGS)",
+    "short_name": [
+      "SOMPO HOLDINGS",
+      "损保"
+    ]
+  },
+  {
+    "company_name": "江西铜业集团公司(JIANGXI COPPER)",
+    "short_name": [
+      "JIANGXI COPPER",
+      "江西铜业"
+    ]
+  },
+  {
+    "company_name": "中国恒大集团(CHINA EVERGRANDE GROUP)",
+    "short_name": [
+      "CHINA EVERGRANDE GROUP",
+      "中国恒大"
+    ]
+  },
+  {
+    "company_name": "陕西煤业化工集团(SHAANXI COAL & CHEMICAL INDUSTRY)",
+    "short_name": [
+      "SHAANXI COAL & CHEMICAL INDUSTRY",
+      "陕西煤业化工"
+    ]
+  },
+  {
+    "company_name": "中国航天科技集团公司(CHINA AEROSPACE SCIENCE & TECHNOLOGY)",
+    "short_name": [
+      "CHINA AEROSPACE SCIENCE & TECHNOLOGY",
+      "中国航天科技"
+    ]
+  },
+  {
+    "company_name": "费森尤斯集团(FRESENIUS)",
+    "short_name": [
+      "FRESENIUS",
+      "费森尤斯"
+    ]
+  },
+  {
+    "company_name": "中国机械工业集团有限公司(SINOMACH)",
+    "short_name": [
+      "SINOMACH",
+      "中国机械工业"
+    ]
+  },
+  {
+    "company_name": "澳洲联邦银行(COMMONWEALTH BANK OF AUSTRALIA)",
+    "short_name": [
+      "COMMONWEALTH BANK OF AUSTRALIA",
+      "澳洲联邦银行"
+    ]
+  },
+  {
+    "company_name": "Iberdrola公司(IBERDROLA)",
+    "short_name": [
+      "IBERDROLA",
+      "Iberdrola"
+    ]
+  },
+  {
+    "company_name": "耐克公司(NIKE)",
+    "short_name": [
+      "NIKE",
+      "耐克"
+    ]
+  },
+  {
+    "company_name": "大和房建(DAIWA HOUSE INDUSTRY)",
+    "short_name": [
+      "DAIWA HOUSE INDUSTRY",
+      "大和房建"
+    ]
+  },
+  {
+    "company_name": "中国光大集团(CHINA EVERBRIGHT GROUP)",
+    "short_name": [
+      "CHINA EVERBRIGHT GROUP",
+      "中国光大"
+    ]
+  },
+  {
+    "company_name": "联合信贷集团(UNICREDIT GROUP)",
+    "short_name": [
+      "UNICREDIT GROUP",
+      "联合信贷"
+    ]
+  },
+  {
+    "company_name": "德国中央合作银行(DZ BANK)",
+    "short_name": [
+      "DZ BANK",
+      "德国中央合作银行"
+    ]
+  },
+  {
+    "company_name": "陕西延长石油（集团）有限责任公司(SHAANXI YANCHANG PETROLEUM (GROUP))",
+    "short_name": [
+      "SHAANXI YANCHANG PETROLEUM (GROUP",
+      "陕西延长石油有限责任"
+    ]
+  },
+  {
+    "company_name": "来德爱(RITE AID)",
+    "short_name": [
+      "RITE AID",
+      "来德爱"
+    ]
+  },
+  {
+    "company_name": "爱信精机(AISIN SEIKI)",
+    "short_name": [
+      "AISIN SEIKI",
+      "爱信精机"
+    ]
+  },
+  {
+    "company_name": "现代摩比斯公司(HYUNDAI MOBIS)",
+    "short_name": [
+      "HYUNDAI MOBIS",
+      "现代摩比斯"
+    ]
+  },
+  {
+    "company_name": "新兴际华集团(XINXING CATHAY INTERNATIONAL GROUP)",
+    "short_name": [
+      "XINXING CATHAY INTERNATIONAL GROUP",
+      "新兴际华"
+    ]
+  },
+  {
+    "company_name": "TJX公司(TJX)",
+    "short_name": [
+      "TJX",
+      "TJX"
+    ]
+  },
+  {
+    "company_name": "冀中能源集团(JIZHONG ENERGY GROUP)",
+    "short_name": [
+      "JIZHONG ENERGY GROUP",
+      "冀中能源"
+    ]
+  },
+  {
+    "company_name": "长江和记实业有限公司(CK HUTCHISON HOLDINGS)",
+    "short_name": [
+      "CK HUTCHISON HOLDINGS",
+      "长江和记实业"
+    ]
+  },
+  {
+    "company_name": "中国中车股份有限公司(CRRC)",
+    "short_name": [
+      "CRRC",
+      "中国中车"
+    ]
+  },
+  {
+    "company_name": "SNCF Mobilités公司(SNCF MOBILITÉS)",
+    "short_name": [
+      "SNCF MOBILITÉS",
+      "SNCF Mobilités"
+    ]
+  },
+  {
+    "company_name": "力拓集团(RIO TINTO GROUP)",
+    "short_name": [
+      "RIO TINTO GROUP",
+      "力拓"
+    ]
+  },
+  {
+    "company_name": "美国运通公司(AMERICAN EXPRESS)",
+    "short_name": [
+      "AMERICAN EXPRESS",
+      "美国运通"
+    ]
+  },
+  {
+    "company_name": "瑞士ABB集团(ABB)",
+    "short_name": [
+      "ABB",
+      "瑞士ABB"
+    ]
+  },
+  {
+    "company_name": "韩国现代重工集团(HYUNDAI HEAVY INDUSTRIES)",
+    "short_name": [
+      "HYUNDAI HEAVY INDUSTRIES",
+      "韩国现代重工"
+    ]
+  },
+  {
+    "company_name": "中国能源建设集团有限公司(CHINA ENERGY ENGINEERING GROUP)",
+    "short_name": [
+      "CHINA ENERGY ENGINEERING GROUP",
+      "中国能源建设"
+    ]
+  },
+  {
+    "company_name": "Alimentation Couche-Tard公司(ALIMENTATION COUCHE-TARD)",
+    "short_name": [
+      "ALIMENTATION COUCHE-TARD",
+      "Alimentation Couche-Tard"
+    ]
+  },
+  {
+    "company_name": "森宝利(J. SAINSBURY)",
+    "short_name": [
+      "J. SAINSBURY",
+      "森宝利"
+    ]
+  },
+  {
+    "company_name": "德国艾德卡公司(EDEKA ZENTRALE)",
+    "short_name": [
+      "EDEKA ZENTRALE",
+      "德国艾德卡"
+    ]
+  },
+  {
+    "company_name": "大众超级市场公司(PUBLIX SUPER MARKETS)",
+    "short_name": [
+      "PUBLIX SUPER MARKETS",
+      "大众超级市场"
+    ]
+  },
+  {
+    "company_name": "万科企业股份有限公司(CHINA VANKE)",
+    "short_name": [
+      "CHINA VANKE",
+      "万科"
+    ]
+  },
+  {
+    "company_name": "雷普索尔公司(REPSOL)",
+    "short_name": [
+      "REPSOL",
+      "雷普索尔"
+    ]
+  },
+  {
+    "company_name": "埃森哲(ACCENTURE)",
+    "short_name": [
+      "ACCENTURE",
+      "埃森哲"
+    ]
+  },
+  {
+    "company_name": "加拿大皇家银行(ROYAL BANK OF CANADA)",
+    "short_name": [
+      "ROYAL BANK OF CANADA",
+      "加拿大皇家银行"
+    ]
+  },
+  {
+    "company_name": "汉莎集团(LUFTHANSA GROUP)",
+    "short_name": [
+      "LUFTHANSA GROUP",
+      "汉莎"
+    ]
+  },
+  {
+    "company_name": "Talanx公司(TALANX)",
+    "short_name": [
+      "TALANX",
+      "Talanx"
+    ]
+  },
+  {
+    "company_name": "沃尔沃集团(VOLVO)",
+    "short_name": [
+      "VOLVO",
+      "沃尔沃"
+    ]
+  },
+  {
+    "company_name": "法国布伊格集团(BOUYGUES)",
+    "short_name": [
+      "BOUYGUES",
+      "法国布伊格"
+    ]
+  },
+  {
+    "company_name": "沙特基础工业公司(SABIC)",
+    "short_name": [
+      "SABIC",
+      "沙特基础工业"
+    ]
+  },
+  {
+    "company_name": "马士基集团(MAERSK GROUP)",
+    "short_name": [
+      "MAERSK GROUP",
+      "马士基"
+    ]
+  },
+  {
+    "company_name": "日本明治安田生命保险公司(MEIJI YASUDA LIFE INSURANCE)",
+    "short_name": [
+      "MEIJI YASUDA LIFE INSURANCE",
+      "日本明治安田生命保险"
+    ]
+  },
+  {
+    "company_name": "和硕(PEGATRON)",
+    "short_name": [
+      "PEGATRON",
+      "和硕"
+    ]
+  },
+  {
+    "company_name": "Rajesh Exports公司(RAJESH EXPORTS)",
+    "short_name": [
+      "RAJESH EXPORTS",
+      "Rajesh Exports"
+    ]
+  },
+  {
+    "company_name": "日本三菱重工业股份有限公司(MITSUBISHI HEAVY INDUSTRIES)",
+    "short_name": [
+      "MITSUBISHI HEAVY INDUSTRIES",
+      "日本三菱重工业"
+    ]
+  },
+  {
+    "company_name": "加拿大乔治威斯顿公司(GEORGE WESTON)",
+    "short_name": [
+      "GEORGE WESTON",
+      "加拿大乔治威斯顿"
+    ]
+  },
+  {
+    "company_name": "意大利联合圣保罗银行(INTESA SANPAOLO)",
+    "short_name": [
+      "INTESA SANPAOLO",
+      "意大利联合圣保罗银行"
+    ]
+  },
+  {
+    "company_name": "瑞银集团(UBS GROUP)",
+    "short_name": [
+      "UBS GROUP",
+      "瑞银"
+    ]
+  },
+  {
+    "company_name": "麦格纳国际(MAGNA INTERNATIONAL)",
+    "short_name": [
+      "MAGNA INTERNATIONAL",
+      "麦格纳国际"
+    ]
+  },
+  {
+    "company_name": "印尼国家石油公司(PERTAMINA)",
+    "short_name": [
+      "PERTAMINA",
+      "印尼国家石油"
+    ]
+  },
+  {
+    "company_name": "好事达(ALLSTATE)",
+    "short_name": [
+      "ALLSTATE",
+      "好事达"
+    ]
+  },
+  {
+    "company_name": "美国联合大陆控股有限公司(UNITED CONTINENTAL HOLDINGS)",
+    "short_name": [
+      "UNITED CONTINENTAL HOLDINGS",
+      "美国联合大陆"
+    ]
+  },
+  {
+    "company_name": "英国森特理克集团(CENTRICA)",
+    "short_name": [
+      "CENTRICA",
+      "英国森特理克"
+    ]
+  },
+  {
+    "company_name": "意大利邮政集团(POSTE ITALIANE)",
+    "short_name": [
+      "POSTE ITALIANE",
+      "意大利邮政"
+    ]
+  },
+  {
+    "company_name": "巴克莱(BARCLAYS)",
+    "short_name": [
+      "BARCLAYS",
+      "巴克莱"
+    ]
+  },
+  {
+    "company_name": "泰森食品(TYSON FOODS)",
+    "short_name": [
+      "TYSON FOODS",
+      "泰森食品"
+    ]
+  },
+  {
+    "company_name": "住友商事(SUMITOMO)",
+    "short_name": [
+      "SUMITOMO",
+      "住友商事"
+    ]
+  },
+  {
+    "company_name": "西班牙ACS集团(ACS)",
+    "short_name": [
+      "ACS",
+      "西班牙ACS"
+    ]
+  },
+  {
+    "company_name": "甲骨文公司(ORACLE)",
+    "short_name": [
+      "ORACLE",
+      "甲骨文"
+    ]
+  },
+  {
+    "company_name": "怡和集团(JARDINE MATHESON)",
+    "short_name": [
+      "JARDINE MATHESON",
+      "怡和"
+    ]
+  },
+  {
+    "company_name": "美国教师退休基金会(TIAA)",
+    "short_name": [
+      "TIAA",
+      "美国教师退休基金会"
+    ]
+  },
+  {
+    "company_name": "绿地控股集团有限公司(GREENLAND HOLDING GROUP)",
+    "short_name": [
+      "GREENLAND HOLDING GROUP",
+      "绿地"
+    ]
+  },
+  {
+    "company_name": "神华集团(SHENHUA GROUP)",
+    "short_name": [
+      "SHENHUA GROUP",
+      "神华"
+    ]
+  },
+  {
+    "company_name": "Energy Transfer Equity公司(ENERGY TRANSFER EQUITY)",
+    "short_name": [
+      "ENERGY TRANSFER EQUITY",
+      "Energy Transfer Equity"
+    ]
+  },
+  {
+    "company_name": "中国华能集团公司(CHINA HUANENG GROUP)",
+    "short_name": [
+      "CHINA HUANENG GROUP",
+      "中国华能"
+    ]
+  },
+  {
+    "company_name": "英国葛兰素史克公司(GLAXOSMITHKLINE)",
+    "short_name": [
+      "GLAXOSMITHKLINE",
+      "英国葛兰素史克"
+    ]
+  },
+  {
+    "company_name": "江森自控国际公司(JOHNSON CONTROLS INTERNATIONAL)",
+    "short_name": [
+      "JOHNSON CONTROLS INTERNATIONAL",
+      "江森自控国际"
+    ]
+  },
+  {
+    "company_name": "高盛(GOLDMAN SACHS GROUP)",
+    "short_name": [
+      "GOLDMAN SACHS GROUP",
+      "高盛"
+    ]
+  },
+  {
+    "company_name": "万通互惠理财(MASSACHUSETTS MUTUAL LIFE INSURANCE)",
+    "short_name": [
+      "MASSACHUSETTS MUTUAL LIFE INSURANCE",
+      "万通互惠理财"
+    ]
+  },
+  {
+    "company_name": "南苏格兰电力(SSE)",
+    "short_name": [
+      "SSE",
+      "南苏格兰电力"
+    ]
+  },
+  {
+    "company_name": "恒力集团(HENGLI GROUP)",
+    "short_name": [
+      "HENGLI GROUP",
+      "恒力"
+    ]
+  },
+  {
+    "company_name": "摩根士丹利(MORGAN STANLEY)",
+    "short_name": [
+      "MORGAN STANLEY",
+      "摩根士丹利"
+    ]
+  },
+  {
+    "company_name": "加拿大鲍尔集团(POWER CORP. OF CANADA)",
+    "short_name": [
+      "POWER CORP. OF CANADA",
+      "加拿大鲍尔"
+    ]
+  },
+  {
+    "company_name": "美国利宝互助保险集团(LIBERTY MUTUAL INSURANCE GROUP)",
+    "short_name": [
+      "LIBERTY MUTUAL INSURANCE GROUP",
+      "美国利宝互助保险"
+    ]
+  },
+  {
+    "company_name": "卡特彼勒(CATERPILLAR)",
+    "short_name": [
+      "CATERPILLAR",
+      "卡特彼勒"
+    ]
+  },
+  {
+    "company_name": "采埃孚(ZF FRIEDRICHSHAFEN)",
+    "short_name": [
+      "ZF FRIEDRICHSHAFEN",
+      "采埃孚"
+    ]
+  },
+  {
+    "company_name": "三菱电机股份有限公司(MITSUBISHI ELECTRIC)",
+    "short_name": [
+      "MITSUBISHI ELECTRIC",
+      "三菱电机"
+    ]
+  },
+  {
+    "company_name": "京东集团(JD.COM)",
+    "short_name": [
+      "JD.COM",
+      "京东"
+    ]
+  },
+  {
+    "company_name": "霍尼韦尔国际公司(HONEYWELL INTERNATIONAL)",
+    "short_name": [
+      "HONEYWELL INTERNATIONAL",
+      "霍尼韦尔国际"
+    ]
+  },
+  {
+    "company_name": "中国建材集团(CHINA NATIONAL BUILDING MATERIAL GROUP)",
+    "short_name": [
+      "CHINA NATIONAL BUILDING MATERIAL GROUP",
+      "中国建材"
+    ]
+  },
+  {
+    "company_name": "百思买(BEST BUY)",
+    "short_name": [
+      "BEST BUY",
+      "百思买"
+    ]
+  },
+  {
+    "company_name": "达美航空(DELTA AIR LINES)",
+    "short_name": [
+      "DELTA AIR LINES",
+      "达美航空"
+    ]
+  },
+  {
+    "company_name": "信诺(CIGNA)",
+    "short_name": [
+      "CIGNA",
+      "信诺"
+    ]
+  },
+  {
+    "company_name": "默沙东(MERCK)",
+    "short_name": [
+      "MERCK",
+      "默沙东"
+    ]
+  },
+  {
+    "company_name": "美国全国保险公司(NATIONWIDE)",
+    "short_name": [
+      "NATIONWIDE",
+      "美国全国保险"
+    ]
+  },
+  {
+    "company_name": "美国航空集团(AMERICAN AIRLINES GROUP)",
+    "short_name": [
+      "AMERICAN AIRLINES GROUP",
+      "美国航空"
+    ]
+  },
+  {
+    "company_name": "中国太平洋保险（集团）股份有限公司(CHINA PACIFIC INSURANCE (GROUP))",
+    "short_name": [
+      "CHINA PACIFIC INSURANCE (GROUP",
+      "中国太平洋保险"
+    ]
+  },
+  {
+    "company_name": "中国民生银行(CHINA MINSHENG BANKING)",
+    "short_name": [
+      "CHINA MINSHENG BANKING",
+      "中国民生银行"
+    ]
+  },
+  {
+    "company_name": "宏利金融(MANULIFE FINANCIAL)",
+    "short_name": [
+      "MANULIFE FINANCIAL",
+      "宏利金融"
+    ]
+  },
+  {
+    "company_name": "三井物产株式会社(MITSUI)",
+    "short_name": [
+      "MITSUI",
+      "三井物产株式会社"
+    ]
+  },
+  {
+    "company_name": "中国铝业公司(ALUMINUM CORP. OF CHINA)",
+    "short_name": [
+      "ALUMINUM CORP. OF CHINA",
+      "中国铝业"
+    ]
+  },
+  {
+    "company_name": "印度塔塔汽车公司(TATA MOTORS)",
+    "short_name": [
+      "TATA MOTORS",
+      "印度塔塔汽车"
+    ]
+  },
+  {
+    "company_name": "韩华集团(HANWHA)",
+    "short_name": [
+      "HANWHA",
+      "韩华"
+    ]
+  },
+  {
+    "company_name": "上海浦东发展银行股份有限公司(SHANGHAI PUDONG DEVELOPMENT BANK)",
+    "short_name": [
+      "SHANGHAI PUDONG DEVELOPMENT BANK",
+      "上海浦东发展银行"
+    ]
+  },
+  {
+    "company_name": "Centene公司(CENTENE)",
+    "short_name": [
+      "CENTENE",
+      "Centene"
+    ]
+  },
+  {
+    "company_name": "美国纽约人寿保险公司(NEW YORK LIFE INSURANCE)",
+    "short_name": [
+      "NEW YORK LIFE INSURANCE",
+      "美国纽约人寿保险"
+    ]
+  },
+  {
+    "company_name": "住友生命保险公司(SUMITOMO LIFE INSURANCE)",
+    "short_name": [
+      "SUMITOMO LIFE INSURANCE",
+      "住友生命保险"
+    ]
+  },
+  {
+    "company_name": "中国联合网络通信股份有限公司(CHINA UNITED NETWORK COMMUNICATIONS)",
+    "short_name": [
+      "CHINA UNITED NETWORK COMMUNICATIONS",
+      "中国联合网络通信"
+    ]
+  },
+  {
+    "company_name": "赛诺菲(SANOFI)",
+    "short_name": [
+      "SANOFI",
+      "赛诺菲"
+    ]
+  },
+  {
+    "company_name": "丰益国际(WILMAR INTERNATIONAL)",
+    "short_name": [
+      "WILMAR INTERNATIONAL",
+      "丰益国际"
+    ]
+  },
+  {
+    "company_name": "广州汽车工业集团(GUANGZHOU AUTOMOBILE INDUSTRY GROUP)",
+    "short_name": [
+      "GUANGZHOU AUTOMOBILE INDUSTRY GROUP",
+      "广州汽车工业"
+    ]
+  },
+  {
+    "company_name": "富士通(FUJITSU)",
+    "short_name": [
+      "FUJITSU",
+      "富士通"
+    ]
+  },
+  {
+    "company_name": "电装公司(DENSO)",
+    "short_name": [
+      "DENSO",
+      "电装"
+    ]
+  },
+  {
+    "company_name": "可口可乐公司(COCA-COLA)",
+    "short_name": [
+      "COCA-COLA",
+      "可口可乐"
+    ]
+  },
+  {
+    "company_name": "迪奥(CHRISTIAN DIOR)",
+    "short_name": [
+      "CHRISTIAN DIOR",
+      "迪奥"
+    ]
+  },
+  {
+    "company_name": "中国船舶重工集团公司(CHINA SHIPBUILDING INDUSTRY)",
+    "short_name": [
+      "CHINA SHIPBUILDING INDUSTRY",
+      "中国船舶重工"
+    ]
+  },
+  {
+    "company_name": "俄罗斯联邦储蓄银行(SBERBANK)",
+    "short_name": [
+      "SBERBANK",
+      "俄罗斯联邦储蓄银行"
+    ]
+  },
+  {
+    "company_name": "意昂集团(E.ON)",
+    "short_name": [
+      "E.ON",
+      "意昂"
+    ]
+  },
+  {
+    "company_name": "兴业银行(INDUSTRIAL BANK)",
+    "short_name": [
+      "INDUSTRIAL BANK",
+      "兴业银行"
+    ]
+  },
+  {
+    "company_name": "邦吉公司(BUNGE)",
+    "short_name": [
+      "BUNGE",
+      "邦吉"
+    ]
+  },
+  {
+    "company_name": "新日铁住金(NIPPON STEEL & SUMITOMO METAL)",
+    "short_name": [
+      "NIPPON STEEL & SUMITOMO METAL",
+      "新日铁住金"
+    ]
+  },
+  {
+    "company_name": "万喜集团(VINCI)",
+    "short_name": [
+      "VINCI",
+      "万喜"
+    ]
+  },
+  {
+    "company_name": "联想集团(LENOVO GROUP)",
+    "short_name": [
+      "LENOVO GROUP",
+      "联想"
+    ]
+  },
+  {
+    "company_name": "圣戈班集团(SAINT-GOBAIN)",
+    "short_name": [
+      "SAINT-GOBAIN",
+      "圣戈班"
+    ]
+  },
+  {
+    "company_name": "蒂森克虏伯(THYSSENKRUPP)",
+    "short_name": [
+      "THYSSENKRUPP",
+      "蒂森克虏伯"
+    ]
+  },
+  {
+    "company_name": "西班牙对外银行(BANCO BILBAO VIZCAYA ARGENTARIA)",
+    "short_name": [
+      "BANCO BILBAO VIZCAYA ARGENTARIA",
+      "西班牙对外银行"
+    ]
+  },
+  {
+    "company_name": "中国华信能源有限公司(CEFC CHINA ENERGY)",
+    "short_name": [
+      "CEFC CHINA ENERGY",
+      "中国华信能源"
+    ]
+  },
+  {
+    "company_name": "河钢集团(HBIS GROUP)",
+    "short_name": [
+      "HBIS GROUP",
+      "河钢"
+    ]
+  },
+  {
+    "company_name": "瑞士再保险股份有限公司(SWISS RE)",
+    "short_name": [
+      "SWISS RE",
+      "瑞士再保险"
+    ]
+  },
+  {
+    "company_name": "日本KDDI电信公司(KDDI)",
+    "short_name": [
+      "KDDI",
+      "日本KDDI电信"
+    ]
+  },
+  {
+    "company_name": "澳大利亚伍尔沃斯公司(WOOLWORTHS)",
+    "short_name": [
+      "WOOLWORTHS",
+      "澳大利亚伍尔沃斯"
+    ]
+  },
+  {
+    "company_name": "印度国家银行(STATE BANK OF INDIA)",
+    "short_name": [
+      "STATE BANK OF INDIA",
+      "印度国家银行"
+    ]
+  },
+  {
+    "company_name": "招商银行(CHINA MERCHANTS BANK)",
+    "short_name": [
+      "CHINA MERCHANTS BANK",
+      "招商银行"
+    ]
+  },
+  {
+    "company_name": "日本伊藤忠商事株式会社(ITOCHU)",
+    "short_name": [
+      "ITOCHU",
+      "日本伊藤忠商事株式会社"
+    ]
+  },
+  {
+    "company_name": "HCA公司(HCA HOLDINGS)",
+    "short_name": [
+      "HCA HOLDINGS",
+      "HCA"
+    ]
+  },
+  {
+    "company_name": "德国大陆集团(CONTINENTAL)",
+    "short_name": [
+      "CONTINENTAL",
+      "德国大陆"
+    ]
+  },
+  {
+    "company_name": "德国联邦铁路公司(DEUTSCHE BAHN)",
+    "short_name": [
+      "DEUTSCHE BAHN",
+      "德国联邦铁路"
+    ]
+  },
+  {
+    "company_name": "中国化工集团公司(CHEMCHINA)",
+    "short_name": [
+      "CHEMCHINA",
+      "中国化工"
+    ]
+  },
+  {
+    "company_name": "Orange公司(ORANGE)",
+    "short_name": [
+      "ORANGE",
+      "Orange"
+    ]
+  },
+  {
+    "company_name": "起亚汽车(KIA MOTORS)",
+    "short_name": [
+      "KIA MOTORS",
+      "起亚汽车"
+    ]
+  },
+  {
+    "company_name": "韩国浦项制铁公司(POSCO)",
+    "short_name": [
+      "POSCO",
+      "韩国浦项制铁"
+    ]
+  },
+  {
+    "company_name": "挪威国家石油公司(STATOIL)",
+    "short_name": [
+      "STATOIL",
+      "挪威国家石油"
+    ]
+  },
+  {
+    "company_name": "百威英博(ANHEUSER-BUSCH INBEV)",
+    "short_name": [
+      "ANHEUSER-BUSCH INBEV",
+      "百威英博"
+    ]
+  },
+  {
+    "company_name": "来宝集团(NOBLE GROUP)",
+    "short_name": [
+      "NOBLE GROUP",
+      "来宝"
+    ]
+  },
+  {
+    "company_name": "中国宝武钢铁集团(CHINA BAOWU STEEL GROUP)",
+    "short_name": [
+      "CHINA BAOWU STEEL GROUP",
+      "中国宝武钢铁"
+    ]
+  },
+  {
+    "company_name": "信实工业公司(RELIANCE INDUSTRIES)",
+    "short_name": [
+      "RELIANCE INDUSTRIES",
+      "信实工业"
+    ]
+  },
+  {
+    "company_name": "日本三井住友金融集团(SUMITOMO MITSUI FINANCIAL GROUP)",
+    "short_name": [
+      "SUMITOMO MITSUI FINANCIAL GROUP",
+      "日本三井住友金融"
+    ]
+  },
+  {
+    "company_name": "LG电子(LG ELECTRONICS)",
+    "short_name": [
+      "LG ELECTRONICS",
+      "LG电子"
+    ]
+  },
+  {
+    "company_name": "法国国家人寿保险公司(CNP ASSURANCES)",
+    "short_name": [
+      "CNP ASSURANCES",
+      "法国国家人寿保险"
+    ]
+  },
+  {
+    "company_name": "中国医药集团(SINOPHARM)",
+    "short_name": [
+      "SINOPHARM",
+      "中国医药"
+    ]
+  },
+  {
+    "company_name": "西农(WESFARMERS)",
+    "short_name": [
+      "WESFARMERS",
+      "西农"
+    ]
+  },
+  {
+    "company_name": "Finatis公司(FINATIS)",
+    "short_name": [
+      "FINATIS",
+      "Finatis"
+    ]
+  },
+  {
+    "company_name": "陶氏化学(DOW CHEMICAL)",
+    "short_name": [
+      "DOW CHEMICAL",
+      "陶氏化学"
+    ]
+  },
+  {
+    "company_name": "莱茵集团(RWE)",
+    "short_name": [
+      "RWE",
+      "莱茵"
+    ]
+  },
+  {
+    "company_name": "惠普公司(HP)",
+    "short_name": [
+      "HP",
+      "惠普"
+    ]
+  },
+  {
+    "company_name": "东京海上日动火灾保险公司(TOKIO MARINE HOLDINGS)",
+    "short_name": [
+      "TOKIO MARINE HOLDINGS",
+      "东京海上日动火灾保险"
+    ]
+  },
+  {
+    "company_name": "泰国国家石油有限公司(PTT)",
+    "short_name": [
+      "PTT",
+      "泰国国家石油"
+    ]
+  },
+  {
+    "company_name": "巴西JBS公司(JBS)",
+    "short_name": [
+      "JBS",
+      "巴西JBS"
+    ]
+  },
+  {
+    "company_name": "中国电力建设集团有限公司(POWERCHINA)",
+    "short_name": [
+      "POWERCHINA",
+      "中国电力建设"
+    ]
+  },
+  {
+    "company_name": "德意志银行(DEUTSCHE BANK)",
+    "short_name": [
+      "DEUTSCHE BANK",
+      "德意志银行"
+    ]
+  },
+  {
+    "company_name": "MS&AD保险集团控股有限公司(MS&AD INSURANCE GROUP HOLDINGS)",
+    "short_name": [
+      "MS&AD INSURANCE GROUP HOLDINGS",
+      "MSAD保险"
+    ]
+  },
+  {
+    "company_name": "思科公司(CISCO SYSTEMS)",
+    "short_name": [
+      "CISCO SYSTEMS",
+      "思科"
+    ]
+  },
+  {
+    "company_name": "诺华公司(NOVARTIS)",
+    "short_name": [
+      "NOVARTIS",
+      "诺华"
+    ]
+  },
+  {
+    "company_name": "东京电力公司(TOKYO ELECTRIC POWER)",
+    "short_name": [
+      "TOKYO ELECTRIC POWER",
+      "东京电力"
+    ]
+  },
+  {
+    "company_name": "马来西亚国家石油公司(PETRONAS)",
+    "short_name": [
+      "PETRONAS",
+      "马来西亚国家石油"
+    ]
+  },
+  {
+    "company_name": "正威国际集团(AMER INTERNATIONAL GROUP)",
+    "short_name": [
+      "AMER INTERNATIONAL GROUP",
+      "正威国际"
+    ]
+  },
+  {
+    "company_name": "路易达孚集团(LOUIS DREYFUS)",
+    "short_name": [
+      "LOUIS DREYFUS",
+      "路易达孚"
+    ]
+  },
+  {
+    "company_name": "慧与公司(HEWLETT PACKARD ENTERPRISE)",
+    "short_name": [
+      "HEWLETT PACKARD ENTERPRISE",
+      "慧与"
+    ]
+  },
+  {
+    "company_name": "联邦快递(FEDEX)",
+    "short_name": [
+      "FEDEX",
+      "联邦快递"
+    ]
+  },
+  {
+    "company_name": "西斯科公司(SYSCO)",
+    "short_name": [
+      "SYSCO",
+      "西斯科"
+    ]
+  },
+  {
+    "company_name": "洛克希德－马丁(LOCKHEED MARTIN)",
+    "short_name": [
+      "LOCKHEED MARTIN",
+      "洛克希德－马丁"
+    ]
+  },
+  {
+    "company_name": "韩国电力公司(KOREA ELECTRIC POWER)",
+    "short_name": [
+      "KOREA ELECTRIC POWER",
+      "韩国电力"
+    ]
+  },
+  {
+    "company_name": "美洲电信(AMÉRICA MÓVIL)",
+    "short_name": [
+      "AMÉRICA MÓVIL",
+      "美洲电信"
+    ]
+  },
+  {
+    "company_name": "美国国际集团(AMERICAN INTERNATIONAL GROUP)",
+    "short_name": [
+      "AMERICAN INTERNATIONAL GROUP",
+      "美国国际"
+    ]
+  },
+  {
+    "company_name": "拜耳集团(BAYER)",
+    "short_name": [
+      "BAYER",
+      "拜耳"
+    ]
+  },
+  {
+    "company_name": "辉瑞制药有限公司(PFIZER)",
+    "short_name": [
+      "PFIZER",
+      "辉瑞制药"
+    ]
+  },
+  {
+    "company_name": "中国中信集团有限公司(CITIC GROUP)",
+    "short_name": [
+      "CITIC GROUP",
+      "中国中信"
+    ]
+  },
+  {
+    "company_name": "交通银行(BANK OF COMMUNICATIONS)",
+    "short_name": [
+      "BANK OF COMMUNICATIONS",
+      "交通银行"
+    ]
+  },
+  {
+    "company_name": "海航集团(HNA GROUP)",
+    "short_name": [
+      "HNA GROUP",
+      "海航"
+    ]
+  },
+  {
+    "company_name": "瑞士罗氏公司(ROCHE GROUP)",
+    "short_name": [
+      "ROCHE GROUP",
+      "瑞士罗氏"
+    ]
+  },
+  {
+    "company_name": "印度石油公司(INDIAN OIL)",
+    "short_name": [
+      "INDIAN OIL",
+      "印度石油"
+    ]
+  },
+  {
+    "company_name": "Seven & I 控股公司(SEVEN & I HOLDINGS)",
+    "short_name": [
+      "SEVEN & I HOLDINGS",
+      "Seven  I 控股"
+    ]
+  },
+  {
+    "company_name": "哈门那公司(HUMANA)",
+    "short_name": [
+      "HUMANA",
+      "哈门那"
+    ]
+  },
+  {
+    "company_name": "皇家阿霍德德尔海兹集团(ROYAL AHOLD DELHAIZE)",
+    "short_name": [
+      "ROYAL AHOLD DELHAIZE",
+      "皇家阿霍德德尔海兹"
+    ]
+  },
+  {
+    "company_name": "三菱日联金融集团(MITSUBISHI UFJ FINANCIAL GROUP)",
+    "short_name": [
+      "MITSUBISHI UFJ FINANCIAL GROUP",
+      "三菱日联金融"
+    ]
+  },
+  {
+    "company_name": "荷兰国际集团(ING GROUP)",
+    "short_name": [
+      "ING GROUP",
+      "荷兰国际"
+    ]
+  },
+  {
+    "company_name": "中国航空工业集团公司(AVIATION INDUSTRY CORP. OF CHINA)",
+    "short_name": [
+      "AVIATION INDUSTRY CORP. OF CHINA",
+      "中国航空工业"
+    ]
+  },
+  {
+    "company_name": "华特迪士尼公司(WALT DISNEY)",
+    "short_name": [
+      "WALT DISNEY",
+      "华特迪士尼"
+    ]
+  },
+  {
+    "company_name": "马拉松原油公司(MARATHON PETROLEUM)",
+    "short_name": [
+      "MARATHON PETROLEUM",
+      "马拉松原油"
+    ]
+  },
+  {
+    "company_name": "山东魏桥创业集团有限公司(SHANDONG WEIQIAO PIONEERING GROUP)",
+    "short_name": [
+      "SHANDONG WEIQIAO PIONEERING GROUP",
+      "山东魏桥创业"
+    ]
+  },
+  {
+    "company_name": "俄罗斯石油公司(ROSNEFT OIL)",
+    "short_name": [
+      "ROSNEFT OIL",
+      "俄罗斯石油"
+    ]
+  },
+  {
+    "company_name": "雷诺(RENAULT)",
+    "short_name": [
+      "RENAULT",
+      "雷诺"
+    ]
+  },
+  {
+    "company_name": "安赛乐米塔尔(ARCELORMITTAL)",
+    "short_name": [
+      "ARCELORMITTAL",
+      "安赛乐米塔尔"
+    ]
+  },
+  {
+    "company_name": "联合技术公司(UNITED TECHNOLOGIES)",
+    "short_name": [
+      "UNITED TECHNOLOGIES",
+      "联合技术"
+    ]
+  },
+  {
+    "company_name": "巴西布拉德斯科银行(BANCO BRADESCO)",
+    "short_name": [
+      "BANCO BRADESCO",
+      "巴西布拉德斯科银行"
+    ]
+  },
+  {
+    "company_name": "西班牙电话公司(TELEFÓNICA)",
+    "short_name": [
+      "TELEFÓNICA",
+      "西班牙电话"
+    ]
+  },
+  {
+    "company_name": "墨西哥石油公司(PEMEX)",
+    "short_name": [
+      "PEMEX",
+      "墨西哥石油"
+    ]
+  },
+  {
+    "company_name": "巴西银行(BANCO DO BRASIL)",
+    "short_name": [
+      "BANCO DO BRASIL",
+      "巴西银行"
+    ]
+  },
+  {
+    "company_name": "联合利华(UNILEVER)",
+    "short_name": [
+      "UNILEVER",
+      "联合利华"
+    ]
+  },
+  {
+    "company_name": "沃达丰集团(VODAFONE GROUP)",
+    "short_name": [
+      "VODAFONE GROUP",
+      "沃达丰"
+    ]
+  },
+  {
+    "company_name": "保德信金融集团(PRUDENTIAL FINANCIAL)",
+    "short_name": [
+      "PRUDENTIAL FINANCIAL",
+      "保德信金融"
+    ]
+  },
+  {
+    "company_name": "荷兰全球保险集团(AEGON)",
+    "short_name": [
+      "AEGON",
+      "荷兰全球保险"
+    ]
+  },
+  {
+    "company_name": "欧尚集团(AUCHAN HOLDING)",
+    "short_name": [
+      "AUCHAN HOLDING",
+      "欧尚"
+    ]
+  },
+  {
+    "company_name": "三菱商事株式会社(MITSUBISHI)",
+    "short_name": [
+      "MITSUBISHI",
+      "三菱商事株式会社"
+    ]
+  },
+  {
+    "company_name": "英特尔公司(INTEL)",
+    "short_name": [
+      "INTEL",
+      "英特尔"
+    ]
+  },
+  {
+    "company_name": "中国中化集团公司(SINOCHEM GROUP)",
+    "short_name": [
+      "SINOCHEM GROUP",
+      "中国中化"
+    ]
+  },
+  {
+    "company_name": "第一生命控股有限公司(DAI-ICHI LIFE HOLDINGS)",
+    "short_name": [
+      "DAI-ICHI LIFE HOLDINGS",
+      "第一生命"
+    ]
+  },
+  {
+    "company_name": "艾伯森公司(ALBERTSONS COS.)",
+    "short_name": [
+      "ALBERTSONS COS.",
+      "艾伯森"
+    ]
+  },
+  {
+    "company_name": "标致(PEUGEOT)",
+    "short_name": [
+      "PEUGEOT",
+      "标致"
+    ]
+  },
+  {
+    "company_name": "安邦保险集团(ANBANG INSURANCE GROUP)",
+    "short_name": [
+      "ANBANG INSURANCE GROUP",
+      "安邦保险"
+    ]
+  },
+  {
+    "company_name": "联合包裹速递服务公司(UNITED PARCEL SERVICE)",
+    "short_name": [
+      "UNITED PARCEL SERVICE",
+      "联合包裹速递服务"
+    ]
+  },
+  {
+    "company_name": "北京汽车集团(BEIJING AUTOMOTIVE GROUP)",
+    "short_name": [
+      "BEIJING AUTOMOTIVE GROUP",
+      "北京汽车"
+    ]
+  },
+  {
+    "company_name": "中粮集团有限公司(COFCO)",
+    "short_name": [
+      "COFCO",
+      "中粮"
+    ]
+  },
+  {
+    "company_name": "中国兵器工业集团公司(CHINA NORTH INDUSTRIES GROUP)",
+    "short_name": [
+      "CHINA NORTH INDUSTRIES GROUP",
+      "中国兵器工业"
+    ]
+  },
+  {
+    "company_name": "ADM公司(ARCHER DANIELS MIDLAND)",
+    "short_name": [
+      "ARCHER DANIELS MIDLAND",
+      "ADM"
+    ]
+  },
+  {
+    "company_name": "中国电信集团公司(CHINA TELECOMMUNICATIONS)",
+    "short_name": [
+      "CHINA TELECOMMUNICATIONS",
+      "中国电信"
+    ]
+  },
+  {
+    "company_name": "埃尼石油公司(ENI)",
+    "short_name": [
+      "ENI",
+      "埃尼石油"
+    ]
+  },
+  {
+    "company_name": "百事公司(PEPSICO)",
+    "short_name": [
+      "PEPSICO",
+      "百事"
+    ]
+  },
+  {
+    "company_name": "安泰保险(AETNA)",
+    "short_name": [
+      "AETNA",
+      "安泰保险"
+    ]
+  },
+  {
+    "company_name": "天津物产集团有限公司(TEWOO GROUP)",
+    "short_name": [
+      "TEWOO GROUP",
+      "天津物产"
+    ]
+  },
+  {
+    "company_name": "大都会人寿(METLIFE)",
+    "short_name": [
+      "METLIFE",
+      "大都会人寿"
+    ]
+  },
+  {
+    "company_name": "JXTG控股有限公司(JXTG HOLDINGS)",
+    "short_name": [
+      "JXTG HOLDINGS",
+      "JXTG"
+    ]
+  },
+  {
+    "company_name": "巴斯夫公司(BASF)",
+    "short_name": [
+      "BASF",
+      "巴斯夫"
+    ]
+  },
+  {
+    "company_name": "中国第一汽车集团公司(CHINA FAW GROUP)",
+    "short_name": [
+      "CHINA FAW GROUP",
+      "中国第一汽车"
+    ]
+  },
+  {
+    "company_name": "戴尔科技公司(DELL TECHNOLOGIES)",
+    "short_name": [
+      "DELL TECHNOLOGIES",
+      "戴尔科技"
+    ]
+  },
+  {
+    "company_name": "麦德龙(METRO)",
+    "short_name": [
+      "METRO",
+      "麦德龙"
+    ]
+  },
+  {
+    "company_name": "美国劳氏公司(LOWE'S)",
+    "short_name": [
+      "LOWE'S",
+      "美国劳氏"
+    ]
+  },
+  {
+    "company_name": "英国劳埃德银行集团(LLOYDS BANKING GROUP)",
+    "short_name": [
+      "LLOYDS BANKING GROUP",
+      "英国劳埃德银行"
+    ]
+  },
+  {
+    "company_name": "中国五矿集团公司(CHINA MINMETALS)",
+    "short_name": [
+      "CHINA MINMETALS",
+      "中国五矿"
+    ]
+  },
+  {
+    "company_name": "中国邮政集团公司(CHINA POST GROUP)",
+    "short_name": [
+      "CHINA POST GROUP",
+      "中国邮政"
+    ]
+  },
+  {
+    "company_name": "房地美(FREDDIE MAC)",
+    "short_name": [
+      "FREDDIE MAC",
+      "房地美"
+    ]
+  },
+  {
+    "company_name": "德国邮政(DEUTSCHE POST)",
+    "short_name": [
+      "DEUTSCHE POST",
+      "德国邮政"
+    ]
+  },
+  {
+    "company_name": "丸红株式会社(MARUBENI)",
+    "short_name": [
+      "MARUBENI",
+      "丸红株式会社"
+    ]
+  },
+  {
+    "company_name": "中国海洋石油总公司(CHINA NATIONAL OFFSHORE OIL)",
+    "short_name": [
+      "CHINA NATIONAL OFFSHORE OIL",
+      "中国海洋石油总"
+    ]
+  },
+  {
+    "company_name": "中国人民保险集团股份有限公司(PEOPLE'S INSURANCE CO. OF CHINA)",
+    "short_name": [
+      "PEOPLE'S INSURANCE CO. OF CHINA",
+      "中国人民保险"
+    ]
+  },
+  {
+    "company_name": "伊塔乌联合银行控股公司(ITAÚ UNIBANCO HOLDING)",
+    "short_name": [
+      "ITAÚ UNIBANCO HOLDING",
+      "伊塔乌联合银行控股"
+    ]
+  },
+  {
+    "company_name": "苏黎世保险集团(ZURICH INSURANCE GROUP)",
+    "short_name": [
+      "ZURICH INSURANCE GROUP",
+      "苏黎世保险"
+    ]
+  },
+  {
+    "company_name": "日本生命保险公司(NIPPON LIFE INSURANCE)",
+    "short_name": [
+      "NIPPON LIFE INSURANCE",
+      "日本生命保险"
+    ]
+  },
+  {
+    "company_name": "松下(PANASONIC)",
+    "short_name": [
+      "PANASONIC",
+      "松下"
+    ]
+  },
+  {
+    "company_name": "慕尼黑再保险公司(MUNICH RE GROUP)",
+    "short_name": [
+      "MUNICH RE GROUP",
+      "慕尼黑再保险"
+    ]
+  },
+  {
+    "company_name": "法国兴业银行(SOCIÉTÉ GÉNÉRALE)",
+    "short_name": [
+      "SOCIÉTÉ GÉNÉRALE",
+      "法国兴业银行"
+    ]
+  },
+  {
+    "company_name": "塔吉特公司(TARGET)",
+    "short_name": [
+      "TARGET",
+      "塔吉特"
+    ]
+  },
+  {
+    "company_name": "瓦莱罗能源公司(VALERO ENERGY)",
+    "short_name": [
+      "VALERO ENERGY",
+      "瓦莱罗能源"
+    ]
+  },
+  {
+    "company_name": "索尼(SONY)",
+    "short_name": [
+      "SONY",
+      "索尼"
+    ]
+  },
+  {
+    "company_name": "法国BPCE银行集团(GROUPE BPCE)",
+    "short_name": [
+      "GROUPE BPCE",
+      "法国BPCE银行"
+    ]
+  },
+  {
+    "company_name": "中国交通建设集团有限公司(CHINA COMMUNICATIONS CONSTRUCTION)",
+    "short_name": [
+      "CHINA COMMUNICATIONS CONSTRUCTION",
+      "中国交通建设"
+    ]
+  },
+  {
+    "company_name": "卢克石油公司(LUKOIL)",
+    "short_name": [
+      "LUKOIL",
+      "卢克石油"
+    ]
+  },
+  {
+    "company_name": "中国兵器装备集团公司(CHINA SOUTH INDUSTRIES GROUP)",
+    "short_name": [
+      "CHINA SOUTH INDUSTRIES GROUP",
+      "中国兵器装备"
+    ]
+  },
+  {
+    "company_name": "中国南方电网有限责任公司(CHINA SOUTHERN POWER GRID)",
+    "short_name": [
+      "CHINA SOUTHERN POWER GRID",
+      "中国南方电网有限责任"
+    ]
+  },
+  {
+    "company_name": "美国邮政(U.S. POSTAL SERVICE)",
+    "short_name": [
+      "U.S. POSTAL SERVICE",
+      "美国邮政"
+    ]
+  },
+  {
+    "company_name": "宝洁公司(PROCTER & GAMBLE)",
+    "short_name": [
+      "PROCTER & GAMBLE",
+      "宝洁"
+    ]
+  },
+  {
+    "company_name": "强生(JOHNSON & JOHNSON)",
+    "short_name": [
+      "JOHNSON & JOHNSON",
+      "强生"
+    ]
+  },
+  {
+    "company_name": "Phillips 66公司(PHILLIPS 66)",
+    "short_name": [
+      "PHILLIPS 66",
+      "Phillips 66"
+    ]
+  },
+  {
+    "company_name": "SK集团(SK HOLDINGS)",
+    "short_name": [
+      "SK HOLDINGS",
+      "SK"
+    ]
+  },
+  {
+    "company_name": "空中客车集团(AIRBUS GROUP)",
+    "short_name": [
+      "AIRBUS GROUP",
+      "空中客车"
+    ]
+  },
+  {
+    "company_name": "Engie集团(ENGIE)",
+    "short_name": [
+      "ENGIE",
+      "Engie"
+    ]
+  },
+  {
+    "company_name": "乐购(TESCO)",
+    "short_name": [
+      "TESCO",
+      "乐购"
+    ]
+  },
+  {
+    "company_name": "Uniper公司(UNIPER)",
+    "short_name": [
+      "UNIPER",
+      "Uniper"
+    ]
+  },
+  {
+    "company_name": "英杰华集团(AVIVA)",
+    "short_name": [
+      "AVIVA",
+      "英杰华"
+    ]
+  },
+  {
+    "company_name": "太平洋建设集团(PACIFIC CONSTRUCTION GROUP)",
+    "short_name": [
+      "PACIFIC CONSTRUCTION GROUP",
+      "太平洋建设"
+    ]
+  },
+  {
+    "company_name": "汇丰银行控股公司(HSBC HOLDINGS)",
+    "short_name": [
+      "HSBC HOLDINGS",
+      "汇丰银行控股"
+    ]
+  },
+  {
+    "company_name": "日本永旺集团(AEON)",
+    "short_name": [
+      "AEON",
+      "日本永旺"
+    ]
+  },
+  {
+    "company_name": "中国华润总公司(CHINA RESOURCES NATIONAL)",
+    "short_name": [
+      "CHINA RESOURCES NATIONAL",
+      "中国华润总"
+    ]
+  },
+  {
+    "company_name": "州立农业保险公司(STATE FARM INSURANCE COS.)",
+    "short_name": [
+      "STATE FARM INSURANCE COS.",
+      "州立农业保险"
+    ]
+  },
+  {
+    "company_name": "意大利国家电力公司(ENEL)",
+    "short_name": [
+      "ENEL",
+      "意大利国家电力"
+    ]
+  },
+  {
+    "company_name": "华为投资控股有限公司(HUAWEI INVESTMENT & HOLDING)",
+    "short_name": [
+      "HUAWEI INVESTMENT & HOLDING",
+      "华为投资"
+    ]
+  },
+  {
+    "company_name": "法国电力公司(ÉLECTRICITÉ DE FRANCE)",
+    "short_name": [
+      "ÉLECTRICITÉ DE FRANCE",
+      "法国电力"
+    ]
+  },
+  {
+    "company_name": "国际商业机器公司(INTERNATIONAL BUSINESS MACHINES)",
+    "short_name": [
+      "INTERNATIONAL BUSINESS MACHINES",
+      "国际商业机器"
+    ]
+  },
+  {
+    "company_name": "法国农业信贷银行(CRÉDIT AGRICOLE)",
+    "short_name": [
+      "CRÉDIT AGRICOLE",
+      "法国农业信贷银行"
+    ]
+  },
+  {
+    "company_name": "美国康卡斯特电信公司(COMCAST)",
+    "short_name": [
+      "COMCAST",
+      "美国康卡斯特电信"
+    ]
+  },
+  {
+    "company_name": "现代汽车(HYUNDAI MOTOR)",
+    "short_name": [
+      "HYUNDAI MOTOR",
+      "现代汽车"
+    ]
+  },
+  {
+    "company_name": "德国电信(DEUTSCHE TELEKOM)",
+    "short_name": [
+      "DEUTSCHE TELEKOM",
+      "德国电信"
+    ]
+  },
+  {
+    "company_name": "博世公司(ROBERT BOSCH)",
+    "short_name": [
+      "ROBERT BOSCH",
+      "博世"
+    ]
+  },
+  {
+    "company_name": "巴西国家石油公司(PETROBRAS)",
+    "short_name": [
+      "PETROBRAS",
+      "巴西国家石油"
+    ]
+  },
+  {
+    "company_name": "花旗集团(CITIGROUP)",
+    "short_name": [
+      "CITIGROUP",
+      "花旗"
+    ]
+  },
+  {
+    "company_name": "西班牙国家银行(BANCO SANTANDER)",
+    "short_name": [
+      "BANCO SANTANDER",
+      "西班牙国家银行"
+    ]
+  },
+  {
+    "company_name": "软银集团(SOFTBANK GROUP)",
+    "short_name": [
+      "SOFTBANK GROUP",
+      "软银"
+    ]
+  },
+  {
+    "company_name": "日立(HITACHI)",
+    "short_name": [
+      "HITACHI",
+      "日立"
+    ]
+  },
+  {
+    "company_name": "Anthem公司(ANTHEM)",
+    "short_name": [
+      "ANTHEM",
+      "Anthem"
+    ]
+  },
+  {
+    "company_name": "微软(MICROSOFT)",
+    "short_name": [
+      "MICROSOFT",
+      "微软"
+    ]
+  },
+  {
+    "company_name": "东风汽车公司(DONGFENG MOTOR)",
+    "short_name": [
+      "DONGFENG MOTOR",
+      "东风汽车"
+    ]
+  },
+  {
+    "company_name": "家乐福(CARREFOUR)",
+    "short_name": [
+      "CARREFOUR",
+      "家乐福"
+    ]
+  },
+  {
+    "company_name": "西门子(SIEMENS)",
+    "short_name": [
+      "SIEMENS",
+      "西门子"
+    ]
+  },
+  {
+    "company_name": "Alphabet公司(ALPHABET)",
+    "short_name": [
+      "ALPHABET",
+      "Alphabet"
+    ]
+  },
+  {
+    "company_name": "雀巢公司(NESTLÉ)",
+    "short_name": [
+      "NESTLÉ",
+      "雀巢"
+    ]
+  },
+  {
+    "company_name": "俄罗斯天然气工业股份公司(GAZPROM)",
+    "short_name": [
+      "GAZPROM",
+      "俄罗斯天然气工业股份"
+    ]
+  },
+  {
+    "company_name": "美国银行(BANK OF AMERICA CORP.)",
+    "short_name": [
+      "BANK OF AMERICA CORP.",
+      "美国银行"
+    ]
+  },
+  {
+    "company_name": "美国富国银行(WELLS FARGO)",
+    "short_name": [
+      "WELLS FARGO",
+      "美国富国银行"
+    ]
+  },
+  {
+    "company_name": "波音(BOEING)",
+    "short_name": [
+      "BOEING",
+      "波音"
+    ]
+  },
+  {
+    "company_name": "家得宝(HOME DEPOT)",
+    "short_name": [
+      "HOME DEPOT",
+      "家得宝"
+    ]
+  },
+  {
+    "company_name": "中国铁道建筑总公司(CHINA RAILWAY CONSTRUCTION)",
+    "short_name": [
+      "CHINA RAILWAY CONSTRUCTION",
+      "中国铁道建筑总"
+    ]
+  },
+  {
+    "company_name": "意大利忠利保险公司(ASSICURAZIONI GENERALI)",
+    "short_name": [
+      "ASSICURAZIONI GENERALI",
+      "意大利忠利保险"
+    ]
+  },
+  {
+    "company_name": "英国保诚集团(PRUDENTIAL)",
+    "short_name": [
+      "PRUDENTIAL",
+      "英国保诚"
+    ]
+  },
+  {
+    "company_name": "中国铁路工程总公司(CHINA RAILWAY ENGINEERING)",
+    "short_name": [
+      "CHINA RAILWAY ENGINEERING",
+      "中国铁路工程总"
+    ]
+  },
+  {
+    "company_name": "托克集团(TRAFIGURA GROUP)",
+    "short_name": [
+      "TRAFIGURA GROUP",
+      "托克"
+    ]
+  },
+  {
+    "company_name": "美国快捷药方控股公司(EXPRESS SCRIPTS HOLDING)",
+    "short_name": [
+      "EXPRESS SCRIPTS HOLDING",
+      "美国快捷药方控股"
+    ]
+  },
+  {
+    "company_name": "宝马集团(BMW GROUP)",
+    "short_name": [
+      "BMW GROUP",
+      "宝马"
+    ]
+  },
+  {
+    "company_name": "中国人寿保险（集团）公司(CHINA LIFE INSURANCE)",
+    "short_name": [
+      "CHINA LIFE INSURANCE",
+      "中国人寿保险"
+    ]
+  },
+  {
+    "company_name": "日本电报电话公司(NIPPON TELEGRAPH & TELEPHONE)",
+    "short_name": [
+      "NIPPON TELEGRAPH & TELEPHONE",
+      "日本电报电话"
+    ]
+  },
+  {
+    "company_name": "英国法通保险公司(LEGAL & GENERAL GROUP)",
+    "short_name": [
+      "LEGAL & GENERAL GROUP",
+      "英国法通保险"
+    ]
+  },
+  {
+    "company_name": "摩根大通公司(JPMORGAN CHASE & CO.)",
+    "short_name": [
+      "JPMORGAN CHASE & CO.",
+      "摩根大通"
+    ]
+  },
+  {
+    "company_name": "中国移动通信集团公司(CHINA MOBILE COMMUNICATIONS)",
+    "short_name": [
+      "CHINA MOBILE COMMUNICATIONS",
+      "中国移动通信"
+    ]
+  },
+  {
+    "company_name": "房利美(FANNIE MAE)",
+    "short_name": [
+      "FANNIE MAE",
+      "房利美"
+    ]
+  },
+  {
+    "company_name": "雪佛龙(CHEVRON)",
+    "short_name": [
+      "CHEVRON",
+      "雪佛龙"
+    ]
+  },
+  {
+    "company_name": "日产汽车(NISSAN MOTOR)",
+    "short_name": [
+      "NISSAN MOTOR",
+      "日产汽车"
+    ]
+  },
+  {
+    "company_name": "法国巴黎银行(BNP PARIBAS)",
+    "short_name": [
+      "BNP PARIBAS",
+      "法国巴黎银行"
+    ]
+  },
+  {
+    "company_name": "中国银行(BANK OF CHINA)",
+    "short_name": [
+      "BANK OF CHINA",
+      "中国银行"
+    ]
+  },
+  {
+    "company_name": "上海汽车集团股份有限公司(SAIC MOTOR)",
+    "short_name": [
+      "SAIC MOTOR",
+      "上海汽车"
+    ]
+  },
+  {
+    "company_name": "克罗格(KROGER)",
+    "short_name": [
+      "KROGER",
+      "克罗格"
+    ]
+  },
+  {
+    "company_name": "中国平安保险（集团）股份有限公司(PING AN INSURANCE)",
+    "short_name": [
+      "PING AN INSURANCE",
+      "中国平安保险"
+    ]
+  },
+  {
+    "company_name": "中国农业银行(AGRICULTURAL BANK OF CHINA)",
+    "short_name": [
+      "AGRICULTURAL BANK OF CHINA",
+      "中国农业银行"
+    ]
+  },
+  {
+    "company_name": "沃博联(WALGREENS BOOTS ALLIANCE)",
+    "short_name": [
+      "WALGREENS BOOTS ALLIANCE",
+      "沃博联"
+    ]
+  },
+  {
+    "company_name": "好市多(COSTCO WHOLESALE)",
+    "short_name": [
+      "COSTCO WHOLESALE",
+      "好市多"
+    ]
+  },
+  {
+    "company_name": "康德乐(CARDINAL HEALTH)",
+    "short_name": [
+      "CARDINAL HEALTH",
+      "康德乐"
+    ]
+  },
+  {
+    "company_name": "安联保险集团(ALLIANZ)",
+    "short_name": [
+      "ALLIANZ",
+      "安联保险"
+    ]
+  },
+  {
+    "company_name": "日本邮政控股公司(JAPAN POST HOLDINGS)",
+    "short_name": [
+      "JAPAN POST HOLDINGS",
+      "日本邮政控股"
+    ]
+  },
+  {
+    "company_name": "威瑞森电信(VERIZON COMMUNICATIONS)",
+    "short_name": [
+      "VERIZON COMMUNICATIONS",
+      "威瑞森电信"
+    ]
+  },
+  {
+    "company_name": "通用电气公司(GENERAL ELECTRIC)",
+    "short_name": [
+      "GENERAL ELECTRIC",
+      "通用电气"
+    ]
+  },
+  {
+    "company_name": "道达尔公司(TOTAL)",
+    "short_name": [
+      "TOTAL",
+      "道达尔"
+    ]
+  },
+  {
+    "company_name": "本田汽车(HONDA MOTOR)",
+    "short_name": [
+      "HONDA MOTOR",
+      "本田汽车"
+    ]
+  },
+  {
+    "company_name": "中国建设银行(CHINA CONSTRUCTION BANK)",
+    "short_name": [
+      "CHINA CONSTRUCTION BANK",
+      "中国建设银行"
+    ]
+  },
+  {
+    "company_name": "鸿海精密工业股份有限公司(HON HAI PRECISION INDUSTRY)",
+    "short_name": [
+      "HON HAI PRECISION INDUSTRY",
+      "鸿海精密工业"
+    ]
+  },
+  {
+    "company_name": "亚马逊(AMAZON.COM)",
+    "short_name": [
+      "AMAZON.COM",
+      "亚马逊"
+    ]
+  },
+  {
+    "company_name": "安盛(AXA)",
+    "short_name": [
+      "AXA",
+      "安盛"
+    ]
+  },
+  {
+    "company_name": "中国建筑工程总公司(CHINA STATE CONSTRUCTION ENGINEERING)",
+    "short_name": [
+      "CHINA STATE CONSTRUCTION ENGINEERING",
+      "中国建筑工程总"
+    ]
+  },
+  {
+    "company_name": "美源伯根公司(AMERISOURCEBERGEN)",
+    "short_name": [
+      "AMERISOURCEBERGEN",
+      "美源伯根"
+    ]
+  },
+  {
+    "company_name": "中国工商银行(INDUSTRIAL & COMMERCIAL BANK OF CHINA)",
+    "short_name": [
+      "INDUSTRIAL & COMMERCIAL BANK OF CHINA",
+      "中国工商银行"
+    ]
+  },
+  {
+    "company_name": "福特汽车公司(FORD MOTOR)",
+    "short_name": [
+      "FORD MOTOR",
+      "福特汽车"
+    ]
+  },
+  {
+    "company_name": "EXOR集团(EXOR GROUP)",
+    "short_name": [
+      "EXOR GROUP",
+      "EXOR"
+    ]
+  },
+  {
+    "company_name": "美国电话电报公司(AT&T)",
+    "short_name": [
+      "AT&T",
+      "美国电话电报"
+    ]
+  },
+  {
+    "company_name": "通用汽车公司(GENERAL MOTORS)",
+    "short_name": [
+      "GENERAL MOTORS",
+      "通用汽车"
+    ]
+  },
+  {
+    "company_name": "戴姆勒股份公司(DAIMLER)",
+    "short_name": [
+      "DAIMLER",
+      "戴姆勒股份"
+    ]
+  },
+  {
+    "company_name": "嘉能可(GLENCORE)",
+    "short_name": [
+      "GLENCORE",
+      "嘉能可"
+    ]
+  },
+  {
+    "company_name": "三星电子(SAMSUNG ELECTRONICS)",
+    "short_name": [
+      "SAMSUNG ELECTRONICS",
+      "三星电子"
+    ]
+  },
+  {
+    "company_name": "CVS Health公司(CVS HEALTH)",
+    "short_name": [
+      "CVS HEALTH",
+      "CVS Health"
+    ]
+  },
+  {
+    "company_name": "联合健康集团(UNITEDHEALTH GROUP)",
+    "short_name": [
+      "UNITEDHEALTH GROUP",
+      "联合健康"
+    ]
+  },
+  {
+    "company_name": "英国石油公司(BP)",
+    "short_name": [
+      "BP",
+      "英国石油"
+    ]
+  },
+  {
+    "company_name": "麦克森公司(MCKESSON)",
+    "short_name": [
+      "MCKESSON",
+      "麦克森"
+    ]
+  },
+  {
+    "company_name": "埃克森美孚(EXXON MOBIL)",
+    "short_name": [
+      "EXXON MOBIL",
+      "埃克森美孚"
+    ]
+  },
+  {
+    "company_name": "苹果公司(APPLE)",
+    "short_name": [
+      "APPLE",
+      "苹果"
+    ]
+  },
+  {
+    "company_name": "伯克希尔－哈撒韦公司(BERKSHIRE HATHAWAY)",
+    "short_name": [
+      "BERKSHIRE HATHAWAY",
+      "伯克希尔－哈撒韦"
+    ]
+  },
+  {
+    "company_name": "荷兰皇家壳牌石油公司(ROYAL DUTCH SHELL)",
+    "short_name": [
+      "ROYAL DUTCH SHELL",
+      "荷兰皇家壳牌石油"
+    ]
+  },
+  {
+    "company_name": "大众公司(VOLKSWAGEN)",
+    "short_name": [
+      "VOLKSWAGEN",
+      "大众"
+    ]
+  },
+  {
+    "company_name": "丰田汽车公司(TOYOTA MOTOR)",
+    "short_name": [
+      "TOYOTA MOTOR",
+      "丰田汽车"
+    ]
+  },
+  {
+    "company_name": "中国石油天然气集团公司(CHINA NATIONAL PETROLEUM)",
+    "short_name": [
+      "CHINA NATIONAL PETROLEUM",
+      "中国石油天然气"
+    ]
+  },
+  {
+    "company_name": "中国石油化工集团公司(SINOPEC GROUP)",
+    "short_name": [
+      "SINOPEC GROUP",
+      "中国石油化工"
+    ]
+  },
+  {
+    "company_name": "国家电网公司(STATE GRID)",
+    "short_name": [
+      "STATE GRID",
+      "国家电网"
+    ]
+  },
+  {
+    "company_name": "沃尔玛(WAL-MART STORES)",
+    "short_name": [
+      "WAL-MART STORES",
+      "沃尔玛"
+    ]
+  }
+]

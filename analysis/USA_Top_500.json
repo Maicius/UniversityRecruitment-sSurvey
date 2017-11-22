@@ -1,1 +1,3502 @@
-[{"company_name": "ABM Industries公司(ABM Industries)", "short_name": ["ABM", " ", "Industries"]}, {"company_name": "Vistra Energy公司(Vistra Energy)", "short_name": ["Vistra", " ", "Energy"]}, {"company_name": "雅虎(Yahoo)", "short_name": ["雅虎"]}, {"company_name": "Toll Brothers公司(Toll Brothers)", "short_name": ["Toll", " ", "Brothers"]}, {"company_name": "Michaels Cos.公司(Michaels Cos.)", "short_name": ["Michaels", " ", "Cos", "."]}, {"company_name": "Big Lots公司(Big Lots)", "short_name": ["Big", " ", "Lots"]}, {"company_name": "西图集团(CH2M Hill)", "short_name": ["西图"]}, {"company_name": "罗致恒富(Robert Half International)", "short_name": ["罗致", "恒富"]}, {"company_name": "罗克韦尔·柯林斯公司(Rockwell Collins)", "short_name": ["罗克韦尔", "·", "柯林斯"]}, {"company_name": "Liberty Media(Liberty Media)", "short_name": ["Liberty", " ", "Media"]}, {"company_name": "凯利服务公司(Kelly Services)", "short_name": ["凯利", "服务公司"]}, {"company_name": "Airgas公司(Airgas)", "short_name": ["Airgas"]}, {"company_name": "阿帕奇(Apache)", "short_name": ["阿帕奇"]}, {"company_name": "Essendant公司(Essendant)", "short_name": ["Essendant"]}, {"company_name": "Seaboard公司(Seaboard)", "short_name": ["Seaboard"]}, {"company_name": "Windstream Holdings公司(Windstream Holdings)", "short_name": ["Windstream", " ", "Holdings"]}, {"company_name": "塞拉尼斯公司(Celanese)", "short_name": ["塞", "拉尼斯"]}, {"company_name": "Western & Southern Financial Group公司(Western & Southern Financial Group)", "short_name": ["Western", " ", " ", "Southern", " ", "Financial", " ", "Group"]}, {"company_name": "科慕(Chemours)", "short_name": ["科慕"]}, {"company_name": "博思艾伦咨询有限公司(Booz Allen Hamilton Holding)", "short_name": ["博思", "艾伦", "咨询"]}, {"company_name": "Delek US Holdings公司(Delek US Holdings)", "short_name": ["Delek", " ", "US", " ", "Holdings"]}, {"company_name": "KeyCorp公司(KeyCorp)", "short_name": ["KeyCorp"]}, {"company_name": "西联(Western Union)", "short_name": ["西联"]}, {"company_name": "西蒙房地产集团(Simon Property Group)", "short_name": ["西蒙", "房地产"]}, {"company_name": "Cincinnati Financial公司(Cincinnati Financial)", "short_name": ["Cincinnati", " ", "Financial"]}, {"company_name": "AmTrust Financial Services公司(AmTrust Financial Services)", "short_name": ["AmTrust", " ", "Financial", " ", "Services"]}, {"company_name": "美泰公司(Mattel)", "short_name": ["美泰"]}, {"company_name": "Insight Enterprises公司(Insight Enterprises)", "short_name": ["Insight", " ", "Enterprises"]}, {"company_name": "Host Hotels & Resorts集团(Host Hotels & Resorts)", "short_name": ["Host", " ", "Hotels", " ", " ", "Resorts"]}, {"company_name": "Fiserv公司(Fiserv)", "short_name": ["Fiserv"]}, {"company_name": "TravelCenters of America公司(TravelCenters of America)", "short_name": ["TravelCenters", " ", "of", " ", "America"]}, {"company_name": "瑞杰金融集团(Raymond James Financial)", "short_name": ["瑞杰", "金融"]}, {"company_name": "NetApp公司(NetApp)", "short_name": ["NetApp"]}, {"company_name": "Olin公司(Olin)", "short_name": ["Olin"]}, {"company_name": "Patterson公司(Patterson)", "short_name": ["Patterson"]}, {"company_name": "赛门铁克(Symantec)", "short_name": ["赛门铁克"]}, {"company_name": "First American Financial公司(First American Financial)", "short_name": ["First", " ", "American", " ", "Financial"]}, {"company_name": "Burlington公司(Burlington Stores)", "short_name": ["Burlington"]}, {"company_name": "Arthur J. Gallagher公司(Arthur J. Gallagher)", "short_name": ["Arthur", " ", "J", ".", " ", "Gallagher"]}, {"company_name": "温德姆环球公司(Wyndham Worldwide)", "short_name": ["温德姆", "环球"]}, {"company_name": "Markel公司(Markel)", "short_name": ["Markel"]}, {"company_name": "S&P Global公司(S&P Global)", "short_name": ["S", "P", " ", "Global"]}, {"company_name": "Owens Corning公司(Owens Corning)", "short_name": ["Owens", " ", "Corning"]}, {"company_name": "UGI公司(UGI)", "short_name": ["UGI"]}, {"company_name": "Ingredion公司(Ingredion)", "short_name": ["Ingredion"]}, {"company_name": "M&T Bank Corp.公司(M&T Bank Corp.)", "short_name": ["M", "T", " ", "Bank", " ", "Corp", "."]}, {"company_name": "Genesis Healthcare公司(Genesis Healthcare)", "short_name": ["Genesis", " ", "Healthcare"]}, {"company_name": "高乐氏(Clorox)", "short_name": ["高乐氏"]}, {"company_name": "United Rentals公司(United Rentals)", "short_name": ["United", " ", "Rentals"]}, {"company_name": "公民金融集团(Citizens Financial Group)", "short_name": ["公民", "金融"]}, {"company_name": "Packaging Corp. of America公司(Packaging Corp. of America)", "short_name": ["Packaging", " ", "Corp", ".", " ", "of", " ", "America"]}, {"company_name": "American Tower公司(American Tower)", "short_name": ["American", " ", "Tower"]}, {"company_name": "Realogy Holdings公司(Realogy Holdings)", "short_name": ["Realogy", " ", "Holdings"]}, {"company_name": "德纳股份有限公司(Dana)", "short_name": ["德纳"]}, {"company_name": "NVR公司(NVR)", "short_name": ["NVR"]}, {"company_name": "特雷克斯公司(Terex)", "short_name": ["特", "雷克斯"]}, {"company_name": "雅芳产品公司(Avon Products)", "short_name": ["雅芳", "产品"]}, {"company_name": "Adobe Systems公司(Adobe Systems)", "short_name": ["Adobe", " ", "Systems"]}, {"company_name": "罗克韦尔自动化(Rockwell Automation)", "short_name": ["罗克韦尔", "自动化"]}, {"company_name": "AK钢铁控股公司(AK Steel Holding)", "short_name": ["AK", "钢铁", "控股公司"]}, {"company_name": "泛林集团(Lam Research)", "short_name": ["泛林"]}, {"company_name": "Old Republic International公司(Old Republic International)", "short_name": ["Old", " ", "Republic", " ", "International"]}, {"company_name": "阿拉斯加航空集团(Alaska Air Group)", "short_name": ["阿拉斯加", "航空"]}, {"company_name": "Intercontinental Exchange(Intercontinental Exchange)", "short_name": ["Intercontinental", " ", "Exchange"]}, {"company_name": "地区金融公司(Regions Financial)", "short_name": ["地区", "金融公司"]}, {"company_name": "哈雷戴维森公司(Harley-Davidson)", "short_name": ["哈雷", "戴维森"]}, {"company_name": "St. Jude Medical公司(St. Jude Medical)", "short_name": ["St", ".", " ", "Jude", " ", "Medical"]}, {"company_name": "摩托罗拉系统(Motorola Solutions)", "short_name": ["摩托罗拉", "系统"]}, {"company_name": "Hanesbrands公司(Hanesbrands)", "short_name": ["Hanesbrands"]}, {"company_name": "Ameren公司(Ameren)", "short_name": ["Ameren"]}, {"company_name": "艾利丹尼森公司(Avery Dennison)", "short_name": ["艾利", "丹尼森"]}, {"company_name": "华盛顿国际商贸公司(Expeditors International of Washington)", "short_name": ["华盛顿", "国际商贸"]}, {"company_name": "Alleghany公司(Alleghany)", "short_name": ["Alleghany"]}, {"company_name": "TreeHouse Foods公司(TreeHouse Foods)", "short_name": ["TreeHouse", " ", "Foods"]}, {"company_name": "iHeartMedia公司(iHeartMedia)", "short_name": ["iHeartMedia"]}, {"company_name": "Oshkosh公司(Oshkosh)", "short_name": ["Oshkosh"]}, {"company_name": "Amphenol公司(Amphenol)", "short_name": ["Amphenol"]}, {"company_name": "Casey's General Stores公司(Casey's General Stores)", "short_name": ["Casey", "'", "s", " ", "General", " ", "Stores"]}, {"company_name": "百胜餐饮集团(Yum Brands)", "short_name": ["百胜", "餐饮"]}, {"company_name": "Builders FirstSource公司(Builders FirstSource)", "short_name": ["Builders", " ", "FirstSource"]}, {"company_name": "Graybar Electric公司(Graybar Electric)", "short_name": ["Graybar", " ", "Electric"]}, {"company_name": "CMS能源公司(CMS Energy)", "short_name": ["CMS", "能源"]}, {"company_name": "HRG Group公司(HRG Group)", "short_name": ["HRG", " ", "Group"]}, {"company_name": "Dillard's公司(Dillard's)", "short_name": ["Dillard", "'", "s"]}, {"company_name": "澎泉思蓝宝集团(Dr Pepper Snapple Group)", "short_name": ["澎泉", "思蓝宝"]}, {"company_name": "CalAtlantic Group公司(CalAtlantic Group)", "short_name": ["CalAtlantic", " ", "Group"]}, {"company_name": "新美亚(Sanmina)", "short_name": ["新", "美亚"]}, {"company_name": "Berry Global Group公司(Berry Global Group)", "short_name": ["Berry", " ", "Global", " ", "Group"]}, {"company_name": "探索传播(Discovery Communications)", "short_name": ["探索", "传播"]}, {"company_name": "American Financial Group公司(American Financial Group)", "short_name": ["American", " ", "Financial", " ", "Group"]}, {"company_name": "Asbury Automotive Group公司(Asbury Automotive Group)", "short_name": ["Asbury", " ", "Automotive", " ", "Group"]}, {"company_name": "NCR公司(NCR)", "short_name": ["NCR"]}, {"company_name": "Constellation Brands公司(Constellation Brands)", "short_name": ["Constellation", " ", "Brands"]}, {"company_name": "J.B. Hunt Transport Services公司(J.B. Hunt Transport Services)", "short_name": ["J", ".", "B", ".", " ", "Hunt", " ", "Transport", " ", "Services"]}, {"company_name": "动视暴雪(Activision Blizzard)", "short_name": ["动视", "暴雪"]}, {"company_name": "富兰克林资源(Franklin Resources)", "short_name": ["富兰克林", "资源"]}, {"company_name": "Jones Financial公司(Jones Financial (Edward Jones))", "short_name": ["Jones", " ", "Financial"]}, {"company_name": "捷蓝航空(JetBlue Airways)", "short_name": ["捷蓝", "航空"]}, {"company_name": "Targa Resources公司(Targa Resources)", "short_name": ["Targa", " ", "Resources"]}, {"company_name": "欧文斯－依利诺伊(Owens-Illinois)", "short_name": ["欧文斯", "－", "依利诺", "伊"]}, {"company_name": "Calpine公司(Calpine)", "short_name": ["Calpine"]}, {"company_name": "百胜中国控股有限公司(Yum China Holdings)", "short_name": ["百胜", "中国"]}, {"company_name": "Auto-Owners Insurance公司(Auto-Owners Insurance)", "short_name": ["Auto", "-", "Owners", " ", "Insurance"]}, {"company_name": "希悦尔(Sealed Air)", "short_name": ["希悦尔"]}, {"company_name": "Tractor Supply公司(Tractor Supply)", "short_name": ["Tractor", " ", "Supply"]}, {"company_name": "A-Mark Precious Metals(A-Mark Precious Metals)", "short_name": ["A", "-", "Mark", " ", "Precious", " ", "Metals"]}, {"company_name": "赖德系统公司(Ryder System)", "short_name": ["赖德", "系统"]}, {"company_name": "Spirit AeroSystems Holdings公司(Spirit AeroSystems Holdings)", "short_name": ["Spirit", " ", "AeroSystems", " ", "Holdings"]}, {"company_name": "都福(Dover)", "short_name": ["都", "福"]}, {"company_name": "Jones Lang LaSalle公司(Jones Lang LaSalle)", "short_name": ["Jones", " ", "Lang", " ", "LaSalle"]}, {"company_name": "昆泰(Quintiles IMS Holdings)", "short_name": ["昆泰"]}, {"company_name": "五三银行(Fifth Third Bancorp)", "short_name": ["五", "三", "银行"]}, {"company_name": "R.R. Donnelley & Sons公司(R.R. Donnelley & Sons)", "short_name": ["R", ".", "R", ".", " ", "Donnelley", " ", " ", "Sons"]}, {"company_name": "英伟达(Nvidia)", "short_name": ["英", "伟达"]}, {"company_name": "哈曼国际(Harman International Industries)", "short_name": ["哈曼", "国际"]}, {"company_name": "Darden Restaurants公司(Darden Restaurants)", "short_name": ["Darden", " ", "Restaurants"]}, {"company_name": "Ascena Retail Group公司(Ascena Retail Group)", "short_name": ["Ascena", " ", "Retail", " ", "Group"]}, {"company_name": "特斯拉(Tesla)", "short_name": ["特斯拉"]}, {"company_name": "Erie Insurance Group公司(Erie Insurance Group)", "short_name": ["Erie", " ", "Insurance", " ", "Group"]}, {"company_name": "Leidos Holdings公司(Leidos Holdings)", "short_name": ["Leidos", " ", "Holdings"]}, {"company_name": "Huntington Ingalls Industries公司(Huntington Ingalls Industries)", "short_name": ["Huntington", " ", "Ingalls", " ", "Industries"]}, {"company_name": "Computer Sciences公司(Computer Sciences)", "short_name": ["Computer", " ", "Sciences"]}, {"company_name": "Alliance Data Systems公司(Alliance Data Systems)", "short_name": ["Alliance", " ", "Data", " ", "Systems"]}, {"company_name": "美盛公司(Mosaic)", "short_name": ["美盛"]}, {"company_name": "Kindred Healthcare公司(Kindred Healthcare)", "short_name": ["Kindred", " ", "Healthcare"]}, {"company_name": "国民油井华高公司(National Oilwell Varco)", "short_name": ["国民", "油井", "华高"]}, {"company_name": "LifePoint Health公司(LifePoint Health)", "short_name": ["LifePoint", " ", "Health"]}, {"company_name": "Wesco International公司(Wesco International)", "short_name": ["Wesco", " ", "International"]}, {"company_name": "Masco公司(Masco)", "short_name": ["Masco"]}, {"company_name": "拉尔夫·劳伦公司(Ralph Lauren)", "short_name": ["拉尔夫", "·", "劳伦"]}, {"company_name": "AGCO公司(AGCO)", "short_name": ["AGCO"]}, {"company_name": "好时(Hershey)", "short_name": ["好时"]}, {"company_name": "WEC Energy Group公司(WEC Energy Group)", "short_name": ["WEC", " ", "Energy", " ", "Group"]}, {"company_name": "Williams公司(Williams)", "short_name": ["Williams"]}, {"company_name": "探索诊断公司(Quest Diagnostics)", "short_name": ["探索", "诊断"]}, {"company_name": "PPL公司(PPL)", "short_name": ["PPL"]}, {"company_name": "HD Supply Holdings公司(HD Supply Holdings)", "short_name": ["HD", " ", "Supply", " ", "Holdings"]}, {"company_name": "Harris公司(Harris)", "short_name": ["Harris"]}, {"company_name": "CenterPoint Energy公司(CenterPoint Energy)", "short_name": ["CenterPoint", " ", "Energy"]}, {"company_name": "Assurant公司(Assurant)", "short_name": ["Assurant"]}, {"company_name": "Emcor集团(Emcor Group)", "short_name": ["Emcor"]}, {"company_name": "Anixter国际公司(Anixter International)", "short_name": ["Anixter", "国际"]}, {"company_name": "Eversource Energy公司(Eversource Energy)", "short_name": ["Eversource", " ", "Energy"]}, {"company_name": "嘉信理财(Charles Schwab)", "short_name": ["嘉信", "理财"]}, {"company_name": "EOG Resources公司(EOG Resources)", "short_name": ["EOG", " ", "Resources"]}, {"company_name": "Quanta Services公司(Quanta Services)", "short_name": ["Quanta", " ", "Services"]}, {"company_name": "W.R. Berkley公司(W.R. Berkley)", "short_name": ["W", ".", "R", ".", " ", "Berkley"]}, {"company_name": "PulteGroup公司(PulteGroup)", "short_name": ["PulteGroup"]}, {"company_name": "Zimmer Biomet Holdings公司(Zimmer Biomet Holdings)", "short_name": ["Zimmer", " ", "Biomet", " ", "Holdings"]}, {"company_name": "Dean Foods公司(Dean Foods)", "short_name": ["Dean", " ", "Foods"]}, {"company_name": "SpartanNash公司(SpartanNash)", "short_name": ["SpartanNash"]}, {"company_name": "Western Refining公司(Western Refining)", "short_name": ["Western", " ", "Refining"]}, {"company_name": "Foot Locker公司(Foot Locker)", "short_name": ["Foot", " ", "Locker"]}, {"company_name": "Steel Dynamics公司(Steel Dynamics)", "short_name": ["Steel", " ", "Dynamics"]}, {"company_name": "J.M. Smucker公司(J.M. Smucker)", "short_name": ["J", ".", "M", ".", " ", "Smucker"]}, {"company_name": "埃培智集团(Interpublic Group)", "short_name": ["埃培智"]}, {"company_name": "阿纳达科石油公司(Anadarko Petroleum)", "short_name": ["阿纳", "达科", "石油"]}, {"company_name": "切萨皮克能源公司(Chesapeake Energy)", "short_name": ["切萨皮克", "能源"]}, {"company_name": "Mutual of Omaha Insurance公司(Mutual of Omaha Insurance)", "short_name": ["Mutual", " ", "of", " ", "Omaha", " ", "Insurance"]}, {"company_name": "惠好公司(Weyerhaeuser)", "short_name": ["惠好"]}, {"company_name": "Dick's Sporting Goods公司(Dick's Sporting Goods)", "short_name": ["Dick", "'", "s", " ", "Sporting", " ", "Goods"]}, {"company_name": "金宝汤(Campbell Soup)", "short_name": ["金宝", "汤"]}, {"company_name": "Univar公司(Univar)", "short_name": ["Univar"]}, {"company_name": "航星(Navistar International)", "short_name": ["航星"]}, {"company_name": "Level 3 Communications公司(Level 3 Communications)", "short_name": ["Level", " ", "3", " ", "Communications"]}, {"company_name": "PVH集团(PVH)", "short_name": ["PVH"]}, {"company_name": "Global Partners公司(Global Partners)", "short_name": ["Global", " ", "Partners"]}, {"company_name": "Crown Holdings公司(Crown Holdings)", "short_name": ["Crown", " ", "Holdings"]}, {"company_name": "新闻集团(News Corp.)", "short_name": ["新闻"]}, {"company_name": "Veritiv公司(Veritiv)", "short_name": ["Veritiv"]}, {"company_name": "Live Nation Entertainment公司(Live Nation Entertainment)", "short_name": ["Live", " ", "Nation", " ", "Entertainment"]}, {"company_name": "Genworth Financial公司(Genworth Financial)", "short_name": ["Genworth", " ", "Financial"]}, {"company_name": "纽蒙特矿业(Newmont Mining)", "short_name": ["纽", "蒙特", "矿业"]}, {"company_name": "波士顿科学公司(Boston Scientific)", "short_name": ["波士顿", "科学"]}, {"company_name": "salesforce.com(salesforce.com)", "short_name": ["salesforce", ".", "com"]}, {"company_name": "United Natural Foods公司(United Natural Foods)", "short_name": ["United", " ", "Natural", " ", "Foods"]}, {"company_name": "Peter Kiewit Sons'公司(Peter Kiewit Sons')", "short_name": ["Peter", " ", "Kiewit", " ", "Sons", "'"]}, {"company_name": "O'Reilly Automotive公司(O'Reilly Automotive)", "short_name": ["O", "'", "Reilly", " ", "Automotive"]}, {"company_name": "天纳克公司(Tenneco)", "short_name": ["天", "纳克"]}, {"company_name": "GameStop公司(GameStop)", "short_name": ["GameStop"]}, {"company_name": "Reliance Steel & Aluminum公司(Reliance Steel & Aluminum)", "short_name": ["Reliance", " ", "Steel", " ", " ", "Aluminum"]}, {"company_name": "Avis Budget Group公司(Avis Budget Group)", "short_name": ["Avis", " ", "Budget", " ", "Group"]}, {"company_name": "Lithia Motors公司(Lithia Motors)", "short_name": ["Lithia", " ", "Motors"]}, {"company_name": "Expedia公司(Expedia)", "short_name": ["Expedia"]}, {"company_name": "Thrivent Financial for Lutherans公司(Thrivent Financial for Lutherans)", "short_name": ["Thrivent", " ", "Financial", " ", "for", " ", "Lutherans"]}, {"company_name": "美国家庭保险集团(American Family Insurance Group)", "short_name": ["美国", "家庭", "保险"]}, {"company_name": "Netflix公司(Netflix)", "short_name": ["Netflix"]}, {"company_name": "Frontier Communications公司(Frontier Communications)", "short_name": ["Frontier", " ", "Communications"]}, {"company_name": "Oneok燃气公司(Oneok)", "short_name": ["Oneok", "燃气公司"]}, {"company_name": "Mohawk Industries公司(Mohawk Industries)", "short_name": ["Mohawk", " ", "Industries"]}, {"company_name": "eBay公司(eBay)", "short_name": ["eBay"]}, {"company_name": "伊士曼化学公司(Eastman Chemical)", "short_name": ["伊士曼", "化学"]}, {"company_name": "公共服务企业集团(Public Service Enterprise Group)", "short_name": ["公共服务"]}, {"company_name": "CST Brands公司(CST Brands)", "short_name": ["CST", " ", "Brands"]}, {"company_name": "Ball公司(Ball)", "short_name": ["Ball"]}, {"company_name": "BorgWarner公司(BorgWarner)", "short_name": ["BorgWarner"]}, {"company_name": "LKQ公司(LKQ)", "short_name": ["LKQ"]}, {"company_name": "太阳信用银行(SunTrust Banks)", "short_name": ["太阳", "信用", "银行"]}, {"company_name": "太平洋人寿(Pacific Life)", "short_name": ["太平洋", "人寿"]}, {"company_name": "繁德公司(Fidelity National Information Services)", "short_name": ["繁德"]}, {"company_name": "美国铝业公司(Alcoa)", "short_name": ["美国", "铝业"]}, {"company_name": "Republic Services公司(Republic Services)", "short_name": ["Republic", " ", "Services"]}, {"company_name": "康宁公司(Corning)", "short_name": ["康宁"]}, {"company_name": "米高梅集团(MGM Resorts International)", "short_name": ["米高梅"]}, {"company_name": "Hertz Global Holdings公司(Hertz Global Holdings)", "short_name": ["Hertz", " ", "Global", " ", "Holdings"]}, {"company_name": "Hormel Foods公司(Hormel Foods)", "short_name": ["Hormel", " ", "Foods"]}, {"company_name": "空气化工产品公司(Air Products & Chemicals)", "short_name": ["空气", "化工产品"]}, {"company_name": "Fidelity National Financial公司(Fidelity National Financial)", "short_name": ["Fidelity", " ", "National", " ", "Financial"]}, {"company_name": "Advance Auto Parts公司(Advance Auto Parts)", "short_name": ["Advance", " ", "Auto", " ", "Parts"]}, {"company_name": "Murphy USA公司(Murphy USA)", "short_name": ["Murphy", " ", "USA"]}, {"company_name": "Laboratory Corp. of America公司(Laboratory Corp. of America)", "short_name": ["Laboratory", " ", "Corp", ".", " ", "of", " ", "America"]}, {"company_name": "Huntsman公司(Huntsman)", "short_name": ["Huntsman"]}, {"company_name": "Owens & Minor公司(Owens & Minor)", "short_name": ["Owens", " ", " ", "Minor"]}, {"company_name": "Sonic Automotive公司(Sonic Automotive)", "short_name": ["Sonic", " ", "Automotive"]}, {"company_name": "联合汽车金融公司(Ally Financial)", "short_name": ["联合", "汽车", "金融公司"]}, {"company_name": "贝克休斯公司(Baker Hughes)", "short_name": ["贝克", "休斯"]}, {"company_name": "诺福克南方公司(Norfolk Southern)", "short_name": ["诺福克", "南方"]}, {"company_name": "Autoliv公司(Autoliv)", "short_name": ["Autoliv"]}, {"company_name": "固安捷公司(W.W. Grainger)", "short_name": ["固安", "捷"]}, {"company_name": "百特国际(Baxter International)", "short_name": ["百特", "国际"]}, {"company_name": "Sempra Energy公司(Sempra Energy)", "short_name": ["Sempra", " ", "Energy"]}, {"company_name": "美国钢铁公司(United States Steel)", "short_name": ["美国", "钢铁公司"]}, {"company_name": "美国西方石油公司(Occidental Petroleum)", "short_name": ["美国", "西方", "石油"]}, {"company_name": "发现金融服务公司(Discover Financial Services)", "short_name": ["发现", "金融服务"]}, {"company_name": "环球健康服务公司(Universal Health Services)", "short_name": ["环球", "健康", "服务公司"]}, {"company_name": "Praxair公司(Praxair)", "short_name": ["Praxair"]}, {"company_name": "HollyFrontier(HollyFrontier)", "short_name": ["HollyFrontier"]}, {"company_name": "L3 Technologies公司(L3 Technologies)", "short_name": ["L3", " ", "Technologies"]}, {"company_name": "DTE Energy公司(DTE Energy)", "short_name": ["DTE", " ", "Energy"]}, {"company_name": "道富集团公司(State Street Corp.)", "short_name": ["道富", "集团公司"]}, {"company_name": "AutoZone公司(AutoZone)", "short_name": ["AutoZone"]}, {"company_name": "Liberty Interactive(Liberty Interactive)", "short_name": ["Liberty", " ", "Interactive"]}, {"company_name": "Priceline集团(Priceline Group)", "short_name": ["Priceline"]}, {"company_name": "万事达(MasterCard)", "short_name": ["万事达"]}, {"company_name": "Voya Financial公司(Voya Financial)", "short_name": ["Voya", " ", "Financial"]}, {"company_name": "应用材料公司(Applied Materials)", "short_name": ["应用", "材料"]}, {"company_name": "贝宝(PayPal Holdings)", "short_name": ["贝宝"]}, {"company_name": "Entergy公司(Entergy)", "short_name": ["Entergy"]}, {"company_name": "Leucadia National公司(Leucadia National)", "short_name": ["Leucadia", " ", "National"]}, {"company_name": "Group 1 Automotive公司(Group 1 Automotive)", "short_name": ["Group", " ", "1", " ", "Automotive"]}, {"company_name": "莱纳房屋公司(Lennar)", "short_name": ["莱纳", "房屋"]}, {"company_name": "Jacobs Engineering Group公司(Jacobs Engineering Group)", "short_name": ["Jacobs", " ", "Engineering", " ", "Group"]}, {"company_name": "Unum Group集团(Unum Group)", "short_name": ["Unum", " ", "Group"]}, {"company_name": "CSX科技公司(CSX)", "short_name": ["CSX", "科技"]}, {"company_name": "Xcel Energy公司(Xcel Energy)", "short_name": ["Xcel", " ", "Energy"]}, {"company_name": "贝莱德(BlackRock)", "short_name": ["贝", "莱德"]}, {"company_name": "Celgene公司(Celgene)", "short_name": ["Celgene"]}, {"company_name": "雅诗兰黛(Estée Lauder)", "short_name": ["雅诗兰黛"]}, {"company_name": "史塞克(Stryker)", "short_name": ["史", "塞克"]}, {"company_name": "派克汉尼汾公司(Parker-Hannifin)", "short_name": ["派克", "汉尼汾"]}, {"company_name": "史丹利百德公司(Stanley Black & Decker)", "short_name": ["史丹利", "百德"]}, {"company_name": "拉斯维加斯金沙公司(Las Vegas Sands)", "short_name": ["拉斯维加斯", "金沙"]}, {"company_name": "Biogen公司(Biogen)", "short_name": ["Biogen"]}, {"company_name": "Core-Mark Holding公司(Core-Mark Holding)", "short_name": ["Core", "-", "Mark", " ", "Holding"]}, {"company_name": "美国再保险集团(Reinsurance Group of America)", "short_name": ["美国", "再保险"]}, {"company_name": "BB&T Corp.公司(BB&T Corp.)", "short_name": ["BB", "T", " ", "Corp", "."]}, {"company_name": "玩具反斗城(Toys \"R\" Us)", "short_name": ["玩具", "反斗", "城"]}, {"company_name": "Henry Schein公司(Henry Schein)", "short_name": ["Henry", " ", "Schein"]}, {"company_name": "第一资讯公司(First Data)", "short_name": ["第一", "资讯"]}, {"company_name": "希尔顿全球控股(Hilton Worldwide Holdings)", "short_name": ["希尔顿", "全球"]}, {"company_name": "Automatic Data Processing公司(Automatic Data Processing)", "short_name": ["Automatic", " ", "Data", " ", "Processing"]}, {"company_name": "Ameriprise Financial公司(Ameriprise Financial)", "short_name": ["Ameriprise", " ", "Financial"]}, {"company_name": "Dominion Energy公司(Dominion Energy)", "short_name": ["Dominion", " ", "Energy"]}, {"company_name": "NGL Energy Partners公司(NGL Energy Partners)", "short_name": ["NGL", " ", "Energy", " ", "Partners"]}, {"company_name": "舍尔温－威廉姆斯公司(Sherwin-Williams)", "short_name": ["舍尔", "温", "－", "威廉姆斯"]}, {"company_name": "爱迪生国际公司(Edison International)", "short_name": ["爱迪生", "国际"]}, {"company_name": "爱迪生联合电气公司(Consolidated Edison)", "short_name": ["爱迪生", "联合", "电气"]}, {"company_name": "Bed Bath & Beyond公司(Bed Bath & Beyond)", "short_name": ["Bed", " ", "Bath", " ", " ", "Beyond"]}, {"company_name": "霍顿公司(D.R. Horton)", "short_name": ["霍顿"]}, {"company_name": "戴文能源公司(Devon Energy)", "short_name": ["戴文", "能源"]}, {"company_name": "VF公司(VF)", "short_name": ["VF"]}, {"company_name": "NRG Energy公司(NRG Energy)", "short_name": ["NRG", " ", "Energy"]}, {"company_name": "Arconic公司(Arconic)", "short_name": ["Arconic"]}, {"company_name": "信安金融(Principal Financial)", "short_name": ["信安", "金融"]}, {"company_name": "美光科技(Micron Technology)", "short_name": ["美", "光", "科技"]}, {"company_name": "Becton Dickinson公司(Becton Dickinson)", "short_name": ["Becton", " ", "Dickinson"]}, {"company_name": "维亚康姆公司(Viacom)", "short_name": ["维亚康姆"]}, {"company_name": "雷诺兹烟草公司(Reynolds American)", "short_name": ["雷诺兹", "烟草"]}, {"company_name": "Farmers Insurance Exchange公司(Farmers Insurance Exchange)", "short_name": ["Farmers", " ", "Insurance", " ", "Exchange"]}, {"company_name": "杰西潘尼公司(J.C. Penney)", "short_name": ["杰西", "潘尼"]}, {"company_name": "有限品牌公司(L Brands)", "short_name": ["品牌"]}, {"company_name": "Ross Stores公司(Ross Stores)", "short_name": ["Ross", " ", "Stores"]}, {"company_name": "Guardian Life Ins. Co. of America公司(Guardian Life Ins. Co. of America)", "short_name": ["Guardian", " ", "Life", " ", "Ins", ".", " ", "Co", ".", " ", "of", " ", "America"]}, {"company_name": "Western Digital公司(Western Digital)", "short_name": ["Western", " ", "Digital"]}, {"company_name": "凯洛格公司(Kellogg)", "short_name": ["凯洛", "格"]}, {"company_name": "金德尔－摩根(Kinder Morgan)", "short_name": ["金", "德尔", "－", "摩根"]}, {"company_name": "世邦魏理仕(CBRE Group)", "short_name": ["世邦", "魏理仕"]}, {"company_name": "Loews公司(Loews)", "short_name": ["Loews"]}, {"company_name": "美国罗宾逊全球物流有限公司(C.H. Robinson Worldwide)", "short_name": ["美国", "罗宾逊", "全球", "物流"]}, {"company_name": "Ecolab公司(Ecolab)", "short_name": ["Ecolab"]}, {"company_name": "威达信集团(Marsh & McLennan)", "short_name": ["威达", "信"]}, {"company_name": "蓝多湖公司(Land O'Lakes)", "short_name": ["蓝多湖"]}, {"company_name": "纽威品牌公司(Newell Brands)", "short_name": ["纽威", "品牌"]}, {"company_name": "Lincoln National公司(Lincoln National)", "short_name": ["Lincoln", " ", "National"]}, {"company_name": "德州仪器公司(Texas Instruments)", "short_name": ["德州仪器"]}, {"company_name": "高知特资讯技术公司(Cognizant Technology Solutions)", "short_name": ["高知特", "资讯", "技术"]}, {"company_name": "孟山都公司(Monsanto)", "short_name": ["孟山都"]}, {"company_name": "欧迪办公(Office Depot)", "short_name": ["欧迪", "办公"]}, {"company_name": "伊利诺斯工具(Illinois Tool Works)", "short_name": ["伊利诺斯", "工具"]}, {"company_name": "废物管理公司(Waste Management)", "short_name": ["废物", "管理"]}, {"company_name": "德事隆公司(Textron)", "short_name": ["德事隆"]}, {"company_name": "CDW公司(CDW)", "short_name": ["CDW"]}, {"company_name": "Synnex公司(Synnex)", "short_name": ["Synnex"]}, {"company_name": "Conagra Brands公司(Conagra Brands)", "short_name": ["Conagra", " ", "Brands"]}, {"company_name": "第一能源公司(FirstEnergy)", "short_name": ["第一", "能源"]}, {"company_name": "WellCare Health Plans公司(WellCare Health Plans)", "short_name": ["WellCare", " ", "Health", " ", "Plans"]}, {"company_name": "AES公司(AES)", "short_name": ["AES"]}, {"company_name": "哥伦比亚广播公司(CBS)", "short_name": ["哥伦比亚", "广播公司"]}, {"company_name": "爱玛客公司(Aramark)", "short_name": ["爱玛", "客"]}, {"company_name": "XPO Logistics公司(XPO Logistics)", "short_name": ["XPO", " ", "Logistics"]}, {"company_name": "WestRock公司(WestRock)", "short_name": ["WestRock"]}, {"company_name": "国际资产控股公司(INTL FCStone)", "short_name": ["国际", "资产", "控股公司"]}, {"company_name": "Nordstrom公司(Nordstrom)", "short_name": ["Nordstrom"]}, {"company_name": "Visa公司(Visa)", "short_name": ["Visa"]}, {"company_name": "DISH Network公司(DISH Network)", "short_name": ["DISH", " ", "Network"]}, {"company_name": "Synchrony Financial公司(Synchrony Financial)", "short_name": ["Synchrony", " ", "Financial"]}, {"company_name": "固特异轮胎（Goodyear Tire & Rubber）(Goodyear Tire & Rubber)", "short_name": ["固特异", "轮胎", "Goodyear", " ", "Tire", " ", " ", "Rubber"]}, {"company_name": "PPG 工业公司(PPG Industries)", "short_name": ["PPG", " ", "工业"]}, {"company_name": "高露洁－棕榄(Colgate-Palmolive)", "short_name": ["高露洁", "－", "棕榄"]}, {"company_name": "DaVita公司(DaVita)", "short_name": ["DaVita"]}, {"company_name": "Genuine Parts公司(Genuine Parts)", "short_name": ["Genuine", " ", "Parts"]}, {"company_name": "宏盟集团(Omnicom Group)", "short_name": ["宏盟"]}, {"company_name": "Gap公司(Gap)", "short_name": ["Gap"]}, {"company_name": "纽约银行梅隆公司(Bank of New York Mellon Corp.)", "short_name": ["纽约银行", "梅隆"]}, {"company_name": "全食超市公司(Whole Foods Market)", "short_name": ["全食", "超市"]}, {"company_name": "Freeport-McMoRan公司(Freeport-McMoRan)", "short_name": ["Freeport", "-", "McMoRan"]}, {"company_name": "CarMax公司(CarMax)", "short_name": ["CarMax"]}, {"company_name": "哈里伯顿公司(Halliburton)", "short_name": ["哈里", "伯顿"]}, {"company_name": "PBF Energy公司(PBF Energy)", "short_name": ["PBF", " ", "Energy"]}, {"company_name": "Performance Food Group公司(Performance Food Group)", "short_name": ["Performance", " ", "Food", " ", "Group"]}, {"company_name": "NextEra Energy公司(NextEra Energy)", "short_name": ["NextEra", " ", "Energy"]}, {"company_name": "纽克公司(Nucor)", "short_name": ["纽克"]}, {"company_name": "Icahn Enterprises(Icahn Enterprises)", "short_name": ["Icahn", " ", "Enterprises"]}, {"company_name": "美国电力(American Electric Power)", "short_name": ["美国", "电力"]}, {"company_name": "PNC金融服务集团(PNC Financial Services Group)", "short_name": ["PNC", "金融服务"]}, {"company_name": "通用磨坊食品公司(General Mills)", "short_name": ["通用", "磨坊", "食品"]}, {"company_name": "帕卡公司(Paccar)", "short_name": ["帕卡"]}, {"company_name": "万豪国际(Marriott International)", "short_name": ["万豪", "国际"]}, {"company_name": "施乐公司(Xerox)", "short_name": ["施乐公司"]}, {"company_name": "AECOM公司(AECOM)", "short_name": ["AECOM"]}, {"company_name": "CenturyLink公司(CenturyLink)", "short_name": ["CenturyLink"]}, {"company_name": "康明斯(Cummins)", "short_name": ["康明斯"]}, {"company_name": "美国超价商店公司(Supervalu)", "short_name": ["美国", "超价", "商店"]}, {"company_name": "太平洋燃气电力公司(PG&E Corp.)", "short_name": ["太平洋", "燃气", "电力公司"]}, {"company_name": "Molina Healthcare公司(Molina Healthcare)", "short_name": ["Molina", " ", "Healthcare"]}, {"company_name": "金佰利公司(Kimberly-Clark)", "short_name": ["金佰利"]}, {"company_name": "Thermo Fisher Scientific(Thermo Fisher Scientific)", "short_name": ["Thermo", " ", "Fisher", " ", "Scientific"]}, {"company_name": "美国哈特福德金融服务公司(Hartford Financial Services Group)", "short_name": ["美国", "哈特福德", "金融服务"]}, {"company_name": "捷普(Jabil Circuit)", "short_name": ["捷普"]}, {"company_name": "利尔公司(Lear)", "short_name": ["利尔"]}, {"company_name": "科尔百货(Kohl's)", "short_name": ["科尔", "百货"]}, {"company_name": "福陆公司(Fluor)", "short_name": ["福陆"]}, {"company_name": "高特利集团(Altria Group)", "short_name": ["高", "特利"]}, {"company_name": "百时美施贵宝公司(Bristol-Myers Squibb)", "short_name": ["百时", "美", "施贵宝"]}, {"company_name": "万宝盛华公司(ManpowerGroup)", "short_name": ["万宝", "盛华"]}, {"company_name": "Southern公司(Southern)", "short_name": ["Southern"]}, {"company_name": "Danaher公司(Danaher)", "short_name": ["Danaher"]}, {"company_name": "联合太平洋(Union Pacific)", "short_name": ["联合", "太平洋"]}, {"company_name": "潘世奇汽车集团(Penske Automotive Group)", "short_name": ["潘世奇", "汽车集团"]}, {"company_name": "Plains GP Holdings公司(Plains GP Holdings)", "short_name": ["Plains", " ", "GP", " ", "Holdings"]}, {"company_name": "史泰博(Staples)", "short_name": ["史泰博"]}, {"company_name": "艾默生电气公司(Emerson Electric)", "short_name": ["艾默生", "电气"]}, {"company_name": "美国西南航空公司(Southwest Airlines)", "short_name": ["美国", "西南航空公司"]}, {"company_name": "惠而浦(Whirlpool)", "short_name": ["惠而浦"]}, {"company_name": "Dollar Tree公司(Dollar Tree)", "short_name": ["Dollar", " ", "Tree"]}, {"company_name": "雅培公司(Abbott Laboratories)", "short_name": ["雅培"]}, {"company_name": "Tenet Healthcare公司(Tenet Healthcare)", "short_name": ["Tenet", " ", "Healthcare"]}, {"company_name": "国际纸业(International Paper)", "short_name": ["国际", "纸业"]}, {"company_name": "礼来公司(Eli Lilly)", "short_name": ["礼来"]}, {"company_name": "星巴克(Starbucks)", "short_name": ["星巴克"]}, {"company_name": "Community Health Systems公司(Community Health Systems)", "short_name": ["Community", " ", "Health", " ", "Systems"]}, {"company_name": "AutoNation(AutoNation)", "short_name": ["AutoNation"]}, {"company_name": "Dollar General公司(Dollar General)", "short_name": ["Dollar", " ", "General"]}, {"company_name": "西尔斯控股(Sears Holdings)", "short_name": ["西尔斯"]}, {"company_name": "美国家庭人寿保险公司(Aflac)", "short_name": ["美国", "家庭", "人寿保险"]}, {"company_name": "美国合众银行(U.S. Bancorp)", "short_name": ["美国", "合众", "银行"]}, {"company_name": "US Foods Holding公司(US Foods Holding)", "short_name": ["US", " ", "Foods", " ", "Holding"]}, {"company_name": "安进公司(Amgen)", "short_name": ["安进"]}, {"company_name": "Enterprise Products Partners公司(Enterprise Products Partners)", "short_name": ["Enterprise", " ", "Products", " ", "Partners"]}, {"company_name": "杜克能源公司(Duke Energy)", "short_name": ["杜克", "能源"]}, {"company_name": "前进保险公司(Progressive)", "short_name": ["前进", "保险公司"]}, {"company_name": "高通公司(Qualcomm)", "short_name": ["高通公司"]}, {"company_name": "艾睿电子(Arrow Electronics)", "short_name": ["艾睿", "电子"]}, {"company_name": "Tesoro公司(Tesoro)", "short_name": ["Tesoro"]}, {"company_name": "雷神公司(Raytheon)", "short_name": ["雷神"]}, {"company_name": "康菲石油公司(ConocoPhillips)", "short_name": ["康菲", "石油"]}, {"company_name": "美国诺斯洛普格拉曼公司(Northrop Grumman)", "short_name": ["美国", "诺", "斯洛普格", "拉曼"]}, {"company_name": "杜邦公司(DuPont)", "short_name": ["杜邦公司"]}, {"company_name": "麦当劳(McDonald's)", "short_name": ["麦当劳"]}, {"company_name": "艾伯维(AbbVie)", "short_name": ["艾伯维"]}, {"company_name": "梅西百货(Macy's)", "short_name": ["梅西", "百货"]}, {"company_name": "Mondelēz International公司(Mondelēz International)", "short_name": ["Mondel", "ē", "z", " ", "International"]}, {"company_name": "安富利(Avnet)", "short_name": ["安富利"]}, {"company_name": "技术数据公司(Tech Data)", "short_name": ["技术", "数据"]}, {"company_name": "卡夫亨氏公司(Kraft Heinz)", "short_name": ["卡夫", "亨氏"]}, {"company_name": "迪尔公司(Deere)", "short_name": ["迪尔"]}, {"company_name": "菲利普－莫里斯国际公司(Philip Morris International)", "short_name": ["菲利普", "－", "莫里斯", "国际"]}, {"company_name": "全球燃料服务公司(World Fuel Services)", "short_name": ["全球", "燃料", "服务公司"]}, {"company_name": "联合服务汽车协会(United Services Automobile Assn.)", "short_name": ["联合", "服务", "汽车", "协会"]}, {"company_name": "二十一世纪福克斯(Twenty-First Century Fox)", "short_name": ["二十一", "世纪", "福克斯"]}, {"company_name": "第一资本金融公司(Capital One Financial)", "short_name": ["第一", "资本", "金融公司"]}, {"company_name": "圣保罗旅行者保险公司(Travelers Cos.)", "short_name": ["圣保罗", "旅行者", "保险公司"]}, {"company_name": "Facebook公司(Facebook)", "short_name": ["Facebook"]}, {"company_name": "西北互助人寿保险公司(Northwestern Mutual)", "short_name": ["西北", "互助", "人寿保险"]}, {"company_name": "特许通讯公司(Charter Communications)", "short_name": ["特许", "通讯"]}, {"company_name": "时代华纳(Time Warner)", "short_name": ["时代华纳"]}, {"company_name": "3M公司(3M)", "short_name": ["3M"]}, {"company_name": "CHS公司(CHS)", "short_name": ["CHS"]}, {"company_name": "吉利德科学公司(Gilead Sciences)", "short_name": ["吉利", "德", "科学"]}, {"company_name": "美国来爱德公司(Rite Aid)", "short_name": ["美国", "来", "爱德"]}, {"company_name": "通用动力(General Dynamics)", "short_name": ["通用", "动力"]}, {"company_name": "Exelon公司(Exelon)", "short_name": ["Exelon"]}, {"company_name": "耐克(Nike)", "short_name": ["耐克"]}, {"company_name": "TJX公司(TJX)", "short_name": ["TJX"]}, {"company_name": "美国运通公司(American Express)", "short_name": ["美国运通公司"]}, {"company_name": "大众超级市场公司(Publix Super Markets)", "short_name": ["大众", "超级市场"]}, {"company_name": "好事达(Allstate)", "short_name": ["好事", "达"]}, {"company_name": "联合大陆控股有限公司(United Continental Holdings)", "short_name": ["联合", "大陆"]}, {"company_name": "泰森食品(Tyson Foods)", "short_name": ["泰森", "食品"]}, {"company_name": "甲骨文公司(Oracle)", "short_name": ["甲骨文公司"]}, {"company_name": "美国教师退休基金会(TIAA)", "short_name": ["美国", "教师", "退休", "基金会"]}, {"company_name": "Energy Transfer Equity公司(Energy Transfer Equity)", "short_name": ["Energy", " ", "Transfer", " ", "Equity"]}, {"company_name": "高盛(Goldman Sachs Group)", "short_name": ["高盛"]}, {"company_name": "美国麻省人寿保险公司(Massachusetts Mutual Life Insurance)", "short_name": ["美国", "麻省", "人寿保险"]}, {"company_name": "摩根士丹利(Morgan Stanley)", "short_name": ["摩根士丹利"]}, {"company_name": "美国利宝相互保险公司(Liberty Mutual Insurance Group)", "short_name": ["美国", "利宝", "相互", "保险公司"]}, {"company_name": "卡特彼勒(Caterpillar)", "short_name": ["卡特彼勒"]}, {"company_name": "霍尼韦尔国际公司(Honeywell International)", "short_name": ["霍尼韦尔", "国际"]}, {"company_name": "百思买(Best Buy)", "short_name": ["百思买"]}, {"company_name": "达美航空(Delta Air Lines)", "short_name": ["达美", "航空"]}, {"company_name": "信诺(Cigna)", "short_name": ["信诺"]}, {"company_name": "默沙东(Merck)", "short_name": ["默沙东"]}, {"company_name": "全美互惠保险公司(Nationwide)", "short_name": ["全美", "互惠", "保险公司"]}, {"company_name": "美国航空集团(American Airlines Group)", "short_name": ["美国", "航空"]}, {"company_name": "Centene公司(Centene)", "short_name": ["Centene"]}, {"company_name": "美国纽约人寿保险公司(New York Life Insurance)", "short_name": ["美国纽约", "人寿保险"]}, {"company_name": "可口可乐公司(Coca-Cola)", "short_name": ["可口可乐公司"]}, {"company_name": "HCA公司(HCA Holdings)", "short_name": ["HCA"]}, {"company_name": "陶氏化学(Dow Chemical)", "short_name": ["陶氏", "化学"]}, {"company_name": "惠普(HP)", "short_name": ["惠普"]}, {"company_name": "思科公司(Cisco Systems)", "short_name": ["思科公司"]}, {"company_name": "慧与(Hewlett Packard Enterprise)", "short_name": ["慧", "与"]}, {"company_name": "联邦快递(FedEx)", "short_name": ["联邦快递"]}, {"company_name": "西斯科公司(Sysco)", "short_name": ["西斯科"]}, {"company_name": "洛克希德－马丁(Lockheed Martin)", "short_name": ["洛克希德", "－", "马丁"]}, {"company_name": "美国国际集团(American International Group)", "short_name": ["美国", "国际"]}, {"company_name": "辉瑞制药有限公司(Pfizer)", "short_name": ["辉瑞", "制药"]}, {"company_name": "哈门那公司(Humana)", "short_name": ["哈门", "那"]}, {"company_name": "华特迪士尼公司(Walt Disney)", "short_name": ["华特", "迪士尼"]}, {"company_name": "马拉松原油公司(Marathon Petroleum)", "short_name": ["马拉松", "原油"]}, {"company_name": "联合技术公司(United Technologies)", "short_name": ["联合", "技术"]}, {"company_name": "Albertsons Cos.公司(Albertsons Cos.)", "short_name": ["Albertsons", " ", "Cos", "."]}, {"company_name": "美国保德信金融集团(Prudential Financial)", "short_name": ["美国", "保德信", "金融"]}, {"company_name": "英特尔公司(Intel)", "short_name": ["英特尔公司"]}, {"company_name": "联合包裹速递服务公司(United Parcel Service)", "short_name": ["联合", "包裹", "速递", "服务公司"]}, {"company_name": "ADM公司(Archer Daniels Midland)", "short_name": ["ADM"]}, {"company_name": "百事公司(PepsiCo)", "short_name": ["百事公司"]}, {"company_name": "安泰保险(Aetna)", "short_name": ["安泰", "保险"]}, {"company_name": "大都会保险公司(MetLife)", "short_name": ["大都会", "保险公司"]}, {"company_name": "戴尔科技(Dell Technologies)", "short_name": ["戴尔", "科技"]}, {"company_name": "美国劳氏公司(Lowe's)", "short_name": ["美国", "劳氏"]}, {"company_name": "房地美(Freddie Mac)", "short_name": ["房地", "美"]}, {"company_name": "塔吉特公司(Target)", "short_name": ["塔", "吉特"]}, {"company_name": "瓦莱罗能源公司(Valero Energy)", "short_name": ["瓦莱", "罗", "能源"]}, {"company_name": "宝洁公司(Procter & Gamble)", "short_name": ["宝洁公司"]}, {"company_name": "强生(Johnson & Johnson)", "short_name": ["强生"]}, {"company_name": "Phillips 66公司(Phillips 66)", "short_name": ["Phillips", " ", "66"]}, {"company_name": "州立农业保险公司(State Farm Insurance Cos.)", "short_name": ["州立", "农业", "保险公司"]}, {"company_name": "国际商业机器公司(International Business Machines)", "short_name": ["国际商业机器公司"]}, {"company_name": "美国康卡斯特电信公司(Comcast)", "short_name": ["美国", "康", "卡斯特", "电信公司"]}, {"company_name": "花旗集团(Citigroup)", "short_name": ["花旗集团"]}, {"company_name": "Anthem公司(Anthem)", "short_name": ["Anthem"]}, {"company_name": "微软(Microsoft)", "short_name": ["微软"]}, {"company_name": "Alphabet公司(Alphabet)", "short_name": ["Alphabet"]}, {"company_name": "美国银行(Bank of America Corp.)", "short_name": ["美国银行"]}, {"company_name": "美国富国银行(Wells Fargo)", "short_name": ["美国", "富国银行"]}, {"company_name": "波音(Boeing)", "short_name": ["波音"]}, {"company_name": "家得宝(Home Depot)", "short_name": ["家得宝"]}, {"company_name": "美国快捷药方公司(Express Scripts Holding)", "short_name": ["美国", "快捷", "药方"]}, {"company_name": "摩根大通公司(JPMorgan Chase & Co.)", "short_name": ["摩根", "大通"]}, {"company_name": "房利美(Fannie Mae)", "short_name": ["房利美"]}, {"company_name": "雪佛龙(Chevron)", "short_name": ["雪佛龙"]}, {"company_name": "克罗格(Kroger)", "short_name": ["克罗格"]}, {"company_name": "沃尔格林联合博姿集团(Walgreens Boots Alliance)", "short_name": ["沃尔格林", "联合", "博姿"]}, {"company_name": "好市多(Costco Wholesale)", "short_name": ["好市", "多"]}, {"company_name": "卡地纳健康(Cardinal Health)", "short_name": ["卡地纳", "健康"]}, {"company_name": "威瑞森电信(Verizon Communications)", "short_name": ["威瑞森", "电信"]}, {"company_name": "通用电气公司(General Electric)", "short_name": ["通用电气公司"]}, {"company_name": "亚马逊(Amazon.com)", "short_name": ["亚马逊"]}, {"company_name": "美源伯根公司(AmerisourceBergen)", "short_name": ["美源伯根"]}, {"company_name": "福特汽车公司(Ford Motor)", "short_name": ["福特汽车公司"]}, {"company_name": "美国电话电报公司(AT&T)", "short_name": ["美国电话电报公司"]}, {"company_name": "通用汽车公司(General Motors)", "short_name": ["通用汽车公司"]}, {"company_name": "CVS Health公司(CVS Health)", "short_name": ["CVS", " ", "Health"]}, {"company_name": "联合健康集团(UnitedHealth Group)", "short_name": ["联合", "健康"]}, {"company_name": "麦克森公司(McKesson)", "short_name": ["麦克", "森"]}, {"company_name": "埃克森美孚(Exxon Mobil)", "short_name": ["埃克森", "美孚"]}, {"company_name": "苹果公司(Apple)", "short_name": ["苹果公司"]}, {"company_name": "伯克希尔－哈撒韦公司(Berkshire Hathaway)", "short_name": ["伯克", "希尔", "－", "哈撒韦"]}, {"company_name": "沃尔玛(Wal-Mart Stores)", "short_name": ["沃尔玛"]}]
+[
+  {
+    "company_name": "ABM Industries公司(ABM Industries)",
+    "short_name": [
+      "ABM Industries",
+      "ABM Industries"
+    ]
+  },
+  {
+    "company_name": "Vistra Energy公司(Vistra Energy)",
+    "short_name": [
+      "Vistra Energy",
+      "Vistra Energy"
+    ]
+  },
+  {
+    "company_name": "雅虎(Yahoo)",
+    "short_name": [
+      "Yahoo",
+      "雅虎"
+    ]
+  },
+  {
+    "company_name": "Toll Brothers公司(Toll Brothers)",
+    "short_name": [
+      "Toll Brothers",
+      "Toll Brothers"
+    ]
+  },
+  {
+    "company_name": "Michaels Cos.公司(Michaels Cos.)",
+    "short_name": [
+      "Michaels Cos.",
+      "Michaels Cos."
+    ]
+  },
+  {
+    "company_name": "Big Lots公司(Big Lots)",
+    "short_name": [
+      "Big Lots",
+      "Big Lots"
+    ]
+  },
+  {
+    "company_name": "西图集团(CH2M Hill)",
+    "short_name": [
+      "CH2M Hill",
+      "西图"
+    ]
+  },
+  {
+    "company_name": "罗致恒富(Robert Half International)",
+    "short_name": [
+      "Robert Half International",
+      "罗致恒富"
+    ]
+  },
+  {
+    "company_name": "罗克韦尔·柯林斯公司(Rockwell Collins)",
+    "short_name": [
+      "Rockwell Collins",
+      "罗克韦尔·柯林斯"
+    ]
+  },
+  {
+    "company_name": "Liberty Media(Liberty Media)",
+    "short_name": [
+      "Liberty Media",
+      "Liberty Media"
+    ]
+  },
+  {
+    "company_name": "凯利服务公司(Kelly Services)",
+    "short_name": [
+      "Kelly Services",
+      "凯利服务"
+    ]
+  },
+  {
+    "company_name": "Airgas公司(Airgas)",
+    "short_name": [
+      "Airgas",
+      "Airgas"
+    ]
+  },
+  {
+    "company_name": "阿帕奇(Apache)",
+    "short_name": [
+      "Apache",
+      "阿帕奇"
+    ]
+  },
+  {
+    "company_name": "Essendant公司(Essendant)",
+    "short_name": [
+      "Essendant",
+      "Essendant"
+    ]
+  },
+  {
+    "company_name": "Seaboard公司(Seaboard)",
+    "short_name": [
+      "Seaboard",
+      "Seaboard"
+    ]
+  },
+  {
+    "company_name": "Windstream Holdings公司(Windstream Holdings)",
+    "short_name": [
+      "Windstream Holdings",
+      "Windstream Holdings"
+    ]
+  },
+  {
+    "company_name": "塞拉尼斯公司(Celanese)",
+    "short_name": [
+      "Celanese",
+      "塞拉尼斯"
+    ]
+  },
+  {
+    "company_name": "Western & Southern Financial Group公司(Western & Southern Financial Group)",
+    "short_name": [
+      "Western & Southern Financial Group",
+      "Western  Southern Financial Group"
+    ]
+  },
+  {
+    "company_name": "科慕(Chemours)",
+    "short_name": [
+      "Chemours",
+      "科慕"
+    ]
+  },
+  {
+    "company_name": "博思艾伦咨询有限公司(Booz Allen Hamilton Holding)",
+    "short_name": [
+      "Booz Allen Hamilton Holding",
+      "博思艾伦咨询"
+    ]
+  },
+  {
+    "company_name": "Delek US Holdings公司(Delek US Holdings)",
+    "short_name": [
+      "Delek US Holdings",
+      "Delek US Holdings"
+    ]
+  },
+  {
+    "company_name": "KeyCorp公司(KeyCorp)",
+    "short_name": [
+      "KeyCorp",
+      "KeyCorp"
+    ]
+  },
+  {
+    "company_name": "西联(Western Union)",
+    "short_name": [
+      "Western Union",
+      "西联"
+    ]
+  },
+  {
+    "company_name": "西蒙房地产集团(Simon Property Group)",
+    "short_name": [
+      "Simon Property Group",
+      "西蒙房地产"
+    ]
+  },
+  {
+    "company_name": "Cincinnati Financial公司(Cincinnati Financial)",
+    "short_name": [
+      "Cincinnati Financial",
+      "Cincinnati Financial"
+    ]
+  },
+  {
+    "company_name": "AmTrust Financial Services公司(AmTrust Financial Services)",
+    "short_name": [
+      "AmTrust Financial Services",
+      "AmTrust Financial Services"
+    ]
+  },
+  {
+    "company_name": "美泰公司(Mattel)",
+    "short_name": [
+      "Mattel",
+      "美泰"
+    ]
+  },
+  {
+    "company_name": "Insight Enterprises公司(Insight Enterprises)",
+    "short_name": [
+      "Insight Enterprises",
+      "Insight Enterprises"
+    ]
+  },
+  {
+    "company_name": "Host Hotels & Resorts集团(Host Hotels & Resorts)",
+    "short_name": [
+      "Host Hotels & Resorts",
+      "Host Hotels  Resorts"
+    ]
+  },
+  {
+    "company_name": "Fiserv公司(Fiserv)",
+    "short_name": [
+      "Fiserv",
+      "Fiserv"
+    ]
+  },
+  {
+    "company_name": "TravelCenters of America公司(TravelCenters of America)",
+    "short_name": [
+      "TravelCenters of America",
+      "TravelCenters of America"
+    ]
+  },
+  {
+    "company_name": "瑞杰金融集团(Raymond James Financial)",
+    "short_name": [
+      "Raymond James Financial",
+      "瑞杰金融"
+    ]
+  },
+  {
+    "company_name": "NetApp公司(NetApp)",
+    "short_name": [
+      "NetApp",
+      "NetApp"
+    ]
+  },
+  {
+    "company_name": "Olin公司(Olin)",
+    "short_name": [
+      "Olin",
+      "Olin"
+    ]
+  },
+  {
+    "company_name": "Patterson公司(Patterson)",
+    "short_name": [
+      "Patterson",
+      "Patterson"
+    ]
+  },
+  {
+    "company_name": "赛门铁克(Symantec)",
+    "short_name": [
+      "Symantec",
+      "赛门铁克"
+    ]
+  },
+  {
+    "company_name": "First American Financial公司(First American Financial)",
+    "short_name": [
+      "First American Financial",
+      "First American Financial"
+    ]
+  },
+  {
+    "company_name": "Burlington公司(Burlington Stores)",
+    "short_name": [
+      "Burlington Stores",
+      "Burlington"
+    ]
+  },
+  {
+    "company_name": "Arthur J. Gallagher公司(Arthur J. Gallagher)",
+    "short_name": [
+      "Arthur J. Gallagher",
+      "Arthur J. Gallagher"
+    ]
+  },
+  {
+    "company_name": "温德姆环球公司(Wyndham Worldwide)",
+    "short_name": [
+      "Wyndham Worldwide",
+      "温德姆环球"
+    ]
+  },
+  {
+    "company_name": "Markel公司(Markel)",
+    "short_name": [
+      "Markel",
+      "Markel"
+    ]
+  },
+  {
+    "company_name": "S&P Global公司(S&P Global)",
+    "short_name": [
+      "S&P Global",
+      "SP Global"
+    ]
+  },
+  {
+    "company_name": "Owens Corning公司(Owens Corning)",
+    "short_name": [
+      "Owens Corning",
+      "Owens Corning"
+    ]
+  },
+  {
+    "company_name": "UGI公司(UGI)",
+    "short_name": [
+      "UGI",
+      "UGI"
+    ]
+  },
+  {
+    "company_name": "Ingredion公司(Ingredion)",
+    "short_name": [
+      "Ingredion",
+      "Ingredion"
+    ]
+  },
+  {
+    "company_name": "M&T Bank Corp.公司(M&T Bank Corp.)",
+    "short_name": [
+      "M&T Bank Corp.",
+      "MT Bank Corp."
+    ]
+  },
+  {
+    "company_name": "Genesis Healthcare公司(Genesis Healthcare)",
+    "short_name": [
+      "Genesis Healthcare",
+      "Genesis Healthcare"
+    ]
+  },
+  {
+    "company_name": "高乐氏(Clorox)",
+    "short_name": [
+      "Clorox",
+      "高乐氏"
+    ]
+  },
+  {
+    "company_name": "United Rentals公司(United Rentals)",
+    "short_name": [
+      "United Rentals",
+      "United Rentals"
+    ]
+  },
+  {
+    "company_name": "公民金融集团(Citizens Financial Group)",
+    "short_name": [
+      "Citizens Financial Group",
+      "公民金融"
+    ]
+  },
+  {
+    "company_name": "Packaging Corp. of America公司(Packaging Corp. of America)",
+    "short_name": [
+      "Packaging Corp. of America",
+      "Packaging Corp. of America"
+    ]
+  },
+  {
+    "company_name": "American Tower公司(American Tower)",
+    "short_name": [
+      "American Tower",
+      "American Tower"
+    ]
+  },
+  {
+    "company_name": "Realogy Holdings公司(Realogy Holdings)",
+    "short_name": [
+      "Realogy Holdings",
+      "Realogy Holdings"
+    ]
+  },
+  {
+    "company_name": "德纳股份有限公司(Dana)",
+    "short_name": [
+      "Dana",
+      "德纳"
+    ]
+  },
+  {
+    "company_name": "NVR公司(NVR)",
+    "short_name": [
+      "NVR",
+      "NVR"
+    ]
+  },
+  {
+    "company_name": "特雷克斯公司(Terex)",
+    "short_name": [
+      "Terex",
+      "特雷克斯"
+    ]
+  },
+  {
+    "company_name": "雅芳产品公司(Avon Products)",
+    "short_name": [
+      "Avon Products",
+      "雅芳产品"
+    ]
+  },
+  {
+    "company_name": "Adobe Systems公司(Adobe Systems)",
+    "short_name": [
+      "Adobe Systems",
+      "Adobe Systems"
+    ]
+  },
+  {
+    "company_name": "罗克韦尔自动化(Rockwell Automation)",
+    "short_name": [
+      "Rockwell Automation",
+      "罗克韦尔自动化"
+    ]
+  },
+  {
+    "company_name": "AK钢铁控股公司(AK Steel Holding)",
+    "short_name": [
+      "AK Steel Holding",
+      "AK钢铁控股"
+    ]
+  },
+  {
+    "company_name": "泛林集团(Lam Research)",
+    "short_name": [
+      "Lam Research",
+      "泛林"
+    ]
+  },
+  {
+    "company_name": "Old Republic International公司(Old Republic International)",
+    "short_name": [
+      "Old Republic International",
+      "Old Republic International"
+    ]
+  },
+  {
+    "company_name": "阿拉斯加航空集团(Alaska Air Group)",
+    "short_name": [
+      "Alaska Air Group",
+      "阿拉斯加航空"
+    ]
+  },
+  {
+    "company_name": "Intercontinental Exchange(Intercontinental Exchange)",
+    "short_name": [
+      "Intercontinental Exchange",
+      "Intercontinental Exchange"
+    ]
+  },
+  {
+    "company_name": "地区金融公司(Regions Financial)",
+    "short_name": [
+      "Regions Financial",
+      "地区金融"
+    ]
+  },
+  {
+    "company_name": "哈雷戴维森公司(Harley-Davidson)",
+    "short_name": [
+      "Harley-Davidson",
+      "哈雷戴维森"
+    ]
+  },
+  {
+    "company_name": "St. Jude Medical公司(St. Jude Medical)",
+    "short_name": [
+      "St. Jude Medical",
+      "St. Jude Medical"
+    ]
+  },
+  {
+    "company_name": "摩托罗拉系统(Motorola Solutions)",
+    "short_name": [
+      "Motorola Solutions",
+      "摩托罗拉系统"
+    ]
+  },
+  {
+    "company_name": "Hanesbrands公司(Hanesbrands)",
+    "short_name": [
+      "Hanesbrands",
+      "Hanesbrands"
+    ]
+  },
+  {
+    "company_name": "Ameren公司(Ameren)",
+    "short_name": [
+      "Ameren",
+      "Ameren"
+    ]
+  },
+  {
+    "company_name": "艾利丹尼森公司(Avery Dennison)",
+    "short_name": [
+      "Avery Dennison",
+      "艾利丹尼森"
+    ]
+  },
+  {
+    "company_name": "华盛顿国际商贸公司(Expeditors International of Washington)",
+    "short_name": [
+      "Expeditors International of Washington",
+      "华盛顿国际商贸"
+    ]
+  },
+  {
+    "company_name": "Alleghany公司(Alleghany)",
+    "short_name": [
+      "Alleghany",
+      "Alleghany"
+    ]
+  },
+  {
+    "company_name": "TreeHouse Foods公司(TreeHouse Foods)",
+    "short_name": [
+      "TreeHouse Foods",
+      "TreeHouse Foods"
+    ]
+  },
+  {
+    "company_name": "iHeartMedia公司(iHeartMedia)",
+    "short_name": [
+      "iHeartMedia",
+      "iHeartMedia"
+    ]
+  },
+  {
+    "company_name": "Oshkosh公司(Oshkosh)",
+    "short_name": [
+      "Oshkosh",
+      "Oshkosh"
+    ]
+  },
+  {
+    "company_name": "Amphenol公司(Amphenol)",
+    "short_name": [
+      "Amphenol",
+      "Amphenol"
+    ]
+  },
+  {
+    "company_name": "Casey's General Stores公司(Casey's General Stores)",
+    "short_name": [
+      "Casey's General Stores",
+      "Casey's General Stores"
+    ]
+  },
+  {
+    "company_name": "百胜餐饮集团(Yum Brands)",
+    "short_name": [
+      "Yum Brands",
+      "百胜餐饮"
+    ]
+  },
+  {
+    "company_name": "Builders FirstSource公司(Builders FirstSource)",
+    "short_name": [
+      "Builders FirstSource",
+      "Builders FirstSource"
+    ]
+  },
+  {
+    "company_name": "Graybar Electric公司(Graybar Electric)",
+    "short_name": [
+      "Graybar Electric",
+      "Graybar Electric"
+    ]
+  },
+  {
+    "company_name": "CMS能源公司(CMS Energy)",
+    "short_name": [
+      "CMS Energy",
+      "CMS能源"
+    ]
+  },
+  {
+    "company_name": "HRG Group公司(HRG Group)",
+    "short_name": [
+      "HRG Group",
+      "HRG Group"
+    ]
+  },
+  {
+    "company_name": "Dillard's公司(Dillard's)",
+    "short_name": [
+      "Dillard's",
+      "Dillard's"
+    ]
+  },
+  {
+    "company_name": "澎泉思蓝宝集团(Dr Pepper Snapple Group)",
+    "short_name": [
+      "Dr Pepper Snapple Group",
+      "澎泉思蓝宝"
+    ]
+  },
+  {
+    "company_name": "CalAtlantic Group公司(CalAtlantic Group)",
+    "short_name": [
+      "CalAtlantic Group",
+      "CalAtlantic Group"
+    ]
+  },
+  {
+    "company_name": "新美亚(Sanmina)",
+    "short_name": [
+      "Sanmina",
+      "新美亚"
+    ]
+  },
+  {
+    "company_name": "Berry Global Group公司(Berry Global Group)",
+    "short_name": [
+      "Berry Global Group",
+      "Berry Global Group"
+    ]
+  },
+  {
+    "company_name": "探索传播(Discovery Communications)",
+    "short_name": [
+      "Discovery Communications",
+      "探索传播"
+    ]
+  },
+  {
+    "company_name": "American Financial Group公司(American Financial Group)",
+    "short_name": [
+      "American Financial Group",
+      "American Financial Group"
+    ]
+  },
+  {
+    "company_name": "Asbury Automotive Group公司(Asbury Automotive Group)",
+    "short_name": [
+      "Asbury Automotive Group",
+      "Asbury Automotive Group"
+    ]
+  },
+  {
+    "company_name": "NCR公司(NCR)",
+    "short_name": [
+      "NCR",
+      "NCR"
+    ]
+  },
+  {
+    "company_name": "Constellation Brands公司(Constellation Brands)",
+    "short_name": [
+      "Constellation Brands",
+      "Constellation Brands"
+    ]
+  },
+  {
+    "company_name": "J.B. Hunt Transport Services公司(J.B. Hunt Transport Services)",
+    "short_name": [
+      "J.B. Hunt Transport Services",
+      "J.B. Hunt Transport Services"
+    ]
+  },
+  {
+    "company_name": "动视暴雪(Activision Blizzard)",
+    "short_name": [
+      "Activision Blizzard",
+      "动视暴雪"
+    ]
+  },
+  {
+    "company_name": "富兰克林资源(Franklin Resources)",
+    "short_name": [
+      "Franklin Resources",
+      "富兰克林资源"
+    ]
+  },
+  {
+    "company_name": "Jones Financial公司(Jones Financial (Edward Jones))",
+    "short_name": [
+      "Jones Financial (Edward Jones",
+      "Jones Financial"
+    ]
+  },
+  {
+    "company_name": "捷蓝航空(JetBlue Airways)",
+    "short_name": [
+      "JetBlue Airways",
+      "捷蓝航空"
+    ]
+  },
+  {
+    "company_name": "Targa Resources公司(Targa Resources)",
+    "short_name": [
+      "Targa Resources",
+      "Targa Resources"
+    ]
+  },
+  {
+    "company_name": "欧文斯－依利诺伊(Owens-Illinois)",
+    "short_name": [
+      "Owens-Illinois",
+      "欧文斯－依利诺伊"
+    ]
+  },
+  {
+    "company_name": "Calpine公司(Calpine)",
+    "short_name": [
+      "Calpine",
+      "Calpine"
+    ]
+  },
+  {
+    "company_name": "百胜中国控股有限公司(Yum China Holdings)",
+    "short_name": [
+      "Yum China Holdings",
+      "百胜中国"
+    ]
+  },
+  {
+    "company_name": "Auto-Owners Insurance公司(Auto-Owners Insurance)",
+    "short_name": [
+      "Auto-Owners Insurance",
+      "Auto-Owners Insurance"
+    ]
+  },
+  {
+    "company_name": "希悦尔(Sealed Air)",
+    "short_name": [
+      "Sealed Air",
+      "希悦尔"
+    ]
+  },
+  {
+    "company_name": "Tractor Supply公司(Tractor Supply)",
+    "short_name": [
+      "Tractor Supply",
+      "Tractor Supply"
+    ]
+  },
+  {
+    "company_name": "A-Mark Precious Metals(A-Mark Precious Metals)",
+    "short_name": [
+      "A-Mark Precious Metals",
+      "A-Mark Precious Metals"
+    ]
+  },
+  {
+    "company_name": "赖德系统公司(Ryder System)",
+    "short_name": [
+      "Ryder System",
+      "赖德系统"
+    ]
+  },
+  {
+    "company_name": "Spirit AeroSystems Holdings公司(Spirit AeroSystems Holdings)",
+    "short_name": [
+      "Spirit AeroSystems Holdings",
+      "Spirit AeroSystems Holdings"
+    ]
+  },
+  {
+    "company_name": "都福(Dover)",
+    "short_name": [
+      "Dover",
+      "都福"
+    ]
+  },
+  {
+    "company_name": "Jones Lang LaSalle公司(Jones Lang LaSalle)",
+    "short_name": [
+      "Jones Lang LaSalle",
+      "Jones Lang LaSalle"
+    ]
+  },
+  {
+    "company_name": "昆泰(Quintiles IMS Holdings)",
+    "short_name": [
+      "Quintiles IMS Holdings",
+      "昆泰"
+    ]
+  },
+  {
+    "company_name": "五三银行(Fifth Third Bancorp)",
+    "short_name": [
+      "Fifth Third Bancorp",
+      "五三银行"
+    ]
+  },
+  {
+    "company_name": "R.R. Donnelley & Sons公司(R.R. Donnelley & Sons)",
+    "short_name": [
+      "R.R. Donnelley & Sons",
+      "R.R. Donnelley  Sons"
+    ]
+  },
+  {
+    "company_name": "英伟达(Nvidia)",
+    "short_name": [
+      "Nvidia",
+      "英伟达"
+    ]
+  },
+  {
+    "company_name": "哈曼国际(Harman International Industries)",
+    "short_name": [
+      "Harman International Industries",
+      "哈曼国际"
+    ]
+  },
+  {
+    "company_name": "Darden Restaurants公司(Darden Restaurants)",
+    "short_name": [
+      "Darden Restaurants",
+      "Darden Restaurants"
+    ]
+  },
+  {
+    "company_name": "Ascena Retail Group公司(Ascena Retail Group)",
+    "short_name": [
+      "Ascena Retail Group",
+      "Ascena Retail Group"
+    ]
+  },
+  {
+    "company_name": "特斯拉(Tesla)",
+    "short_name": [
+      "Tesla",
+      "特斯拉"
+    ]
+  },
+  {
+    "company_name": "Erie Insurance Group公司(Erie Insurance Group)",
+    "short_name": [
+      "Erie Insurance Group",
+      "Erie Insurance Group"
+    ]
+  },
+  {
+    "company_name": "Leidos Holdings公司(Leidos Holdings)",
+    "short_name": [
+      "Leidos Holdings",
+      "Leidos Holdings"
+    ]
+  },
+  {
+    "company_name": "Huntington Ingalls Industries公司(Huntington Ingalls Industries)",
+    "short_name": [
+      "Huntington Ingalls Industries",
+      "Huntington Ingalls Industries"
+    ]
+  },
+  {
+    "company_name": "Computer Sciences公司(Computer Sciences)",
+    "short_name": [
+      "Computer Sciences",
+      "Computer Sciences"
+    ]
+  },
+  {
+    "company_name": "Alliance Data Systems公司(Alliance Data Systems)",
+    "short_name": [
+      "Alliance Data Systems",
+      "Alliance Data Systems"
+    ]
+  },
+  {
+    "company_name": "美盛公司(Mosaic)",
+    "short_name": [
+      "Mosaic",
+      "美盛"
+    ]
+  },
+  {
+    "company_name": "Kindred Healthcare公司(Kindred Healthcare)",
+    "short_name": [
+      "Kindred Healthcare",
+      "Kindred Healthcare"
+    ]
+  },
+  {
+    "company_name": "国民油井华高公司(National Oilwell Varco)",
+    "short_name": [
+      "National Oilwell Varco",
+      "国民油井华高"
+    ]
+  },
+  {
+    "company_name": "LifePoint Health公司(LifePoint Health)",
+    "short_name": [
+      "LifePoint Health",
+      "LifePoint Health"
+    ]
+  },
+  {
+    "company_name": "Wesco International公司(Wesco International)",
+    "short_name": [
+      "Wesco International",
+      "Wesco International"
+    ]
+  },
+  {
+    "company_name": "Masco公司(Masco)",
+    "short_name": [
+      "Masco",
+      "Masco"
+    ]
+  },
+  {
+    "company_name": "拉尔夫·劳伦公司(Ralph Lauren)",
+    "short_name": [
+      "Ralph Lauren",
+      "拉尔夫·劳伦"
+    ]
+  },
+  {
+    "company_name": "AGCO公司(AGCO)",
+    "short_name": [
+      "AGCO",
+      "AGCO"
+    ]
+  },
+  {
+    "company_name": "好时(Hershey)",
+    "short_name": [
+      "Hershey",
+      "好时"
+    ]
+  },
+  {
+    "company_name": "WEC Energy Group公司(WEC Energy Group)",
+    "short_name": [
+      "WEC Energy Group",
+      "WEC Energy Group"
+    ]
+  },
+  {
+    "company_name": "Williams公司(Williams)",
+    "short_name": [
+      "Williams",
+      "Williams"
+    ]
+  },
+  {
+    "company_name": "探索诊断公司(Quest Diagnostics)",
+    "short_name": [
+      "Quest Diagnostics",
+      "探索诊断"
+    ]
+  },
+  {
+    "company_name": "PPL公司(PPL)",
+    "short_name": [
+      "PPL",
+      "PPL"
+    ]
+  },
+  {
+    "company_name": "HD Supply Holdings公司(HD Supply Holdings)",
+    "short_name": [
+      "HD Supply Holdings",
+      "HD Supply Holdings"
+    ]
+  },
+  {
+    "company_name": "Harris公司(Harris)",
+    "short_name": [
+      "Harris",
+      "Harris"
+    ]
+  },
+  {
+    "company_name": "CenterPoint Energy公司(CenterPoint Energy)",
+    "short_name": [
+      "CenterPoint Energy",
+      "CenterPoint Energy"
+    ]
+  },
+  {
+    "company_name": "Assurant公司(Assurant)",
+    "short_name": [
+      "Assurant",
+      "Assurant"
+    ]
+  },
+  {
+    "company_name": "Emcor集团(Emcor Group)",
+    "short_name": [
+      "Emcor Group",
+      "Emcor"
+    ]
+  },
+  {
+    "company_name": "Anixter国际公司(Anixter International)",
+    "short_name": [
+      "Anixter International",
+      "Anixter国际"
+    ]
+  },
+  {
+    "company_name": "Eversource Energy公司(Eversource Energy)",
+    "short_name": [
+      "Eversource Energy",
+      "Eversource Energy"
+    ]
+  },
+  {
+    "company_name": "嘉信理财(Charles Schwab)",
+    "short_name": [
+      "Charles Schwab",
+      "嘉信理财"
+    ]
+  },
+  {
+    "company_name": "EOG Resources公司(EOG Resources)",
+    "short_name": [
+      "EOG Resources",
+      "EOG Resources"
+    ]
+  },
+  {
+    "company_name": "Quanta Services公司(Quanta Services)",
+    "short_name": [
+      "Quanta Services",
+      "Quanta Services"
+    ]
+  },
+  {
+    "company_name": "W.R. Berkley公司(W.R. Berkley)",
+    "short_name": [
+      "W.R. Berkley",
+      "W.R. Berkley"
+    ]
+  },
+  {
+    "company_name": "PulteGroup公司(PulteGroup)",
+    "short_name": [
+      "PulteGroup",
+      "PulteGroup"
+    ]
+  },
+  {
+    "company_name": "Zimmer Biomet Holdings公司(Zimmer Biomet Holdings)",
+    "short_name": [
+      "Zimmer Biomet Holdings",
+      "Zimmer Biomet Holdings"
+    ]
+  },
+  {
+    "company_name": "Dean Foods公司(Dean Foods)",
+    "short_name": [
+      "Dean Foods",
+      "Dean Foods"
+    ]
+  },
+  {
+    "company_name": "SpartanNash公司(SpartanNash)",
+    "short_name": [
+      "SpartanNash",
+      "SpartanNash"
+    ]
+  },
+  {
+    "company_name": "Western Refining公司(Western Refining)",
+    "short_name": [
+      "Western Refining",
+      "Western Refining"
+    ]
+  },
+  {
+    "company_name": "Foot Locker公司(Foot Locker)",
+    "short_name": [
+      "Foot Locker",
+      "Foot Locker"
+    ]
+  },
+  {
+    "company_name": "Steel Dynamics公司(Steel Dynamics)",
+    "short_name": [
+      "Steel Dynamics",
+      "Steel Dynamics"
+    ]
+  },
+  {
+    "company_name": "J.M. Smucker公司(J.M. Smucker)",
+    "short_name": [
+      "J.M. Smucker",
+      "J.M. Smucker"
+    ]
+  },
+  {
+    "company_name": "埃培智集团(Interpublic Group)",
+    "short_name": [
+      "Interpublic Group",
+      "埃培智"
+    ]
+  },
+  {
+    "company_name": "阿纳达科石油公司(Anadarko Petroleum)",
+    "short_name": [
+      "Anadarko Petroleum",
+      "阿纳达科石油"
+    ]
+  },
+  {
+    "company_name": "切萨皮克能源公司(Chesapeake Energy)",
+    "short_name": [
+      "Chesapeake Energy",
+      "切萨皮克能源"
+    ]
+  },
+  {
+    "company_name": "Mutual of Omaha Insurance公司(Mutual of Omaha Insurance)",
+    "short_name": [
+      "Mutual of Omaha Insurance",
+      "Mutual of Omaha Insurance"
+    ]
+  },
+  {
+    "company_name": "惠好公司(Weyerhaeuser)",
+    "short_name": [
+      "Weyerhaeuser",
+      "惠好"
+    ]
+  },
+  {
+    "company_name": "Dick's Sporting Goods公司(Dick's Sporting Goods)",
+    "short_name": [
+      "Dick's Sporting Goods",
+      "Dick's Sporting Goods"
+    ]
+  },
+  {
+    "company_name": "金宝汤(Campbell Soup)",
+    "short_name": [
+      "Campbell Soup",
+      "金宝汤"
+    ]
+  },
+  {
+    "company_name": "Univar公司(Univar)",
+    "short_name": [
+      "Univar",
+      "Univar"
+    ]
+  },
+  {
+    "company_name": "航星(Navistar International)",
+    "short_name": [
+      "Navistar International",
+      "航星"
+    ]
+  },
+  {
+    "company_name": "Level 3 Communications公司(Level 3 Communications)",
+    "short_name": [
+      "Level 3 Communications",
+      "Level 3 Communications"
+    ]
+  },
+  {
+    "company_name": "PVH集团(PVH)",
+    "short_name": [
+      "PVH",
+      "PVH"
+    ]
+  },
+  {
+    "company_name": "Global Partners公司(Global Partners)",
+    "short_name": [
+      "Global Partners",
+      "Global Partners"
+    ]
+  },
+  {
+    "company_name": "Crown Holdings公司(Crown Holdings)",
+    "short_name": [
+      "Crown Holdings",
+      "Crown Holdings"
+    ]
+  },
+  {
+    "company_name": "新闻集团(News Corp.)",
+    "short_name": [
+      "News Corp.",
+      "新闻"
+    ]
+  },
+  {
+    "company_name": "Veritiv公司(Veritiv)",
+    "short_name": [
+      "Veritiv",
+      "Veritiv"
+    ]
+  },
+  {
+    "company_name": "Live Nation Entertainment公司(Live Nation Entertainment)",
+    "short_name": [
+      "Live Nation Entertainment",
+      "Live Nation Entertainment"
+    ]
+  },
+  {
+    "company_name": "Genworth Financial公司(Genworth Financial)",
+    "short_name": [
+      "Genworth Financial",
+      "Genworth Financial"
+    ]
+  },
+  {
+    "company_name": "纽蒙特矿业(Newmont Mining)",
+    "short_name": [
+      "Newmont Mining",
+      "纽蒙特矿业"
+    ]
+  },
+  {
+    "company_name": "波士顿科学公司(Boston Scientific)",
+    "short_name": [
+      "Boston Scientific",
+      "波士顿科学"
+    ]
+  },
+  {
+    "company_name": "salesforce.com(salesforce.com)",
+    "short_name": [
+      "salesforce.com",
+      "salesforce.com"
+    ]
+  },
+  {
+    "company_name": "United Natural Foods公司(United Natural Foods)",
+    "short_name": [
+      "United Natural Foods",
+      "United Natural Foods"
+    ]
+  },
+  {
+    "company_name": "Peter Kiewit Sons'公司(Peter Kiewit Sons')",
+    "short_name": [
+      "Peter Kiewit Sons'",
+      "Peter Kiewit Sons'"
+    ]
+  },
+  {
+    "company_name": "O'Reilly Automotive公司(O'Reilly Automotive)",
+    "short_name": [
+      "O'Reilly Automotive",
+      "O'Reilly Automotive"
+    ]
+  },
+  {
+    "company_name": "天纳克公司(Tenneco)",
+    "short_name": [
+      "Tenneco",
+      "天纳克"
+    ]
+  },
+  {
+    "company_name": "GameStop公司(GameStop)",
+    "short_name": [
+      "GameStop",
+      "GameStop"
+    ]
+  },
+  {
+    "company_name": "Reliance Steel & Aluminum公司(Reliance Steel & Aluminum)",
+    "short_name": [
+      "Reliance Steel & Aluminum",
+      "Reliance Steel  Aluminum"
+    ]
+  },
+  {
+    "company_name": "Avis Budget Group公司(Avis Budget Group)",
+    "short_name": [
+      "Avis Budget Group",
+      "Avis Budget Group"
+    ]
+  },
+  {
+    "company_name": "Lithia Motors公司(Lithia Motors)",
+    "short_name": [
+      "Lithia Motors",
+      "Lithia Motors"
+    ]
+  },
+  {
+    "company_name": "Expedia公司(Expedia)",
+    "short_name": [
+      "Expedia",
+      "Expedia"
+    ]
+  },
+  {
+    "company_name": "Thrivent Financial for Lutherans公司(Thrivent Financial for Lutherans)",
+    "short_name": [
+      "Thrivent Financial for Lutherans",
+      "Thrivent Financial for Lutherans"
+    ]
+  },
+  {
+    "company_name": "美国家庭保险集团(American Family Insurance Group)",
+    "short_name": [
+      "American Family Insurance Group",
+      "美国家庭保险"
+    ]
+  },
+  {
+    "company_name": "Netflix公司(Netflix)",
+    "short_name": [
+      "Netflix",
+      "Netflix"
+    ]
+  },
+  {
+    "company_name": "Frontier Communications公司(Frontier Communications)",
+    "short_name": [
+      "Frontier Communications",
+      "Frontier Communications"
+    ]
+  },
+  {
+    "company_name": "Oneok燃气公司(Oneok)",
+    "short_name": [
+      "Oneok",
+      "Oneok燃气"
+    ]
+  },
+  {
+    "company_name": "Mohawk Industries公司(Mohawk Industries)",
+    "short_name": [
+      "Mohawk Industries",
+      "Mohawk Industries"
+    ]
+  },
+  {
+    "company_name": "eBay公司(eBay)",
+    "short_name": [
+      "eBay",
+      "eBay"
+    ]
+  },
+  {
+    "company_name": "伊士曼化学公司(Eastman Chemical)",
+    "short_name": [
+      "Eastman Chemical",
+      "伊士曼化学"
+    ]
+  },
+  {
+    "company_name": "公共服务企业集团(Public Service Enterprise Group)",
+    "short_name": [
+      "Public Service Enterprise Group",
+      "公共服务"
+    ]
+  },
+  {
+    "company_name": "CST Brands公司(CST Brands)",
+    "short_name": [
+      "CST Brands",
+      "CST Brands"
+    ]
+  },
+  {
+    "company_name": "Ball公司(Ball)",
+    "short_name": [
+      "Ball",
+      "Ball"
+    ]
+  },
+  {
+    "company_name": "BorgWarner公司(BorgWarner)",
+    "short_name": [
+      "BorgWarner",
+      "BorgWarner"
+    ]
+  },
+  {
+    "company_name": "LKQ公司(LKQ)",
+    "short_name": [
+      "LKQ",
+      "LKQ"
+    ]
+  },
+  {
+    "company_name": "太阳信用银行(SunTrust Banks)",
+    "short_name": [
+      "SunTrust Banks",
+      "太阳信用银行"
+    ]
+  },
+  {
+    "company_name": "太平洋人寿(Pacific Life)",
+    "short_name": [
+      "Pacific Life",
+      "太平洋人寿"
+    ]
+  },
+  {
+    "company_name": "繁德公司(Fidelity National Information Services)",
+    "short_name": [
+      "Fidelity National Information Services",
+      "繁德"
+    ]
+  },
+  {
+    "company_name": "美国铝业公司(Alcoa)",
+    "short_name": [
+      "Alcoa",
+      "美国铝业"
+    ]
+  },
+  {
+    "company_name": "Republic Services公司(Republic Services)",
+    "short_name": [
+      "Republic Services",
+      "Republic Services"
+    ]
+  },
+  {
+    "company_name": "康宁公司(Corning)",
+    "short_name": [
+      "Corning",
+      "康宁"
+    ]
+  },
+  {
+    "company_name": "米高梅集团(MGM Resorts International)",
+    "short_name": [
+      "MGM Resorts International",
+      "米高梅"
+    ]
+  },
+  {
+    "company_name": "Hertz Global Holdings公司(Hertz Global Holdings)",
+    "short_name": [
+      "Hertz Global Holdings",
+      "Hertz Global Holdings"
+    ]
+  },
+  {
+    "company_name": "Hormel Foods公司(Hormel Foods)",
+    "short_name": [
+      "Hormel Foods",
+      "Hormel Foods"
+    ]
+  },
+  {
+    "company_name": "空气化工产品公司(Air Products & Chemicals)",
+    "short_name": [
+      "Air Products & Chemicals",
+      "空气化工产品"
+    ]
+  },
+  {
+    "company_name": "Fidelity National Financial公司(Fidelity National Financial)",
+    "short_name": [
+      "Fidelity National Financial",
+      "Fidelity National Financial"
+    ]
+  },
+  {
+    "company_name": "Advance Auto Parts公司(Advance Auto Parts)",
+    "short_name": [
+      "Advance Auto Parts",
+      "Advance Auto Parts"
+    ]
+  },
+  {
+    "company_name": "Murphy USA公司(Murphy USA)",
+    "short_name": [
+      "Murphy USA",
+      "Murphy USA"
+    ]
+  },
+  {
+    "company_name": "Laboratory Corp. of America公司(Laboratory Corp. of America)",
+    "short_name": [
+      "Laboratory Corp. of America",
+      "Laboratory Corp. of America"
+    ]
+  },
+  {
+    "company_name": "Huntsman公司(Huntsman)",
+    "short_name": [
+      "Huntsman",
+      "Huntsman"
+    ]
+  },
+  {
+    "company_name": "Owens & Minor公司(Owens & Minor)",
+    "short_name": [
+      "Owens & Minor",
+      "Owens  Minor"
+    ]
+  },
+  {
+    "company_name": "Sonic Automotive公司(Sonic Automotive)",
+    "short_name": [
+      "Sonic Automotive",
+      "Sonic Automotive"
+    ]
+  },
+  {
+    "company_name": "联合汽车金融公司(Ally Financial)",
+    "short_name": [
+      "Ally Financial",
+      "联合汽车金融"
+    ]
+  },
+  {
+    "company_name": "贝克休斯公司(Baker Hughes)",
+    "short_name": [
+      "Baker Hughes",
+      "贝克休斯"
+    ]
+  },
+  {
+    "company_name": "诺福克南方公司(Norfolk Southern)",
+    "short_name": [
+      "Norfolk Southern",
+      "诺福克南方"
+    ]
+  },
+  {
+    "company_name": "Autoliv公司(Autoliv)",
+    "short_name": [
+      "Autoliv",
+      "Autoliv"
+    ]
+  },
+  {
+    "company_name": "固安捷公司(W.W. Grainger)",
+    "short_name": [
+      "W.W. Grainger",
+      "固安捷"
+    ]
+  },
+  {
+    "company_name": "百特国际(Baxter International)",
+    "short_name": [
+      "Baxter International",
+      "百特国际"
+    ]
+  },
+  {
+    "company_name": "Sempra Energy公司(Sempra Energy)",
+    "short_name": [
+      "Sempra Energy",
+      "Sempra Energy"
+    ]
+  },
+  {
+    "company_name": "美国钢铁公司(United States Steel)",
+    "short_name": [
+      "United States Steel",
+      "美国钢铁"
+    ]
+  },
+  {
+    "company_name": "美国西方石油公司(Occidental Petroleum)",
+    "short_name": [
+      "Occidental Petroleum",
+      "美国西方石油"
+    ]
+  },
+  {
+    "company_name": "发现金融服务公司(Discover Financial Services)",
+    "short_name": [
+      "Discover Financial Services",
+      "发现金融服务"
+    ]
+  },
+  {
+    "company_name": "环球健康服务公司(Universal Health Services)",
+    "short_name": [
+      "Universal Health Services",
+      "环球健康服务"
+    ]
+  },
+  {
+    "company_name": "Praxair公司(Praxair)",
+    "short_name": [
+      "Praxair",
+      "Praxair"
+    ]
+  },
+  {
+    "company_name": "HollyFrontier(HollyFrontier)",
+    "short_name": [
+      "HollyFrontier",
+      "HollyFrontier"
+    ]
+  },
+  {
+    "company_name": "L3 Technologies公司(L3 Technologies)",
+    "short_name": [
+      "L3 Technologies",
+      "L3 Technologies"
+    ]
+  },
+  {
+    "company_name": "DTE Energy公司(DTE Energy)",
+    "short_name": [
+      "DTE Energy",
+      "DTE Energy"
+    ]
+  },
+  {
+    "company_name": "道富集团公司(State Street Corp.)",
+    "short_name": [
+      "State Street Corp.",
+      "道富"
+    ]
+  },
+  {
+    "company_name": "AutoZone公司(AutoZone)",
+    "short_name": [
+      "AutoZone",
+      "AutoZone"
+    ]
+  },
+  {
+    "company_name": "Liberty Interactive(Liberty Interactive)",
+    "short_name": [
+      "Liberty Interactive",
+      "Liberty Interactive"
+    ]
+  },
+  {
+    "company_name": "Priceline集团(Priceline Group)",
+    "short_name": [
+      "Priceline Group",
+      "Priceline"
+    ]
+  },
+  {
+    "company_name": "万事达(MasterCard)",
+    "short_name": [
+      "MasterCard",
+      "万事达"
+    ]
+  },
+  {
+    "company_name": "Voya Financial公司(Voya Financial)",
+    "short_name": [
+      "Voya Financial",
+      "Voya Financial"
+    ]
+  },
+  {
+    "company_name": "应用材料公司(Applied Materials)",
+    "short_name": [
+      "Applied Materials",
+      "应用材料"
+    ]
+  },
+  {
+    "company_name": "贝宝(PayPal Holdings)",
+    "short_name": [
+      "PayPal Holdings",
+      "贝宝"
+    ]
+  },
+  {
+    "company_name": "Entergy公司(Entergy)",
+    "short_name": [
+      "Entergy",
+      "Entergy"
+    ]
+  },
+  {
+    "company_name": "Leucadia National公司(Leucadia National)",
+    "short_name": [
+      "Leucadia National",
+      "Leucadia National"
+    ]
+  },
+  {
+    "company_name": "Group 1 Automotive公司(Group 1 Automotive)",
+    "short_name": [
+      "Group 1 Automotive",
+      "Group 1 Automotive"
+    ]
+  },
+  {
+    "company_name": "莱纳房屋公司(Lennar)",
+    "short_name": [
+      "Lennar",
+      "莱纳房屋"
+    ]
+  },
+  {
+    "company_name": "Jacobs Engineering Group公司(Jacobs Engineering Group)",
+    "short_name": [
+      "Jacobs Engineering Group",
+      "Jacobs Engineering Group"
+    ]
+  },
+  {
+    "company_name": "Unum Group集团(Unum Group)",
+    "short_name": [
+      "Unum Group",
+      "Unum Group"
+    ]
+  },
+  {
+    "company_name": "CSX科技公司(CSX)",
+    "short_name": [
+      "CSX",
+      "CSX科技"
+    ]
+  },
+  {
+    "company_name": "Xcel Energy公司(Xcel Energy)",
+    "short_name": [
+      "Xcel Energy",
+      "Xcel Energy"
+    ]
+  },
+  {
+    "company_name": "贝莱德(BlackRock)",
+    "short_name": [
+      "BlackRock",
+      "贝莱德"
+    ]
+  },
+  {
+    "company_name": "Celgene公司(Celgene)",
+    "short_name": [
+      "Celgene",
+      "Celgene"
+    ]
+  },
+  {
+    "company_name": "雅诗兰黛(Estée Lauder)",
+    "short_name": [
+      "Estée Lauder",
+      "雅诗兰黛"
+    ]
+  },
+  {
+    "company_name": "史塞克(Stryker)",
+    "short_name": [
+      "Stryker",
+      "史塞克"
+    ]
+  },
+  {
+    "company_name": "派克汉尼汾公司(Parker-Hannifin)",
+    "short_name": [
+      "Parker-Hannifin",
+      "派克汉尼汾"
+    ]
+  },
+  {
+    "company_name": "史丹利百德公司(Stanley Black & Decker)",
+    "short_name": [
+      "Stanley Black & Decker",
+      "史丹利百德"
+    ]
+  },
+  {
+    "company_name": "拉斯维加斯金沙公司(Las Vegas Sands)",
+    "short_name": [
+      "Las Vegas Sands",
+      "拉斯维加斯金沙"
+    ]
+  },
+  {
+    "company_name": "Biogen公司(Biogen)",
+    "short_name": [
+      "Biogen",
+      "Biogen"
+    ]
+  },
+  {
+    "company_name": "Core-Mark Holding公司(Core-Mark Holding)",
+    "short_name": [
+      "Core-Mark Holding",
+      "Core-Mark Holding"
+    ]
+  },
+  {
+    "company_name": "美国再保险集团(Reinsurance Group of America)",
+    "short_name": [
+      "Reinsurance Group of America",
+      "美国再保险"
+    ]
+  },
+  {
+    "company_name": "BB&T Corp.公司(BB&T Corp.)",
+    "short_name": [
+      "BB&T Corp.",
+      "BBT Corp."
+    ]
+  },
+  {
+    "company_name": "玩具反斗城(Toys \"R\" Us)",
+    "short_name": [
+      "Toys \"R\" Us",
+      "玩具反斗城"
+    ]
+  },
+  {
+    "company_name": "Henry Schein公司(Henry Schein)",
+    "short_name": [
+      "Henry Schein",
+      "Henry Schein"
+    ]
+  },
+  {
+    "company_name": "第一资讯公司(First Data)",
+    "short_name": [
+      "First Data",
+      "第一资讯"
+    ]
+  },
+  {
+    "company_name": "希尔顿全球控股(Hilton Worldwide Holdings)",
+    "short_name": [
+      "Hilton Worldwide Holdings",
+      "希尔顿全球"
+    ]
+  },
+  {
+    "company_name": "Automatic Data Processing公司(Automatic Data Processing)",
+    "short_name": [
+      "Automatic Data Processing",
+      "Automatic Data Processing"
+    ]
+  },
+  {
+    "company_name": "Ameriprise Financial公司(Ameriprise Financial)",
+    "short_name": [
+      "Ameriprise Financial",
+      "Ameriprise Financial"
+    ]
+  },
+  {
+    "company_name": "Dominion Energy公司(Dominion Energy)",
+    "short_name": [
+      "Dominion Energy",
+      "Dominion Energy"
+    ]
+  },
+  {
+    "company_name": "NGL Energy Partners公司(NGL Energy Partners)",
+    "short_name": [
+      "NGL Energy Partners",
+      "NGL Energy Partners"
+    ]
+  },
+  {
+    "company_name": "舍尔温－威廉姆斯公司(Sherwin-Williams)",
+    "short_name": [
+      "Sherwin-Williams",
+      "舍尔温－威廉姆斯"
+    ]
+  },
+  {
+    "company_name": "爱迪生国际公司(Edison International)",
+    "short_name": [
+      "Edison International",
+      "爱迪生国际"
+    ]
+  },
+  {
+    "company_name": "爱迪生联合电气公司(Consolidated Edison)",
+    "short_name": [
+      "Consolidated Edison",
+      "爱迪生联合电气"
+    ]
+  },
+  {
+    "company_name": "Bed Bath & Beyond公司(Bed Bath & Beyond)",
+    "short_name": [
+      "Bed Bath & Beyond",
+      "Bed Bath  Beyond"
+    ]
+  },
+  {
+    "company_name": "霍顿公司(D.R. Horton)",
+    "short_name": [
+      "D.R. Horton",
+      "霍顿"
+    ]
+  },
+  {
+    "company_name": "戴文能源公司(Devon Energy)",
+    "short_name": [
+      "Devon Energy",
+      "戴文能源"
+    ]
+  },
+  {
+    "company_name": "VF公司(VF)",
+    "short_name": [
+      "VF",
+      "VF"
+    ]
+  },
+  {
+    "company_name": "NRG Energy公司(NRG Energy)",
+    "short_name": [
+      "NRG Energy",
+      "NRG Energy"
+    ]
+  },
+  {
+    "company_name": "Arconic公司(Arconic)",
+    "short_name": [
+      "Arconic",
+      "Arconic"
+    ]
+  },
+  {
+    "company_name": "信安金融(Principal Financial)",
+    "short_name": [
+      "Principal Financial",
+      "信安金融"
+    ]
+  },
+  {
+    "company_name": "美光科技(Micron Technology)",
+    "short_name": [
+      "Micron Technology",
+      "美光科技"
+    ]
+  },
+  {
+    "company_name": "Becton Dickinson公司(Becton Dickinson)",
+    "short_name": [
+      "Becton Dickinson",
+      "Becton Dickinson"
+    ]
+  },
+  {
+    "company_name": "维亚康姆公司(Viacom)",
+    "short_name": [
+      "Viacom",
+      "维亚康姆"
+    ]
+  },
+  {
+    "company_name": "雷诺兹烟草公司(Reynolds American)",
+    "short_name": [
+      "Reynolds American",
+      "雷诺兹烟草"
+    ]
+  },
+  {
+    "company_name": "Farmers Insurance Exchange公司(Farmers Insurance Exchange)",
+    "short_name": [
+      "Farmers Insurance Exchange",
+      "Farmers Insurance Exchange"
+    ]
+  },
+  {
+    "company_name": "杰西潘尼公司(J.C. Penney)",
+    "short_name": [
+      "J.C. Penney",
+      "杰西潘尼"
+    ]
+  },
+  {
+    "company_name": "有限品牌公司(L Brands)",
+    "short_name": [
+      "L Brands",
+      "品牌"
+    ]
+  },
+  {
+    "company_name": "Ross Stores公司(Ross Stores)",
+    "short_name": [
+      "Ross Stores",
+      "Ross Stores"
+    ]
+  },
+  {
+    "company_name": "Guardian Life Ins. Co. of America公司(Guardian Life Ins. Co. of America)",
+    "short_name": [
+      "Guardian Life Ins. Co. of America",
+      "Guardian Life Ins. Co. of America"
+    ]
+  },
+  {
+    "company_name": "Western Digital公司(Western Digital)",
+    "short_name": [
+      "Western Digital",
+      "Western Digital"
+    ]
+  },
+  {
+    "company_name": "凯洛格公司(Kellogg)",
+    "short_name": [
+      "Kellogg",
+      "凯洛格"
+    ]
+  },
+  {
+    "company_name": "金德尔－摩根(Kinder Morgan)",
+    "short_name": [
+      "Kinder Morgan",
+      "金德尔－摩根"
+    ]
+  },
+  {
+    "company_name": "世邦魏理仕(CBRE Group)",
+    "short_name": [
+      "CBRE Group",
+      "世邦魏理仕"
+    ]
+  },
+  {
+    "company_name": "Loews公司(Loews)",
+    "short_name": [
+      "Loews",
+      "Loews"
+    ]
+  },
+  {
+    "company_name": "美国罗宾逊全球物流有限公司(C.H. Robinson Worldwide)",
+    "short_name": [
+      "C.H. Robinson Worldwide",
+      "美国罗宾逊全球物流"
+    ]
+  },
+  {
+    "company_name": "Ecolab公司(Ecolab)",
+    "short_name": [
+      "Ecolab",
+      "Ecolab"
+    ]
+  },
+  {
+    "company_name": "威达信集团(Marsh & McLennan)",
+    "short_name": [
+      "Marsh & McLennan",
+      "威达信"
+    ]
+  },
+  {
+    "company_name": "蓝多湖公司(Land O'Lakes)",
+    "short_name": [
+      "Land O'Lakes",
+      "蓝多湖"
+    ]
+  },
+  {
+    "company_name": "纽威品牌公司(Newell Brands)",
+    "short_name": [
+      "Newell Brands",
+      "纽威品牌"
+    ]
+  },
+  {
+    "company_name": "Lincoln National公司(Lincoln National)",
+    "short_name": [
+      "Lincoln National",
+      "Lincoln National"
+    ]
+  },
+  {
+    "company_name": "德州仪器公司(Texas Instruments)",
+    "short_name": [
+      "Texas Instruments",
+      "德州仪器"
+    ]
+  },
+  {
+    "company_name": "高知特资讯技术公司(Cognizant Technology Solutions)",
+    "short_name": [
+      "Cognizant Technology Solutions",
+      "高知特资讯技术"
+    ]
+  },
+  {
+    "company_name": "孟山都公司(Monsanto)",
+    "short_name": [
+      "Monsanto",
+      "孟山都"
+    ]
+  },
+  {
+    "company_name": "欧迪办公(Office Depot)",
+    "short_name": [
+      "Office Depot",
+      "欧迪办公"
+    ]
+  },
+  {
+    "company_name": "伊利诺斯工具(Illinois Tool Works)",
+    "short_name": [
+      "Illinois Tool Works",
+      "伊利诺斯工具"
+    ]
+  },
+  {
+    "company_name": "废物管理公司(Waste Management)",
+    "short_name": [
+      "Waste Management",
+      "废物管理"
+    ]
+  },
+  {
+    "company_name": "德事隆公司(Textron)",
+    "short_name": [
+      "Textron",
+      "德事隆"
+    ]
+  },
+  {
+    "company_name": "CDW公司(CDW)",
+    "short_name": [
+      "CDW",
+      "CDW"
+    ]
+  },
+  {
+    "company_name": "Synnex公司(Synnex)",
+    "short_name": [
+      "Synnex",
+      "Synnex"
+    ]
+  },
+  {
+    "company_name": "Conagra Brands公司(Conagra Brands)",
+    "short_name": [
+      "Conagra Brands",
+      "Conagra Brands"
+    ]
+  },
+  {
+    "company_name": "第一能源公司(FirstEnergy)",
+    "short_name": [
+      "FirstEnergy",
+      "第一能源"
+    ]
+  },
+  {
+    "company_name": "WellCare Health Plans公司(WellCare Health Plans)",
+    "short_name": [
+      "WellCare Health Plans",
+      "WellCare Health Plans"
+    ]
+  },
+  {
+    "company_name": "AES公司(AES)",
+    "short_name": [
+      "AES",
+      "AES"
+    ]
+  },
+  {
+    "company_name": "哥伦比亚广播公司(CBS)",
+    "short_name": [
+      "CBS",
+      "哥伦比亚广播"
+    ]
+  },
+  {
+    "company_name": "爱玛客公司(Aramark)",
+    "short_name": [
+      "Aramark",
+      "爱玛客"
+    ]
+  },
+  {
+    "company_name": "XPO Logistics公司(XPO Logistics)",
+    "short_name": [
+      "XPO Logistics",
+      "XPO Logistics"
+    ]
+  },
+  {
+    "company_name": "WestRock公司(WestRock)",
+    "short_name": [
+      "WestRock",
+      "WestRock"
+    ]
+  },
+  {
+    "company_name": "国际资产控股公司(INTL FCStone)",
+    "short_name": [
+      "INTL FCStone",
+      "国际资产控股"
+    ]
+  },
+  {
+    "company_name": "Nordstrom公司(Nordstrom)",
+    "short_name": [
+      "Nordstrom",
+      "Nordstrom"
+    ]
+  },
+  {
+    "company_name": "Visa公司(Visa)",
+    "short_name": [
+      "Visa",
+      "Visa"
+    ]
+  },
+  {
+    "company_name": "DISH Network公司(DISH Network)",
+    "short_name": [
+      "DISH Network",
+      "DISH Network"
+    ]
+  },
+  {
+    "company_name": "Synchrony Financial公司(Synchrony Financial)",
+    "short_name": [
+      "Synchrony Financial",
+      "Synchrony Financial"
+    ]
+  },
+  {
+    "company_name": "固特异轮胎（Goodyear Tire & Rubber）(Goodyear Tire & Rubber)",
+    "short_name": [
+      "Goodyear Tire & Rubber",
+      "固特异轮胎Goodyear Tire  Rubber"
+    ]
+  },
+  {
+    "company_name": "PPG 工业公司(PPG Industries)",
+    "short_name": [
+      "PPG Industries",
+      "PPG 工业"
+    ]
+  },
+  {
+    "company_name": "高露洁－棕榄(Colgate-Palmolive)",
+    "short_name": [
+      "Colgate-Palmolive",
+      "高露洁－棕榄"
+    ]
+  },
+  {
+    "company_name": "DaVita公司(DaVita)",
+    "short_name": [
+      "DaVita",
+      "DaVita"
+    ]
+  },
+  {
+    "company_name": "Genuine Parts公司(Genuine Parts)",
+    "short_name": [
+      "Genuine Parts",
+      "Genuine Parts"
+    ]
+  },
+  {
+    "company_name": "宏盟集团(Omnicom Group)",
+    "short_name": [
+      "Omnicom Group",
+      "宏盟"
+    ]
+  },
+  {
+    "company_name": "Gap公司(Gap)",
+    "short_name": [
+      "Gap",
+      "Gap"
+    ]
+  },
+  {
+    "company_name": "纽约银行梅隆公司(Bank of New York Mellon Corp.)",
+    "short_name": [
+      "Bank of New York Mellon Corp.",
+      "纽约银行梅隆"
+    ]
+  },
+  {
+    "company_name": "全食超市公司(Whole Foods Market)",
+    "short_name": [
+      "Whole Foods Market",
+      "全食超市"
+    ]
+  },
+  {
+    "company_name": "Freeport-McMoRan公司(Freeport-McMoRan)",
+    "short_name": [
+      "Freeport-McMoRan",
+      "Freeport-McMoRan"
+    ]
+  },
+  {
+    "company_name": "CarMax公司(CarMax)",
+    "short_name": [
+      "CarMax",
+      "CarMax"
+    ]
+  },
+  {
+    "company_name": "哈里伯顿公司(Halliburton)",
+    "short_name": [
+      "Halliburton",
+      "哈里伯顿"
+    ]
+  },
+  {
+    "company_name": "PBF Energy公司(PBF Energy)",
+    "short_name": [
+      "PBF Energy",
+      "PBF Energy"
+    ]
+  },
+  {
+    "company_name": "Performance Food Group公司(Performance Food Group)",
+    "short_name": [
+      "Performance Food Group",
+      "Performance Food Group"
+    ]
+  },
+  {
+    "company_name": "NextEra Energy公司(NextEra Energy)",
+    "short_name": [
+      "NextEra Energy",
+      "NextEra Energy"
+    ]
+  },
+  {
+    "company_name": "纽克公司(Nucor)",
+    "short_name": [
+      "Nucor",
+      "纽克"
+    ]
+  },
+  {
+    "company_name": "Icahn Enterprises(Icahn Enterprises)",
+    "short_name": [
+      "Icahn Enterprises",
+      "Icahn Enterprises"
+    ]
+  },
+  {
+    "company_name": "美国电力(American Electric Power)",
+    "short_name": [
+      "American Electric Power",
+      "美国电力"
+    ]
+  },
+  {
+    "company_name": "PNC金融服务集团(PNC Financial Services Group)",
+    "short_name": [
+      "PNC Financial Services Group",
+      "PNC金融服务"
+    ]
+  },
+  {
+    "company_name": "通用磨坊食品公司(General Mills)",
+    "short_name": [
+      "General Mills",
+      "通用磨坊食品"
+    ]
+  },
+  {
+    "company_name": "帕卡公司(Paccar)",
+    "short_name": [
+      "Paccar",
+      "帕卡"
+    ]
+  },
+  {
+    "company_name": "万豪国际(Marriott International)",
+    "short_name": [
+      "Marriott International",
+      "万豪国际"
+    ]
+  },
+  {
+    "company_name": "施乐公司(Xerox)",
+    "short_name": [
+      "Xerox",
+      "施乐"
+    ]
+  },
+  {
+    "company_name": "AECOM公司(AECOM)",
+    "short_name": [
+      "AECOM",
+      "AECOM"
+    ]
+  },
+  {
+    "company_name": "CenturyLink公司(CenturyLink)",
+    "short_name": [
+      "CenturyLink",
+      "CenturyLink"
+    ]
+  },
+  {
+    "company_name": "康明斯(Cummins)",
+    "short_name": [
+      "Cummins",
+      "康明斯"
+    ]
+  },
+  {
+    "company_name": "美国超价商店公司(Supervalu)",
+    "short_name": [
+      "Supervalu",
+      "美国超价商店"
+    ]
+  },
+  {
+    "company_name": "太平洋燃气电力公司(PG&E Corp.)",
+    "short_name": [
+      "PG&E Corp.",
+      "太平洋燃气电力"
+    ]
+  },
+  {
+    "company_name": "Molina Healthcare公司(Molina Healthcare)",
+    "short_name": [
+      "Molina Healthcare",
+      "Molina Healthcare"
+    ]
+  },
+  {
+    "company_name": "金佰利公司(Kimberly-Clark)",
+    "short_name": [
+      "Kimberly-Clark",
+      "金佰利"
+    ]
+  },
+  {
+    "company_name": "Thermo Fisher Scientific(Thermo Fisher Scientific)",
+    "short_name": [
+      "Thermo Fisher Scientific",
+      "Thermo Fisher Scientific"
+    ]
+  },
+  {
+    "company_name": "美国哈特福德金融服务公司(Hartford Financial Services Group)",
+    "short_name": [
+      "Hartford Financial Services Group",
+      "美国哈特福德金融服务"
+    ]
+  },
+  {
+    "company_name": "捷普(Jabil Circuit)",
+    "short_name": [
+      "Jabil Circuit",
+      "捷普"
+    ]
+  },
+  {
+    "company_name": "利尔公司(Lear)",
+    "short_name": [
+      "Lear",
+      "利尔"
+    ]
+  },
+  {
+    "company_name": "科尔百货(Kohl's)",
+    "short_name": [
+      "Kohl's",
+      "科尔百货"
+    ]
+  },
+  {
+    "company_name": "福陆公司(Fluor)",
+    "short_name": [
+      "Fluor",
+      "福陆"
+    ]
+  },
+  {
+    "company_name": "高特利集团(Altria Group)",
+    "short_name": [
+      "Altria Group",
+      "高特利"
+    ]
+  },
+  {
+    "company_name": "百时美施贵宝公司(Bristol-Myers Squibb)",
+    "short_name": [
+      "Bristol-Myers Squibb",
+      "百时美施贵宝"
+    ]
+  },
+  {
+    "company_name": "万宝盛华公司(ManpowerGroup)",
+    "short_name": [
+      "ManpowerGroup",
+      "万宝盛华"
+    ]
+  },
+  {
+    "company_name": "Southern公司(Southern)",
+    "short_name": [
+      "Southern",
+      "Southern"
+    ]
+  },
+  {
+    "company_name": "Danaher公司(Danaher)",
+    "short_name": [
+      "Danaher",
+      "Danaher"
+    ]
+  },
+  {
+    "company_name": "联合太平洋(Union Pacific)",
+    "short_name": [
+      "Union Pacific",
+      "联合太平洋"
+    ]
+  },
+  {
+    "company_name": "潘世奇汽车集团(Penske Automotive Group)",
+    "short_name": [
+      "Penske Automotive Group",
+      "潘世奇汽车"
+    ]
+  },
+  {
+    "company_name": "Plains GP Holdings公司(Plains GP Holdings)",
+    "short_name": [
+      "Plains GP Holdings",
+      "Plains GP Holdings"
+    ]
+  },
+  {
+    "company_name": "史泰博(Staples)",
+    "short_name": [
+      "Staples",
+      "史泰博"
+    ]
+  },
+  {
+    "company_name": "艾默生电气公司(Emerson Electric)",
+    "short_name": [
+      "Emerson Electric",
+      "艾默生电气"
+    ]
+  },
+  {
+    "company_name": "美国西南航空公司(Southwest Airlines)",
+    "short_name": [
+      "Southwest Airlines",
+      "美国西南航空"
+    ]
+  },
+  {
+    "company_name": "惠而浦(Whirlpool)",
+    "short_name": [
+      "Whirlpool",
+      "惠而浦"
+    ]
+  },
+  {
+    "company_name": "Dollar Tree公司(Dollar Tree)",
+    "short_name": [
+      "Dollar Tree",
+      "Dollar Tree"
+    ]
+  },
+  {
+    "company_name": "雅培公司(Abbott Laboratories)",
+    "short_name": [
+      "Abbott Laboratories",
+      "雅培"
+    ]
+  },
+  {
+    "company_name": "Tenet Healthcare公司(Tenet Healthcare)",
+    "short_name": [
+      "Tenet Healthcare",
+      "Tenet Healthcare"
+    ]
+  },
+  {
+    "company_name": "国际纸业(International Paper)",
+    "short_name": [
+      "International Paper",
+      "国际纸业"
+    ]
+  },
+  {
+    "company_name": "礼来公司(Eli Lilly)",
+    "short_name": [
+      "Eli Lilly",
+      "礼来"
+    ]
+  },
+  {
+    "company_name": "星巴克(Starbucks)",
+    "short_name": [
+      "Starbucks",
+      "星巴克"
+    ]
+  },
+  {
+    "company_name": "Community Health Systems公司(Community Health Systems)",
+    "short_name": [
+      "Community Health Systems",
+      "Community Health Systems"
+    ]
+  },
+  {
+    "company_name": "AutoNation(AutoNation)",
+    "short_name": [
+      "AutoNation",
+      "AutoNation"
+    ]
+  },
+  {
+    "company_name": "Dollar General公司(Dollar General)",
+    "short_name": [
+      "Dollar General",
+      "Dollar General"
+    ]
+  },
+  {
+    "company_name": "西尔斯控股(Sears Holdings)",
+    "short_name": [
+      "Sears Holdings",
+      "西尔斯"
+    ]
+  },
+  {
+    "company_name": "美国家庭人寿保险公司(Aflac)",
+    "short_name": [
+      "Aflac",
+      "美国家庭人寿保险"
+    ]
+  },
+  {
+    "company_name": "美国合众银行(U.S. Bancorp)",
+    "short_name": [
+      "U.S. Bancorp",
+      "美国合众银行"
+    ]
+  },
+  {
+    "company_name": "US Foods Holding公司(US Foods Holding)",
+    "short_name": [
+      "US Foods Holding",
+      "US Foods Holding"
+    ]
+  },
+  {
+    "company_name": "安进公司(Amgen)",
+    "short_name": [
+      "Amgen",
+      "安进"
+    ]
+  },
+  {
+    "company_name": "Enterprise Products Partners公司(Enterprise Products Partners)",
+    "short_name": [
+      "Enterprise Products Partners",
+      "Enterprise Products Partners"
+    ]
+  },
+  {
+    "company_name": "杜克能源公司(Duke Energy)",
+    "short_name": [
+      "Duke Energy",
+      "杜克能源"
+    ]
+  },
+  {
+    "company_name": "前进保险公司(Progressive)",
+    "short_name": [
+      "Progressive",
+      "前进保险"
+    ]
+  },
+  {
+    "company_name": "高通公司(Qualcomm)",
+    "short_name": [
+      "Qualcomm",
+      "高通"
+    ]
+  },
+  {
+    "company_name": "艾睿电子(Arrow Electronics)",
+    "short_name": [
+      "Arrow Electronics",
+      "艾睿电子"
+    ]
+  },
+  {
+    "company_name": "Tesoro公司(Tesoro)",
+    "short_name": [
+      "Tesoro",
+      "Tesoro"
+    ]
+  },
+  {
+    "company_name": "雷神公司(Raytheon)",
+    "short_name": [
+      "Raytheon",
+      "雷神"
+    ]
+  },
+  {
+    "company_name": "康菲石油公司(ConocoPhillips)",
+    "short_name": [
+      "ConocoPhillips",
+      "康菲石油"
+    ]
+  },
+  {
+    "company_name": "美国诺斯洛普格拉曼公司(Northrop Grumman)",
+    "short_name": [
+      "Northrop Grumman",
+      "美国诺斯洛普格拉曼"
+    ]
+  },
+  {
+    "company_name": "杜邦公司(DuPont)",
+    "short_name": [
+      "DuPont",
+      "杜邦"
+    ]
+  },
+  {
+    "company_name": "麦当劳(McDonald's)",
+    "short_name": [
+      "McDonald's",
+      "麦当劳"
+    ]
+  },
+  {
+    "company_name": "艾伯维(AbbVie)",
+    "short_name": [
+      "AbbVie",
+      "艾伯维"
+    ]
+  },
+  {
+    "company_name": "梅西百货(Macy's)",
+    "short_name": [
+      "Macy's",
+      "梅西百货"
+    ]
+  },
+  {
+    "company_name": "Mondelēz International公司(Mondelēz International)",
+    "short_name": [
+      "Mondelēz International",
+      "Mondelēz International"
+    ]
+  },
+  {
+    "company_name": "安富利(Avnet)",
+    "short_name": [
+      "Avnet",
+      "安富利"
+    ]
+  },
+  {
+    "company_name": "技术数据公司(Tech Data)",
+    "short_name": [
+      "Tech Data",
+      "技术数据"
+    ]
+  },
+  {
+    "company_name": "卡夫亨氏公司(Kraft Heinz)",
+    "short_name": [
+      "Kraft Heinz",
+      "卡夫亨氏"
+    ]
+  },
+  {
+    "company_name": "迪尔公司(Deere)",
+    "short_name": [
+      "Deere",
+      "迪尔"
+    ]
+  },
+  {
+    "company_name": "菲利普－莫里斯国际公司(Philip Morris International)",
+    "short_name": [
+      "Philip Morris International",
+      "菲利普－莫里斯国际"
+    ]
+  },
+  {
+    "company_name": "全球燃料服务公司(World Fuel Services)",
+    "short_name": [
+      "World Fuel Services",
+      "全球燃料服务"
+    ]
+  },
+  {
+    "company_name": "联合服务汽车协会(United Services Automobile Assn.)",
+    "short_name": [
+      "United Services Automobile Assn.",
+      "联合服务汽车协会"
+    ]
+  },
+  {
+    "company_name": "二十一世纪福克斯(Twenty-First Century Fox)",
+    "short_name": [
+      "Twenty-First Century Fox",
+      "二十一世纪福克斯"
+    ]
+  },
+  {
+    "company_name": "第一资本金融公司(Capital One Financial)",
+    "short_name": [
+      "Capital One Financial",
+      "第一资本金融"
+    ]
+  },
+  {
+    "company_name": "圣保罗旅行者保险公司(Travelers Cos.)",
+    "short_name": [
+      "Travelers Cos.",
+      "圣保罗旅行者保险"
+    ]
+  },
+  {
+    "company_name": "Facebook公司(Facebook)",
+    "short_name": [
+      "Facebook",
+      "Facebook"
+    ]
+  },
+  {
+    "company_name": "西北互助人寿保险公司(Northwestern Mutual)",
+    "short_name": [
+      "Northwestern Mutual",
+      "西北互助人寿保险"
+    ]
+  },
+  {
+    "company_name": "特许通讯公司(Charter Communications)",
+    "short_name": [
+      "Charter Communications",
+      "特许通讯"
+    ]
+  },
+  {
+    "company_name": "时代华纳(Time Warner)",
+    "short_name": [
+      "Time Warner",
+      "时代华纳"
+    ]
+  },
+  {
+    "company_name": "3M公司(3M)",
+    "short_name": [
+      "3M",
+      "3M"
+    ]
+  },
+  {
+    "company_name": "CHS公司(CHS)",
+    "short_name": [
+      "CHS",
+      "CHS"
+    ]
+  },
+  {
+    "company_name": "吉利德科学公司(Gilead Sciences)",
+    "short_name": [
+      "Gilead Sciences",
+      "吉利德科学"
+    ]
+  },
+  {
+    "company_name": "美国来爱德公司(Rite Aid)",
+    "short_name": [
+      "Rite Aid",
+      "美国来爱德"
+    ]
+  },
+  {
+    "company_name": "通用动力(General Dynamics)",
+    "short_name": [
+      "General Dynamics",
+      "通用动力"
+    ]
+  },
+  {
+    "company_name": "Exelon公司(Exelon)",
+    "short_name": [
+      "Exelon",
+      "Exelon"
+    ]
+  },
+  {
+    "company_name": "耐克(Nike)",
+    "short_name": [
+      "Nike",
+      "耐克"
+    ]
+  },
+  {
+    "company_name": "TJX公司(TJX)",
+    "short_name": [
+      "TJX",
+      "TJX"
+    ]
+  },
+  {
+    "company_name": "美国运通公司(American Express)",
+    "short_name": [
+      "American Express",
+      "美国运通"
+    ]
+  },
+  {
+    "company_name": "大众超级市场公司(Publix Super Markets)",
+    "short_name": [
+      "Publix Super Markets",
+      "大众超级市场"
+    ]
+  },
+  {
+    "company_name": "好事达(Allstate)",
+    "short_name": [
+      "Allstate",
+      "好事达"
+    ]
+  },
+  {
+    "company_name": "联合大陆控股有限公司(United Continental Holdings)",
+    "short_name": [
+      "United Continental Holdings",
+      "联合大陆"
+    ]
+  },
+  {
+    "company_name": "泰森食品(Tyson Foods)",
+    "short_name": [
+      "Tyson Foods",
+      "泰森食品"
+    ]
+  },
+  {
+    "company_name": "甲骨文公司(Oracle)",
+    "short_name": [
+      "Oracle",
+      "甲骨文"
+    ]
+  },
+  {
+    "company_name": "美国教师退休基金会(TIAA)",
+    "short_name": [
+      "TIAA",
+      "美国教师退休基金会"
+    ]
+  },
+  {
+    "company_name": "Energy Transfer Equity公司(Energy Transfer Equity)",
+    "short_name": [
+      "Energy Transfer Equity",
+      "Energy Transfer Equity"
+    ]
+  },
+  {
+    "company_name": "高盛(Goldman Sachs Group)",
+    "short_name": [
+      "Goldman Sachs Group",
+      "高盛"
+    ]
+  },
+  {
+    "company_name": "美国麻省人寿保险公司(Massachusetts Mutual Life Insurance)",
+    "short_name": [
+      "Massachusetts Mutual Life Insurance",
+      "美国麻省人寿保险"
+    ]
+  },
+  {
+    "company_name": "摩根士丹利(Morgan Stanley)",
+    "short_name": [
+      "Morgan Stanley",
+      "摩根士丹利"
+    ]
+  },
+  {
+    "company_name": "美国利宝相互保险公司(Liberty Mutual Insurance Group)",
+    "short_name": [
+      "Liberty Mutual Insurance Group",
+      "美国利宝相互保险"
+    ]
+  },
+  {
+    "company_name": "卡特彼勒(Caterpillar)",
+    "short_name": [
+      "Caterpillar",
+      "卡特彼勒"
+    ]
+  },
+  {
+    "company_name": "霍尼韦尔国际公司(Honeywell International)",
+    "short_name": [
+      "Honeywell International",
+      "霍尼韦尔国际"
+    ]
+  },
+  {
+    "company_name": "百思买(Best Buy)",
+    "short_name": [
+      "Best Buy",
+      "百思买"
+    ]
+  },
+  {
+    "company_name": "达美航空(Delta Air Lines)",
+    "short_name": [
+      "Delta Air Lines",
+      "达美航空"
+    ]
+  },
+  {
+    "company_name": "信诺(Cigna)",
+    "short_name": [
+      "Cigna",
+      "信诺"
+    ]
+  },
+  {
+    "company_name": "默沙东(Merck)",
+    "short_name": [
+      "Merck",
+      "默沙东"
+    ]
+  },
+  {
+    "company_name": "全美互惠保险公司(Nationwide)",
+    "short_name": [
+      "Nationwide",
+      "全美互惠保险"
+    ]
+  },
+  {
+    "company_name": "美国航空集团(American Airlines Group)",
+    "short_name": [
+      "American Airlines Group",
+      "美国航空"
+    ]
+  },
+  {
+    "company_name": "Centene公司(Centene)",
+    "short_name": [
+      "Centene",
+      "Centene"
+    ]
+  },
+  {
+    "company_name": "美国纽约人寿保险公司(New York Life Insurance)",
+    "short_name": [
+      "New York Life Insurance",
+      "美国纽约人寿保险"
+    ]
+  },
+  {
+    "company_name": "可口可乐公司(Coca-Cola)",
+    "short_name": [
+      "Coca-Cola",
+      "可口可乐"
+    ]
+  },
+  {
+    "company_name": "HCA公司(HCA Holdings)",
+    "short_name": [
+      "HCA Holdings",
+      "HCA"
+    ]
+  },
+  {
+    "company_name": "陶氏化学(Dow Chemical)",
+    "short_name": [
+      "Dow Chemical",
+      "陶氏化学"
+    ]
+  },
+  {
+    "company_name": "惠普(HP)",
+    "short_name": [
+      "HP",
+      "惠普"
+    ]
+  },
+  {
+    "company_name": "思科公司(Cisco Systems)",
+    "short_name": [
+      "Cisco Systems",
+      "思科"
+    ]
+  },
+  {
+    "company_name": "慧与(Hewlett Packard Enterprise)",
+    "short_name": [
+      "Hewlett Packard Enterprise",
+      "慧与"
+    ]
+  },
+  {
+    "company_name": "联邦快递(FedEx)",
+    "short_name": [
+      "FedEx",
+      "联邦快递"
+    ]
+  },
+  {
+    "company_name": "西斯科公司(Sysco)",
+    "short_name": [
+      "Sysco",
+      "西斯科"
+    ]
+  },
+  {
+    "company_name": "洛克希德－马丁(Lockheed Martin)",
+    "short_name": [
+      "Lockheed Martin",
+      "洛克希德－马丁"
+    ]
+  },
+  {
+    "company_name": "美国国际集团(American International Group)",
+    "short_name": [
+      "American International Group",
+      "美国国际"
+    ]
+  },
+  {
+    "company_name": "辉瑞制药有限公司(Pfizer)",
+    "short_name": [
+      "Pfizer",
+      "辉瑞制药"
+    ]
+  },
+  {
+    "company_name": "哈门那公司(Humana)",
+    "short_name": [
+      "Humana",
+      "哈门那"
+    ]
+  },
+  {
+    "company_name": "华特迪士尼公司(Walt Disney)",
+    "short_name": [
+      "Walt Disney",
+      "华特迪士尼"
+    ]
+  },
+  {
+    "company_name": "马拉松原油公司(Marathon Petroleum)",
+    "short_name": [
+      "Marathon Petroleum",
+      "马拉松原油"
+    ]
+  },
+  {
+    "company_name": "联合技术公司(United Technologies)",
+    "short_name": [
+      "United Technologies",
+      "联合技术"
+    ]
+  },
+  {
+    "company_name": "Albertsons Cos.公司(Albertsons Cos.)",
+    "short_name": [
+      "Albertsons Cos.",
+      "Albertsons Cos."
+    ]
+  },
+  {
+    "company_name": "美国保德信金融集团(Prudential Financial)",
+    "short_name": [
+      "Prudential Financial",
+      "美国保德信金融"
+    ]
+  },
+  {
+    "company_name": "英特尔公司(Intel)",
+    "short_name": [
+      "Intel",
+      "英特尔"
+    ]
+  },
+  {
+    "company_name": "联合包裹速递服务公司(United Parcel Service)",
+    "short_name": [
+      "United Parcel Service",
+      "联合包裹速递服务"
+    ]
+  },
+  {
+    "company_name": "ADM公司(Archer Daniels Midland)",
+    "short_name": [
+      "Archer Daniels Midland",
+      "ADM"
+    ]
+  },
+  {
+    "company_name": "百事公司(PepsiCo)",
+    "short_name": [
+      "PepsiCo",
+      "百事"
+    ]
+  },
+  {
+    "company_name": "安泰保险(Aetna)",
+    "short_name": [
+      "Aetna",
+      "安泰保险"
+    ]
+  },
+  {
+    "company_name": "大都会保险公司(MetLife)",
+    "short_name": [
+      "MetLife",
+      "大都会保险"
+    ]
+  },
+  {
+    "company_name": "戴尔科技(Dell Technologies)",
+    "short_name": [
+      "Dell Technologies",
+      "戴尔科技"
+    ]
+  },
+  {
+    "company_name": "美国劳氏公司(Lowe's)",
+    "short_name": [
+      "Lowe's",
+      "美国劳氏"
+    ]
+  },
+  {
+    "company_name": "房地美(Freddie Mac)",
+    "short_name": [
+      "Freddie Mac",
+      "房地美"
+    ]
+  },
+  {
+    "company_name": "塔吉特公司(Target)",
+    "short_name": [
+      "Target",
+      "塔吉特"
+    ]
+  },
+  {
+    "company_name": "瓦莱罗能源公司(Valero Energy)",
+    "short_name": [
+      "Valero Energy",
+      "瓦莱罗能源"
+    ]
+  },
+  {
+    "company_name": "宝洁公司(Procter & Gamble)",
+    "short_name": [
+      "Procter & Gamble",
+      "宝洁"
+    ]
+  },
+  {
+    "company_name": "强生(Johnson & Johnson)",
+    "short_name": [
+      "Johnson & Johnson",
+      "强生"
+    ]
+  },
+  {
+    "company_name": "Phillips 66公司(Phillips 66)",
+    "short_name": [
+      "Phillips 66",
+      "Phillips 66"
+    ]
+  },
+  {
+    "company_name": "州立农业保险公司(State Farm Insurance Cos.)",
+    "short_name": [
+      "State Farm Insurance Cos.",
+      "州立农业保险"
+    ]
+  },
+  {
+    "company_name": "国际商业机器公司(International Business Machines)",
+    "short_name": [
+      "International Business Machines",
+      "国际商业机器"
+    ]
+  },
+  {
+    "company_name": "美国康卡斯特电信公司(Comcast)",
+    "short_name": [
+      "Comcast",
+      "美国康卡斯特电信"
+    ]
+  },
+  {
+    "company_name": "花旗集团(Citigroup)",
+    "short_name": [
+      "Citigroup",
+      "花旗"
+    ]
+  },
+  {
+    "company_name": "Anthem公司(Anthem)",
+    "short_name": [
+      "Anthem",
+      "Anthem"
+    ]
+  },
+  {
+    "company_name": "微软(Microsoft)",
+    "short_name": [
+      "Microsoft",
+      "微软"
+    ]
+  },
+  {
+    "company_name": "Alphabet公司(Alphabet)",
+    "short_name": [
+      "Alphabet",
+      "Alphabet"
+    ]
+  },
+  {
+    "company_name": "美国银行(Bank of America Corp.)",
+    "short_name": [
+      "Bank of America Corp.",
+      "美国银行"
+    ]
+  },
+  {
+    "company_name": "美国富国银行(Wells Fargo)",
+    "short_name": [
+      "Wells Fargo",
+      "美国富国银行"
+    ]
+  },
+  {
+    "company_name": "波音(Boeing)",
+    "short_name": [
+      "Boeing",
+      "波音"
+    ]
+  },
+  {
+    "company_name": "家得宝(Home Depot)",
+    "short_name": [
+      "Home Depot",
+      "家得宝"
+    ]
+  },
+  {
+    "company_name": "美国快捷药方公司(Express Scripts Holding)",
+    "short_name": [
+      "Express Scripts Holding",
+      "美国快捷药方"
+    ]
+  },
+  {
+    "company_name": "摩根大通公司(JPMorgan Chase & Co.)",
+    "short_name": [
+      "JPMorgan Chase & Co.",
+      "摩根大通"
+    ]
+  },
+  {
+    "company_name": "房利美(Fannie Mae)",
+    "short_name": [
+      "Fannie Mae",
+      "房利美"
+    ]
+  },
+  {
+    "company_name": "雪佛龙(Chevron)",
+    "short_name": [
+      "Chevron",
+      "雪佛龙"
+    ]
+  },
+  {
+    "company_name": "克罗格(Kroger)",
+    "short_name": [
+      "Kroger",
+      "克罗格"
+    ]
+  },
+  {
+    "company_name": "沃尔格林联合博姿集团(Walgreens Boots Alliance)",
+    "short_name": [
+      "Walgreens Boots Alliance",
+      "沃尔格林联合博姿"
+    ]
+  },
+  {
+    "company_name": "好市多(Costco Wholesale)",
+    "short_name": [
+      "Costco Wholesale",
+      "好市多"
+    ]
+  },
+  {
+    "company_name": "卡地纳健康(Cardinal Health)",
+    "short_name": [
+      "Cardinal Health",
+      "卡地纳健康"
+    ]
+  },
+  {
+    "company_name": "威瑞森电信(Verizon Communications)",
+    "short_name": [
+      "Verizon Communications",
+      "威瑞森电信"
+    ]
+  },
+  {
+    "company_name": "通用电气公司(General Electric)",
+    "short_name": [
+      "General Electric",
+      "通用电气"
+    ]
+  },
+  {
+    "company_name": "亚马逊(Amazon.com)",
+    "short_name": [
+      "Amazon.com",
+      "亚马逊"
+    ]
+  },
+  {
+    "company_name": "美源伯根公司(AmerisourceBergen)",
+    "short_name": [
+      "AmerisourceBergen",
+      "美源伯根"
+    ]
+  },
+  {
+    "company_name": "福特汽车公司(Ford Motor)",
+    "short_name": [
+      "Ford Motor",
+      "福特汽车"
+    ]
+  },
+  {
+    "company_name": "美国电话电报公司(AT&T)",
+    "short_name": [
+      "AT&T",
+      "美国电话电报"
+    ]
+  },
+  {
+    "company_name": "通用汽车公司(General Motors)",
+    "short_name": [
+      "General Motors",
+      "通用汽车"
+    ]
+  },
+  {
+    "company_name": "CVS Health公司(CVS Health)",
+    "short_name": [
+      "CVS Health",
+      "CVS Health"
+    ]
+  },
+  {
+    "company_name": "联合健康集团(UnitedHealth Group)",
+    "short_name": [
+      "UnitedHealth Group",
+      "联合健康"
+    ]
+  },
+  {
+    "company_name": "麦克森公司(McKesson)",
+    "short_name": [
+      "McKesson",
+      "麦克森"
+    ]
+  },
+  {
+    "company_name": "埃克森美孚(Exxon Mobil)",
+    "short_name": [
+      "Exxon Mobil",
+      "埃克森美孚"
+    ]
+  },
+  {
+    "company_name": "苹果公司(Apple)",
+    "short_name": [
+      "Apple",
+      "苹果"
+    ]
+  },
+  {
+    "company_name": "伯克希尔－哈撒韦公司(Berkshire Hathaway)",
+    "short_name": [
+      "Berkshire Hathaway",
+      "伯克希尔－哈撒韦"
+    ]
+  },
+  {
+    "company_name": "沃尔玛(Wal-Mart Stores)",
+    "short_name": [
+      "Wal-Mart Stores",
+      "沃尔玛"
+    ]
+  }
+]
