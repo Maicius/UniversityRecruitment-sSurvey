@@ -57,17 +57,17 @@ def get_XJTU_recruit():
         except BaseException as e:
             redis.handle_error(e, table_name)
 
-    # 招聘信息
-    max_page = 172
-    # max_page = 20
-    for page in range(1, max_page):
-        try:
-            get_data1(page, redis, table_name)
-            print('page ' + str(page) + ' done!')
-        except BaseException as e:
-            redis.handle_error(e, table_name)
-    redis.add_to_file(table_name)
-    redis.add_university(table_name)
+    # # 招聘信息
+    # max_page = 172
+    # # max_page = 20
+    # for page in range(1, max_page):
+    #     try:
+    #         get_data1(page, redis, table_name)
+    #         print('page ' + str(page) + ' done!')
+    #     except BaseException as e:
+    #         redis.handle_error(e, table_name)
+    # redis.add_to_file(table_name)
+    # redis.add_university(table_name)
 
 
 if __name__ == '__main__':

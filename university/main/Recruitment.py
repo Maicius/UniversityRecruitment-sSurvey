@@ -14,14 +14,15 @@ class Recruitment(object):
 
     # 获取四川大学宣讲会信息
     def get_scu_recruit(self):
+        table_name = "scu_company_info"
         host = 'jy.scu.edu.cn'
         first_url = "http://jy.scu.edu.cn/eweb/jygl/zpfw.so?modcode=jygl_xjhxxck&subsyscode=zpfw&type=searchXjhxx"
         base_url = "http://jy.scu.edu.cn/eweb/wfc/app/pager.so?type=goPager&requestPager=pager&pageMethod=next&currentPage="
+        self.re.clear_list(table_name)
         req = requests.Session()
         scu_header = util.get_header(host)
         res = req.get(headers=scu_header, url=first_url)
         content = res.content.decode("utf-8")
-        table_name = "scu_company_info"
         page_num = 224
         index_begin = 8
         index_end = 28
@@ -36,8 +37,7 @@ class Recruitment(object):
         first_url = "http://www.job.sjtu.edu.cn/eweb/jygl/zpfw.so?modcode=jygl_xjhxxck&subsyscode=zpfw&type=searchXjhxx&xjhType=yjb"
         base_url = "http://www.job.sjtu.edu.cn/eweb/wfc/app/pager.so?type=goPager&requestPager=pager&pageMethod=next&currentPage="
         header = util.get_header(host)
-        re = jedis.jedis()
-        re.connect_redis()
+        self.re.clear_list("sjtu_company_info")
         req = requests.Session()
         res = req.get(headers=header, url=first_url).content.decode("utf-8")
         table_name = "sjtu_company_info"
@@ -86,6 +86,6 @@ class Recruitment(object):
 if __name__ == '__main__':
     recruit = Recruitment()
     recruit.get_scu_recruit()
-    # recruit.get_sjtu_rescruit()
+    recruit.get_sjtu_rescruit()
 
 
