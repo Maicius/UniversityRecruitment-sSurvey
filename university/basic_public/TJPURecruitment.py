@@ -25,7 +25,6 @@ def get_one_page_data(page, redis, table_name):
 def get_tjpu_recruitment():
     # 天津工业大学
     table_name = 'tjpu_company_info'
-
     redis = jedis.jedis()
     redis.clear_list(table_name)
 

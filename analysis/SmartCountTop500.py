@@ -43,23 +43,37 @@ class AnalysisTop500(object):
                     for short_names in self.china_top500_dict:
                         for short_name in short_names['short_name']:
                             if company.find(short_name) != -1:
-                                print(short_name + "-" + company)
-                                self.china_top500_result[university_table_name].append(short_name+"-" + company)
-                                break
+                                if short_name == '京东' and company.find('京东方') != -1:
+                                    break
+                                if short_name == '京东方' and company.find('北京东') != -1:
+                                    break
+                                if short_name == '京东' and company.find('北京东') != -1:
+                                    break
+                                else:
+                                    # print(short_name + "-" + company)
+                                    self.china_top500_result[university_table_name].append(short_name+"-" + company)
+                                    break
 
                     # 判断是不是世界五百强
                     for short_names in self.world_top500_dict:
                         for short_name in short_names['short_name']:
                             if company.find(short_name) != -1:
-                                print(short_name + "-" + company)
-                                self.world_top500_result[university_table_name].append(short_name+"-" + company)
-                                break
+                                if short_name == '京东' and company.find('京东方') != -1:
+                                    break
+                                if short_name == '京东方' and company.find('北京东') != -1:
+                                    break
+                                if short_name == '京东' and company.find('北京东') != -1:
+                                    break
+                                else:
+                                    # print(short_name + "-" + company)
+                                    self.world_top500_result[university_table_name].append(short_name+"-" + company)
+                                    break
 
                     # 判断是不是美国五百强
                     for short_names in self.usa_top500_dict:
                         for short_name in short_names['short_name']:
                             if company.find(short_name) != -1:
-                                print(short_name + "-" + company)
+                                # print(short_name + "-" + company)
                                 self.usa_top500_result[university_table_name].append(short_name+"-" + company)
                                 break
                 except BaseException as e:

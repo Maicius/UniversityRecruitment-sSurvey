@@ -46,6 +46,7 @@ def get_csu_recruit():
     # 中南大学
     table_name = 'CSU_company_info'
     redis = jedis.jedis()
+    redis.clear_list(table_name)
     max_page = 706
     for i in range(1, max_page):
         try:

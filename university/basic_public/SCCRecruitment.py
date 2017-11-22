@@ -25,7 +25,6 @@ def get_scc_recuit():
     # 上海海关学院
     table_name = 'scc_company_info'
     redis = jedis.jedis()
-    redis.connect_redis()
     redis.clear_list(table_name)
     # 只有一页
     get_data(table_name, redis)

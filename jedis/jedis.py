@@ -24,6 +24,7 @@ class jedis(object):
             self.print_redis_error(e)
 
     def connect_redis(self):
+
         return self.re
 
     # 保存数据，将传入的date 和company_name 格式化为字典再保存
