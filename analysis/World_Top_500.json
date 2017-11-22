@@ -1814,7 +1814,7 @@
     "company_name": "中国联合网络通信股份有限公司(CHINA UNITED NETWORK COMMUNICATIONS)",
     "short_name": [
       "CHINA UNITED NETWORK COMMUNICATIONS",
-      "中国联合网络通信"
+      "中国联合网络通信", "中国联通"
     ]
   },
   {
@@ -3172,7 +3172,7 @@
     "company_name": "中国移动通信集团公司(CHINA MOBILE COMMUNICATIONS)",
     "short_name": [
       "CHINA MOBILE COMMUNICATIONS",
-      "中国移动通信"
+      "中国移动通信", "中国移动"
     ]
   },
   {
