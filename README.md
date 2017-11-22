@@ -67,6 +67,7 @@
 #### 一本
 
 - [华北电力大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/top_public/NCEPURecruitment.py)暂时只获取了招聘会信息，双选会信息不全
+- [南京邮电大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/top_public/NJUPTRecruitment.py)
 
 #### 二本
 
@@ -76,6 +77,8 @@
 - [天津工业大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/basic_public/TJPURecruitment.py)
 - [温州大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/basic_public/WZURecruitment.py)
 - [烟台大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/basic_public/YTURecruitment.py)
+- [北京石油化工学院](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/basic_public/BIPTRecruitment.py)
+- [江汉大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/basic_public/JHURecruitment.py)
 
 ### 已爬取的公司名单（持续更新）
 
