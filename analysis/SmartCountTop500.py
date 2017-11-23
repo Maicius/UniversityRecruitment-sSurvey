@@ -109,11 +109,12 @@ class AnalysisTop500(object):
                     company_list_2017.append(item)
             except BaseException as e:
                 print("error=============================================================")
+                print(university_table_name)
                 print(item)
                 print(e)
                 print("error=============================================================")
                 continue
-        print("Finish to find 2017 Recruitment")
+        print("Finish to find 2017 Recruitment--" + university_table_name)
         return company_list_2017
 
     # 从数据库里读取500强信息（包括全名、CEO、盈利额等，但是不包括简称）
