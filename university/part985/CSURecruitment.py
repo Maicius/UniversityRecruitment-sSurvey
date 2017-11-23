@@ -48,7 +48,8 @@ def get_csu_recruit():
     # 中南大学
     # 通过改变page_size参数，一次获取所有数据
     # 再通过正则提取
-    table_name = 'CSU_company_info'
+    table_name = 'csu_company_info'
+    print(table_name)
     redis = jedis.jedis()
     redis.clear_list(table_name)
     max_page = 2
@@ -56,7 +57,7 @@ def get_csu_recruit():
         try:
             print("begin")
             get_one_page_data(i, redis, table_name)
-            print('page done!')
+            print('Finish All!')
         except Exception as e:
             redis.handle_error(e, table_name)
     redis.add_to_file(table_name)
