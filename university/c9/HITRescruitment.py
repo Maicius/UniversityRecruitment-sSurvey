@@ -23,7 +23,7 @@ def get_hit_rescruit():
     re.connect_redis()
     re.clear_list(table_name)
     # 哈工大最新的就业网站是从2016年9月开始的，至今一共有13个月的数据
-    for i in range(0, 14):
+    for i in range(0, 16):
         month = 9
         year = 2016
         month = month + i

@@ -21,7 +21,6 @@ def get_one_page_data(page, redis, table_name):
             date=date,
         ))
 
-
 def get_tjpu_recruitment():
     # 天津工业大学
     table_name = 'tjpu_company_info'
