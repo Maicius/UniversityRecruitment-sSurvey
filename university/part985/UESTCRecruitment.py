@@ -17,8 +17,6 @@ def get_data(page, re, table_name):
     # print(json_data)
     data = map(lambda x: dict(date=x["rec_publish_time"][0:10], company_name=x["rec_enter_name"]), json_data)
     re.save_list(table_name, data)
-    for i in data:
-        print(i)
 
 
 def get_uestc_recruit():
