@@ -4,7 +4,7 @@ import requests
 from jedis import jedis
 from bs4 import BeautifulSoup
 
-table_name = "it_top_100_company_info"
+table_name = "China_it_top_100_company_info"
 def get_it_top100():
     url = "http://www.sohu.com/a/162100864_608782"
     req = requests.Session()
@@ -23,8 +23,8 @@ def parse_info(content, re):
         company_name = infos[2].strip()
         short_name = infos[3].strip()
         product = infos[4].strip()
-        re.save_dict(table_name, data=dict(company_name=company_name, short_name=short_name, product=product))
-    re.add_to_file_tail(table_name)
+        re.save_dict(table_name, data=dict(company_name=company_name, short_name=[short_name], product=product))
+    re.add_to_file_local(table_name)
     print("中国IT企业100强获取完成")
 
 if __name__ == '__main__':

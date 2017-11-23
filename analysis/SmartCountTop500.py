@@ -190,6 +190,7 @@ class AnalysisTop500(object):
         print("short_name:" + short_name)
         short_names.append(short_name)
         self.data_array.append(dict(company_name=company_name, short_name=short_names))
+        return short_names
 
     # 保存到文件
     def add_to_file(self, file_name):
