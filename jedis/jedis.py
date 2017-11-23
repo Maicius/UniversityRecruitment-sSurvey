@@ -34,8 +34,10 @@ class jedis(object):
     # 保存字典格式的数据
     def save_dict(self, name, data):
         try:
-            data['company_name'] = data['company_name'].replace('\"', '”')
-            data['company_name'] = data['company_name'].replace('\'', '”')
+            # 在插入数据之前将所有对引号替换为中文引号，避免在redis中被替换
+            # 但是由于这两句十分的慢，所以一般注释掉
+            # data['company_name'] = data['company_name'].replace('\"', '”')
+            # data['company_name'] = data['company_name'].replace('\'', '”')
             # 如果不使用redis也要注释掉这句
             self.re.lpush(name, data)
             # pass
