@@ -33,12 +33,19 @@ def get_data(table_name, redis):
 
 def get_cuit_recruit():
     # 成都信息工程大学
+    print("成都信息工程大学开始================================")
     table_name = 'cuit_company_info'
-    redis = jedis.jedis()
-    redis.clear_list(table_name)
-    get_data(table_name, redis)
-    redis.add_to_file(table_name)
-    redis.add_university(table_name)
+    try:
+        redis = jedis.jedis()
+        redis.clear_list(table_name)
+        get_data(table_name, redis)
+        redis.add_to_file(table_name)
+        redis.add_university(table_name)
+    except BaseException as e:
+        print("成都信息工程大学:")
+        print(e)
+        pass
+    print("成都信息工程大学开始================================")
 
 
 if __name__ == '__main__':

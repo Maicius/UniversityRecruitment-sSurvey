@@ -9,7 +9,7 @@ from university.basic_public.YTURecruitment import get_ytu_recruitment
 
 
 def get_basic_public_info():
-    # get_bipt_recruitment()
+    get_bipt_recruitment()
     get_cuit_recruit()
     get_jhu_recruitment()
     get_jincheng_recruit()
