@@ -35,10 +35,9 @@ def get_one_page_data(page, redis, table_name):
 def get_ytu_recruitment():
     # 烟台大学
     table_name = 'ytu_company_info'
-
+    print(table_name)
     redis = jedis.jedis()
     redis.clear_list(table_name)
-
     max_page = 105
     try:
         for i in range(1, max_page):
@@ -47,6 +46,7 @@ def get_ytu_recruitment():
             sleep(0.2)
     except Exception as e:
         redis.handle_error(e, table_name)
+        pass
     redis.add_to_file(table_name)
     redis.add_university(table_name)
 

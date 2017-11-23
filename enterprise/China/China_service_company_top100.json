@@ -1,0 +1,602 @@
+[
+  {
+    "company_name": "苏宁控股集团",
+    "short_name": [
+      "苏宁"
+    ]
+  },
+  {
+    "company_name": "海航集团有限公司",
+    "short_name": [
+      "海航"
+    ]
+  },
+  {
+    "company_name": "中国华信能源有限公司",
+    "short_name": [
+      "中国华信能源"
+    ]
+  },
+  {
+    "company_name": "京东集团",
+    "short_name": [
+      "京东"
+    ]
+  },
+  {
+    "company_name": "大连万达集团股份有限公司",
+    "short_name": [
+      "大连万达"
+    ]
+  },
+  {
+    "company_name": "万科企业股份有限公司",
+    "short_name": [
+      "万科"
+    ]
+  },
+  {
+    "company_name": "恒大集团有限公司",
+    "short_name": [
+      "恒大"
+    ]
+  },
+  {
+    "company_name": "雪松控股集团有限公司",
+    "short_name": [
+      "雪松"
+    ]
+  },
+  {
+    "company_name": "碧桂园控股有限公司",
+    "short_name": [
+      "碧桂园"
+    ]
+  },
+  {
+    "company_name": "新疆广汇实业投资（集团）有限责任公司",
+    "short_name": [
+      "新疆广汇实业投资有限责任"
+    ]
+  },
+  {
+    "company_name": "苏宁环球集团有限公司",
+    "short_name": [
+      "苏宁环球"
+    ]
+  },
+  {
+    "company_name": "三胞集团有限公司",
+    "short_name": [
+      "三胞"
+    ]
+  },
+  {
+    "company_name": "泰康保险集团股份有限公司",
+    "short_name": [
+      "泰康保险"
+    ]
+  },
+  {
+    "company_name": "东岭集团股份有限公司",
+    "short_name": [
+      "东岭"
+    ]
+  },
+  {
+    "company_name": "阳光保险集团股份有限公司",
+    "short_name": [
+      "阳光保险"
+    ]
+  },
+  {
+    "company_name": "腾邦集团有限公司",
+    "short_name": [
+      "腾邦"
+    ]
+  },
+  {
+    "company_name": "西安迈科金属国际集团有限公司",
+    "short_name": [
+      "西安迈科金属国际"
+    ]
+  },
+  {
+    "company_name": "南通三建控股有限公司",
+    "short_name": [
+      "南通三建"
+    ]
+  },
+  {
+    "company_name": "远大物产集团有限公司",
+    "short_name": [
+      "远大物产"
+    ]
+  },
+  {
+    "company_name": "百度公司",
+    "short_name": [
+      "百度"
+    ]
+  },
+  {
+    "company_name": "新城控股集团股份有限公司",
+    "short_name": [
+      "新城"
+    ]
+  },
+  {
+    "company_name": "银亿集团有限公司",
+    "short_name": [
+      "银亿"
+    ]
+  },
+  {
+    "company_name": "中融新大集团有限公司",
+    "short_name": [
+      "中融新大"
+    ]
+  },
+  {
+    "company_name": "中南控股集团有限公司",
+    "short_name": [
+      "中南"
+    ]
+  },
+  {
+    "company_name": "九州通医药集团股份有限公司",
+    "short_name": [
+      "九州通医药"
+    ]
+  },
+  {
+    "company_name": "深圳市怡亚通供应链股份有限公司",
+    "short_name": [
+      "深圳市怡亚通供应链"
+    ]
+  },
+  {
+    "company_name": "华夏幸福基业股份有限公司",
+    "short_name": [
+      "华夏幸福基业"
+    ]
+  },
+  {
+    "company_name": "广州富力地产股份有限公司",
+    "short_name": [
+      "广州富力地产"
+    ]
+  },
+  {
+    "company_name": "唯品会（中国）有限公司",
+    "short_name": [
+      "唯品会中国"
+    ]
+  },
+  {
+    "company_name": "卓尔控股有限公司",
+    "short_name": [
+      "卓尔"
+    ]
+  },
+  {
+    "company_name": "正荣集团有限公司",
+    "short_name": [
+      "正荣"
+    ]
+  },
+  {
+    "company_name": "广州晶东贸易有限公司",
+    "short_name": [
+      "广州晶东贸易"
+    ]
+  },
+  {
+    "company_name": "重庆市金科投资控股（集团）有限责任公司",
+    "short_name": [
+      "重庆市金科投资有限责任"
+    ]
+  },
+  {
+    "company_name": "重庆龙湖企业拓展有限公司",
+    "short_name": [
+      "重庆龙湖拓展"
+    ]
+  },
+  {
+    "company_name": "郑州中瑞实业集团有限公司",
+    "short_name": [
+      "郑州中瑞实业"
+    ]
+  },
+  {
+    "company_name": "蓝光投资控股集团有限公司",
+    "short_name": [
+      "蓝光投资"
+    ]
+  },
+  {
+    "company_name": "天安人寿保险股份有限公司",
+    "short_name": [
+      "天安人寿保险"
+    ]
+  },
+  {
+    "company_name": "四川蓝润实业集团有限公司",
+    "short_name": [
+      "四川蓝润实业"
+    ]
+  },
+  {
+    "company_name": "物美控股集团有限公司",
+    "short_name": [
+      "物美"
+    ]
+  },
+  {
+    "company_name": "融侨集团股份有限公司",
+    "short_name": [
+      "融侨"
+    ]
+  },
+  {
+    "company_name": "杭州滨江房产集团股份有限公司",
+    "short_name": [
+      "杭州滨江房产"
+    ]
+  },
+  {
+    "company_name": "弘阳集团有限公司",
+    "short_name": [
+      "弘阳"
+    ]
+  },
+  {
+    "company_name": "深圳海王集团股份有限公司",
+    "short_name": [
+      "深圳海王"
+    ]
+  },
+  {
+    "company_name": "环嘉集团有限公司",
+    "short_name": [
+      "环嘉"
+    ]
+  },
+  {
+    "company_name": "荣盛控股股份有限公司",
+    "short_name": [
+      "荣盛"
+    ]
+  },
+  {
+    "company_name": "步步高集团",
+    "short_name": [
+      "步步高"
+    ]
+  },
+  {
+    "company_name": "大汉控股集团有限公司",
+    "short_name": [
+      "大汉"
+    ]
+  },
+  {
+    "company_name": "上海复星高科技（集团）有限公司",
+    "short_name": [
+      "上海复星高科技"
+    ]
+  },
+  {
+    "company_name": "中基宁波集团股份有限公司",
+    "short_name": [
+      "中基宁波"
+    ]
+  },
+  {
+    "company_name": "北京链家房地产经纪有限公司",
+    "short_name": [
+      "北京链家房地产经纪"
+    ]
+  },
+  {
+    "company_name": "江苏集群信息产业集团",
+    "short_name": [
+      "江苏集群"
+    ]
+  },
+  {
+    "company_name": "深圳市信利康供应链管理有限公司",
+    "short_name": [
+      "深圳市信利康供应链管理"
+    ]
+  },
+  {
+    "company_name": "文一投资控股集团",
+    "short_name": [
+      "文一投资"
+    ]
+  },
+  {
+    "company_name": "北京运通国融投资有限公司",
+    "short_name": [
+      "北京运通国融投资"
+    ]
+  },
+  {
+    "company_name": "百兴集团有限公司",
+    "short_name": [
+      "百兴"
+    ]
+  },
+  {
+    "company_name": "龙光基业集团有限公司",
+    "short_name": [
+      "龙光基业"
+    ]
+  },
+  {
+    "company_name": "利群集团股份有限公司",
+    "short_name": [
+      "利群"
+    ]
+  },
+  {
+    "company_name": "重庆新鸥鹏企业（集团）有限公司",
+    "short_name": [
+      "重庆新鸥鹏"
+    ]
+  },
+  {
+    "company_name": "南通化工轻工股份有限公司",
+    "short_name": [
+      "南通化工轻工"
+    ]
+  },
+  {
+    "company_name": "包商银行股份有限公司",
+    "short_name": [
+      "包商银行"
+    ]
+  },
+  {
+    "company_name": "深圳市富森供应链管理有限公司",
+    "short_name": [
+      "深圳市富森供应链管理"
+    ]
+  },
+  {
+    "company_name": "俊发地产有限责任公司",
+    "short_name": [
+      "俊发地产有限责任"
+    ]
+  },
+  {
+    "company_name": "浙江明日控股集团股份有限公司",
+    "short_name": [
+      "浙江明日"
+    ]
+  },
+  {
+    "company_name": "重庆华宇集团有限公司",
+    "short_name": [
+      "重庆华宇"
+    ]
+  },
+  {
+    "company_name": "升华集团控股有限公司",
+    "short_name": [
+      "升华"
+    ]
+  },
+  {
+    "company_name": "中发实业（集团）有限公司",
+    "short_name": [
+      "中发实业"
+    ]
+  },
+  {
+    "company_name": "江苏新华发集团有限公司",
+    "short_name": [
+      "江苏新华发"
+    ]
+  },
+  {
+    "company_name": "合众人寿保险股份有限公司",
+    "short_name": [
+      "合众人寿保险"
+    ]
+  },
+  {
+    "company_name": "五星控股集团有限公司",
+    "short_name": [
+      "五星"
+    ]
+  },
+  {
+    "company_name": "深圳市年富供应链有限公司",
+    "short_name": [
+      "深圳市年富供应链"
+    ]
+  },
+  {
+    "company_name": "江苏文峰集团有限公司",
+    "short_name": [
+      "江苏文峰"
+    ]
+  },
+  {
+    "company_name": "中国万向控股有限公司",
+    "short_name": [
+      "中国万向"
+    ]
+  },
+  {
+    "company_name": "太平鸟集团有限公司",
+    "short_name": [
+      "太平鸟"
+    ]
+  },
+  {
+    "company_name": "浙江金田阳光投资有限公司",
+    "short_name": [
+      "浙江金田阳光投资"
+    ]
+  },
+  {
+    "company_name": "重庆中昂投资集团有限公司",
+    "short_name": [
+      "重庆中昂投资"
+    ]
+  },
+  {
+    "company_name": "深圳华强集团有限公司",
+    "short_name": [
+      "深圳华强"
+    ]
+  },
+  {
+    "company_name": "山东远通汽车贸易集团有限公司",
+    "short_name": [
+      "山东远通汽车贸易"
+    ]
+  },
+  {
+    "company_name": "开元旅业集团有限公司",
+    "short_name": [
+      "开元旅业"
+    ]
+  },
+  {
+    "company_name": "中洋联合集团股份有限公司",
+    "short_name": [
+      "中洋联合"
+    ]
+  },
+  {
+    "company_name": "同程网络科技股份有限公司",
+    "short_name": [
+      "同程网络科技股份"
+    ]
+  },
+  {
+    "company_name": "福星集团控股有限公司",
+    "short_name": [
+      "福星"
+    ]
+  },
+  {
+    "company_name": "新华锦集团",
+    "short_name": [
+      "新华锦"
+    ]
+  },
+  {
+    "company_name": "万马联合控股集团有限公司",
+    "short_name": [
+      "万马联合"
+    ]
+  },
+  {
+    "company_name": "润东汽车集团有限公司",
+    "short_name": [
+      "润东汽车"
+    ]
+  },
+  {
+    "company_name": "利泰集团有限公司",
+    "short_name": [
+      "利泰"
+    ]
+  },
+  {
+    "company_name": "金花投资控股集团有限公司",
+    "short_name": [
+      "金花投资"
+    ]
+  },
+  {
+    "company_name": "亿阳集团股份有限公司",
+    "short_name": [
+      "亿阳"
+    ]
+  },
+  {
+    "company_name": "天津亿联投资控股集团有限公司",
+    "short_name": [
+      "天津亿联投资"
+    ]
+  },
+  {
+    "company_name": "华南物资集团有限公司",
+    "short_name": [
+      "华南物资"
+    ]
+  },
+  {
+    "company_name": "天茂实业集团有限公司",
+    "short_name": [
+      "天茂实业"
+    ]
+  },
+  {
+    "company_name": "圆通速递有限公司",
+    "short_name": [
+      "圆通速递"
+    ]
+  },
+  {
+    "company_name": "大连金玛商城企业集团有限公司",
+    "short_name": [
+      "大连金玛"
+    ]
+  },
+  {
+    "company_name": "广州市时代地产集团有限公司",
+    "short_name": [
+      "广州市时代地产"
+    ]
+  },
+  {
+    "company_name": "浙江宝利德股份有限公司",
+    "short_name": [
+      "浙江宝利德"
+    ]
+  },
+  {
+    "company_name": "广州元亨能源有限公司",
+    "short_name": [
+      "广州元亨能源"
+    ]
+  },
+  {
+    "company_name": "深圳市朗华供应链服务有限公司",
+    "short_name": [
+      "深圳市朗华供应链服务"
+    ]
+  },
+  {
+    "company_name": "青岛世纪瑞丰集团有限公司",
+    "short_name": [
+      "青岛世纪瑞丰"
+    ]
+  },
+  {
+    "company_name": "河南正商置业有限公司",
+    "short_name": [
+      "河南正商置业"
+    ]
+  },
+  {
+    "company_name": "祥生实业集团有限公司",
+    "short_name": [
+      "祥生实业"
+    ]
+  },
+  {
+    "company_name": "天津恒运能源集团股份有限公司",
+    "short_name": [
+      "天津恒运能源"
+    ]
+  }
+]

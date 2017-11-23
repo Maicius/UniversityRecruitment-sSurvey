@@ -21,7 +21,7 @@ def get_one_page_data(page, redis, table_name):
 def get_wzu_recruitment():
     # 温州大学
     table_name = 'wzu_company_info'
-
+    print(table_name)
     redis = jedis.jedis()
     redis.clear_list(table_name)
 
@@ -32,6 +32,7 @@ def get_wzu_recruitment():
             print('page ' + str(i) + ' done!')
     except Exception as e:
         redis.handle_error(e, table_name)
+        pass
     redis.add_to_file(table_name)
     redis.add_university(table_name)
 

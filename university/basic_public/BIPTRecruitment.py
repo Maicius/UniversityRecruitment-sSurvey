@@ -26,20 +26,21 @@ def get_one_page_data(page, redis, table_name):
 def get_bipt_recruitment():
     # 北京石油化工学院
     table_name = 'bipt_company_info'
-
+    print("北京石油化工学院开始================================")
     redis = jedis.jedis()
     redis.clear_list(table_name)
-
     # 只有一页.....
     max_page = 2
     try:
         for i in range(1, max_page):
             get_one_page_data(i, redis, table_name)
             print('page ' + str(i) + ' done!')
-    except Exception as e:
+    except BaseException as e:
         redis.handle_error(e, table_name)
+        pass
     redis.add_to_file(table_name)
     redis.add_university(table_name)
+    print("北京石油化工学院Finish================================")
 
 
 if __name__ == '__main__':

@@ -34,6 +34,10 @@ class jedis(object):
     # 保存字典格式的数据
     def save_dict(self, name, data):
         try:
+            # 在插入数据之前将所有对引号替换为中文引号，避免在redis中被替换
+            # 但是由于这两句十分的慢，所以一般注释掉
+            # data['company_name'] = data['company_name'].replace('\"', '”')
+            # data['company_name'] = data['company_name'].replace('\'', '”')
             # 如果不使用redis也要注释掉这句
             self.re.lpush(name, data)
             # pass
@@ -82,7 +86,15 @@ class jedis(object):
 
     def add_to_file_tail(self, name):
         # for py3
-        with open('../data/' + name + '.json', 'w+', encoding='utf-8') as w:
+        with open('../../data/' + name + '.json', 'w+', encoding='utf-8') as w:
+            json.dump(self.data_array, w, ensure_ascii=False)
+            # for py2
+            # with open('../data/' + name + '.json', 'w+') as w:
+            #     json.dump(self.data_array, w, ensure_ascii=False)
+
+    def add_to_file_local(self, name):
+        # for py3
+        with open(name + '.json', 'w+', encoding='utf-8') as w:
             json.dump(self.data_array, w, ensure_ascii=False)
             # for py2
             # with open('../data/' + name + '.json', 'w+') as w:

@@ -37,6 +37,7 @@ def get_data(url, page, re, table_name):
 def get_cqu_recruit():
     table_name = 'cqu_company_info'
     re = jedis.jedis()
+    re.clear_list(table_name)
     url = 'http://www.job.cqu.edu.cn/jyxt/zczphxxlistlogin.do'
     max_page = 124
     try:

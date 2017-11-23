@@ -11,12 +11,12 @@ data_pattern = re.compile('target="_blank">(.*?)</a>.*?class="spanDate">(.*?)</t
 pattern = re.compile('[[({【（].*?[]}】）]')
 
 
-def get_data(page, typeid):
+def get_data(typeid):
     # 这个API直接返回公司表单
     url = 'http://jobsky.csu.edu.cn/Home/PartialArticleList'
     form_data1 = {
-        'pageindex': str(page),
-        'pagesize': '15',
+        'pageindex': 1,
+        'pagesize': '10000',
         'typeid': str(typeid),
         'followingdates': '-1',
     }
@@ -27,13 +27,15 @@ def get_data(page, typeid):
 def get_one_page_data(page, redis, table_name):
     data_list = []
     # 根据不同的typeid获取三种招聘信息
-    # 本部招聘706页, 铁道招聘109页, 湘雅招聘298页
-    # 300页后只获取本部招聘数据
-    if page <= 300:
-        for typeid in range(1, 4):
-            data_list.extend(get_data(page, typeid))
-    else:
-        data_list.extend(get_data(page, 1))
+
+    data_list.extend(get_data(1))
+    data_list.extend(get_data(2))
+    data_list.extend(get_data(3))
+    # if page <= 300:
+    #     for typeid in range(1, 4):
+    #         data_list.extend(get_data(page, typeid))
+    # else:
+    #     data_list.extend(get_data(page, 1))
 
     for data in data_list:
         redis.save_dict(table_name, dict(
@@ -44,13 +46,18 @@ def get_one_page_data(page, redis, table_name):
 
 def get_csu_recruit():
     # 中南大学
-    table_name = 'CSU_company_info'
+    # 通过改变page_size参数，一次获取所有数据
+    # 再通过正则提取
+    table_name = 'csu_company_info'
+    print(table_name)
     redis = jedis.jedis()
-    max_page = 706
+    redis.clear_list(table_name)
+    max_page = 2
     for i in range(1, max_page):
         try:
+            print("begin")
             get_one_page_data(i, redis, table_name)
-            print('page ' + str(i) + ' done!')
+            print('Finish All!')
         except Exception as e:
             redis.handle_error(e, table_name)
     redis.add_to_file(table_name)

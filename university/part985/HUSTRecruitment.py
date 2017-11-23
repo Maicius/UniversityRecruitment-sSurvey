@@ -28,7 +28,9 @@ def get_data(page, re, table_name):
 
 def get_hust_recruit():
     table_name = 'HUST_company_info'
+    print(table_name)
     re = jedis.jedis()
+    re.clear_list(table_name)
     max_page = 212
     try:
         # 从第三页开始爬取

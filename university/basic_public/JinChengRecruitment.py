@@ -11,6 +11,7 @@ def get_jincheng_recruit():
     content = req.get(base_url + ".html").content.decode("utf-8")
     re = jedis.jedis()
     re.connect_redis()
+    re.clear_list("jincheng_company_info")
     parse_jincheng(content, re)
     for i in range(2, 99):
         print(i)

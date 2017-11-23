@@ -21,14 +21,12 @@ def get_one_page_data(page, redis, table_name):
             date=date,
         ))
 
-
 def get_tjpu_recruitment():
     # 天津工业大学
     table_name = 'tjpu_company_info'
-
     redis = jedis.jedis()
     redis.clear_list(table_name)
-
+    print(table_name)
     max_page = 153
     try:
         for i in range(1, max_page):
@@ -36,6 +34,7 @@ def get_tjpu_recruitment():
             print('page ' + str(i) + ' done!')
     except Exception as e:
         redis.handle_error(e, table_name)
+        pass
     redis.add_to_file(table_name)
     redis.add_university(table_name)
 
