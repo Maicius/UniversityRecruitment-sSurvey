@@ -62,3 +62,10 @@ def get_standard_date2(date):
 def get_month(date):
     time_array = time.strptime(str(date), "%Y-%m-%d")
     return time.strftime("%Y-%m", time_array)
+
+def format_err(e, item1 ='', item2 = ''):
+    print("error=============================================================")
+    print(item1)
+    print(item2)
+    print(e)
+    print("error=============================================================")

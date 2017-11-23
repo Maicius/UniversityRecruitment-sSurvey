@@ -4,6 +4,9 @@ import json
 import jieba
 import re
 
+from util import util
+from constant.constant import UNIVERSITY_INFO
+from constant.constant import COMPANY_WASTE_WORDS
 from jedis import jedis
 
 
@@ -108,11 +111,7 @@ class AnalysisTop500(object):
                 if date.find('2017') != -1:
                     company_list_2017.append(item)
             except BaseException as e:
-                print("error=============================================================")
-                print(university_table_name)
-                print(item)
-                print(e)
-                print("error=============================================================")
+                util.format_err(e, university_table_name, item)
                 continue
         print("Finish to find 2017 Recruitment--" + university_table_name)
         return company_list_2017
@@ -137,10 +136,7 @@ class AnalysisTop500(object):
                 elif company_type == "WorldTop500":
                     self.World_company_list.append(company_name)
             except BaseException as e:
-                print("error=============================================================")
-                print(item)
-                print(e)
-                print("error=============================================================")
+                util.format_err(e, item)
                 continue
 
     # 利用从数据库里读取的500强信息截取公司简称
@@ -160,10 +156,7 @@ class AnalysisTop500(object):
     # 分词算法
     def get_jieba_fenci(self, company_name):
         print("================================")
-        waste_words = ['控股', '股份', '有限公司', '有限', '公司', '集团', '（', '）', '资产管理', '通信', '集团股份',
-                       '电子商务', '商城', '矿业集团', '信息产业', '发展股份', '控股集团', '(', ')',
-                       '企业', '&', '综合']
-        # waste_words = " ".join(waste_words)
+        waste_words = COMPANY_WASTE_WORDS()
         short_names = []
         english_name = re.findall('(\(.*?\))', company_name)
         if len(english_name) > 0 and len(re.findall('[\u4e00-\u9fa5]', english_name[0])) == 0:
@@ -210,17 +203,29 @@ if __name__ == '__main__':
     print("到这些学校开宣讲会的中国五百强数量================================")
     for key, values in analysis.china_top500_result.items():
         # print(key + ":" + str(len(values)) + "\n" + " ".join(values))
-        print(key + ":" + str(len(values)))
+        key = key[:-len('_company_info')]
+        try:
+            print(UNIVERSITY_INFO[key] + ":" + str(len(values)))
+        except BaseException as e:
+            pass
 
     print("到这些学校开宣讲会的美国五百强================================")
     for key, values in analysis.usa_top500_result.items():
         # print(key + ":" + str(len(values)) + "\n" + " ".join(values))
-        print(key + ":" + str(len(values)))
+        key = key[:-len('_company_info')]
+        try:
+            print(UNIVERSITY_INFO[key] + ":" + str(len(values)))
+        except BaseException as e:
+            pass
 
     print("到这些学校开宣讲会的世界五百强================================")
     for key, values in analysis.world_top500_result.items():
         # print(key + ":" + str(len(values)) + "\n" + " ".join(values))
-        print(key + ":" + str(len(values)))
+        key = key[:-len('_company_info')]
+        try:
+            print(UNIVERSITY_INFO[key] + ":" + str(len(values)))
+        except BaseException as e:
+            pass
 
     print(analysis.china_top500_result)
     print(analysis.usa_top500_result)

@@ -83,6 +83,8 @@
 ### 已爬取的公司名单（持续更新）
 
 - [世界500强、中国500强、美国500强](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/enterprise/Top500.py)
+- [中国民营企业500强、中国民营企业制造业500强、中国民营企业服务器100强](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/enterprise/China/ChinaPrivateTop500.py)
+- [中国互联网企业100强](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/enterprise/China/ChinaInternetTop100.py)
 
 ### 其它
 

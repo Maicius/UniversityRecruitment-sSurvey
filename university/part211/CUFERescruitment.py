@@ -10,7 +10,7 @@ def get_cufe_rescruit():
     url_tail = "/2.html"
     host = "scc.cufe.edu.cn"
     req = requests.Session()
-    header = jedis.get_header(host)
+    header = util.get_header(host)
     re = jedis.jedis()
     re.connect_redis()
     max_page_num = 422
