@@ -2,12 +2,15 @@ import requests
 from bs4 import BeautifulSoup
 from jedis import jedis
 from time import sleep
+from util import util
 
 
 def get_one_week_data(week, redis, table_name, s):
     url = 'http://job.ustb.edu.cn/front/channel.jspa?channelId=763&parentId=763&weekOfMonth=1&curWeek=' + str(
         week) + '&property=0'
-    response = s.get(url)
+    host = 'job.ustb.edu.cn'
+    header = util.get_header(host)
+    response = s.get(url=url, headers=header)
     soup = BeautifulSoup(response.text, 'html5lib')
     table_node = soup.find('table')
 
@@ -68,7 +71,7 @@ def get_ustbr_recuitment():
             get_one_week_data(i, redis, table_name, session)
             print('week ' + str(i) + ' done!')
             # 貌似有反爬机制
-            # sleep(1)
+            sleep(1)
     except TimeoutError as e:
         print('test')
         redis.handle_error(e, table_name)

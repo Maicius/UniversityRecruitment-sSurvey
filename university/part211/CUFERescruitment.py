@@ -4,6 +4,7 @@ from jedis import jedis
 from util import util
 
 
+table_name = 'cufe_company_info'
 # 添加中央财经大学的数据
 def get_cufe_rescruit():
     base_url = "http://scc.cufe.edu.cn/recruitment-datas/15/"
@@ -12,14 +13,15 @@ def get_cufe_rescruit():
     req = requests.Session()
     header = util.get_header(host)
     re = jedis.jedis()
-    re.connect_redis()
+    re.clear_list(table_name)
     max_page_num = 422
     for i in range(1, max_page_num):
         print(i)
         url = base_url + str(i) + url_tail
         res = req.get(headers=header, url=url).content.decode("utf-8")
         parse_info(res, re)
-    re.add_university("cufe_company_info")
+    re.add_university(table_name)
+    re.add_to_file(table_name)
 
 
 def parse_info(res, re):
@@ -36,7 +38,7 @@ def parse_info(res, re):
             date = item['publishTime']
         print(date)
         print(company_name)
-        re.save_info("cufe_company_info", date, company_name)
+        re.save_info(table_name, date, company_name)
 
 if __name__ == '__main__':
     get_cufe_rescruit()

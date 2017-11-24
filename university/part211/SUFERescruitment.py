@@ -11,7 +11,7 @@ def get_sufe_recruit():
     host = "career.sufe.edu.cn/"
     headers = util.get_header(host)
     re = jedis.jedis()
-    re.connect_redis()
+    re.clear_list(table_name)
     url = "http://careersys.sufe.edu.cn/pros_jiuye/s/zxh/owebsiteData/recruitmentAndPreaching?callback=&type=list&eachPageRows=600&currentPageno=1&_="
     req = requests.Session()
     res = req.get(headers=headers, url=url)
