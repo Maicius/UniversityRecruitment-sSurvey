@@ -1,0 +1,603 @@
+[
+  {
+    "company_name": "美国富达投资集团",
+    "short_name": [
+      "美国富达投资"
+    ]
+  },
+  {
+    "company_name": "摩根士丹利",
+    "short_name": [
+      "摩根士丹利"
+    ]
+  },
+  {
+    "company_name": "荷银投资（亚洲）有限公司",
+    "short_name": [
+      "荷银投资亚洲"
+    ]
+  },
+  {
+    "company_name": "黑石",
+    "short_name": [
+      "黑石"
+    ]
+  },
+  {
+    "company_name": "贝恩资本",
+    "short_name": [
+      "贝恩资本"
+    ]
+  },
+  {
+    "company_name": "KKR",
+    "short_name": [
+      "KKR"
+    ]
+  },
+  {
+    "company_name": "高盛公司",
+    "short_name": [
+      "高盛"
+    ]
+  },
+  {
+    "company_name": "德克萨斯太平洋集团",
+    "short_name": [
+      "德克萨斯太平洋"
+    ]
+  },
+  {
+    "company_name": "橡树资本",
+    "short_name": [
+      "橡树资本"
+    ]
+  },
+  {
+    "company_name": "凯雷投资集团",
+    "short_name": [
+      "凯雷投资"
+    ]
+  },
+  {
+    "company_name": "汉理资本",
+    "short_name": [
+      "汉理资本"
+    ]
+  },
+  {
+    "company_name": "瑞银华宝",
+    "short_name": [
+      "瑞银华宝"
+    ]
+  },
+  {
+    "company_name": "华平创业投资公司",
+    "short_name": [
+      "华平创业投资"
+    ]
+  },
+  {
+    "company_name": "寰慧投资咨询（上海）有限公司",
+    "short_name": [
+      "寰慧投资咨询上海"
+    ]
+  },
+  {
+    "company_name": "英特尔投资（中国）",
+    "short_name": [
+      "英特尔投资中国"
+    ]
+  },
+  {
+    "company_name": "红杉资本",
+    "short_name": [
+      "红杉资本"
+    ]
+  },
+  {
+    "company_name": "蓝山资本",
+    "short_name": [
+      "蓝山资本"
+    ]
+  },
+  {
+    "company_name": "摩根士丹利添惠亚洲投资有限公司",
+    "short_name": [
+      "摩根士丹利添惠亚洲投资"
+    ]
+  },
+  {
+    "company_name": "英联投资有限公司",
+    "short_name": [
+      "英联投资"
+    ]
+  },
+  {
+    "company_name": "光速创投",
+    "short_name": [
+      "光速创投"
+    ]
+  },
+  {
+    "company_name": "IDG技术创业投资基金",
+    "short_name": [
+      "IDG技术创业投资基金"
+    ]
+  },
+  {
+    "company_name": "中银国际",
+    "short_name": [
+      "中银国际"
+    ]
+  },
+  {
+    "company_name": "汉鼎亚太公司",
+    "short_name": [
+      "汉鼎亚太"
+    ]
+  },
+  {
+    "company_name": "美国新桥投资",
+    "short_name": [
+      "美国新桥投资"
+    ]
+  },
+  {
+    "company_name": "中信资本",
+    "short_name": [
+      "中信资本"
+    ]
+  },
+  {
+    "company_name": "Doll资本管理公司",
+    "short_name": [
+      "Doll资本管理"
+    ]
+  },
+  {
+    "company_name": "新加坡政府直接投资有限公司",
+    "short_name": [
+      "新加坡政府直接投资"
+    ]
+  },
+  {
+    "company_name": "红点投资",
+    "short_name": [
+      "红点投资"
+    ]
+  },
+  {
+    "company_name": "日本亚洲投资(香港)有限公司",
+    "short_name": [
+      "日本亚洲投资香港"
+    ]
+  },
+  {
+    "company_name": "中国国际金融有限公司",
+    "short_name": [
+      "中国国际金融有限"
+    ]
+  },
+  {
+    "company_name": "软银亚洲投资基金 (SAIF)软银中国风险投资基金",
+    "short_name": [
+      "SAIF",
+      "软银亚洲投资基金 "
+    ]
+  },
+  {
+    "company_name": "华登国际投资集团",
+    "short_name": [
+      "华登国际投资"
+    ]
+  },
+  {
+    "company_name": "BlueRun创投基金（蓝弛创投）",
+    "short_name": [
+      "BlueRun创投基金蓝弛创投"
+    ]
+  },
+  {
+    "company_name": "殷库资本有限公司",
+    "short_name": [
+      "殷库资本"
+    ]
+  },
+  {
+    "company_name": "集富创业投资（香港）有限公司",
+    "short_name": [
+      "集富创业投资香港"
+    ]
+  },
+  {
+    "company_name": "柯达风险投资",
+    "short_name": [
+      "柯达风险投资"
+    ]
+  },
+  {
+    "company_name": "怡和创业投资集团",
+    "short_name": [
+      "怡和创业投资"
+    ]
+  },
+  {
+    "company_name": "海纳亚洲创投基金",
+    "short_name": [
+      "海纳亚洲创投基金"
+    ]
+  },
+  {
+    "company_name": "永威投资有限公司",
+    "short_name": [
+      "永威投资"
+    ]
+  },
+  {
+    "company_name": "德丰杰全球创业投资基金",
+    "short_name": [
+      "德丰杰全球创业投资基金"
+    ]
+  },
+  {
+    "company_name": "普讯创业投资集团公司",
+    "short_name": [
+      "普讯创业投资"
+    ]
+  },
+  {
+    "company_name": "德同资本管理有限公司",
+    "short_name": [
+      "德同资本管理"
+    ]
+  },
+  {
+    "company_name": "霸菱投资(香港)有限公司",
+    "short_name": [
+      "霸菱投资香港"
+    ]
+  },
+  {
+    "company_name": "美国老虎科技基金",
+    "short_name": [
+      "美国老虎科技基金"
+    ]
+  },
+  {
+    "company_name": "戈壁合伙人有限公司",
+    "short_name": [
+      "戈壁合伙人"
+    ]
+  },
+  {
+    "company_name": "淡马锡控股 - 中",
+    "short_name": [
+      "淡马锡 - 中"
+    ]
+  },
+  {
+    "company_name": "汇丰直接投资（亚洲）有限公司",
+    "short_name": [
+      "汇丰直接投资亚洲"
+    ]
+  },
+  {
+    "company_name": "鼎晖创业投资管理有限公司",
+    "short_name": [
+      "鼎晖创业投资管理"
+    ]
+  },
+  {
+    "company_name": "今日资本",
+    "short_name": [
+      "今日资本"
+    ]
+  },
+  {
+    "company_name": "华登太平洋创业投资管理有限公司",
+    "short_name": [
+      "华登太平洋创业投资管理"
+    ]
+  },
+  {
+    "company_name": "智基创投股份有限公司",
+    "short_name": [
+      "智基创投"
+    ]
+  },
+  {
+    "company_name": "美商中经合集团",
+    "short_name": [
+      "美商中经合"
+    ]
+  },
+  {
+    "company_name": "兰馨亚洲投资集团",
+    "short_name": [
+      "兰馨亚洲投资"
+    ]
+  },
+  {
+    "company_name": "美国泛大西洋投资集团",
+    "short_name": [
+      "美国泛大西洋投资"
+    ]
+  },
+  {
+    "company_name": "北京弘毅投资顾问有限公司",
+    "short_name": [
+      "北京弘毅投资顾问"
+    ]
+  },
+  {
+    "company_name": "乾龙创投",
+    "short_name": [
+      "乾龙创投"
+    ]
+  },
+  {
+    "company_name": "联想投资有限公司",
+    "short_name": [
+      "联想投资"
+    ]
+  },
+  {
+    "company_name": "麦顿投资管理公司",
+    "short_name": [
+      "麦顿投资管理"
+    ]
+  },
+  {
+    "company_name": "西门子创业投资公司",
+    "short_name": [
+      "西门子创业投资"
+    ]
+  },
+  {
+    "company_name": "招商证券（香港）投资银行",
+    "short_name": [
+      "招商证券香港投资银行"
+    ]
+  },
+  {
+    "company_name": "美国金石集团",
+    "short_name": [
+      "美国金石"
+    ]
+  },
+  {
+    "company_name": "美国布朗特摩根国际集团",
+    "short_name": [
+      "美国布朗特摩根国际"
+    ]
+  },
+  {
+    "company_name": "英国联邦银行投资有限公司",
+    "short_name": [
+      "英国联邦银行投资"
+    ]
+  },
+  {
+    "company_name": "优傲龙金融集团",
+    "short_name": [
+      "优傲龙金融"
+    ]
+  },
+  {
+    "company_name": "美中基金",
+    "short_name": [
+      "美中基金"
+    ]
+  },
+  {
+    "company_name": "汉富资本",
+    "short_name": [
+      "汉富资本"
+    ]
+  },
+  {
+    "company_name": "上海华盈创业投资基金管理有限公司",
+    "short_name": [
+      "上海华盈创业投资基金管理"
+    ]
+  },
+  {
+    "company_name": "招商局富鑫资产管理有限公司",
+    "short_name": [
+      "招商局富鑫资产管理"
+    ]
+  },
+  {
+    "company_name": "清华科技创业投资有限公司",
+    "short_name": [
+      "清华科技创业投资"
+    ]
+  },
+  {
+    "company_name": "启明创投",
+    "short_name": [
+      "启明创投"
+    ]
+  },
+  {
+    "company_name": "龙科创业投资管理有限公司",
+    "short_name": [
+      "龙科创业投资管理"
+    ]
+  },
+  {
+    "company_name": "美国万通投资银行控股集团",
+    "short_name": [
+      "美国万通投资银行"
+    ]
+  },
+  {
+    "company_name": "深圳市创新投资集团有限公司",
+    "short_name": [
+      "深圳市创新投资"
+    ]
+  },
+  {
+    "company_name": "北极光创投基金",
+    "short_name": [
+      "北极光创投基金"
+    ]
+  },
+  {
+    "company_name": "维众创业投资集团（中国）有限公司",
+    "short_name": [
+      "维众创业投资中国"
+    ]
+  },
+  {
+    "company_name": "汉能投资集团",
+    "short_name": [
+      "汉能投资"
+    ]
+  },
+  {
+    "company_name": "中国专业国际投资有限公司",
+    "short_name": [
+      "中国专业国际投资"
+    ]
+  },
+  {
+    "company_name": "中新苏州工业园区创业投资有限公司",
+    "short_name": [
+      "中新苏州工业园区创业投资"
+    ]
+  },
+  {
+    "company_name": "招商局科技集团有限公司",
+    "short_name": [
+      "招商局科技"
+    ]
+  },
+  {
+    "company_name": "联创策源",
+    "short_name": [
+      "联创策源"
+    ]
+  },
+  {
+    "company_name": "深圳清华力合创业投资有限公司",
+    "short_name": [
+      "深圳清华力合创业投资"
+    ]
+  },
+  {
+    "company_name": "中联资本",
+    "short_name": [
+      "中联资本"
+    ]
+  },
+  {
+    "company_name": "江苏省创业投资有限公司",
+    "short_name": [
+      "江苏省创业投资"
+    ]
+  },
+  {
+    "company_name": "黑龙江辰能哈工大高科技风险投资有限公司",
+    "short_name": [
+      "黑龙江辰能哈工大高科技风险投资"
+    ]
+  },
+  {
+    "company_name": "湖南高科技创业投资有限公司",
+    "short_name": [
+      "湖南高科技创业投资"
+    ]
+  },
+  {
+    "company_name": "世纪方舟投资（集团）有限公司",
+    "short_name": [
+      "世纪方舟投资"
+    ]
+  },
+  {
+    "company_name": "上海盛宇企业投资有限公司",
+    "short_name": [
+      "上海盛宇投资"
+    ]
+  },
+  {
+    "company_name": "深圳市达晨创业投资有限公司",
+    "short_name": [
+      "深圳市达晨创业投资"
+    ]
+  },
+  {
+    "company_name": "华夏世纪创业投资有限公司",
+    "short_name": [
+      "华夏世纪创业投资"
+    ]
+  },
+  {
+    "company_name": "武汉华工创业投资有限责任公司",
+    "short_name": [
+      "武汉华工创业投资有限责任"
+    ]
+  },
+  {
+    "company_name": "广东省科技风险投资有限公司",
+    "short_name": [
+      "广东省科技风险投资"
+    ]
+  },
+  {
+    "company_name": "Jovan创业投资公司",
+    "short_name": [
+      "Jovan创业投资"
+    ]
+  },
+  {
+    "company_name": "中金联合控股有限公司",
+    "short_name": [
+      "中金联合"
+    ]
+  },
+  {
+    "company_name": "浙江省科技风险投资有限公司",
+    "short_name": [
+      "浙江省科技风险投资"
+    ]
+  },
+  {
+    "company_name": "香港爱华国际投资有限公司",
+    "short_name": [
+      "香港爱华国际投资"
+    ]
+  },
+  {
+    "company_name": "中盛投资集团有限公司",
+    "short_name": [
+      "中盛投资"
+    ]
+  },
+  {
+    "company_name": "富凯鸿矿业投资有限公司",
+    "short_name": [
+      "富凯鸿矿业投资"
+    ]
+  },
+  {
+    "company_name": "卓凡创业投资有限公司",
+    "short_name": [
+      "卓凡创业投资"
+    ]
+  },
+  {
+    "company_name": "天相投资顾问",
+    "short_name": [
+      "天相投资顾问"
+    ]
+  },
+  {
+    "company_name": "北京天惠宏业投资有限公司",
+    "short_name": [
+      "北京天惠宏业投资"
+    ]
+  }
+]
