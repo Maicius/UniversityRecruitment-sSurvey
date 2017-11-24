@@ -28,6 +28,7 @@ def get_china_private_top500(url, table_name):
     analysis.add_to_file(table_name)
     print(table_name + " 完成")
 
+
 def China_private_company_infos():
     url = "http://www.cbt.com.cn/sszx/6482.html"
     get_china_private_top500(url, private_table_name)

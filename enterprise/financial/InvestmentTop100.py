@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 from analysis.SmartCountTop500 import AnalysisTop500
 from jedis import jedis
 
-
+# 投资机构100强
 def get_investment_top100():
     analysis = AnalysisTop500()
     url = 'http://www.sohu.com/a/165350436_499106'

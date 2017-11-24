@@ -1,0 +1,558 @@
+[
+  {
+    "company_name": "贝恩咨询公司(Bain & Company)",
+    "short_name": [
+      "Bain & Company",
+      "贝恩"
+    ]
+  },
+  {
+    "company_name": "波士顿咨询公司(The Boston Consulting Group, Inc.)",
+    "short_name": [
+      "The Boston Consulting Group, Inc.",
+      "波士顿咨询"
+    ]
+  },
+  {
+    "company_name": "麦肯锡咨询公司(McKinsey & Company)",
+    "short_name": [
+      "McKinsey & Company",
+      "麦肯锡"
+    ]
+  },
+  {
+    "company_name": "德勤管理咨询公司(Deloitte Consulting LLP)",
+    "short_name": [
+      "Deloitte Consulting LLP",
+      "德勤"
+    ]
+  },
+  {
+    "company_name": "奥纬咨询(Oliver Wyman)",
+    "short_name": [
+      "Oliver Wyman",
+      "奥纬"
+    ]
+  },
+  {
+    "company_name": "普华永道Advisory Services(PricewaterhouseCoopers Advisory Services LLC)",
+    "short_name": [
+      "PricewaterhouseCoopers Advisory Services LLC",
+      "普华永道Advisory Services"
+    ]
+  },
+  {
+    "company_name": "科尔尼管理咨询公司(A.T. Kearney)",
+    "short_name": [
+      "A.T. Kearney",
+      "科尔尼"
+    ]
+  },
+  {
+    "company_name": "艾意凯咨询公司(L.E.K. Consulting)",
+    "short_name": [
+      "L.E.K. Consulting",
+      "艾意凯"
+    ]
+  },
+  {
+    "company_name": "布利吉斯潘(The Bridgespan Group)",
+    "short_name": [
+      "The Bridgespan Group",
+      "布利吉斯潘"
+    ]
+  },
+  {
+    "company_name": ".The Brattle Group",
+    "short_name": [
+      ".The Brattle Group"
+    ]
+  },
+  {
+    "company_name": "Putnam Associates",
+    "short_name": [
+      "Putnam Associates"
+    ]
+  },
+  {
+    "company_name": "普华永道思略特(Strategy&, part of the PwC network)",
+    "short_name": [
+      "Strategy&, part of the PwC network",
+      "普华永道思略特"
+    ]
+  },
+  {
+    "company_name": "毕马威(AdvisoryKPMG LLP，Advisory)",
+    "short_name": [
+      "AdvisoryKPMG LLP，Advisory",
+      "毕马威"
+    ]
+  },
+  {
+    "company_name": "埃森哲(Accenture)",
+    "short_name": [
+      "Accenture",
+      "埃森哲"
+    ]
+  },
+  {
+    "company_name": "ClearView Healthcare Partners",
+    "short_name": [
+      "ClearView Healthcare Partners"
+    ]
+  },
+  {
+    "company_name": "剑桥集团(The Cambridge Group)",
+    "short_name": [
+      "The Cambridge Group",
+      "剑桥"
+    ]
+  },
+  {
+    "company_name": "Insight Sourcing Group",
+    "short_name": [
+      "Insight Sourcing Group"
+    ]
+  },
+  {
+    "company_name": "罗兰贝格管理咨询公司(Roland Berger)",
+    "short_name": [
+      "Roland Berger",
+      "罗兰贝格"
+    ]
+  },
+  {
+    "company_name": "奥迈企业顾问公司(Alvarez & Marsal)",
+    "short_name": [
+      "Alvarez & Marsal",
+      "奥迈企业顾问"
+    ]
+  },
+  {
+    "company_name": "鹰山咨询(Eagle Hill Consulting)",
+    "short_name": [
+      "Eagle Hill Consulting",
+      "鹰山"
+    ]
+  },
+  {
+    "company_name": "帕特侬安永(Parthenon-EY)",
+    "short_name": [
+      "Parthenon-EY",
+      "帕特侬安永"
+    ]
+  },
+  {
+    "company_name": "Cornerstone Research",
+    "short_name": [
+      "Cornerstone Research"
+    ]
+  },
+  {
+    "company_name": "甫瀚咨询(Protiviti Inc.)",
+    "short_name": [
+      "Protiviti Inc.",
+      "甫瀚"
+    ]
+  },
+  {
+    "company_name": "Analysis Group, Inc.",
+    "short_name": [
+      "Analysis Group, Inc."
+    ]
+  },
+  {
+    "company_name": "嘉思明咨询公司(Kurt Salmon)",
+    "short_name": [
+      "Kurt Salmon",
+      "嘉思明"
+    ]
+  },
+  {
+    "company_name": "马拉康(Marakon)",
+    "short_name": [
+      "Marakon",
+      "马拉康"
+    ]
+  },
+  {
+    "company_name": "ZS咨询(ZS Associates)",
+    "short_name": [
+      "ZS Associates",
+      "ZS"
+    ]
+  },
+  {
+    "company_name": "Smartronix, Inc.",
+    "short_name": [
+      "Smartronix, Inc."
+    ]
+  },
+  {
+    "company_name": "Health Advances, LLC",
+    "short_name": [
+      "Health Advances, LLC"
+    ]
+  },
+  {
+    "company_name": "Simon-Kucher & Partners",
+    "short_name": [
+      "Simon-Kucher  Partners"
+    ]
+  },
+  {
+    "company_name": "CapTech",
+    "short_name": [
+      "CapTech"
+    ]
+  },
+  {
+    "company_name": "ScottMadden Management Consultants",
+    "short_name": [
+      "ScottMadden Management Consultants"
+    ]
+  },
+  {
+    "company_name": "Trinity Partners, LLC",
+    "short_name": [
+      "Trinity Partners, LLC"
+    ]
+  },
+  {
+    "company_name": "理特管理顾问(Arthur D. Little)",
+    "short_name": [
+      "Arthur D. Little",
+      "理特顾问"
+    ]
+  },
+  {
+    "company_name": "Censeo Consulting Group",
+    "short_name": [
+      "Censeo Consulting Group"
+    ]
+  },
+  {
+    "company_name": "Edgeworth Economics",
+    "short_name": [
+      "Edgeworth Economics"
+    ]
+  },
+  {
+    "company_name": "The Chartis Group",
+    "short_name": [
+      "The Chartis Group"
+    ]
+  },
+  {
+    "company_name": "Bates White Economic Consulting",
+    "short_name": [
+      "Bates White Economic Consulting"
+    ]
+  },
+  {
+    "company_name": "Innosight",
+    "short_name": [
+      "Innosight"
+    ]
+  },
+  {
+    "company_name": "查尔斯·里弗顾问公司(Charles River Associates)",
+    "short_name": [
+      "Charles River Associates",
+      "查尔斯·里弗顾问"
+    ]
+  },
+  {
+    "company_name": "休伦咨询(Huron Consulting Group)",
+    "short_name": [
+      "Huron Consulting Group",
+      "休伦"
+    ]
+  },
+  {
+    "company_name": "Novantas, Inc.",
+    "short_name": [
+      "Novantas, Inc."
+    ]
+  },
+  {
+    "company_name": "Jabian Consulting",
+    "short_name": [
+      "Jabian Consulting"
+    ]
+  },
+  {
+    "company_name": "Everest Group",
+    "short_name": [
+      "Everest Group"
+    ]
+  },
+  {
+    "company_name": "DayBlink Consulting",
+    "short_name": [
+      "DayBlink Consulting"
+    ]
+  },
+  {
+    "company_name": "Evidera",
+    "short_name": [
+      "Evidera"
+    ]
+  },
+  {
+    "company_name": "FTI Consulting, Inc.",
+    "short_name": [
+      "FTI Consulting, Inc."
+    ]
+  },
+  {
+    "company_name": "Keystone Strategy",
+    "short_name": [
+      "Keystone Strategy"
+    ]
+  },
+  {
+    "company_name": "Ricardo Strategic Consulting",
+    "short_name": [
+      "Ricardo Strategic Consulting"
+    ]
+  },
+  {
+    "company_name": "Kaiser Associates",
+    "short_name": [
+      "Kaiser Associates"
+    ]
+  },
+  {
+    "company_name": "波士顿咨询欧洲(McKinsey & Company Europe)",
+    "short_name": [
+      "McKinsey & Company Europe",
+      "波士顿欧洲"
+    ]
+  },
+  {
+    "company_name": "贝恩咨询欧洲(Bain & Company Europe)",
+    "short_name": [
+      "Bain & Company Europe",
+      "贝恩欧洲"
+    ]
+  },
+  {
+    "company_name": "奥纬咨询欧洲(Oliver Wyman Europe)",
+    "short_name": [
+      "Oliver Wyman Europe",
+      "奥纬欧洲"
+    ]
+  },
+  {
+    "company_name": "罗兰贝格管理咨询欧洲(Roland Berger Europe)",
+    "short_name": [
+      "Roland Berger Europe",
+      "罗兰贝格欧洲"
+    ]
+  },
+  {
+    "company_name": "科尔尼管理咨询欧洲(A.T. Kearney Europe)",
+    "short_name": [
+      "A.T. Kearney Europe",
+      "科尔尼欧洲"
+    ]
+  },
+  {
+    "company_name": "欧晰析企业管理咨询欧洲(OC&C Strategy Consultants Europe)",
+    "short_name": [
+      "OC&C Strategy Consultants Europe",
+      "欧晰析欧洲"
+    ]
+  },
+  {
+    "company_name": "艾意凯咨询欧洲(L.E.K. Consulting Europe)",
+    "short_name": [
+      "L.E.K. Consulting Europe",
+      "艾意凯欧洲"
+    ]
+  },
+  {
+    "company_name": "思略特欧洲(Strategy&, part of the PwC network, Europe)",
+    "short_name": [
+      "Strategy&, part of the PwC network, Europe",
+      "思略特欧洲"
+    ]
+  },
+  {
+    "company_name": "Simon-Kucher & Partners Europe",
+    "short_name": [
+      "Simon-Kucher  Partners Europe"
+    ]
+  },
+  {
+    "company_name": "QVARTZ",
+    "short_name": [
+      "QVARTZ"
+    ]
+  },
+  {
+    "company_name": "理特管理顾问欧洲(Arthur D. Little Europe)",
+    "short_name": [
+      "Arthur D. Little Europe",
+      "理特顾问欧洲"
+    ]
+  },
+  {
+    "company_name": "Frontier Economics Ltd.",
+    "short_name": [
+      "Frontier Economics Ltd."
+    ]
+  },
+  {
+    "company_name": "The Brattle Group Europe",
+    "short_name": [
+      "The Brattle Group Europe"
+    ]
+  },
+  {
+    "company_name": "马拉康欧洲(Marakon Europe)",
+    "short_name": [
+      "Marakon Europe",
+      "马拉康欧洲"
+    ]
+  },
+  {
+    "company_name": "Candesic",
+    "short_name": [
+      "Candesic"
+    ]
+  },
+  {
+    "company_name": "奥迈企业顾问欧洲(Alvarez & Marsal Europe)",
+    "short_name": [
+      "Alvarez & Marsal Europe",
+      "奥迈企业顾问欧洲"
+    ]
+  },
+  {
+    "company_name": "NERA Economic Consulting Europe",
+    "short_name": [
+      "NERA Economic Consulting Europe"
+    ]
+  },
+  {
+    "company_name": "甫瀚咨询欧洲(Protiviti Europe)",
+    "short_name": [
+      "Protiviti Europe",
+      "甫瀚欧洲"
+    ]
+  },
+  {
+    "company_name": "Evidera Europe",
+    "short_name": [
+      "Evidera Europe"
+    ]
+  },
+  {
+    "company_name": "Corporate Value Associates",
+    "short_name": [
+      "Corporate Value Associates"
+    ]
+  },
+  {
+    "company_name": "Sia Partners",
+    "short_name": [
+      "Sia Partners"
+    ]
+  },
+  {
+    "company_name": "CIL Management Consultants",
+    "short_name": [
+      "CIL Management Consultants"
+    ]
+  },
+  {
+    "company_name": "Alira Health",
+    "short_name": [
+      "Alira Health"
+    ]
+  },
+  {
+    "company_name": "Value Partners Management Consulting",
+    "short_name": [
+      "Value Partners Management Consulting"
+    ]
+  },
+  {
+    "company_name": "ZS咨询欧洲(ZS Associates Europe)",
+    "short_name": [
+      "ZS Associates Europe",
+      "ZS欧洲"
+    ]
+  },
+  {
+    "company_name": "麦肯锡咨询亚太(McKinsey & Company Asia-Pacific)",
+    "short_name": [
+      "McKinsey & Company Asia-Pacific",
+      "麦肯锡亚太"
+    ]
+  },
+  {
+    "company_name": "贝恩咨询亚洲(Bain & Company Asia)",
+    "short_name": [
+      "Bain & Company Asia",
+      "贝恩亚洲"
+    ]
+  },
+  {
+    "company_name": "思略特亚太(Strategy&, part of the PwC network, Asia-Pacific)",
+    "short_name": [
+      "Strategy&, part of the PwC network, Asia-Pacific",
+      "思略特亚太"
+    ]
+  },
+  {
+    "company_name": "科尔尼管理咨询亚太(A.T. Kearney Asia-Pacific)",
+    "short_name": [
+      "A.T. Kearney Asia-Pacific",
+      "科尔尼亚太"
+    ]
+  },
+  {
+    "company_name": "奥纬咨询亚太(Oliver Wyman Asia-Pacific)",
+    "short_name": [
+      "Oliver Wyman Asia-Pacific",
+      "奥纬亚太"
+    ]
+  },
+  {
+    "company_name": "欧晰析企业管理咨询亚洲(OC&C Strategy Consultants Asia)",
+    "short_name": [
+      "OC&C Strategy Consultants Asia",
+      "欧晰析亚洲"
+    ]
+  },
+  {
+    "company_name": "罗兰贝格管理咨询亚洲(Roland Berger Asia)",
+    "short_name": [
+      "Roland Berger Asia",
+      "罗兰贝格亚洲"
+    ]
+  },
+  {
+    "company_name": "艾意凯咨询亚洲(L.E.K. Consulting Asia)",
+    "short_name": [
+      "L.E.K. Consulting Asia",
+      "艾意凯亚洲"
+    ]
+  },
+  {
+    "company_name": "理特管理顾问亚洲(Arthur D. Little Asia)",
+    "short_name": [
+      "Arthur D. Little Asia",
+      "理特顾问亚洲"
+    ]
+  },
+  {
+    "company_name": ".Corporate Value Associates Asia-Pacific",
+    "short_name": [
+      ".Corporate Value Associates Asia-Pacific"
+    ]
+  }
+]
