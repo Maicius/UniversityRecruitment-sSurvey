@@ -8,22 +8,21 @@ from jedis import jedis
 def get_data(page, re, table_name):
     query_data = {
         "page": str(page),
-        "time_type": 1
+        "key_way": "0111",
     }
     s = requests.session()
-    query_url = "http://www.jiuye.org/new/sys/fore.php?op=listRecruit"
+    query_url = "http://www.jiuye.org/new/sys/fore.php?op=searchRecruit"
     content = s.post(query_url, data=query_data).text
     json_data = json.loads(content)['data']
-    data = map(lambda x: dict(date=x["rec_time"][0:10], company_name=x["rec_enter_name"]), json_data)
+    # print(json_data)
+    data = map(lambda x: dict(date=x["rec_publish_time"][0:10], company_name=x["rec_enter_name"]), json_data)
     re.save_list(table_name, data)
 
 
 def get_uestc_recruit():
     table_name = "uestc_company_info"
-    print(table_name)
     re = jedis.jedis()
-    re.clear_list(table_name)
-    max_page_num = 407
+    max_page_num = 144
     try:
         for i in range(1, max_page_num):
             get_data(i, re, table_name)
