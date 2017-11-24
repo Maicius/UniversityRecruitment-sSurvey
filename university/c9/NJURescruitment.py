@@ -55,6 +55,8 @@ def parse_nju_info(content, re):
         try:
             info = company_list[i].text.split("\n")
             company_name = info[3].split("\t")[1].strip()
+            if company_name.find('澳门国际银行股份有限公司') != -1:
+                company_name = '澳门国际银行股份有限公司'
             time = info[5].strip().split("\xa0\xa0")
             if len(time) == 3:
                 date = time[1]

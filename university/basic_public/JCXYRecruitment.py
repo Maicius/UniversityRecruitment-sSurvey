@@ -10,15 +10,14 @@ def get_jincheng_recruit():
     req = requests.Session()
     content = req.get(base_url + ".html").content.decode("utf-8")
     re = jedis.jedis()
-    re.connect_redis()
-    re.clear_list("jincheng_company_info")
+    re.clear_list("jcxy_company_info")
     parse_jincheng(content, re)
     for i in range(2, 99):
         print(i)
         url = base_url + "_" + str(i) + ".html"
         content = req.get(url).content.decode("utf-8")
         parse_jincheng(content, re)
-    re.add_university("jincheng")
+    re.add_university("jcxy_company_info")
     print("finish")
 
 
@@ -28,7 +27,7 @@ def parse_jincheng(content, re):
     for i in range(2, 31, 2):
         info = {'date': infos[i + 1].text, 'company': infos[i].text}
         print(info)
-        re.save_info("jincheng_company_info", infos[i + 1].text, infos[i].text)
+        re.save_info("jcxy_company_info", infos[i + 1].text, infos[i].text)
 
 
 if __name__ == '__main__':

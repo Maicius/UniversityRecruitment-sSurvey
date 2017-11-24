@@ -9,8 +9,8 @@ def get_one_week_data(week, redis, table_name, s):
     url = 'http://job.ustb.edu.cn/front/channel.jspa?channelId=763&parentId=763&weekOfMonth=1&curWeek=' + str(
         week) + '&property=0'
     host = 'job.ustb.edu.cn'
-    header = util.get_header(host)
-    response = s.get(url=url, headers=header)
+    # header = util.get_header(host)
+    response = s.get(url=url)
     soup = BeautifulSoup(response.text, 'html5lib')
     table_node = soup.find('table')
 
@@ -53,7 +53,6 @@ def get_ustbr_recuitment():
     table_name = 'ustbr_company_info'
 
     redis = jedis.jedis()
-    redis.connect_redis()
     redis.clear_list(table_name)
 
     session = requests.session()
