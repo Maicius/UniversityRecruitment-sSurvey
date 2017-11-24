@@ -83,11 +83,12 @@
 - [烟台大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/basic_public/YTURecruitment.py)
 - [北京石油化工学院](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/basic_public/BIPTRecruitment.py)
 - [江汉大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/basic_public/JHURecruitment.py)
-- [浙江大学城市学院]()
+- [浙江大学城市学院](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/basic_public/ZUCCRecruitment.py)
+
 ### 已爬取的公司名单（持续更新）
 
 - [世界500强、中国500强、美国500强](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/enterprise/Top500.py)
-- [中国民营企业500强、中国民营企业制造业500强、中国民营企业服务业100强](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/enterprise/China/ChinaPrivateTop500.py)
+- [中国民营企业500强、中国民营企业制造业500强、中国民营企业服务器100强](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/enterprise/China/ChinaPrivateTop500.py)
 - [中国互联网企业100强](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/enterprise/China/ChinaInternetTop100.py)
 - [咨询公司Top75](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/enterprise/financial/consult_top100.py)
 - [投资机构Top100](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/enterprise/financial/InvestmentTop100.py)
