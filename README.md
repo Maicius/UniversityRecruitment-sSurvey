@@ -70,6 +70,8 @@
 - [南京邮电大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/top_public/NJUPTRecruitment.py)
 - [北方工业大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/top_public/NCUTRecruitment.py)
 - [燕山大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/top_public/YSURecruitment.py)
+- [华侨大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/top_public/HQURecruitment.py)
+- [杭州师范大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/top_public/HZNURecruitment.py)
 
 #### 二本
 
@@ -87,6 +89,8 @@
 - [世界500强、中国500强、美国500强](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/enterprise/Top500.py)
 - [中国民营企业500强、中国民营企业制造业500强、中国民营企业服务器100强](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/enterprise/China/ChinaPrivateTop500.py)
 - [中国互联网企业100强](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/enterprise/China/ChinaInternetTop100.py)
+- [咨询公司Top75](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/enterprise/financial/consult_top100.py)
+- [投资机构Top100](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/enterprise/financial/InvestmentTop100.py)
 
 ### 其它
 
