@@ -83,7 +83,7 @@
 - [烟台大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/basic_public/YTURecruitment.py)
 - [北京石油化工学院](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/basic_public/BIPTRecruitment.py)
 - [江汉大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/basic_public/JHURecruitment.py)
-
+- [浙江大学城市学院]()
 ### 已爬取的公司名单（持续更新）
 
 - [世界500强、中国500强、美国500强](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/enterprise/Top500.py)
