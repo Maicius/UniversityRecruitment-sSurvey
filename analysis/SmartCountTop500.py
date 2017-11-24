@@ -156,7 +156,7 @@ class AnalysisTop500(object):
     # 分词算法
     def get_jieba_fenci(self, company_name):
         print("================================")
-        waste_words = COMPANY_WASTE_WORDS()
+        waste_words = COMPANY_WASTE_WORDS
         short_names = []
         english_name = re.findall('(\(.*?\))', company_name)
         if len(english_name) > 0 and len(re.findall('[\u4e00-\u9fa5]', english_name[0])) == 0:
