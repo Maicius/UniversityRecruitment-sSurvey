@@ -25,6 +25,7 @@ def get_nku_recruit():
     years = ['2016, 2017']
     req = requests.Session()
     redis = jedis.jedis()
+    redis.clear_list(table_name)
     for year in years:
         company_list = req.post(url=url, headers=header, data={'year': year}).content.decode('unicode-escape')
         parse_info(redis, company_list)
@@ -61,7 +62,7 @@ def parse_recruit_info(redis, content, date, id):
         for i in range(13, 211, 2):
             try:
                 company_name = company_list[i + 1].text.strip()
-                # print(company_name)
+                print(company_name)
                 redis.save_info(table_name, date, company_name)
             except BaseException as e:
                 util.format_err(e)
@@ -73,7 +74,7 @@ def parse_recruit_info(redis, content, date, id):
         for i in range(14, 179, 2):
             try:
                 company_name = company_list[i + 1].text.strip()
-                # print(company_name)
+                print(company_name)
                 redis.save_info(table_name, date, company_name)
             except BaseException as e:
                 util.format_err(e)
@@ -82,8 +83,8 @@ def parse_recruit_info(redis, content, date, id):
     # 国有企业双选会
     if int(id) == 68:
         company_list = soup.find_all(attrs={'style': 'font-size: 19px'})
-        for i in range(0, len(company_list) - 1):
-            company_name = company_list[i + 1].text
+        for i in range(0, len(company_list) - 1, 2):
+            company_name = company_list[i + 1].text.strip()
             # print(company_list[i])
             # print(company_name)
             redis.save_info(table_name, date, company_name)
@@ -96,7 +97,7 @@ def parse_info(redis, content):
     company_list = json.loads(content)
     for data in company_list:
         date = data['retime']
-        company_name = data['title']
+        company_name = data['title'].strip()
         print(company_name)
         redis.save_info(table_name, date, company_name)
 
