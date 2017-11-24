@@ -68,6 +68,8 @@
 
 - [华北电力大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/top_public/NCEPURecruitment.py)暂时只获取了招聘会信息，双选会信息不全
 - [南京邮电大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/top_public/NJUPTRecruitment.py)
+- [北方工业大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/top_public/NCUTRecruitment.py)
+- [燕山大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/top_public/YSURecruitment.py)
 
 #### 二本
 
