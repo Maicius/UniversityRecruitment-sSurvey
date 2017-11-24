@@ -18,7 +18,7 @@ def get_scut_recuit():
     headers = util.get_header(host='jyzx.6ihnep7.cas.scut.edu.cn')
     redis = jedis.jedis()
     redis.clear_list(table_name)
-    for i in range(1, 65):
+    for i in range(1, 61):
         try:
             data = {'pageNo': '60', 'daoxv1': '0', 'entName': '', 'time': '-1', 'pageNO': str(i)}
             content = req.post(url=url, headers=headers, data=data).content.decode('utf-8')

@@ -58,6 +58,7 @@
 - [华中科技大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/part985/HUSTRecruitment.py)
 - [中南大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/part985/CSURecruitment.py)
 - [南开大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/part985/NKURecruitment.py)
+- [华南理工大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/part985/SCUTRecruitment.py)
 
 #### 211
 
