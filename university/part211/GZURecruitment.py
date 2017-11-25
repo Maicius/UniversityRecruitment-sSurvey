@@ -55,12 +55,17 @@ def parse_info(content, redis, page):
         else:
             try:
                 year = re.findall(re.compile('[0-9]+-?-?第[0-9]+期'), company_name)[0][0:2]
-            except BaseException as e:
-                util.format_err(e)
-                continue
+            except IndexError:
+                try:
+                    year = re.findall(re.compile('[0-9]+-?－?[0-9]+期'), company_name)[0][0:2]
+                except BaseException:
+                    util.format_err(e)
+                    continue
+            if year == '44':
+                year = '09'
         date = '20' + str(year) + '-' + date_list[i].text[1:-1]
 
-        company_name = company_name.split('(')[0]
+        company_name = company_name.split('(')[0].strip()
         print(company_name, date)
         redis.save_info(table_name, date, company_name)
 
