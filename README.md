@@ -66,6 +66,7 @@
 - [中央财经大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/part211/CUFERescruitment.py)
 - [上海财经大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/part211/SUFERescruitment.py)
 - [北京科技大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/part211/USTBRecruitment.py)
+- [贵州大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/part211/GZURecruitment.py)
 
 #### 一本
 
