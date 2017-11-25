@@ -3,6 +3,9 @@ import time
 
 
 # 工具类
+import traceback
+
+
 def get_header(host):
     header = {
         'host': host,
@@ -65,7 +68,8 @@ def get_month(date):
 
 def format_err(e, item1 ='', item2 = ''):
     print("error=============================================================")
+    print(e)
     print(item1)
     print(item2)
-    print(e)
+
     print("error=============================================================")

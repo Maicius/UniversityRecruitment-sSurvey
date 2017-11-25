@@ -10,7 +10,7 @@
     "company_name": "波士顿咨询公司(The Boston Consulting Group, Inc.)",
     "short_name": [
       "The Boston Consulting Group, Inc.",
-      "波士顿咨询"
+      "波士顿"
     ]
   },
   {
@@ -106,6 +106,9 @@
     "short_name": [
       "The Cambridge Group",
       "剑桥"
+    ],
+    "wrong_name":[
+      "东方剑桥教育"
     ]
   },
   {

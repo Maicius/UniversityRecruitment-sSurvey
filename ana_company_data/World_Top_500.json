@@ -360,6 +360,9 @@
     "short_name": [
       "RAYTHEON",
       "雷神"
+    ],
+    "wrong_name":[
+      "哈工雷神"
     ]
   },
   {
@@ -1675,6 +1678,9 @@
     "short_name": [
       "JD.COM",
       "京东"
+    ],
+    "wrong_name":[
+      "北京东", "京东方"
     ]
   },
   {
@@ -1710,6 +1716,9 @@
     "short_name": [
       "CIGNA",
       "信诺"
+    ],
+    "wrong_name":[
+      "维信诺"
     ]
   },
   {
@@ -2192,7 +2201,10 @@
     "company_name": "思科公司(CISCO SYSTEMS)",
     "short_name": [
       "CISCO SYSTEMS",
-      "思科公司"
+      "思科"
+    ],
+    "wrong_name":[
+      "蓝思科技"
     ]
   },
   {
@@ -2311,7 +2323,10 @@
     "company_name": "海航集团(HNA GROUP)",
     "short_name": [
       "HNA GROUP",
-      "海航集团"
+      "海航"
+    ],
+    "wrong_name":[
+      "上海航道局"
     ]
   },
   {
@@ -2837,6 +2852,9 @@
     "short_name": [
       "SK HOLDINGS",
       "SK"
+    ],
+    "wrong_name":[
+      "葛兰素史克", "GSK"
     ]
   },
   {
@@ -3375,7 +3393,7 @@
     "company_name": "通用汽车公司(GENERAL MOTORS)",
     "short_name": [
       "GENERAL MOTORS",
-      "通用汽车", "通用"
+      "通用汽车"
     ]
   },
   {

@@ -1,5 +1,6 @@
 # coding = utf-8
 import json
+import traceback
 
 import jieba
 import re
@@ -19,84 +20,153 @@ from jedis import jedis
 class AnalysisTop500(object):
     def __init__(self):
         self.re = jedis.jedis().get_re()
+        self.data_array = []
+        self.university_company_dict = {}
+
         self.USA_company_list = []
         self.China_company_list = []
         self.World_company_list = []
-        self.china_top500_dict = {}
+
+        self.China_top500_dict = {}
         self.world_top500_dict = {}
         self.usa_top500_dict = {}
-        self.university_company_dict = {}
-        self.data_array = []
-        self.china_top500_result = {}
+
+        self.manufacture_top500_dict = {}
+        self.China_private_top500_dict = {}
+        self.world_investment_top100_dict = {}
+        self.world_consult_top75_dict = {}
+        self.China_service_top100_dict = {}
+        self.China_it_top100_dict = {}
+
+        # 中国500强结果
+        self.China_top500_result = {}
+        # 美国五百强结果
         self.usa_top500_result = {}
+        # 世界五百强结果
         self.world_top500_result = {}
+        # 中国民营企业制造业500强
+        self.China_manufacture_top500_result = {}
+        # 中国私有企业500强
+        self.China_private_top500_result = {}
+        # 世界投资机构100强
+        self.world_investment_top100_result = {}
+        # 中国互联网企业100强
+        self.China_it_top100_result = {}
+        # 中国服务业100强
+        self.China_service_top100_result = {}
+        # 咨询行业北美50强、欧洲25强、亚太10强
+        self.world_consult_top75_result = {}
 
     # 主逻辑函数
     def get_univeristy_company_list(self, university_list):
         for university_table_name in university_list:
-            self.china_top500_result[university_table_name] = []
+            self.China_top500_result[university_table_name] = []
             self.usa_top500_result[university_table_name] = []
             self.world_top500_result[university_table_name] = []
+            self.China_service_top100_result[university_table_name] = []
+            self.world_consult_top75_result[university_table_name] = []
+            self.world_investment_top100_result[university_table_name] = []
+            self.China_manufacture_top500_result[university_table_name] = []
+            self.China_it_top100_result[university_table_name] = []
+            self.China_private_top500_result[university_table_name] = []
+
             company_list = self.get_2017_company_list(university_table_name)
             for company in company_list:
                 try:
-                    company = company['company_name']
+                    article_title = company['company_name']
                     # print(company)
                     # 判断中国五百强
-                    for short_names in self.china_top500_dict:
-                        for short_name in short_names['short_name']:
-                            if company.find(short_name) != -1:
-                                if short_name == '京东' and company.find('京东方') != -1:
-                                    break
-                                if short_name == '京东方' and company.find('北京东') != -1:
-                                    break
-                                if short_name == '京东' and company.find('北京东') != -1:
-                                    break
-                                else:
-                                    # print(short_name + "-" + company)
-                                    self.china_top500_result[university_table_name].append(short_name+"-" + company)
-                                    break
-
+                    self.get_company_type_num(article_title, self.China_top500_result[university_table_name],
+                                              self.China_top500_dict)
                     # 判断是不是世界五百强
-                    for short_names in self.world_top500_dict:
-                        for short_name in short_names['short_name']:
-                            if company.find(short_name) != -1:
-                                if short_name == '京东' and company.find('京东方') != -1:
-                                    break
-                                if short_name == '京东方' and company.find('北京东') != -1:
-                                    break
-                                if short_name == '京东' and company.find('北京东') != -1:
-                                    break
-                                else:
-                                    # print(short_name + "-" + company)
-                                    self.world_top500_result[university_table_name].append(short_name+"-" + company)
-                                    break
+                    self.get_company_type_num(article_title, self.usa_top500_result[university_table_name],
+                                              self.usa_top500_dict)
 
                     # 判断是不是美国五百强
-                    for short_names in self.usa_top500_dict:
-                        for short_name in short_names['short_name']:
-                            if company.find(short_name) != -1:
-                                # print(short_name + "-" + company)
-                                self.usa_top500_result[university_table_name].append(short_name+"-" + company)
-                                break
+                    self.get_company_type_num(article_title, self.world_top500_result[university_table_name],
+                                              self.world_top500_dict)
+
+                    # 判断是不是咨询业75强
+                    self.get_company_type_num(article_title, self.world_consult_top75_result[university_table_name],
+                                              self.world_consult_top75_dict)
+
+                    # 判断是不是投资机构100强
+                    self.get_company_type_num(article_title, self.world_investment_top100_result[university_table_name],
+                                              self.world_investment_top100_dict)
+
+                    # 判断是不是中国服务业100强
+                    self.get_company_type_num(article_title, self.China_service_top100_result[university_table_name],
+                                              self.China_service_top100_dict)
+
+                    # 判断是不是中国制造业500强
+                    self.get_company_type_num(article_title,
+                                              self.China_manufacture_top500_result[university_table_name],
+                                              self.manufacture_top500_dict)
+                    # 判断是不是中国IT业100强
+                    self.get_company_type_num(article_title,
+                                              self.China_it_top100_result[university_table_name],
+                                              self.China_it_top100_dict)
+                    # 判断是不是中国私营企业500强
+                    self.get_company_type_num(article_title,
+                                              self.China_private_top500_result[university_table_name],
+                                              self.China_private_top500_dict)
+
                 except BaseException as e:
+                    print('here')
                     print("Error===================================================")
                     print(e)
                     print(company)
                     print("Error===================================================")
 
+    # 根据传入的标题和公司正规名称，判断标题中是否包含公司名称，结果存储在result_list中
+    def get_company_type_num(self, article_title, result_list, company_short_names_list):
+        # result_dict[university_table_name] = []
+        for short_names in company_short_names_list:
+            for short_name in short_names['short_name']:
+                if article_title.find(short_name) != -1:
+                    if 'wrong_name' in short_names:
+                        for index, wrong_name in enumerate(short_names['wrong_name']):
+                            # 表示在标题中找到了wrong_name，如
+                            # 京东方科技集团股份有限公司近期到我校招聘
+                            # short_name为京东， wrong_name为京东方
+                            # 则此时不应该进行append， 立即退出这一层循环
+                            if article_title.find(wrong_name) != -1:
+                                # print(company+"：" + short_name + "-wrong name:" + wrong_name)
+                                break
+                            if article_title.find(wrong_name) == -1 and index == (len(short_names['wrong_name']) - 1):
+                                result_list.append(short_name + "-" + article_title)
+                        # 为避免重复判断，及时跳出循环
+                        break
+                    else:
+                        # 为避免重复判断，及时跳出循环
+                        # print(short_name + "-" + company)
+                        result_list.append(short_name + "-" + article_title)
+                        break
+
     # 获取大学的列表
     def get_university_list(self):
         return self.re.lrange("university", 0, -1)
 
-    # 从文件中读取500强名单
+    # 从文件中读取企业名单
     def get_company_short_name(self):
-        with open("China_Top_500.json", 'r', encoding='utf-8') as r:
-            self.china_top500_dict = json.load(r)
-        with open("USA_Top_500.json", 'r', encoding='utf-8') as r:
+        with open("../ana_company_data/China_Top_500.json", 'r', encoding='utf-8') as r:
+            self.China_top500_dict = json.load(r)
+        with open("../ana_company_data/USA_Top_500.json", 'r', encoding='utf-8') as r:
             self.usa_top500_dict = json.load(r)
-        with open("World_Top_500.json", 'r', encoding='utf-8') as r:
+        with open("../ana_company_data/World_Top_500.json", 'r', encoding='utf-8') as r:
             self.world_top500_dict = json.load(r)
+        with open("../ana_company_data/China_manufacture_company_top500.json", 'r', encoding='utf-8') as r:
+            self.manufacture_top500_dict = json.load(r)
+        with open("../ana_company_data/China_it_top_100_company_info.json", 'r', encoding='utf-8') as r:
+            self.China_it_top100_dict = json.load(r)
+        with open("../ana_company_data/China_service_company_top100.json", 'r', encoding='utf-8') as r:
+            self.China_service_top100_dict = json.load(r)
+        with open("../ana_company_data/China_private_company_top500.json", 'r', encoding='utf-8') as r:
+            self.China_private_top500_dict = json.load(r)
+        with open("../ana_company_data/investment_top100.json", 'r', encoding='utf-8') as r:
+            self.world_investment_top100_dict = json.load(r)
+        with open("../ana_company_data/best_consulting_company_info.json", 'r', encoding='utf-8') as r:
+            self.world_consult_top75_dict = json.load(r)
         print("Get Short Name Finish")
 
     # 从爬取的宣讲会标题中获取2017年度的宣讲会
@@ -111,6 +181,7 @@ class AnalysisTop500(object):
                 if date.find('2017') != -1:
                     company_list_2017.append(item)
             except BaseException as e:
+                print("item:" + item)
                 util.format_err(e, university_table_name, item)
                 continue
         print("Finish to find 2017 Recruitment--" + university_table_name)
@@ -192,6 +263,16 @@ class AnalysisTop500(object):
             json.dump(self.data_array, w, ensure_ascii=False)
         self.data_array = []
 
+    def print_result(self, result_dict):
+        for key, values in result_dict.items():
+            print('--------------------------------------')
+            print(key + ":" + str(len(values)) + " ".join(values))
+            key = key[:-len('_company_info')]
+            try:
+                print(UNIVERSITY_INFO[key] + ":" + str(len(values)))
+            except BaseException as e:
+                pass
+
 
 if __name__ == '__main__':
     analysis = AnalysisTop500()
@@ -200,34 +281,27 @@ if __name__ == '__main__':
     analysis.get_company_short_name()
     university = analysis.get_university_list()
     analysis.get_univeristy_company_list(university_list=university)
-    print("到这些学校开宣讲会的中国五百强数量================================")
-    for key, values in analysis.china_top500_result.items():
-        # print(key + ":" + str(len(values)) + "\n" + " ".join(values))
-        key = key[:-len('_company_info')]
-        try:
-            print(UNIVERSITY_INFO[key] + ":" + str(len(values)))
-        except BaseException as e:
-            pass
 
-    print("到这些学校开宣讲会的美国五百强================================")
-    for key, values in analysis.usa_top500_result.items():
-        # print(key + ":" + str(len(values)) + "\n" + " ".join(values))
-        key = key[:-len('_company_info')]
-        try:
-            print(UNIVERSITY_INFO[key] + ":" + str(len(values)))
-        except BaseException as e:
-            pass
+    print("到这些学校招聘的世界五百强================================")
+    analysis.print_result(analysis.world_top500_result)
+    print("到这些学校招聘的中国五百强================================")
+    analysis.print_result(analysis.China_top500_result)
+    print("到这些学校招聘的世界五百强================================")
+    analysis.print_result(analysis.usa_top500_result)
+    print("到这些学校招聘的中国IT业100强================================")
+    analysis.print_result(analysis.China_it_top100_result)
+    print("到这些学校招聘的制造业500强================================")
+    analysis.print_result(analysis.China_manufacture_top500_result)
+    print("到这些学校招聘的私有企业500强================================")
+    analysis.print_result(analysis.China_private_top500_result)
+    print("到这些学校招聘的服务业100强================================")
+    analysis.print_result(analysis.China_service_top100_result)
+    print("到这些学校招聘的投资机构100强================================")
+    analysis.print_result(analysis.world_investment_top100_result)
+    print("到这些学校招聘的世界咨询业75强================================")
+    analysis.print_result(analysis.world_consult_top75_result)
 
-    print("到这些学校开宣讲会的世界五百强================================")
-    for key, values in analysis.world_top500_result.items():
-        # print(key + ":" + str(len(values)) + "\n" + " ".join(values))
-        key = key[:-len('_company_info')]
-        try:
-            print(UNIVERSITY_INFO[key] + ":" + str(len(values)))
-        except BaseException as e:
-            pass
-
-    print(analysis.china_top500_result)
-    print(analysis.usa_top500_result)
-    print(analysis.world_top500_result)
+    # print(analysis.China_top500_result)
+    # print(analysis.usa_top500_result)
+    # print(analysis.world_top500_result)
     print("Finish")
