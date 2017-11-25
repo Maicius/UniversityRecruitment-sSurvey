@@ -75,7 +75,9 @@
 - [燕山大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/top_public/YSURecruitment.py)
 - [华侨大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/top_public/HQURecruitment.py)
 - [杭州师范大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/top_public/HZNURecruitment.py)
-
+- [河北大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/top_public/HBURecruitment.py)
+- [首都经济贸易大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/top_public/CUEBRecruitment.py)
+- [武汉科技大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/top_public/WUSTRecruitment.py)
 #### 二本
 
 - [四川大学锦城学院](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/basic_public/JinChengRecruitment.py)
