@@ -52,7 +52,7 @@ def get_one_week_data(week, redis, table_name, s):
 
 def get_cuebr_recuitment():
     # 首都经济贸易大学
-    table_name = 'cuebr_company_info'
+    table_name = 'cueb_company_info'
 
     redis = jedis.jedis()
     redis.clear_list(table_name)
