@@ -109,7 +109,6 @@ class AnalysisTop500(object):
                                               self.China_private_top500_dict)
 
                 except BaseException as e:
-                    print('here')
                     print("Error===================================================")
                     print(e)
                     print(company)
@@ -131,13 +130,13 @@ class AnalysisTop500(object):
                                 # print(company+"：" + short_name + "-wrong name:" + wrong_name)
                                 break
                             if article_title.find(wrong_name) == -1 and index == (len(short_names['wrong_name']) - 1):
-                                result_list.append(short_name + "-" + article_title)
+                                result_list.append(short_name + "-->" + article_title)
                         # 为避免重复判断，及时跳出循环
                         break
                     else:
                         # 为避免重复判断，及时跳出循环
-                        # print(short_name + "-" + company)
-                        result_list.append(short_name + "-" + article_title)
+                        # print(short_name + "-->" + company)
+                        result_list.append(short_name + "-->" + article_title)
                         break
 
     # 获取大学的列表
@@ -189,7 +188,7 @@ class AnalysisTop500(object):
                 print("item:" + item)
                 util.format_err(e, university_table_name, item)
                 continue
-        print("Finish to find 2017 Recruitment--" + university_table_name)
+        print("Finish to find 2017 Recruitment-->" + university_table_name)
         return company_list_2017
 
     # 从数据库里读取500强信息（包括全名、CEO、盈利额等，但是不包括简称）
@@ -268,7 +267,8 @@ class AnalysisTop500(object):
             json.dump(self.data_array, w, ensure_ascii=False)
         self.data_array = []
 
-    def print_result(self, result_dict):
+    # 打印数据以及保存最终数据到文件
+    def print_result(self, result_dict, filename):
         for key, values in result_dict.items():
             print('--------------------------------------')
             print(key + ":" + str(len(values)) + " ".join(values))
@@ -276,7 +276,11 @@ class AnalysisTop500(object):
             try:
                 print(UNIVERSITY_INFO[key] + ":" + str(len(values)))
             except BaseException as e:
+                util.format_err(e)
                 pass
+        with open('../result_data/' + filename + '.json', 'w', encoding='utf-8') as w:
+            json.dump(result_dict, w, ensure_ascii=False)
+
 
 
 if __name__ == '__main__':
@@ -288,23 +292,23 @@ if __name__ == '__main__':
     analysis.get_total_info()
     analysis.get_univeristy_company_list(university_list=university)
     print("到这些学校招聘的世界五百强================================")
-    analysis.print_result(analysis.world_top500_result)
+    analysis.print_result(analysis.world_top500_result, 'world_top500_result')
     print("到这些学校招聘的中国五百强================================")
-    analysis.print_result(analysis.China_top500_result)
+    analysis.print_result(analysis.China_top500_result, 'China_top500_result')
     print("到这些学校招聘的世界五百强================================")
-    analysis.print_result(analysis.usa_top500_result)
+    analysis.print_result(analysis.usa_top500_result, 'usa_top500_result')
     print("到这些学校招聘的中国IT业100强================================")
-    analysis.print_result(analysis.China_it_top100_result)
+    analysis.print_result(analysis.China_it_top100_result, 'China_it_top100_result')
     print("到这些学校招聘的制造业500强================================")
-    analysis.print_result(analysis.China_manufacture_top500_result)
+    analysis.print_result(analysis.China_manufacture_top500_result, 'China_manufacture_top500_result')
     print("到这些学校招聘的私有企业500强================================")
-    analysis.print_result(analysis.China_private_top500_result)
+    analysis.print_result(analysis.China_private_top500_result, 'China_private_top500_result')
     print("到这些学校招聘的服务业100强================================")
-    analysis.print_result(analysis.China_service_top100_result)
+    analysis.print_result(analysis.China_service_top100_result, 'China_service_top100_result')
     print("到这些学校招聘的投资机构100强================================")
-    analysis.print_result(analysis.world_investment_top100_result)
+    analysis.print_result(analysis.world_investment_top100_result, 'world_investment_top100_result')
     print("到这些学校招聘的世界咨询业75强================================")
-    analysis.print_result(analysis.world_consult_top75_result)
+    analysis.print_result(analysis.world_consult_top75_result, 'world_consult_top75_result')
 
     # print(analysis.China_top500_result)
     # print(analysis.usa_top500_result)
