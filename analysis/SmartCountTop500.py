@@ -147,6 +147,14 @@ class AnalysisTop500(object):
     def get_university_list(self):
         return self.re.lrange("university", 0, -1)
 
+    def get_total_info(self):
+        university_list = self.get_university_list()
+        count = 0
+        for name in university_list:
+            count += self.re.llen(name)
+        print(count)
+        return count
+
     # 从文件中读取企业名单
     def get_company_short_name(self):
         with open("../ana_company_data/China_Top_500.json", 'r', encoding='utf-8') as r:
@@ -280,8 +288,8 @@ if __name__ == '__main__':
     # analysis.get_top_500_real_name()
     analysis.get_company_short_name()
     university = analysis.get_university_list()
+    analysis.get_total_info()
     analysis.get_univeristy_company_list(university_list=university)
-
     print("到这些学校招聘的世界五百强================================")
     analysis.print_result(analysis.world_top500_result)
     print("到这些学校招聘的中国五百强================================")
