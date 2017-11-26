@@ -55,8 +55,5 @@ def parse_info(content, redis):
                             print(date, company)
                             redis.save_info(table_name, date, company)
 
-
-
-
 if __name__ == '__main__':
     get_zzu_recruit()
