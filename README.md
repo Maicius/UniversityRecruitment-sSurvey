@@ -84,7 +84,7 @@
 - [郑州大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/part211/ZZURecruitment.py)
 - [石河子大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/part211/SHZURecruitment.py)
 - [西南大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/part211/SWURecruitment.py)
-
+- [长安大学][https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/part211/CNURecruitment.py]
 #### 二本
 
 - [四川大学锦城学院](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/basic_public/JinChengRecruitment.py)

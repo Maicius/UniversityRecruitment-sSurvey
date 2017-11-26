@@ -49,11 +49,15 @@ def parse_info(content, redis):
                 if 'careerList' in day:
                     careerList = day['careerList']
                     if careerList is not None:
-                        for data in careerList:
-                            date = data['mergeStartTime']
-                            company = data['mergeTitle']
-                            print(date, company)
-                            redis.save_info(table_name, date, company)
+                        try:
+                            for data in careerList:
+                                date = data['mergeStartTime']
+                                company = data['mergeTitle']
+                                print(date, company)
+                                redis.save_info(table_name, date, company)
+                        except BaseException as e:
+                            util.format_err(e)
+                            pass
 
 if __name__ == '__main__':
     get_zzu_recruit()
