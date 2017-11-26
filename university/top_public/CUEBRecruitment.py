@@ -50,7 +50,7 @@ def get_one_week_data(week, redis, table_name, s):
         ))
 
 
-def get_cuebr_recuitment():
+def get_cueb_recuitment():
     # 首都经济贸易大学
     table_name = 'cueb_company_info'
 
@@ -77,4 +77,4 @@ def get_cuebr_recuitment():
 
 
 if __name__ == '__main__':
-    get_cuebr_recuitment()
+    get_cueb_recuitment()
