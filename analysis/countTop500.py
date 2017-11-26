@@ -3,7 +3,7 @@ import json
 from jedis import jedis
 import jieba
 
-
+# 这个文件的算法不是很好，请参考SmartCountTop500
 class AnalysisTop500(object):
     def __init__(self):
         self.re = jedis.jedis().get_re()

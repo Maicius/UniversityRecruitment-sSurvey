@@ -1,10 +1,7 @@
 # coding = utf-8
 import json
-import traceback
-
 import jieba
 import re
-
 from util import util
 from constant.constant import UNIVERSITY_INFO
 from constant.constant import COMPANY_WASTE_WORDS
