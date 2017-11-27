@@ -269,19 +269,23 @@ class AnalysisTop500(object):
 
     # 打印数据以及保存最终数据到文件
     def print_result(self, result_dict, filename):
+        self.data_array = []
         for key, values in result_dict.items():
             print('--------------------------------------')
             print(key + ":" + str(len(values)) + " ".join(values))
             key = key[:-len('_company_info')]
             try:
                 print(UNIVERSITY_INFO[key] + ":" + str(len(values)))
+                self.data_array.append(dict(name=UNIVERSITY_INFO[key], data=values))
             except BaseException as e:
                 util.format_err(e)
                 pass
-        with open('../result_data/' + filename + '.json', 'w', encoding='utf-8') as w:
-            json.dump(result_dict, w, ensure_ascii=False)
 
-
+        with open('../result_data/' + filename + '.js', 'w', encoding='utf-8') as w:
+            # json.dump(self.data_array, w, ensure_ascii=False)
+            # 将json 数据转化为js的const 变量
+            data_str = str(self.data_array).replace('\'', "\"")
+            w.write("export const " + filename + "=" + data_str)
 
 if __name__ == '__main__':
     analysis = AnalysisTop500()

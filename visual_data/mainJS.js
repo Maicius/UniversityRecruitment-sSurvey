@@ -1,14 +1,13 @@
+
 /**
  * Created by maicius on 2017/11/27.
  */
+
 //排行数据
 let backColor = '#404a59';
 $(document).ready(function () {
     console.log("enter");
-    $.getJSON('https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/result_data/China_top500_result.json').done(function (data) {
-        console.log(data);
-        console.log("finish");
-    })
+    console.log(China_it_top100)
 });
 function drawRankChart(domName, data, chartName, color) {
     let option = {
