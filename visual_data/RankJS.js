@@ -18,7 +18,8 @@ $(document).ready(function () {
 
     let color1 = ['#CCFF99', '#66CCCC', '#339999', '#CCFFFF', '#66CC99', '#339999', '#66CC99', '#009999', '#336666', '#CCFF99', 'orange', '#CC9933', '#336666', '#CCCC99'];
     let color2 = ['#009999', '#CCFF99', '#CCFFFF', '#66CCCC', '#339999', '#336666', '#CCFF99', 'orange', '#CC9933', '#336666', '#CCCC99', '#66CC99', '#339999', '#66CC99'];
-    let color3 = ['orange', '#339999', '#CCFFFF', '#66CC99','#CCFF99', '#66CCCC',  '#336666', '#CCFF99', '#339999', '#66CC99', '#009999',  '#CC9933', '#336666', '#CCCC99'];
+    let color3 = ['orange', '#339999', '#CCFFFF', '#66CC99', '#CCFF99', '#66CCCC', '#336666', '#CCFF99', '#339999', '#66CC99', '#009999', '#CC9933', '#336666', '#CCCC99'];
+    let color4 = ['#66CCCC', '#336666', '#CCFF99', '#339999', '#66CC99', 'orange', '#339999', '#CCFFFF', '#66CC99', '#CCFF99', '#009999', '#CC9933', '#336666', '#CCCC99'];
 
     //console.log(China_it_top100_result);
     let China_it_top100_list = get_Rank_Data(China_it_top100_result);
@@ -34,12 +35,13 @@ $(document).ready(function () {
     drawRankChart(rank_it, China_it_top100_list, "中国互联网企业100强(未去重)", color1);
     drawRankChart(rank_world, World_top500_list, "世界五百强(未去重)", color2);
     drawRankChart(rank_china, China_top500_list, "中国五百强(未去重)", color3);
-    drawRankChart(rank_usa, usa_top500_list, "美国五百强(未去重)", color3);
+    drawRankChart(rank_usa, usa_top500_list, "美国五百强(未去重)", color4);
     drawRankChart(rank_manufacture, China_manufacture_top500_list, "中国制造业五百强(未去重)", color2);
-    drawRankChart(rank_service, China_service_top100_list, "中国服务业一百强(未去重)", color1);
+    drawRankChart(rank_service, China_service_top100_list, "中国服务业一百强(未去重)", color3);
     drawRankChart(rank_private, China_private_top500_list, "中国私营企业五百强(未去重)", color2);
-    drawRankChart(rank_investment, world_investment_top100_list, "世界投资机构100强(未去重)", color1);
+    drawRankChart(rank_investment, world_investment_top100_list, "世界投资机构100强(未去重)", color4);
     drawRankChart(rank_consulting, world_consult_top75_list, "世界咨询业75强", color3);
+
 });
 function get_Rank_Data(raw_data) {
     let rank_data = [];
