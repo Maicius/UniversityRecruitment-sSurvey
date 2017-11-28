@@ -8,18 +8,18 @@ from util import util
 # 华北电力大学
 # 包括宣讲会与双选会
 def get_ncepu_recruit():
-    table_name = "ncepu_table_name"
+    table_name = "ncepu_company_info"
     base_url = "http://job.ncepu.edu.cn/teachin/index?domain=ncepu&page="
     req = requests.Session()
     redis = jedis.jedis()
-    redis.connect_redis()
+    redis.clear_list(table_name)
     host = "job.ncepu.edu.cn"
     header = util.get_header(host)
     # 获取宣讲会信息
-    for i in range(1, 2):
+    for i in range(1, 34):
         res = req.get(headers=header, url=base_url + str(i))
         html = res.content.decode("utf-8")
-        # parse_info(html, redis, table_name)
+        parse_info(html, redis, table_name)
     get_double_choose(req, header, re)
     redis.add_university(table_name)
     redis.add_to_file(table_name)
@@ -45,22 +45,23 @@ def get_double_choose(req, header, redis):
     print(com_list)
 
 
-def parse_info(html, re, table_name):
+def parse_info(html, redis, table_name):
     soup = BeautifulSoup(html, "html5lib")
-    company_list = soup.find_all("")
+    company_list = soup.find_all(href=re.compile('/teachin/view/id/'))
+    dateList = re.findall(re.compile('([0-9]{4}-[0-9]{2}-[0-9]{2})|(活动已取消)'), str(soup))
     print(company_list)
     try:
-        for j in range(3, 24):
-            infos = company_list[j].text.split("\n")
-            company_name = infos[1].strip()
-            date = infos[5].strip()[0:10]
-            print(company_name)
-            print(date)
-            re.save_info(table_name, date, company_name)
+        for j in range(len(company_list)):
+            company_name = company_list[j].text.strip()
+            date = dateList[j][0]
+            if date != '':
+                print(company_name)
+                print(date)
+                redis.save_info(table_name, date, company_name)
     except IndexError:
         print("finish")
     except ConnectionError as e:
-        re.handle_error(e, table_name)
+        redis.handle_error(e, table_name)
 
 
 if __name__ == '__main__':
