@@ -278,7 +278,7 @@ class AnalysisTop500(object):
             print(key + ":" + str(len(values)) + " ".join(values))
             key = key[:-len('_company_info')]
             try:
-                print(UNIVERSITY_INFO[key] + ":" + str(len(values)))
+                print(UNIVERSITY_INFO[key][0] + ":" + str(len(values)))
                 self.data_array.append(dict(name=UNIVERSITY_INFO[key], data=values))
             except BaseException as e:
                 util.format_err(e)

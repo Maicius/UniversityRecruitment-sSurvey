@@ -43,16 +43,17 @@ $(document).ready(function () {
     drawRankChart(rank_consulting, world_consult_top75_list, "世界咨询业75强", color3);
 
     for (let i = 0; i < 45; i++) {
-
-        console.log(China_it_top100_result[i].data.length * 0.6 + (world_consult_top75_result[i].data.length + world_investment_top100_result[i].data.length) * 1.0);
         let compre_value = China_it_top100_result[i].data.length * 0.6 +
             (world_consult_top75_result[i].data.length + world_investment_top100_result[i].data.length) * 1.0 +
             (world_top500_result[i].data.length + usa_top500_result[i].data.length + China_top500_result[i].data.length) * 0.5 +
             (China_manufacture_top500_result[i].data.length + China_service_top100_result[i].data.length + China_private_top500_result[i].data.length) * 0.3;
         console.log(compre_value);
-        compre_rank_list.push([China_it_top100_result[i].name, compre_value])
+        compre_rank_list.push([China_it_top100_result[i].name, compre_value.toFixed(2)]);
     }
-    drawRankChart(rank_compre,compre_rank_list, "综合排名", color3);
+    let compre_rank_list2 = compre_rank_list.sort(function (a, b) {
+        return a[1] > b[1]
+    });
+    drawRankChart(rank_compre, compre_rank_list2, "综合排名", color3);
 });
 function get_Rank_Data(raw_data) {
     let rank_data = [];
