@@ -14,8 +14,7 @@ $(document).ready(function () {
     let rank_service = echarts.init(document.getElementById("rank_service"));
     let rank_manufacture = echarts.init(document.getElementById("rank_manufacture"));
     let rank_usa = echarts.init(document.getElementById("rank_usa"));
-
-
+    let rank_compre = echarts.init(document.getElementById("rank_compre"));
     let color1 = ['#CCFF99', '#66CCCC', '#339999', '#CCFFFF', '#66CC99', '#339999', '#66CC99', '#009999', '#336666', '#CCFF99', 'orange', '#CC9933', '#336666', '#CCCC99'];
     let color2 = ['#009999', '#CCFF99', '#CCFFFF', '#66CCCC', '#339999', '#336666', '#CCFF99', 'orange', '#CC9933', '#336666', '#CCCC99', '#66CC99', '#339999', '#66CC99'];
     let color3 = ['orange', '#339999', '#CCFFFF', '#66CC99', '#CCFF99', '#66CCCC', '#336666', '#CCFF99', '#339999', '#66CC99', '#009999', '#CC9933', '#336666', '#CCCC99'];
@@ -31,6 +30,7 @@ $(document).ready(function () {
     let China_private_top500_list = get_Rank_Data(China_private_top500_result);
     let world_investment_top100_list = get_Rank_Data(world_investment_top100_result);
     let world_consult_top75_list = get_Rank_Data(world_consult_top75_result);
+    let compre_rank_list = [];
 
     drawRankChart(rank_it, China_it_top100_list, "中国互联网企业100强", color1);
     drawRankChart(rank_world, World_top500_list, "世界五百强", color2);
@@ -42,6 +42,17 @@ $(document).ready(function () {
     drawRankChart(rank_investment, world_investment_top100_list, "世界投资机构100强", color4);
     drawRankChart(rank_consulting, world_consult_top75_list, "世界咨询业75强", color3);
 
+    for (let i = 0; i < 45; i++) {
+
+        console.log(China_it_top100_result[i].data.length * 0.6 + (world_consult_top75_result[i].data.length + world_investment_top100_result[i].data.length) * 1.0);
+        let compre_value = China_it_top100_result[i].data.length * 0.6 +
+            (world_consult_top75_result[i].data.length + world_investment_top100_result[i].data.length) * 1.0 +
+            (world_top500_result[i].data.length + usa_top500_result[i].data.length + China_top500_result[i].data.length) * 0.5 +
+            (China_manufacture_top500_result[i].data.length + China_service_top100_result[i].data.length + China_private_top500_result[i].data.length) * 0.3;
+        console.log(compre_value);
+        compre_rank_list.push([China_it_top100_result[i].name, compre_value])
+    }
+    drawRankChart(rank_compre,compre_rank_list, "综合排名", color3);
 });
 function get_Rank_Data(raw_data) {
     let rank_data = [];
@@ -59,7 +70,7 @@ function get_Rank_Data(raw_data) {
 function drawRankChart(domName, data, chartName, color) {
     let option = {
         title: {
-            text: chartName,
+            text: '2017年' + chartName + '到部分高校的招聘次数',
             left: 'center',
             textStyle: {
                 color: '#fff'
