@@ -19,7 +19,7 @@ class AnalysisTop500(object):
         self.re = jedis.jedis().get_re()
         self.data_array = []
         self.university_company_dict = {}
-
+        self.count = 0
         self.USA_company_list = []
         self.China_company_list = []
         self.World_company_list = []
@@ -175,6 +175,7 @@ class AnalysisTop500(object):
 
     # 从爬取的宣讲会标题中获取2017年度的宣讲会
     def get_2017_company_list(self, university_table_name):
+
         company_list = self.re.lrange(university_table_name, 0, -1)
         company_list_2017 = []
         for item in company_list:
@@ -189,6 +190,8 @@ class AnalysisTop500(object):
                 util.format_err(e, university_table_name, item)
                 continue
         print("Finish to find 2017 Recruitment-->" + university_table_name)
+        self.count +=1
+        print(self.count)
         return company_list_2017
 
     # 从数据库里读取500强信息（包括全名、CEO、盈利额等，但是不包括简称）

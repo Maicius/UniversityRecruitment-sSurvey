@@ -32,14 +32,14 @@ $(document).ready(function () {
     let world_investment_top100_list = get_Rank_Data(world_investment_top100_result);
     let world_consult_top75_list = get_Rank_Data(world_consult_top75_result);
 
-    drawRankChart(rank_it, China_it_top100_list, "中国互联网企业100强(未去重)", color1);
-    drawRankChart(rank_world, World_top500_list, "世界五百强(未去重)", color2);
-    drawRankChart(rank_china, China_top500_list, "中国五百强(未去重)", color3);
-    drawRankChart(rank_usa, usa_top500_list, "美国五百强(未去重)", color4);
-    drawRankChart(rank_manufacture, China_manufacture_top500_list, "中国制造业五百强(未去重)", color2);
-    drawRankChart(rank_service, China_service_top100_list, "中国服务业一百强(未去重)", color3);
-    drawRankChart(rank_private, China_private_top500_list, "中国私营企业五百强(未去重)", color2);
-    drawRankChart(rank_investment, world_investment_top100_list, "世界投资机构100强(未去重)", color4);
+    drawRankChart(rank_it, China_it_top100_list, "中国互联网企业100强", color1);
+    drawRankChart(rank_world, World_top500_list, "世界五百强", color2);
+    drawRankChart(rank_china, China_top500_list, "中国五百强", color3);
+    drawRankChart(rank_usa, usa_top500_list, "美国五百强", color4);
+    drawRankChart(rank_manufacture, China_manufacture_top500_list, "中国制造业五百强", color2);
+    drawRankChart(rank_service, China_service_top100_list, "中国服务业一百强", color3);
+    drawRankChart(rank_private, China_private_top500_list, "中国私营企业五百强", color2);
+    drawRankChart(rank_investment, world_investment_top100_list, "世界投资机构100强", color4);
     drawRankChart(rank_consulting, world_consult_top75_list, "世界咨询业75强", color3);
 
 });

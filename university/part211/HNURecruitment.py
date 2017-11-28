@@ -36,6 +36,7 @@ def get_hnu_recruitment():
     }
     session.headers.update(header)
     max_page = 7
+
     try:
         for i in range(1, max_page):
             get_one_page_data(i, redis, table_name, session)
