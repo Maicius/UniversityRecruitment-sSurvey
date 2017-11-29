@@ -42,17 +42,26 @@ $(document).ready(function () {
     drawRankChart(rank_investment, world_investment_top100_list, "世界投资机构100强", color4);
     drawRankChart(rank_consulting, world_consult_top75_list, "世界咨询业75强", color3);
 
-    for (let i = 0; i < 45; i++) {
+    for (let i = 0; i < China_it_top100_result.length; i++) {
         let compre_value = China_it_top100_result[i].data.length * 0.6 +
             (world_consult_top75_result[i].data.length + world_investment_top100_result[i].data.length) * 1.0 +
             (world_top500_result[i].data.length + usa_top500_result[i].data.length + China_top500_result[i].data.length) * 0.5 +
             (China_manufacture_top500_result[i].data.length + China_service_top100_result[i].data.length + China_private_top500_result[i].data.length) * 0.3;
-        console.log(compre_value);
-        compre_rank_list.push([China_it_top100_result[i].name, compre_value.toFixed(2)]);
+        //console.log(compre_value);
+        //console.log(China_it_top100_result[i]);
+        //console.log(China_it_top100_result[i].name);
+        let name = China_it_top100_result[i].name;
+        let university_name = name[0];
+        //console.log(university_name);
+        compre_rank_list.push([university_name, compre_value.toFixed(2)]);
     }
+    console.log(compre_rank_list);
     let compre_rank_list2 = compre_rank_list.sort(function (a, b) {
-        return a[1] > b[1]
+        console.log(a[0] + ":" + a[1]);
+        console.log(b[0] + ":" + b[1]);
+        return parseFloat(a[1]) > parseFloat(b[1])
     });
+    console.log(compre_rank_list2);
     drawRankChart(rank_compre, compre_rank_list2, "综合排名", color3);
 });
 function get_Rank_Data(raw_data) {
@@ -60,18 +69,22 @@ function get_Rank_Data(raw_data) {
     console.log("raw_data");
     console.log(raw_data);
     for (let i = 0; i < raw_data.length; i++) {
-        rank_data.push([raw_data[i].name, raw_data[i].data.length])
+        rank_data.push([raw_data[i].name[0], raw_data[i].data.length])
     }
 
     console.log(rank_data);
     return rank_data.sort(function (a, b) {
+
         return a[1] > b[1]
     });
 }
 function drawRankChart(domName, data, chartName, color) {
+    if(chartName !== "综合排名"){
+        chartName = '2017年' + chartName + '到部分高校的招聘次数'
+    }
     let option = {
         title: {
-            text: '2017年' + chartName + '到部分高校的招聘次数',
+            text: chartName,
             left: 'center',
             textStyle: {
                 color: '#fff'
