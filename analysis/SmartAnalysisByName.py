@@ -35,6 +35,8 @@ class SmartAnalysisByName(object):
         self.China_service_top100_dict = {}
         self.China_it_top100_dict = {}
 
+        # 记录每个大学某年度的宣讲会总数量
+        self.university_company_list_length_dict = {}
         # 中国500强结果
         self.China_top500_result = {}
         # 美国五百强结果
@@ -66,7 +68,8 @@ class SmartAnalysisByName(object):
             self.China_manufacture_top500_result[university_table_name] = []
             self.China_it_top100_result[university_table_name] = []
             self.China_private_top500_result[university_table_name] = []
-            company_list = self.get_2017_company_list(university_table_name)
+            company_list, university_company_list_length = self.get_2017_company_list(university_table_name)
+            self.university_company_list_length_dict[university_table_name] = university_company_list_length
             for company in company_list:
                 try:
                     article_title = company['company_name']
@@ -174,7 +177,6 @@ class SmartAnalysisByName(object):
 
     # 从爬取的宣讲会标题中获取2017年度的宣讲会
     def get_2017_company_list(self, university_table_name):
-
         company_list = self.re.lrange(university_table_name, 0, -1)
         company_list_2017 = []
         for item in company_list:
@@ -190,7 +192,7 @@ class SmartAnalysisByName(object):
         print("Finish to find 2017 Recruitment-->" + university_table_name)
         self.count += 1
         print(self.count)
-        return company_list_2017
+        return company_list_2017, len(company_list_2017)
 
     # 从数据库里读取500强信息（包括全名、CEO、盈利额等，但是不包括简称）
     def get_top_500_list(self):
@@ -269,19 +271,19 @@ class SmartAnalysisByName(object):
         self.data_array = []
 
     # 打印数据以及保存最终数据到文件
-    def print_result(self, result_dict, filename):
+    def print_and_save_result(self, result_dict, filename):
         self.data_array = []
         for key, values in result_dict.items():
             print('--------------------------------------')
             print(key + ":" + str(len(values)) + " ".join(values))
-            key = key[:-len('_company_info')]
+            university_short_name = key[:-len('_company_info')]
             try:
-                print(UNIVERSITY_INFO[key][0] + ":" + str(len(values)))
-                self.data_array.append(dict(name=UNIVERSITY_INFO[key], data=values))
+                print(UNIVERSITY_INFO[university_short_name][0] + ":" + str(len(values)))
+                self.data_array.append(dict(name=UNIVERSITY_INFO[university_short_name], data=values,
+                                            total_num=self.university_company_list_length_dict[key]))
             except BaseException as e:
                 util.format_err(e)
-                pass
-
+                continue
         with open('../data/result_data/' + filename + '.js', 'w', encoding='utf-8') as w:
             # json.dump(self.data_array, w, ensure_ascii=False)
             # 将json 数据转化为js的const 变量
@@ -296,23 +298,23 @@ def test_get_university_company_list():
     analysis.get_total_info()
     analysis.get_univeristy_company_list(university_list=university)
     print("到这些学校招聘的世界五百强================================")
-    analysis.print_result(analysis.world_top500_result, 'world_top500_result')
+    analysis.print_and_save_result(analysis.world_top500_result, 'world_top500_result')
     print("到这些学校招聘的中国五百强================================")
-    analysis.print_result(analysis.China_top500_result, 'China_top500_result')
+    analysis.print_and_save_result(analysis.China_top500_result, 'China_top500_result')
     print("到这些学校招聘的世界五百强================================")
-    analysis.print_result(analysis.usa_top500_result, 'usa_top500_result')
+    analysis.print_and_save_result(analysis.usa_top500_result, 'usa_top500_result')
     print("到这些学校招聘的中国IT业100强================================")
-    analysis.print_result(analysis.China_it_top100_result, 'China_it_top100_result')
+    analysis.print_and_save_result(analysis.China_it_top100_result, 'China_it_top100_result')
     print("到这些学校招聘的制造业500强================================")
-    analysis.print_result(analysis.China_manufacture_top500_result, 'China_manufacture_top500_result')
+    analysis.print_and_save_result(analysis.China_manufacture_top500_result, 'China_manufacture_top500_result')
     print("到这些学校招聘的私有企业500强================================")
-    analysis.print_result(analysis.China_private_top500_result, 'China_private_top500_result')
+    analysis.print_and_save_result(analysis.China_private_top500_result, 'China_private_top500_result')
     print("到这些学校招聘的服务业100强================================")
-    analysis.print_result(analysis.China_service_top100_result, 'China_service_top100_result')
+    analysis.print_and_save_result(analysis.China_service_top100_result, 'China_service_top100_result')
     print("到这些学校招聘的投资机构100强================================")
-    analysis.print_result(analysis.world_investment_top100_result, 'world_investment_top100_result')
+    analysis.print_and_save_result(analysis.world_investment_top100_result, 'world_investment_top100_result')
     print("到这些学校招聘的世界咨询业75强================================")
-    analysis.print_result(analysis.world_consult_top75_result, 'world_consult_top75_result')
+    analysis.print_and_save_result(analysis.world_consult_top75_result, 'world_consult_top75_result')
 
 
 def test_get_real_name():
@@ -320,10 +322,11 @@ def test_get_real_name():
     analysis.get_top_500_list()
     analysis.get_top_500_real_name()
 
+
 def test_get_activity_degree():
     pass
 
+
 if __name__ == '__main__':
     test_get_university_company_list()
-
     print("Finish")

@@ -41,28 +41,40 @@ $(document).ready(function () {
     drawRankChart(rank_private, China_private_top500_list, "中国私营企业五百强", color2);
     drawRankChart(rank_investment, world_investment_top100_list, "世界投资机构100强", color4);
     drawRankChart(rank_consulting, world_consult_top75_list, "世界咨询业75强", color3);
-
+    let total_company_list = [];
     for (let i = 0; i < China_it_top100_result.length; i++) {
-        let compre_value = China_it_top100_result[i].data.length * 0.6 +
-            (world_consult_top75_result[i].data.length + world_investment_top100_result[i].data.length) * 1.0 +
-            (world_top500_result[i].data.length + usa_top500_result[i].data.length + China_top500_result[i].data.length) * 0.5 +
-            (China_manufacture_top500_result[i].data.length + China_service_top100_result[i].data.length + China_private_top500_result[i].data.length) * 0.3;
+        let compre_value;
+        if (China_it_top100_result[i].total_num === 0)
+            compre_value = 0;
+        else {
+            compre_value = (China_it_top100_result[i].data.length * 1 +
+                (world_consult_top75_result[i].data.length + world_investment_top100_result[i].data.length) * 1 +
+                (world_top500_result[i].data.length + usa_top500_result[i].data.length + China_top500_result[i].data.length) * 1 +
+                (China_manufacture_top500_result[i].data.length +
+                China_service_top100_result[i].data.length + China_private_top500_result[i].data.length) * 1) / (China_it_top100_result[i].total_num * 1);
+        }
         //console.log(compre_value);
         //console.log(China_it_top100_result[i]);
         //console.log(China_it_top100_result[i].name);
         let name = China_it_top100_result[i].name;
+
         let university_name = name[0];
         //console.log(university_name);
         compre_rank_list.push([university_name, compre_value.toFixed(2)]);
+        total_company_list.push([university_name, China_it_top100_result[i].total_num]);
     }
     console.log(compre_rank_list);
-    let compre_rank_list2 = compre_rank_list.sort(function (a, b) {
-        console.log(a[0] + ":" + a[1]);
-        console.log(b[0] + ":" + b[1]);
+    compre_rank_list = compre_rank_list.sort(function (a, b) {
+        // console.log(a[0] + ":" + a[1]);
+        // console.log(b[0] + ":" + b[1]);
         return parseFloat(a[1]) > parseFloat(b[1])
     });
-    console.log(compre_rank_list2);
-    drawRankChart(rank_compre, compre_rank_list2, "综合排名", color3);
+    total_company_list = total_company_list.sort(function (a, b) {
+        return a[1] > b[1]
+    });
+    console.log(compre_rank_list);
+    drawRankChart(rank_compre, compre_rank_list, "2017年来校招聘的知名公司占总公司数量的比例排名", color3);
+    drawRankChart(rank_consulting, total_company_list, "2017年来校招聘的公司总数排名", color1);
 });
 function get_Rank_Data(raw_data) {
     let rank_data = [];
@@ -79,7 +91,7 @@ function get_Rank_Data(raw_data) {
     });
 }
 function drawRankChart(domName, data, chartName, color) {
-    if(chartName !== "综合排名"){
+    if (chartName !== "2017年来校招聘的知名公司占总公司数量的比例排名" && chartName !== '2017年来校招聘的公司总数排名') {
         chartName = '2017年' + chartName + '到部分高校的招聘次数'
     }
     let option = {
