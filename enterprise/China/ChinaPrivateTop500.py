@@ -2,7 +2,7 @@
 # 中国民营企业500强
 import requests
 from bs4 import BeautifulSoup
-from analysis.SmartCountTop500 import AnalysisTop500
+from analysis.SmartAnalysisByName import SmartAnalysisByName
 from jedis import jedis
 
 private_table_name = "China_private_company_top500"
@@ -11,7 +11,7 @@ service_table_name = "China_service_company_top100"
 
 
 def get_china_private_top500(url, table_name):
-    analysis = AnalysisTop500()
+    analysis = SmartAnalysisByName()
     res = requests.get(url=url).content.decode("utf-8")
     soup = BeautifulSoup(res, "html5lib")
     company_list = soup.find_all("td", attrs={"width": "130"})

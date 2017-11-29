@@ -1,7 +1,7 @@
 import re
 import requests
 from bs4 import BeautifulSoup
-from analysis.SmartCountTop500 import AnalysisTop500
+from analysis.SmartAnalysisByName import SmartAnalysisByName
 # 获取咨询行业北美50强、欧洲25强、亚太10强
 from jedis import jedis
 
@@ -12,7 +12,7 @@ def get_consult_top100():
     soup = BeautifulSoup(content, "html5lib")
     company_list = soup.find_all('p')
     com_info = []
-    analysis = AnalysisTop500()
+    analysis = SmartAnalysisByName()
     re = jedis.jedis()
     table_name = "best_consulting_company_info"
     for i in range(8, 99):

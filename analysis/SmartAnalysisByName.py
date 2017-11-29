@@ -14,7 +14,7 @@ from jedis import jedis
 # 比如中国石油化工集团股份有限公司的简称有： 中国石油化工、中国石化、中石化
 # 使用这些简称与从各个大学上爬取的宣讲会标题进行匹配
 # 匹配成功则表示该公司曾到该大学宣讲
-class AnalysisTop500(object):
+class SmartAnalysisByName(object):
     def __init__(self):
         self.re = jedis.jedis().get_re()
         self.data_array = []
@@ -66,7 +66,6 @@ class AnalysisTop500(object):
             self.China_manufacture_top500_result[university_table_name] = []
             self.China_it_top100_result[university_table_name] = []
             self.China_private_top500_result[university_table_name] = []
-
             company_list = self.get_2017_company_list(university_table_name)
             for company in company_list:
                 try:
@@ -190,7 +189,7 @@ class AnalysisTop500(object):
                 util.format_err(e, university_table_name, item)
                 continue
         print("Finish to find 2017 Recruitment-->" + university_table_name)
-        self.count +=1
+        self.count += 1
         print(self.count)
         return company_list_2017
 
@@ -290,10 +289,9 @@ class AnalysisTop500(object):
             data_str = str(self.data_array).replace('\'', "\"")
             w.write("const " + filename + "=" + data_str)
 
-if __name__ == '__main__':
-    analysis = AnalysisTop500()
-    # analysis.get_top_500_list()
-    # analysis.get_top_500_real_name()
+
+def test_get_university_company_list():
+    analysis = SmartAnalysisByName()
     analysis.get_company_short_name()
     university = analysis.get_university_list()
     analysis.get_total_info()
@@ -317,7 +315,16 @@ if __name__ == '__main__':
     print("到这些学校招聘的世界咨询业75强================================")
     analysis.print_result(analysis.world_consult_top75_result, 'world_consult_top75_result')
 
-    # print(analysis.China_top500_result)
-    # print(analysis.usa_top500_result)
-    # print(analysis.world_top500_result)
+
+def test_get_real_name():
+    analysis = SmartAnalysisByName()
+    analysis.get_top_500_list()
+    analysis.get_top_500_real_name()
+
+def test_get_activity_degree():
+    pass
+
+if __name__ == '__main__':
+
+
     print("Finish")
