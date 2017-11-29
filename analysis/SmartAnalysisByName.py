@@ -325,6 +325,6 @@ def test_get_activity_degree():
     pass
 
 if __name__ == '__main__':
-
+    test_get_university_company_list()
 
     print("Finish")
