@@ -60,6 +60,9 @@
 - [南开大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/part985/NKURecruitment.py)
 - [华南理工大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/part985/SCUTRecruitment.py)
 - [中国海洋大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/part985/OUCRecruitment.py)
+- [北京航空航天大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/part985/BHURecruitment.py)
+- [吉林大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/part985/JLURecruitment.py)
+- [西北农林科技大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/part985/NWAFURecruitment.py)
 
 #### 211
 
