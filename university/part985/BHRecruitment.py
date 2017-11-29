@@ -4,6 +4,15 @@ from jedis import jedis
 from time import sleep
 
 
+def get_default_session():
+    session = requests.session()
+    header = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.91 Safari/537.36',
+    }
+    session.headers.update(header)
+    return session
+
+
 def get_one_page_data(page, redis, table_name, s):
     url = 'http://career.buaa.edu.cn/getJobfairAllInfoAction.dhtml?more=all&pageIndex=%d&selectedNavigationName=RecruitmentInfoMain&selectedItem=jobFair' % page
     response = s.get(url)
@@ -29,11 +38,7 @@ def get_bhu_recruitment():
     redis = jedis.jedis()
     redis.clear_list(table_name)
 
-    session = requests.session()
-    header = {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.91 Safari/537.36',
-    }
-    session.headers.update(header)
+    session = get_default_session()
     max_page = 87
     try:
         for i in range(1, max_page):
