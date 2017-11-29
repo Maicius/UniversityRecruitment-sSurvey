@@ -78,7 +78,7 @@ class jedis(object):
 
     def add_to_file(self, name):
         # for py3
-        with open('../../data/' + name + '.json', 'w', encoding='utf-8') as w:
+        with open('../../data/university_data' + name + '.json', 'w', encoding='utf-8') as w:
             json.dump(self.data_array, w, ensure_ascii=False)
             # for py2
             # with open('../data/' + name + '.json', 'w+') as w:
@@ -86,7 +86,7 @@ class jedis(object):
 
     def add_to_file_tail(self, name):
         # for py3
-        with open('../../data/' + name + '.json', 'w+', encoding='utf-8') as w:
+        with open('../../data/university_data' + name + '.json', 'w+', encoding='utf-8') as w:
             json.dump(self.data_array, w, ensure_ascii=False)
             # for py2
             # with open('../data/' + name + '.json', 'w+') as w:

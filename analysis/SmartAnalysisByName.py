@@ -152,23 +152,23 @@ class SmartAnalysisByName(object):
 
     # 从文件中读取企业名单
     def get_company_short_name(self):
-        with open("../ana_company_data/China_Top_500.json", 'r', encoding='utf-8') as r:
+        with open("../data/ana_company_data/China_Top_500.json", 'r', encoding='utf-8') as r:
             self.China_top500_dict = json.load(r)
-        with open("../ana_company_data/USA_Top_500.json", 'r', encoding='utf-8') as r:
+        with open("../data/ana_company_data/USA_Top_500.json", 'r', encoding='utf-8') as r:
             self.usa_top500_dict = json.load(r)
-        with open("../ana_company_data/World_Top_500.json", 'r', encoding='utf-8') as r:
+        with open("../data/ana_company_data/World_Top_500.json", 'r', encoding='utf-8') as r:
             self.world_top500_dict = json.load(r)
-        with open("../ana_company_data/China_manufacture_company_top500.json", 'r', encoding='utf-8') as r:
+        with open("../data/ana_company_data/China_manufacture_company_top500.json", 'r', encoding='utf-8') as r:
             self.manufacture_top500_dict = json.load(r)
-        with open("../ana_company_data/China_it_top_100_company_info.json", 'r', encoding='utf-8') as r:
+        with open("../data/ana_company_data/China_it_top_100_company_info.json", 'r', encoding='utf-8') as r:
             self.China_it_top100_dict = json.load(r)
-        with open("../ana_company_data/China_service_company_top100.json", 'r', encoding='utf-8') as r:
+        with open("../data/ana_company_data/China_service_company_top100.json", 'r', encoding='utf-8') as r:
             self.China_service_top100_dict = json.load(r)
-        with open("../ana_company_data/China_private_company_top500.json", 'r', encoding='utf-8') as r:
+        with open("../data/ana_company_data/China_private_company_top500.json", 'r', encoding='utf-8') as r:
             self.China_private_top500_dict = json.load(r)
-        with open("../ana_company_data/investment_top100.json", 'r', encoding='utf-8') as r:
+        with open("../data/ana_company_data/investment_top100.json", 'r', encoding='utf-8') as r:
             self.world_investment_top100_dict = json.load(r)
-        with open("../ana_company_data/best_consulting_company_info.json", 'r', encoding='utf-8') as r:
+        with open("../data/ana_company_data/best_consulting_company_info.json", 'r', encoding='utf-8') as r:
             self.world_consult_top75_dict = json.load(r)
         print("Get Short Name Finish")
 
@@ -185,7 +185,6 @@ class SmartAnalysisByName(object):
                 if date.find('2017') != -1:
                     company_list_2017.append(item)
             except BaseException as e:
-                print("item:" + item)
                 util.format_err(e, university_table_name, item)
                 continue
         print("Finish to find 2017 Recruitment-->" + university_table_name)
@@ -283,7 +282,7 @@ class SmartAnalysisByName(object):
                 util.format_err(e)
                 pass
 
-        with open('../result_data/' + filename + '.js', 'w', encoding='utf-8') as w:
+        with open('../data/result_data/' + filename + '.js', 'w', encoding='utf-8') as w:
             # json.dump(self.data_array, w, ensure_ascii=False)
             # 将json 数据转化为js的const 变量
             data_str = str(self.data_array).replace('\'', "\"")
