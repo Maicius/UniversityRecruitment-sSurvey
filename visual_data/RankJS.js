@@ -14,6 +14,7 @@ let list_985 = [];
 let list_211 = [];
 let list_top = [];
 let list_basic = [];
+let count_others_c9 = 0, count_others_985 = 0, count_others_211 = 0, count_others_top = 0, count_others_basic = 0;
 $(document).ready(function () {
     let rank_it = echarts.init(document.getElementById("rank_it"));
     let rank_china = echarts.init(document.getElementById("rank_china"));
@@ -26,7 +27,7 @@ $(document).ready(function () {
     let rank_usa = echarts.init(document.getElementById("rank_usa"));
     let pie_c9 = echarts.init(document.getElementById("pie_c9"));
     let pie_985 = echarts.init(document.getElementById("pie_985"));
-    let pie_211= echarts.init(document.getElementById("pie_211"));
+    let pie_211 = echarts.init(document.getElementById("pie_211"));
     let pie_top = echarts.init(document.getElementById("pie_top"));
     let pie_basic = echarts.init(document.getElementById("pie_basic"));
     //console.log(China_it_top100_result);
@@ -60,9 +61,32 @@ $(document).ready(function () {
         // console.log(value);
         get_university_class_in_diff_company_list(value[0], value[1])
     });
+    list_c9.push({
+        "name": "other",
+        "value": list_c9[0].total_num - count_others_c9
+    });
+    list_985.push({
+        "name": "other",
+        "value": list_985[0].total_num - count_others_985
+    });
+    list_211.push({
+        "name": "other",
+        "value": list_211[0].total_num - count_others_211
+    });
+    list_top.push({
+        "name": "other",
+        "value": list_top[0].total_num - count_others_top
+    });
+    list_basic.push({
+        "name": "other",
+        "value": list_basic[0].total_num - count_others_basic
+    });
     console.log(list_c9);
-    draw_pie_chart(pie_c9, list_c9, "C9高校中来校招聘企业分布", color1);
-
+    draw_pie_chart(pie_c9, list_c9, "C9高校中来校招聘企业平均分布情况", color1);
+    draw_pie_chart(pie_985, list_985, "985高校中来校招聘企业平均分布情况", color1);
+    draw_pie_chart(pie_211, list_211, "211高校中来校招聘企业平均分布情况", color1);
+    draw_pie_chart(pie_top, list_top, "一本高校中来校招聘企业平均分布情况", color1);
+    draw_pie_chart(pie_basic, list_basic, "二本高校中来校招聘企业平均分布情况", color1);
 });
 
 function get_Rank_Data(raw_data) {
@@ -235,11 +259,16 @@ function get_university_class_in_diff_company_list(raw_data, name) {
             total_num_basic += raw_data[i].total_num;
             pBasic += 1;
         }
-        let others = total_num_c9 - count_c9
-
     }
-    // 保留小数点的长度
     let float_length = 2;
+    count_others_c9 += (count_c9 / c9).toFixed(float_length);
+    count_others_211 += (count_211 / p211).toFixed(float_length);
+    count_others_985 += (count_985 / p985).toFixed(float_length);
+    count_others_top += (count_top / pTop).toFixed(float_length);
+    count_others_basic += (count_basic / pBasic).toFixed(float_length);
+
+    // 保留小数点的长度
+
     // list_c9.push([name, (count_c9 / c9).toFixed(float_length), (total_num_c9 / c9).toFixed(float_length)]);
     // list_985.push([name, (count_985 / p985).toFixed(float_length), (total_num_985 / p985).toFixed(float_length)]);
     // list_211.push([name, (count_211 / p211).toFixed(float_length), (total_num_211 / p211).toFixed(float_length)]);
@@ -249,6 +278,26 @@ function get_university_class_in_diff_company_list(raw_data, name) {
         "name": name,
         "value": (count_c9 / c9).toFixed(float_length),
         "total_num": (total_num_c9 / c9).toFixed(float_length)
+    });
+    list_985.push({
+        "name": name,
+        "value": (count_985 / p985).toFixed(float_length),
+        "total_num": (total_num_985 / c9).toFixed(float_length)
+    });
+    list_211.push({
+        "name": name,
+        "value": (count_211 / p211).toFixed(float_length),
+        "total_num": (total_num_211 / c9).toFixed(float_length)
+    });
+    list_top.push({
+        "name": name,
+        "value": (count_top / pTop).toFixed(float_length),
+        "total_num": (total_num_top / c9).toFixed(float_length)
+    });
+    list_basic.push({
+        "name": name,
+        "value": (count_basic / pBasic).toFixed(float_length),
+        "total_num": (total_num_basic / c9).toFixed(float_length)
     });
 }
 
@@ -350,4 +399,12 @@ function draw_pie_chart(domName, data, chartName, color) {
         }]
     };
     domName.setOption(option);
+}
+
+function get_random_color() {
+    let color = ['#66CCCC', '#336666', '#CCFF99', '#339999', '#66CC99', 'orange', '#339999', '#CCFFFF', '#66CC99', '#CCFF99', '#009999', '#CC9933', '#336666', '#CCCC99'];
+    let random_color = [];
+    for(let i=0; i<color.length; i++){
+
+    }
 }
