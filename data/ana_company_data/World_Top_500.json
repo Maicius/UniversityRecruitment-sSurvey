@@ -283,6 +283,9 @@
     "short_name": [
       "QUALCOMM",
       "高通"
+    ],
+    "wrong_name":[
+      "步步高通信"
     ]
   },
   {
@@ -1090,7 +1093,9 @@
     "short_name": [
       "GENERAL DYNAMICS",
       "通用动力"
-    ]
+    ],"wrong_name":[
+    "鑫隆通用动力"
+  ]
   },
   {
     "company_name": "Exelon公司(EXELON)",
@@ -2204,7 +2209,7 @@
       "思科"
     ],
     "wrong_name":[
-      "蓝思科技"
+      "蓝思科技", "锐思科"
     ]
   },
   {
@@ -3352,7 +3357,9 @@
     "short_name": [
       "CHINA STATE CONSTRUCTION ENGINEERING",
       "中国建筑工程总", "中国建筑", "中建"
-    ]
+    ],"wrong_name":[
+    "南京金中建幕墙"
+  ]
   },
   {
     "company_name": "美源伯根公司(AMERISOURCEBERGEN)",

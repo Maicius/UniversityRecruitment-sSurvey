@@ -2369,6 +2369,9 @@
     "short_name": [
       "Xerox",
       "施乐"
+    ],
+    "wrong_name":[
+      "施乐高科技"
     ]
   },
   {
@@ -2873,6 +2876,9 @@
     "short_name": [
       "General Dynamics",
       "通用动力"
+    ],
+    "wrong_name":[
+      "隆鑫通用动力"
     ]
   },
   {
@@ -3082,6 +3088,9 @@
     "short_name": [
       "Cisco Systems",
       "思科"
+    ],
+    "wrong_name": [
+      "蓝思科技", "锐思科"
     ]
   },
   {
