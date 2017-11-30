@@ -235,6 +235,7 @@ function get_university_class_in_diff_company_list(raw_data, name) {
             total_num_basic += raw_data[i].total_num;
             pBasic += 1;
         }
+        let others = total_num_c9 - count_c9
 
     }
     // 保留小数点的长度
@@ -277,7 +278,7 @@ function draw_pie_chart(domName, data, chartName, color) {
             align: 'center'
         },
         hr: {
-            borderColor: '#0b5263',
+            borderColor: '#0b5',
             width: '100%',
             borderWidth: 1,
             height: 0,
@@ -314,7 +315,7 @@ function draw_pie_chart(domName, data, chartName, color) {
             icon: 'none',
             align: 'center',
             textStyle: {
-                color: "#fff",
+                color: "#0b5",
                 fontSize: 16 * scale,
                 rich: rich
             },
@@ -331,7 +332,7 @@ function draw_pie_chart(domName, data, chartName, color) {
                         let percent = (parseFloat(params.value) / parseFloat(params.data.total_num)).toFixed(4);
                         console.log(params);
                         console.log(params.data.total_num);
-                        return '{white|' + params.name + '}\n{hr|}\n{yellow|' + parseFloat(params.value[1]) + '}\n{blue|' + parseFloat(percent * 100) + '%}';
+                        return '{white|' + params.name + '}\n{hr|}\n{yellow|' + parseFloat(params.value) + '}\n{blue|' + parseFloat(percent * 100).toFixed(2) + '%}';
                     },
                     rich: rich
                 },
@@ -341,7 +342,7 @@ function draw_pie_chart(domName, data, chartName, color) {
                     length: 55 * scale,
                     length2: 0,
                     lineStyle: {
-                        color: '#0b5263'
+                        color: '#0b5'
                     }
                 }
             },
