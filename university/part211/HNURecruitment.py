@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 from jedis import jedis
 from time import sleep
 
-
+# 海南大学
 def get_one_page_data(page, redis, table_name, s):
     url = 'http://www.hainu.edu.cn/stm/jiuye/SHTML_liebiao.asp@bbsid=3875&pa=%d.shtml' % page
     response = s.get(url)
@@ -24,8 +24,8 @@ def get_one_page_data(page, redis, table_name, s):
 
 
 def get_hnu_recruitment():
-    # 海南大学
-    table_name = 'hnu_company_info'
+
+    table_name = 'hnu1_company_info'
 
     redis = jedis.jedis()
     redis.clear_list(table_name)
