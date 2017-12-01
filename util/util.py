@@ -1,6 +1,5 @@
-#coding=utf-8
+# coding=utf-8
 import time
-
 
 # 工具类
 import traceback
@@ -50,7 +49,7 @@ def get_short_date(date):
 # %Z:  时区名称（如果是本地时间，返回空字符串）
 # %%:  %% => %
 # Oct 19, 2017 12:00:00 AM
-
+# May 27, 2015 12:00:00 AM
 
 def get_standard_date(date):
     time_array = time.strptime(date, "%b %d, %Y %X %p")
@@ -62,14 +61,19 @@ def get_standard_date2(date):
     return time.strftime("%Y-%m-%d", time_array)
 
 
+# 将字符串时间转换为时间戳
+def get_mktime(date_string):
+    return time.mktime(time.strptime(date_string, '%Y-%m-%d'))
+
+
 def get_month(date):
     time_array = time.strptime(str(date), "%Y-%m-%d")
     return time.strftime("%Y-%m", time_array)
 
-def format_err(e, item1 ='', item2 = ''):
-    print("error=============================================================")
+
+def format_err(e, item1='', item2=''):
+    print("error*************************************************************")
     print(e)
     print(item1)
     print(item2)
-
-    print("error=============================================================")
+    print("error*************************************************************")

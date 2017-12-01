@@ -284,6 +284,13 @@ class SmartAnalysisByName(object):
             except BaseException as e:
                 util.format_err(e)
                 continue
+        self.save_result(filename)
+
+        # 打印数据以及保存最终数据到文件
+
+
+
+    def save_result(self, filename):
         with open('../data/result_data/' + filename + '.js', 'w', encoding='utf-8') as w:
             # json.dump(self.data_array, w, ensure_ascii=False)
             # 将json 数据转化为js的const 变量
