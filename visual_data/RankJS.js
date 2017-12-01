@@ -47,25 +47,25 @@ $(document).ready(function () {
     drawRankChart(rank_manufacture, China_manufacture_top500_list, "中国民营企业制造业五百强", color2);
     drawRankChart(rank_service, China_service_top100_list, "中国民营企业服务业一百强", color3);
     drawRankChart(rank_private, China_private_top500_list, "中国民营企业五百强", color2);
-    drawRankChart(rank_investment, world_investment_top100_list, "世界投资机构100强", color4);
+    drawRankChart(rank_investment, world_investment_top100_list, "世界投行100强", color4);
     drawRankChart(rank_consulting, world_consult_top75_list, "世界咨询业75强", color3);
     draw_compre_and_ratio_rank();
     let big_result_list = [[China_it_top100_result, "中国互联网企业100强"], [world_top500_result, "世界五百强"],
         [China_private_top500_result, "中国民营企业500强"],
         [China_service_top100_result, "中国民营企业服务企业100强"], [China_top500_result, "中国五百强"],
         [China_manufacture_top500_result, "中国民营企业制造业500强"],
-        [usa_top500_result, "美国五百强"], [world_investment_top100_result, "世界投资机构100强"], [world_consult_top75_result, "世界咨询业75强"]];
+        [usa_top500_result, "美国五百强"], [world_investment_top100_result, "世界投资机构100强"], [world_consult_top75_result, "世界咨询业公司75强"]];
     $.each(big_result_list, function (index, value) {
         // console.log("value");
         // console.log(value);
         get_university_class_in_diff_company_list(value[0], value[1])
     });
     console.log(list_c9);
-    draw_pie_chart(pie_c9, list_c9, "C9高校中来校招聘企业\n平均分布情况");
-    draw_pie_chart(pie_985, list_985, "985高校中来校招聘企业\n平均分布情况");
-    draw_pie_chart(pie_211, list_211, "211高校中来校招聘企业\n平均分布情况");
-    draw_pie_chart(pie_top, list_top, "一本高校中来校招聘企业\n平均分布情况");
-    draw_pie_chart(pie_basic, list_basic, "二本高校中来校招聘企业\n平均分布情况");
+    draw_pie_chart(pie_c9, list_c9, "2017年C9高校平均\n校园招聘企业分布情况");
+    draw_pie_chart(pie_985, list_985, "2017年985高校平均\n校园招聘企业分布情况");
+    draw_pie_chart(pie_211, list_211, "2017年211高校平均\n校园招聘企业分布情况");
+    draw_pie_chart(pie_top, list_top, "2017年一本高校平均\n校园招聘企业分布情况");
+    draw_pie_chart(pie_basic, list_basic, "2017年二本高校平均\n校园招聘企业分布情况");
 });
 
 function get_Rank_Data(raw_data) {
@@ -355,7 +355,7 @@ function draw_pie_chart(domName, data, chartName) {
                         let percent = (parseFloat(params.value) / parseFloat(params.data.total_num)).toFixed(4);
                         console.log(params);
                         console.log(params.data.total_num);
-                        return '{white|' + params.name + '}\n{hr|}\n{yellow|' + parseFloat(params.value) + '}\n{blue|' + parseFloat(percent * 100).toFixed(2) + '%}';
+                        return '{white|' + params.name + '}:{yellow|' + parseFloat(params.value) + '} {blue|' + parseFloat(percent * 100).toFixed(2) + '%}\n';
                     },
                     rich: rich
                 },

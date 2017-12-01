@@ -14,6 +14,7 @@ def get_hnu_recuit():
     host = "scc.hnu.edu.cn"
     headers = util.get_header(host=host)
     redis = jedis.jedis()
+    redis.clear_list(table_name)
     for i in range(1, 310):  # 一共310页，102页及其以前都是2017年的
         try:
             params = {'p.currentPage': '%d' % i, 'Lb': '1'}
@@ -38,7 +39,8 @@ def parse_info(html, redis):
         try:
             date = date_list[i].text.replace('/', '-')
             company_name = company_list[i].text.strip()
-            redis.save_info(table_name, date, company_name)
+            if company_name.find('取消') == -1 and date != '':
+                redis.save_info(table_name, date, company_name)
         except BaseException as e:
             util.format_err(e)
             continue
