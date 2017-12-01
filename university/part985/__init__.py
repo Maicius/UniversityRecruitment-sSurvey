@@ -2,6 +2,7 @@ from university.main.Recruitment import Recruitment
 from university.part985.BHURecruitment import get_bhu_recruitment
 from university.part985.CQURescruitment import get_cqu_recruit
 from university.part985.CSURecruitment import get_csu_recruit
+from university.part985.HNURecruitment import get_hnu_recuit
 from university.part985.HUSTRecruitment import get_hust_recruit
 from university.part985.JLURecruitment import get_jlu_recruitment
 from university.part985.LZURecruitment import get_lzu_rescruit
@@ -75,6 +76,12 @@ def get_985_infos():
 
     try:
         get_nwafu_recruitment()
+    except BaseException as e:
+        util.format_err(e)
+        pass
+
+    try:
+        get_hnu_recuit()
     except BaseException as e:
         util.format_err(e)
         pass

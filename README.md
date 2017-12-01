@@ -63,6 +63,7 @@
 - [北京航空航天大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/part985/BHURecruitment.py)
 - [吉林大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/part985/JLURecruitment.py)
 - [西北农林科技大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/part985/NWAFURecruitment.py)
+- [湖南大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/part985/HNURecruitment.py)
 
 #### 211
 
