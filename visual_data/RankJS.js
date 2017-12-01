@@ -376,7 +376,7 @@ function draw_pie_chart(domName, data, chartName) {
             },
             labelLine: {
                 normal: {
-                    length: 100 * scale,
+                    length: 50 * scale,
                     length2: 0,
                     lineStyle: {
                         color: '#0b5'

@@ -1,4 +1,4 @@
-# coding = utf-8
+# encoding = utf-8
 import json
 import jieba
 import re
@@ -290,8 +290,45 @@ class SmartAnalysisByName(object):
             data_str = str(self.data_array).replace('\'', "\"")
             w.write("const " + filename + "=" + data_str)
 
+#
+# def test_get_university_company_list():
+#     analysis = SmartAnalysisByName()
+#     analysis.get_company_short_name()
+#     university = analysis.get_university_list()
+#     analysis.get_total_info()
+#     analysis.get_univeristy_company_list(university_list=university)
+#     print("到这些学校招聘的世界五百强================================")
+#     analysis.print_and_save_result(analysis.world_top500_result, 'world_top500_result')
+#     print("到这些学校招聘的中国五百强================================")
+#     analysis.print_and_save_result(analysis.China_top500_result, 'China_top500_result')
+#     print("到这些学校招聘的世界五百强================================")
+#     analysis.print_and_save_result(analysis.usa_top500_result, 'usa_top500_result')
+#     print("到这些学校招聘的中国IT业100强================================")
+#     analysis.print_and_save_result(analysis.China_it_top100_result, 'China_it_top100_result')
+#     print("到这些学校招聘的制造业500强================================")
+#     analysis.print_and_save_result(analysis.China_manufacture_top500_result, 'China_manufacture_top500_result')
+#     print("到这些学校招聘的私有企业500强================================")
+#     analysis.print_and_save_result(analysis.China_private_top500_result, 'China_private_top500_result')
+#     print("到这些学校招聘的服务业100强================================")
+#     analysis.print_and_save_result(analysis.China_service_top100_result, 'China_service_top100_result')
+#     print("到这些学校招聘的投资机构100强================================")
+#     analysis.print_and_save_result(analysis.world_investment_top100_result, 'world_investment_top100_result')
+#     print("到这些学校招聘的世界咨询业75强================================")
+#     analysis.print_and_save_result(analysis.world_consult_top75_result, 'world_consult_top75_result')
 
-def test_get_university_company_list():
+
+# def test_get_real_name():
+#     analysis = SmartAnalysisByName()
+#     analysis.get_top_500_list()
+#     analysis.get_top_500_real_name()
+#
+#
+# def test_get_activity_degree():
+#     pass
+
+
+if __name__ == '__main__':
+    # test_get_university_company_list()
     analysis = SmartAnalysisByName()
     analysis.get_company_short_name()
     university = analysis.get_university_list()
@@ -315,18 +352,4 @@ def test_get_university_company_list():
     analysis.print_and_save_result(analysis.world_investment_top100_result, 'world_investment_top100_result')
     print("到这些学校招聘的世界咨询业75强================================")
     analysis.print_and_save_result(analysis.world_consult_top75_result, 'world_consult_top75_result')
-
-
-def test_get_real_name():
-    analysis = SmartAnalysisByName()
-    analysis.get_top_500_list()
-    analysis.get_top_500_real_name()
-
-
-def test_get_activity_degree():
-    pass
-
-
-if __name__ == '__main__':
-    test_get_university_company_list()
     print("Finish")

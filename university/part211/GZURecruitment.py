@@ -58,7 +58,7 @@ def parse_info(content, redis, page):
             except IndexError:
                 try:
                     year = re.findall(re.compile('[0-9]+-?－?[0-9]+期'), company_name)[0][0:2]
-                except BaseException:
+                except BaseException as e:
                     util.format_err(e)
                     continue
             if year == '44':
