@@ -172,35 +172,49 @@ function convertJsonToArray(strData) {
 function draw_compre_and_ratio_rank() {
     let rank_compre = echarts.init(document.getElementById("rank_compre"));
     let rank_ratio = echarts.init(document.getElementById("rank_ratio"));
+    let rank_total_num = echarts.init(document.getElementById("rank_total_num"));
     let total_company_list = [];
     let compre_rank_list = [];
+    let ratio_company_list = [];
     for (let i = 0; i < China_it_top100_result.length; i++) {
-        let compre_value;
-        if (China_it_top100_result[i].total_num === 0)
+        let compre_value, ratio_value = 0;
+        if (China_it_top100_result[i].total_num === 0) {
             compre_value = 0;
+            ratio_value = 0;
+        }
         else {
-            compre_value = (China_it_top100_result[i].data.length * 1 +
+            ratio_value = (China_it_top100_result[i].data.length * 1 +
                 (world_consult_top75_result[i].data.length + world_investment_top100_result[i].data.length) * 1 +
                 (world_top500_result[i].data.length + usa_top500_result[i].data.length + China_top500_result[i].data.length) * 1 +
                 (China_manufacture_top500_result[i].data.length +
                 China_service_top100_result[i].data.length + China_private_top500_result[i].data.length) * 1) / (China_it_top100_result[i].total_num * 1);
+
+            compre_value = (China_it_top100_result[i].data.length * 1 +
+                (world_consult_top75_result[i].data.length + world_investment_top100_result[i].data.length) * 1 +
+                (world_top500_result[i].data.length + usa_top500_result[i].data.length + China_top500_result[i].data.length) * 1 +
+                (China_manufacture_top500_result[i].data.length +
+                China_service_top100_result[i].data.length + China_private_top500_result[i].data.length) * 1) +  (China_it_top100_result[i].total_num * 1);
         }
         let name = China_it_top100_result[i].name;
         let university_name = name[0];
         //console.log(university_name);
-        compre_rank_list.push([university_name, compre_value.toFixed(2)]);
+        ratio_company_list.push([university_name, ratio_value.toFixed(2)]);
+        compre_rank_list.push([university_name, compre_value]);
         total_company_list.push([university_name, China_it_top100_result[i].total_num]);
     }
-    console.log(compre_rank_list);
     compre_rank_list = compre_rank_list.sort(function (a, b) {
         return parseFloat(a[1]) > parseFloat(b[1])
     });
     total_company_list = total_company_list.sort(function (a, b) {
         return a[1] > b[1]
     });
+    ratio_company_list = ratio_company_list.sort(function (a, b) {
+        return parseFloat(a[1]) > parseFloat(b[1])
+    });
     console.log(compre_rank_list);
-    drawRankChart(rank_compre, compre_rank_list, "2017年来校招聘的知名公司占总公司数量的比例排名", color3);
-    drawRankChart(rank_ratio, total_company_list, "2017年来校招聘的公司总数排名", color1);
+    drawRankChart(rank_ratio, ratio_company_list, "2017年来校招聘的知名公司占总公司数量的比例排名", get_random_color());
+    drawRankChart(rank_compre, compre_rank_list, "2017年部分高校综合排名", get_random_color());
+    drawRankChart(rank_total_num, total_company_list, "2017年来校招聘的公司总数排名", get_random_color());
 }
 
 function get_university_class_in_diff_company_list(raw_data, name) {
