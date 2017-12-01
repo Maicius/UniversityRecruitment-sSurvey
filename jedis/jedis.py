@@ -76,6 +76,7 @@ class jedis(object):
         if name not in university_list:
             self.re.lpush("university", name)
 
+    # 保存到文件
     def add_to_file(self, name):
         # for py3
         with open('../../data/university_data' + name + '.json', 'w', encoding='utf-8') as w:

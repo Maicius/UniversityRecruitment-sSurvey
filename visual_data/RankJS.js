@@ -14,7 +14,6 @@ let list_985 = [];
 let list_211 = [];
 let list_top = [];
 let list_basic = [];
-let count_others_c9 = 0, count_others_985 = 0, count_others_211 = 0, count_others_top = 0, count_others_basic = 0;
 $(document).ready(function () {
     let rank_it = echarts.init(document.getElementById("rank_it"));
     let rank_china = echarts.init(document.getElementById("rank_china"));
@@ -55,48 +54,28 @@ $(document).ready(function () {
         [China_private_top500_result, "中国民营企业500强"],
         [China_service_top100_result, "中国民营企业服务企业100强"], [China_top500_result, "中国五百强"],
         [China_manufacture_top500_result, "中国民营企业制造业500强"],
-        [usa_top500_result, "美国五百强"], [world_investment_top100_result, "世界投资机构500强"], [world_consult_top75_result, "世界咨询业500强"]];
+        [usa_top500_result, "美国五百强"], [world_investment_top100_result, "世界投资机构100强"], [world_consult_top75_result, "世界咨询业75强"]];
     $.each(big_result_list, function (index, value) {
         // console.log("value");
         // console.log(value);
         get_university_class_in_diff_company_list(value[0], value[1])
     });
-    list_c9.push({
-        "name": "other",
-        "value": list_c9[0].total_num - count_others_c9
-    });
-    list_985.push({
-        "name": "other",
-        "value": list_985[0].total_num - count_others_985
-    });
-    list_211.push({
-        "name": "other",
-        "value": list_211[0].total_num - count_others_211
-    });
-    list_top.push({
-        "name": "other",
-        "value": list_top[0].total_num - count_others_top
-    });
-    list_basic.push({
-        "name": "other",
-        "value": list_basic[0].total_num - count_others_basic
-    });
     console.log(list_c9);
-    draw_pie_chart(pie_c9, list_c9, "C9高校中来校招聘企业平均分布情况", color1);
-    draw_pie_chart(pie_985, list_985, "985高校中来校招聘企业平均分布情况", color1);
-    draw_pie_chart(pie_211, list_211, "211高校中来校招聘企业平均分布情况", color1);
-    draw_pie_chart(pie_top, list_top, "一本高校中来校招聘企业平均分布情况", color1);
-    draw_pie_chart(pie_basic, list_basic, "二本高校中来校招聘企业平均分布情况", color1);
+    draw_pie_chart(pie_c9, list_c9, "C9高校中来校招聘企业\n平均分布情况");
+    draw_pie_chart(pie_985, list_985, "985高校中来校招聘企业\n平均分布情况");
+    draw_pie_chart(pie_211, list_211, "211高校中来校招聘企业\n平均分布情况");
+    draw_pie_chart(pie_top, list_top, "一本高校中来校招聘企业\n平均分布情况");
+    draw_pie_chart(pie_basic, list_basic, "二本高校中来校招聘企业\n平均分布情况");
 });
 
 function get_Rank_Data(raw_data) {
     let rank_data = [];
-    console.log("raw_data");
-    console.log(raw_data);
+    // console.log("raw_data");
+    // console.log(raw_data);
     for (let i = 0; i < raw_data.length; i++) {
         rank_data.push([raw_data[i].name[0], raw_data[i].data.length])
     }
-    console.log(rank_data);
+
     return rank_data.sort(function (a, b) {
         return a[1] > b[1]
     });
@@ -232,7 +211,8 @@ function get_university_class_in_diff_company_list(raw_data, name) {
     let count_basic = 0;
     let c9 = 0, p985 = 9, p211 = 0, pTop = 0, pBasic = 0;
     let total_num_c9 = 0, total_num_985 = 0, total_num_211 = 0, total_num_basic = 0, total_num_top = 0;
-    // console.log(raw_data);
+    console.log(name);
+    console.log(raw_data);
     for (let i = 0; i < raw_data.length; i++) {
         if (raw_data[i].name[1] === 'C9') {
             count_c9 += raw_data[i].data.length;
@@ -261,14 +241,7 @@ function get_university_class_in_diff_company_list(raw_data, name) {
         }
     }
     let float_length = 2;
-    count_others_c9 += (count_c9 / c9).toFixed(float_length);
-    count_others_211 += (count_211 / p211).toFixed(float_length);
-    count_others_985 += (count_985 / p985).toFixed(float_length);
-    count_others_top += (count_top / pTop).toFixed(float_length);
-    count_others_basic += (count_basic / pBasic).toFixed(float_length);
-
     // 保留小数点的长度
-
     // list_c9.push([name, (count_c9 / c9).toFixed(float_length), (total_num_c9 / c9).toFixed(float_length)]);
     // list_985.push([name, (count_985 / p985).toFixed(float_length), (total_num_985 / p985).toFixed(float_length)]);
     // list_211.push([name, (count_211 / p211).toFixed(float_length), (total_num_211 / p211).toFixed(float_length)]);
@@ -282,33 +255,33 @@ function get_university_class_in_diff_company_list(raw_data, name) {
     list_985.push({
         "name": name,
         "value": (count_985 / p985).toFixed(float_length),
-        "total_num": (total_num_985 / c9).toFixed(float_length)
+        "total_num": (total_num_985 / p985).toFixed(float_length)
     });
     list_211.push({
         "name": name,
         "value": (count_211 / p211).toFixed(float_length),
-        "total_num": (total_num_211 / c9).toFixed(float_length)
+        "total_num": (total_num_211 / p211).toFixed(float_length)
     });
     list_top.push({
         "name": name,
         "value": (count_top / pTop).toFixed(float_length),
-        "total_num": (total_num_top / c9).toFixed(float_length)
+        "total_num": (total_num_top / pTop).toFixed(float_length)
     });
     list_basic.push({
         "name": name,
         "value": (count_basic / pBasic).toFixed(float_length),
-        "total_num": (total_num_basic / c9).toFixed(float_length)
+        "total_num": (total_num_basic / pBasic).toFixed(float_length)
     });
 }
 
-function draw_pie_chart(domName, data, chartName, color) {
-    let scale = 1;
+function draw_pie_chart(domName, data, chartName) {
+    let scale = 1.3;
     let rich = {
         yellow: {
             color: "#ffc72b",
-            fontSize: 30 * scale,
+            fontSize: 16 * scale,
             padding: [5, 4],
-            align: 'center'
+            align: 'right'
         },
         total: {
             color: "#ffc72b",
@@ -317,14 +290,14 @@ function draw_pie_chart(domName, data, chartName, color) {
         },
         white: {
             color: "#fff",
-            align: 'center',
+            align: 'left',
             fontSize: 14 * scale,
             padding: [21, 0]
         },
         blue: {
             color: '#49dff0',
             fontSize: 16 * scale,
-            align: 'center'
+            align: 'right'
         },
         hr: {
             borderColor: '#0b5',
@@ -346,19 +319,20 @@ function draw_pie_chart(domName, data, chartName, color) {
                 align: 'center'
             }
         },
+        toolbox: {
+            feature: {
+                saveAsImage: {}
+            }
+        },
         legend: {
-            selectedMode: false,
+            selectedMode: true,
             formatter: function (name) {
-                let total = 0; //各科正确率总和
-                let averagePercent; //综合正确率
-                total = parseFloat(data[0].total_num);
+                let total = parseFloat(data[0].total_num);
                 console.log("total");
                 console.log(total);
                 return '{total|' + total + '}';
             },
             data: [data[0].name],
-            // data: ['高等教育学'],
-            // itemGap: 50,
             left: 'center',
             top: 'center',
             icon: 'none',
@@ -372,7 +346,7 @@ function draw_pie_chart(domName, data, chartName, color) {
         series: [{
             name: '公司总数',
             type: 'pie',
-            radius: ['42%', '50%'],
+            radius: ['40%', '50%'],
             hoverAnimation: false,
             color: ['#c487ee', '#deb140', '#49dff0', '#034079', '#6f81da', '#00ffb4'],
             label: {
@@ -388,7 +362,7 @@ function draw_pie_chart(domName, data, chartName, color) {
             },
             labelLine: {
                 normal: {
-                    length: 55 * scale,
+                    length: 100 * scale,
                     length2: 0,
                     lineStyle: {
                         color: '#0b5'
@@ -405,6 +379,8 @@ function get_random_color() {
     let color = ['#66CCCC', '#336666', '#CCFF99', '#339999', '#66CC99', 'orange', '#339999', '#CCFFFF', '#66CC99', '#CCFF99', '#009999', '#CC9933', '#336666', '#CCCC99'];
     let random_color = [];
     for(let i=0; i<color.length; i++){
-
+        let index = (Math.random() * 14).toFixed(0);
+        random_color.push(color[index]);
     }
+    return random_color;
 }
