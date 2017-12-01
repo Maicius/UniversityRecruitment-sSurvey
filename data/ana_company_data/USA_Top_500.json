@@ -3017,8 +3017,11 @@
   {
     "company_name": "信诺(Cigna)",
     "short_name": [
-      "Cigna"
-    ]
+      "Cigna",
+      "信诺"
+    ],"wrong_name":[
+    "金信诺", "维信诺"
+  ]
   },
   {
     "company_name": "默沙东(Merck)",

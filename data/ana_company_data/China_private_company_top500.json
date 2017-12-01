@@ -2007,7 +2007,9 @@
     "company_name": "巨星控股集团有限公司",
     "short_name": [
       "巨星"
-    ]
+    ],"wrong_name":[
+     "芒果巨星科技"
+  ]
   },
   {
     "company_name": "大全集团有限公司",
