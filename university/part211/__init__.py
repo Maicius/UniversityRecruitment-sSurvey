@@ -12,21 +12,21 @@ from util import util
 
 # 获取所有211的数据
 def get_211_infos():
-    # try:
-    #     get_cufe_rescruit()
-    # except BaseException as e:
-    #     util.format_err(e, "cufe")
-    #     pass
-    # try:
-    #     get_sufe_recruit()
-    # except BaseException as e:
-    #     util.format_err(e, "sufe")
-    #     pass
-    # try:
-    #     get_ustbr_recuitment()
-    # except BaseException as e:
-    #     util.format_err(e, "ustb")
-    #     pass
+    try:
+        get_cufe_rescruit()
+    except BaseException as e:
+        util.format_err(e, "cufe")
+        pass
+    try:
+        get_sufe_recruit()
+    except BaseException as e:
+        util.format_err(e, "sufe")
+        pass
+    try:
+        get_ustbr_recuitment()
+    except BaseException as e:
+        util.format_err(e, "ustb")
+        pass
 
     try:
         get_swu_recruitment()

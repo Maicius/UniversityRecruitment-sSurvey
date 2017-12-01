@@ -36,6 +36,7 @@ def parse_info(res, re):
         else:
             company_name = item['title']
             date = item['publishTime']
+            date = util.get_standard_date(date)
         print(date)
         print(company_name)
         re.save_info(table_name, date, company_name)

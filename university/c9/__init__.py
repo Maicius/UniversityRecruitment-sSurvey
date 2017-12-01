@@ -16,6 +16,7 @@ def get_c9_info():
     recruit.get_sjtu_rescruit()
     get_tsinghua_recruit()
     get_fdu_rescruit()
+    # 北大的需要更新cookie
     get_pku_recruit()
     get_ustc_recruit()
     get_hit_rescruit()
