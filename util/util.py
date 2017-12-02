@@ -65,6 +65,8 @@ def get_standard_date2(date):
 def get_mktime(date_string):
     return time.mktime(time.strptime(date_string, '%Y-%m-%d'))
 
+def get_standard_time_from_mktime(mktime):
+    return time.strftime("%Y-%m-%d", time.localtime(mktime))
 
 def get_month(date):
     time_array = time.strptime(str(date), "%Y-%m-%d")

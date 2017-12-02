@@ -29,6 +29,8 @@ $(document).ready(function () {
     let pie_211 = echarts.init(document.getElementById("pie_211"));
     let pie_top = echarts.init(document.getElementById("pie_top"));
     let pie_basic = echarts.init(document.getElementById("pie_basic"));
+    let line_chart = echarts.init(document.getElementById("line_chart"));
+
     //console.log(China_it_top100_result);
     let China_it_top100_list = get_Rank_Data(China_it_top100_result);
     let World_top500_list = get_Rank_Data(world_top500_result);
@@ -66,6 +68,7 @@ $(document).ready(function () {
     draw_pie_chart(pie_211, list_211, "2017年211高校平均\n校园招聘企业分布情况");
     draw_pie_chart(pie_top, list_top, "2017年一本高校平均\n校园招聘企业分布情况");
     draw_pie_chart(pie_basic, list_basic, "2017年二本高校平均\n校园招聘企业分布情况");
+    get_line_chart_data()
 });
 
 function get_Rank_Data(raw_data) {
@@ -79,84 +82,6 @@ function get_Rank_Data(raw_data) {
     return rank_data.sort(function (a, b) {
         return a[1] > b[1]
     });
-}
-function drawRankChart(domName, data, chartName, color) {
-    if (chartName !== "2017年来校招聘的知名公司占总公司数量的比例排名" && chartName !== '2017年来校招聘的公司总数排名') {
-        chartName = '2017年' + chartName + '到部分高校的招聘次数'
-    }
-    let option = {
-        title: {
-            text: chartName,
-            left: 'center',
-            textStyle: {
-                color: '#fff'
-            }
-        },
-        toolbox: {
-            feature: {
-                saveAsImage: {}
-            }
-        },
-        backgroundColor: backColor,
-        tooltip: {
-            trigger: 'axis',
-            axisPointer: {
-                type: 'shadow'
-            }
-        },
-        grid: {
-            left: '3%',
-            right: '4%',
-            bottom: '3%',
-            containLabel: true
-        },
-        xAxis: {
-            type: 'value',
-            boundaryGap: [0, 0.01],
-            axisLabel: {
-                textStyle: {
-                    color: '#999'
-                }
-            }
-        },
-        yAxis: {
-            type: 'category',
-            data: data.map(function (item) {
-                return item[0];
-            }),
-            axisLabel: {
-                textStyle: {
-                    color: '#999'
-                }
-            },
-
-        },
-        series: [
-            {
-                name: chartName,
-                type: 'bar',
-                data: data.map(function (item) {
-                    return item[1];
-                }),
-                label: {
-                    normal: {
-                        show: true,
-                        position: 'right'
-                    }
-                },
-                itemStyle: {
-                    normal: {
-                        // callback,设定每一bar颜色,配置项color顶axis一组bars颜色
-                        color: function (params) {
-                            var num = color.length;
-                            return color[params.dataIndex % num]
-                        }
-                    }
-                }
-            }
-        ]
-    };
-    domName.setOption(option);
 }
 
 function convertJsonToArray(strData) {
@@ -288,107 +213,6 @@ function get_university_class_in_diff_company_list(raw_data, name) {
     });
 }
 
-function draw_pie_chart(domName, data, chartName) {
-    let scale = 1.3;
-    let rich = {
-        yellow: {
-            color: "#ffc72b",
-            fontSize: 16 * scale,
-            padding: [5, 4],
-            align: 'right'
-        },
-        total: {
-            color: "#ffc72b",
-            fontSize: 40 * scale,
-            align: 'center'
-        },
-        white: {
-            color: "#fff",
-            align: 'left',
-            fontSize: 14 * scale,
-            padding: [21, 0]
-        },
-        blue: {
-            color: '#49dff0',
-            fontSize: 16 * scale,
-            align: 'right'
-        },
-        hr: {
-            borderColor: '#0b5',
-            width: '100%',
-            borderWidth: 1,
-            height: 0,
-        }
-    };
-    let option = {
-        backgroundColor: backColor,
-        title: {
-            text: chartName,
-            left: 'center',
-            top: '53%',
-            padding: [24, 0],
-            textStyle: {
-                color: '#fff',
-                fontSize: 18 * scale,
-                align: 'center'
-            }
-        },
-        toolbox: {
-            feature: {
-                saveAsImage: {}
-            }
-        },
-        legend: {
-            selectedMode: true,
-            formatter: function (name) {
-                let total = parseFloat(data[0].total_num);
-                console.log("total");
-                console.log(total);
-                return '{total|' + total + '}';
-            },
-            data: [data[0].name],
-            left: 'center',
-            top: 'center',
-            icon: 'none',
-            align: 'center',
-            textStyle: {
-                color: "#0b5",
-                fontSize: 16 * scale,
-                rich: rich
-            },
-        },
-        series: [{
-            name: '公司总数',
-            type: 'pie',
-            radius: ['40%', '50%'],
-            hoverAnimation: false,
-            color: ['#c487ee', '#deb140', '#49dff0', '#034079', '#6f81da', '#00ffb4'],
-            label: {
-                normal: {
-                    formatter: function (params, ticket, callback) {
-                        let percent = (parseFloat(params.value) / parseFloat(params.data.total_num)).toFixed(4);
-                        console.log(params);
-                        console.log(params.data.total_num);
-                        return '{white|' + params.name + '}:{yellow|' + parseFloat(params.value) + '} {blue|' + parseFloat(percent * 100).toFixed(2) + '%}\n';
-                    },
-                    rich: rich
-                },
-            },
-            labelLine: {
-                normal: {
-                    length: 50 * scale,
-                    length2: 0,
-                    lineStyle: {
-                        color: '#0b5'
-                    }
-                }
-            },
-            data: data
-        }]
-    };
-    domName.setOption(option);
-}
-
 function get_random_color() {
     let color = ['#66CCCC', '#336666', '#CCFF99', '#339999', '#66CC99', 'orange', '#339999', '#CCFFFF', '#66CC99', '#CCFF99', '#009999', '#CC9933', '#336666', '#CCCC99'];
     let random_color = [];
@@ -397,4 +221,18 @@ function get_random_color() {
         random_color.push(color[index]);
     }
     return random_color;
+}
+
+function get_line_chart_data() {
+    let line_chart_data = [c9_company_date_result, basic_company_date_result, p211_company_date_result, p985_company_date_result, top_company_date_result];
+    $.each(line_chart_data, function (index, value) {
+        console.log(value);
+        change_data(value)
+    })
+}
+
+function change_data(data) {
+    $.each(data, function (index, value) {
+        console.log(value)
+    })
 }
