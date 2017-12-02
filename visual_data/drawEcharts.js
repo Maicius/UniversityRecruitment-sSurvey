@@ -103,7 +103,7 @@ function draw_pie_chart(domName, data, chartName) {
 }
 
 function drawRankChart(domName, data, chartName, color) {
-    if (chartName !== "2017年来校招聘的知名公司占总公司数量的比例排名" && chartName !== '2017年来校招聘的公司总数排名') {
+    if (chartName !== "2017年来校招聘的知名公司占总公司数量的比例排名" && chartName !== '2017年来校招聘的公司总数排名' && chartName !== '2017年部分高校校园招聘综合排名') {
         chartName = '2017年' + chartName + '到部分高校的招聘次数'
     }
     let option = {

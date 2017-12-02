@@ -138,7 +138,7 @@ function draw_compre_and_ratio_rank() {
     });
     console.log(compre_rank_list);
     drawRankChart(rank_ratio, ratio_company_list, "2017年来校招聘的知名公司占总公司数量的比例排名", get_random_color());
-    drawRankChart(rank_compre, compre_rank_list, "2017年部分高校综合排名", get_random_color());
+    drawRankChart(rank_compre, compre_rank_list, "2017年部分高校校园招聘综合排名", get_random_color());
     drawRankChart(rank_total_num, total_company_list, "2017年来校招聘的公司总数排名", get_random_color());
 }
 
