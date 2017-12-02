@@ -68,7 +68,7 @@ $(document).ready(function () {
     draw_pie_chart(pie_211, list_211, "2017年211高校平均\n校园招聘企业分布情况");
     draw_pie_chart(pie_top, list_top, "2017年一本高校平均\n校园招聘企业分布情况");
     draw_pie_chart(pie_basic, list_basic, "2017年二本高校平均\n校园招聘企业分布情况");
-    get_line_chart_data()
+    draw_line_chart(line_chart, total_date_result, "2013-2017年不同层次高校校园招聘会平均数量分布情况")
 });
 
 function get_Rank_Data(raw_data) {
@@ -223,16 +223,12 @@ function get_random_color() {
     return random_color;
 }
 
-function get_line_chart_data() {
-    let line_chart_data = [c9_company_date_result, basic_company_date_result, p211_company_date_result, p985_company_date_result, top_company_date_result];
-    $.each(line_chart_data, function (index, value) {
-        console.log(value);
-        change_data(value)
-    })
-}
-
-function change_data(data) {
-    $.each(data, function (index, value) {
-        console.log(value)
-    })
+function get_random_color_red() {
+    let color = ['#ffffcc', '#ccffff', '#ffcccc', '#ff6666', '#ff6666'];
+    let random_color = [];
+    for(let i=0; i<color.length; i++){
+        let index = (Math.random() * 5).toFixed(0);
+        random_color.push(color[index]);
+    }
+    return random_color;
 }

@@ -14,6 +14,7 @@ class SmartAnalysisByDate(SmartAnalysisByName):
         self.p211_company_date_dict = {}
         self.top_company_date_dict = {}
         self.basic_company_date_dict = {}
+        self.data_array_each_day_dict = {}
 
     def calculate_activity_degree(self):
         university_list = self.get_university_list()
@@ -21,20 +22,34 @@ class SmartAnalysisByDate(SmartAnalysisByName):
             university = UNIVERSITY_INFO[university_table[:-len('_company_info')]]
             company_list = self.re.lrange(university_table, 0, -1)
             if university[1] == 'C9':
-                self.get_company_num_in_diff_date(company_list, self.c9_company_date_dict)
+                self.get_company_num_in_diff_date(company_list, self.c9_company_date_dict, "c9")
             elif university[1] == '985':
-                self.get_company_num_in_diff_date(company_list, self.p985_company_date_dict)
+                self.get_company_num_in_diff_date(company_list, self.p985_company_date_dict, "p985")
             elif university[1] == '211':
-                self.get_company_num_in_diff_date(company_list, self.p211_company_date_dict)
+                self.get_company_num_in_diff_date(company_list, self.p211_company_date_dict, "p211")
             elif university[1] == '一本':
-                self.get_company_num_in_diff_date(company_list, self.top_company_date_dict)
+                self.get_company_num_in_diff_date(company_list, self.top_company_date_dict, "top")
             elif university[1] == '二本':
-                self.get_company_num_in_diff_date(company_list, self.basic_company_date_dict)
+                self.get_company_num_in_diff_date(company_list, self.basic_company_date_dict, "basic")
             else:
                 util.format_err(university)
+        self.save_date_dict()
         print("finish")
 
-    def get_company_num_in_diff_date(self, company_list, result_dict):
+    def save_date_dict(self):
+        new_data_array = []
+        for time, value in self.data_array_each_day_dict.items():
+            new_data_array.append(
+                dict(date=util.get_standard_time_from_mktime(int(time)), c9=value['c9'], p985=value['p985'],
+                     p211=value['p211'], top=value['top'], basic=value['basic']))
+
+            self.save_result2("total_date_result", new_data_array)
+
+    def get_2013_2017_each_day(self):
+        for timestamp in range(1356969600, 1514563200, 86400):
+            self.data_array_each_day_dict[str(timestamp)] = dict(c9=0, p985=0, p211=0, top=0, basic=0)
+
+    def get_company_num_in_diff_date(self, company_list, result_dict, type):
         for company in company_list:
             try:
                 company = company.replace('\'', '\"')
@@ -46,8 +61,11 @@ class SmartAnalysisByDate(SmartAnalysisByName):
                 date_time = util.get_mktime(date_time)
                 if str(date_time) in result_dict:
                     result_dict[str(date_time)] += 1
+
                 else:
                     result_dict[str(date_time)] = 1
+                if str(int(float(date_time))) in self.data_array_each_day_dict:
+                    self.data_array_each_day_dict[str(int(float(date_time)))][type] += 1
             except BaseException as e:
                 util.format_err(e)
 
@@ -62,6 +80,7 @@ class SmartAnalysisByDate(SmartAnalysisByName):
                 util.format_err(e)
                 continue
         self.data_array = sorted(self.data_array, key=lambda x: float(x['name']))
+        # 表示从 2013-01-01 至2017-12-30， 步长为一天
         for item in self.data_array:
             # 2013.01.01之前的数据都不要了
             if int(float(item['name'])) < 1356969600:
@@ -69,6 +88,7 @@ class SmartAnalysisByDate(SmartAnalysisByName):
             else:
                 item['name'] = util.get_standard_time_from_mktime(int(float(item['name'])))
                 self.data_array_range.append(item)
+
         # self.data_array = list(map(lambda x: util.get_standard_time_from_mktime(int(float(x['name']))), self.data_array))
 
         self.save_result2(filename, self.data_array_range)
@@ -83,6 +103,7 @@ class SmartAnalysisByDate(SmartAnalysisByName):
 
 if __name__ == '__main__':
     analysis_date = SmartAnalysisByDate()
+    analysis_date.get_2013_2017_each_day()
     analysis_date.calculate_activity_degree()
     print("C9================================")
     analysis_date.print_and_save_result2(analysis_date.c9_company_date_dict, 'c9_company_date_result')

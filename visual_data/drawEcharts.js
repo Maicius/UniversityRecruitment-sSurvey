@@ -181,17 +181,22 @@ function drawRankChart(domName, data, chartName, color) {
     domName.setOption(option);
 }
 
-function draw_line_chart(domName, data, chartName, color) {
+function draw_line_chart(domName, data, chartName) {
     let option = {
-        backgroundColor: '#394056',
+        backgroundColor: backColor,
         title: {
-            text: '请求数',
+            text: chartName,
             textStyle: {
                 fontWeight: 'normal',
                 fontSize: 16,
                 color: '#F1F1F3'
             },
             left: '6%'
+        },
+        toolbox: {
+            feature: {
+                saveAsImage: {}
+            }
         },
         tooltip: {
             trigger: 'axis', //触发类型。[ default: 'item' ] :数据项图形触发，主要在散点图，饼图等无类目轴的图表中使用;'axis'坐标轴触发，主要在柱状图，折线图等会使用类目轴的图表中使用
@@ -206,7 +211,7 @@ function draw_line_chart(domName, data, chartName, color) {
             itemWidth: 14, //图例标记的图形宽度[ default: 25 ]
             itemHeight: 5, //图例标记的图形高度。[ default: 14 ]
             itemGap: 13, //图例每项之间的间隔。横向布局时为水平间隔，纵向布局时为纵向间隔。[ default: 10 ]
-            data: ['移动', '电信', '联通'],
+            data: ['C9高校', '985高校', '211高校', '普通一本高校', '普通二本高校'],
             right: '4%', //图例组件离容器右侧的距离
             textStyle: {
                 fontSize: 12,
@@ -227,7 +232,9 @@ function draw_line_chart(domName, data, chartName, color) {
                     color: '#57617B' //坐标轴线线的颜色。
                 }
             },
-            data: ['13:00', '13:05', '13:10', '13:15', '13:20', '13:25', '13:30', '13:35', '13:40', '13:45', '13:50', '13:55']
+            data: data.map(function (item) {
+                return item.date;
+            })
         }],
         yAxis: [{
             type: 'value', //坐标轴类型。'value' 数值轴，适用于连续数据;'category' 类目轴，适用于离散的类目数据，为该类型时必须通过 data 设置类目数据;'time' 时间轴;'log' 对数轴.
@@ -252,8 +259,22 @@ function draw_line_chart(domName, data, chartName, color) {
                 }
             }
         }],
+        dataZoom: [{
+            show: true,
+            height: 20,
+            bottom: 10,
+            start: 10,
+            end: 60,
+            handleIcon: 'path://M306.1,413c0,2.2-1.8,4-4,4h-59.8c-2.2,0-4-1.8-4-4V200.8c0-2.2,1.8-4,4-4h59.8c2.2,0,4,1.8,4,4V413z',
+            handleSize: '110%',
+            handleStyle: {color: "#d3dee5",},
+            textStyle: {color: "#fff"},
+            borderColor: "#90979c",
+        },
+            {type: "inside"}
+        ],
         series: [{
-            name: '移动', //系列名称，用于tooltip的显示，legend 的图例筛选，在 setOption 更新数据和配置项时用于指定对应的系列
+            name: 'C9高校', //系列名称，用于tooltip的显示，legend 的图例筛选，在 setOption 更新数据和配置项时用于指定对应的系列
             type: 'line',
             smooth: true, //是否平滑曲线显示
             symbol: 'circle', //标记的图形。ECharts 提供的标记类型包括 'circle', 'rect', 'roundRect', 'triangle', 'diamond', 'pin', 'arrow'
@@ -285,9 +306,11 @@ function draw_line_chart(domName, data, chartName, color) {
 
                 }
             },
-            data: [220, 182, 191, 134, 150, 120, 110, 125, 145, 122, 165, 122]
+            data: data.map(function (item) {
+                return ((item.c9)/9).toFixed(2);
+            })
         }, {
-            name: '电信',
+            name: '985高校',
             type: 'line',
             smooth: true,
             symbol: 'circle',
@@ -319,9 +342,11 @@ function draw_line_chart(domName, data, chartName, color) {
 
                 }
             },
-            data: [120, 110, 125, 145, 122, 165, 122, 220, 182, 191, 134, 150]
+            data: data.map(function (item) {
+                return ((item.p985)/14).toFixed(2);
+            })
         }, {
-            name: '联通',
+            name: '211高校',
             type: 'line',
             smooth: true,
             symbol: 'circle',
@@ -353,8 +378,82 @@ function draw_line_chart(domName, data, chartName, color) {
                     borderWidth: 12
                 }
             },
-            data: [220, 182, 125, 145, 122, 191, 134, 150, 120, 110, 165, 122]
-        },]
+            data: data.map(function (item) {
+                return ((item.p211)/9).toFixed(2)
+            })
+        }, {
+            name: '普通一本高校',
+            type: 'line',
+            smooth: true,
+            symbol: 'circle',
+            symbolSize: 5,
+            showSymbol: false,
+            lineStyle: {
+                normal: {
+                    width: 1
+                }
+            },
+            areaStyle: {
+                normal: {
+                    color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [{
+                        offset: 0,
+                        color: get_random_color()[0]
+                    }, {
+                        offset: 0.8,
+                        color: get_random_color()[1]
+                    }], false),
+                    shadowColor: get_random_color()[2],
+                    shadowBlur: 10
+                }
+            },
+            itemStyle: {
+                normal: {
+
+                    color: get_random_color()[3],
+                    borderColor: get_random_color()[4],
+                    borderWidth: 12
+                }
+            },
+            data: data.map(function (item) {
+                return (item.top)/10;
+            })
+        }, {
+            name: '普通二本高校',
+            type: 'line',
+            smooth: true,
+            symbol: 'circle',
+            symbolSize: 5,
+            showSymbol: false,
+            lineStyle: {
+                normal: {
+                    width: 1
+                }
+            },
+            areaStyle: {
+                normal: {
+                    color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [{
+                        offset: 0,
+                        color: get_random_color_red()[0]
+                    }, {
+                        offset: 0.8,
+                        color: get_random_color_red()[0]
+                    }], false),
+                    shadowColor: get_random_color_red()[0],
+                    shadowBlur: 10
+                }
+            },
+            itemStyle: {
+                normal: {
+                    color: get_random_color_red()[0],
+                    borderColor: get_random_color_red()[0],
+                    borderWidth: 12
+                }
+            },
+            data: data.map(function (item) {
+                return ((item.basic)/9).toFixed(2)
+            })
+        }
+        ]
     };
     domName.setOption(option)
 }
