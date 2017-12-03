@@ -49,10 +49,34 @@ UNIVERSITY_INFO = {
     'jlu': ['吉林大学', '985'],
     'HNU': ['湖南大学', '985'],
     'bnu': ['北京师范大学', '985'],
-    'sxu': ['山西大学', '一本']
+    'sxu': ['山西大学', '一本'],
+    'lnu': ['辽宁大学', '211'],
+    'anu': ['安徽师范大学', '一本'],
+    'lmu': ['内蒙古大学', '211']
 }
 
+p985 = []
+p211 =[]
+top = []
+basic = []
+c9 = []
 print(len(UNIVERSITY_INFO))
+for item in UNIVERSITY_INFO.values():
+    if item[1] == '985':
+        p985.append(item)
+    elif item[1] == '211':
+        p211.append(item)
+    elif item[1] == '一本':
+        top.append(item)
+    elif item[1] == '二本':
+        basic.append(item)
+    elif item[1] == 'C9':
+        c9.append(item)
+print('c9:' + str(len(c9)))
+print('985:' + str(len(p985)))
+print('211:' + str(len(p211)))
+print('一本:' + str(len(top)))
+print('二本:' + str(len(basic)))
 
 COMPANY_WASTE_WORDS = ['控股', '股份', '有限公司', '有限', '公司', '集团', '（', '）', '资产管理', '通信', '集团股份',
                        '电子商务', '商城', '矿业集团', '信息产业', '发展股份', '控股集团', '(', ')',
