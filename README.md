@@ -88,6 +88,8 @@
 - [河北大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/top_public/HBURecruitment.py)
 - [首都经济贸易大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/top_public/CUEBRecruitment.py)
 - [武汉科技大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/top_public/WUSTRecruitment.py)
+- [山西大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/top_public/SXURecruitment.py)
+- [安徽师范大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/top_public/ANURecruitment.py)
 
 #### 二本
 
