@@ -1,3 +1,4 @@
+from university.top_public.ANURecruitment import get_anu_recruitment
 from university.top_public.CUEBRecruitment import get_cueb_recuitment
 from university.top_public.HBURecruitment import get_hbu_recruitment
 from university.top_public.HQURecruitment import get_hqu_recruitment
@@ -5,6 +6,7 @@ from university.top_public.HZNURecruitment import get_hznu_recruitment
 from university.top_public.NCEPURecruitment import get_ncepu_recruit
 from university.top_public.NCUTRecruitment import get_ncut_recuitment
 from university.top_public.NJUPTRecruitment import get_njupt_recruitment
+from university.top_public.SXURecruitment import get_sxu_recuit
 from university.top_public.WUSTRecruitment import get_wust_recruitment
 from university.top_public.YSURecruitment import get_ysu_recruitment
 from util import util
@@ -57,7 +59,19 @@ def get_top_public_infos():
     try:
         get_hbu_recruitment()
     except BaseException as e:
-        util.format_err(e, "hznu")
+        util.format_err(e, "hbu")
+        pass
+
+    try:
+        get_sxu_recuit()
+    except BaseException as e:
+        util.format_err(e, "sxu")
+        pass
+
+    try:
+        get_anu_recruitment()
+    except BaseException as e:
+        util.format_err(e, "anu")
         pass
 
     print("获取一本数据完成=====================")

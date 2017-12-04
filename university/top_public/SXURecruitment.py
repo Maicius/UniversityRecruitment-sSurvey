@@ -1,5 +1,5 @@
 # 不同的beautifulsoup 方法
-
+# @author 刘航
 import requests
 from bs4 import BeautifulSoup
 from jedis import jedis
