@@ -42,12 +42,13 @@ def parse_content(content, redis, table_name):
             tds = tr.contents
             company_name = tds[1].find('a').text.strip()
             date = tds[2].text.strip()[:10]
+            print(date)
             redis.save_dict(table_name, dict(
                 company_name=company_name,
                 data=date,
             ))
         # 返回结束标志
-        return len(trs) == 1
+        return date == '2011-12-01'
     else:
         pass
 
