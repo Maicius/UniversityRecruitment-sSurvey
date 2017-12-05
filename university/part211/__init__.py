@@ -1,4 +1,5 @@
 from university.part211.CAURecruitment import get_cau_recruitment
+from university.part211.CCNURecruitment import get_ccnu_recruitment
 from university.part211.CUFERescruitment import get_cufe_rescruit
 from university.part211.GZURecruitment import get_gzu_recruit
 from university.part211.HNURecruitment import get_hnu_recruitment
@@ -73,6 +74,12 @@ def get_211_infos():
 
     try:
         get_lnu_recruitment()
+    except BaseException as e:
+        util.format_err(e, "lmu")
+        pass
+
+    try:
+        get_ccnu_recruitment()
     except BaseException as e:
         util.format_err(e, "lmu")
         pass
