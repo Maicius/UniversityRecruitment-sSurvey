@@ -52,6 +52,7 @@ def parse_content(content, redis, table_name):
         pass
 
 
+# 利用当前页面的隐含参数作表单参数访问下一页
 def parse_parameters(content):
     __EVENTVALIDATION = __EVENTVALIDATION_pattern.findall(content)[0]
     __VIEWSTATE = __VIEWSTATE_pattern.findall(content)[0]
