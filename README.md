@@ -66,6 +66,8 @@
 - [湖南大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/part985/HNURecruitment.py)
 - [中央民族大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/part985/MUCRecruitment.py)
 - [大连理工大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/part985/DLUTRecruitment.py)
+- [中国人民大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/part985/RUCRecruitment.py)
+- [中国农业大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/part985/CAURecruitment.py)
 
 #### 211
 
@@ -80,6 +82,7 @@
 - [海南大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/part211/HNURecruitment.py)
 - [辽宁大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/part211/LNURecruitment.py)
 - [内蒙古大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/part211/LMURecruitment.py)
+- [太原理工大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/part211/TYUTRecruitment.py)
 
 #### 一本
 
