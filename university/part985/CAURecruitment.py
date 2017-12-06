@@ -65,7 +65,7 @@ def get_data(page, redis, table_name, s):
 
 def get_cau_recruitment():
     # 中国农业大学
-    table_name = 'cau_company_info'
+    table_name = 'CAU_company_info'
 
     redis = jedis.jedis()
     redis.clear_list(table_name)

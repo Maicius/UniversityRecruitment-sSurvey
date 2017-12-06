@@ -1,6 +1,7 @@
 from university.main.Recruitment import Recruitment
 from university.part985.BHURecruitment import get_bhu_recruitment
 from university.part985.BNURecruitment import get_bnu_recuit
+from university.part985.CAURecruitment import get_cau_recruitment
 from university.part985.CQURescruitment import get_cqu_recruit
 from university.part985.CSURecruitment import get_csu_recruit
 from university.part985.DLUTRecruitment import get_dlut_recruitment
@@ -13,6 +14,7 @@ from university.part985.MUCRecruitment import get_muc_recuitment
 from university.part985.NKURecruitment import get_nku_recruit
 from university.part985.NWAFURecruitment import get_nwafu_recruitment
 from university.part985.OUCRecruitment import get_ouc_recruit
+from university.part985.RUCRecruitment import get_ruc_recruitment
 from university.part985.SCUTRecruitment import get_scut_recuit
 from university.part985.TJURecuitment import get_tju_recruitment
 from university.part985.UESTCRecruitment import get_uestc_recruit
@@ -115,6 +117,16 @@ def get_985_infos():
 
     try:
         get_tju_recruitment()
+    except BaseException as e:
+        util.format_err(e)
+
+    try:
+        get_cau_recruitment()
+    except BaseException as e:
+        util.format_err(e)
+
+    try:
+        get_ruc_recruitment()
     except BaseException as e:
         util.format_err(e)
 if __name__ == '__main__':
