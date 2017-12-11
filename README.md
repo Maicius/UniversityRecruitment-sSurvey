@@ -97,6 +97,7 @@
 - [武汉科技大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/top_public/WUSTRecruitment.py)
 - [山西大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/top_public/SXURecruitment.py)
 - [安徽师范大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/top_public/ANURecruitment.py)
+- [广东理工大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/top_public/GDUTRecruitment.py)
 
 #### 二本
 
@@ -109,6 +110,8 @@
 - [北京石油化工学院](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/basic_public/BIPTRecruitment.py)
 - [江汉大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/basic_public/JHURecruitment.py)
 - [浙江大学城市学院](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/basic_public/ZUCCRecruitment.py)
+- [兰州理工大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/basic_public/LUTRecruitment.py)
+- [长江大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/basic_public/YANGTZEURecruitment.py)
 
 ### 已爬取的公司名单（持续更新）
 
