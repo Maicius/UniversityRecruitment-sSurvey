@@ -97,7 +97,8 @@
 - [武汉科技大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/top_public/WUSTRecruitment.py)
 - [山西大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/top_public/SXURecruitment.py)
 - [安徽师范大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/top_public/ANURecruitment.py)
-- [广东理工大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/top_public/GDUTRecruitment.py)
+- [广东工业大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/top_public/GDUTRecruitment.py)
+- [深圳大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/top_public/SZURecruitment.py)
 
 #### 二本
 
