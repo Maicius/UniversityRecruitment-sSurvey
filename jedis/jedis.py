@@ -113,12 +113,13 @@ class jedis(object):
         return self.re.lrange("university", 0, -1)
 
     def handle_error(self, e, name):
-        msg = traceback.format_exc(e)
-        print(msg)
         print("Unexpected Error")
         print("The program will save the data and exit")
         # 程序意外退出时保存文件
         self.add_to_file(name)
+        msg = traceback.format_exc(e)
+        print(msg)
+
 
     def clear_list(self, name):
         self.re.ltrim(name, -1, 0)
