@@ -45,7 +45,7 @@ def parse_content(content, redis, table_name):
             print(date)
             redis.save_dict(table_name, dict(
                 company_name=company_name,
-                data=date,
+                date=date,
             ))
         # 返回结束标志
         return date == '2011-12-01'
