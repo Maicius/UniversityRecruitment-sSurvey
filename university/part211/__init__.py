@@ -11,6 +11,7 @@ from university.part211.SWURecruitment import get_swu_recruitment
 from university.part211.TYUTRecruitment import get_tyut_recruitment
 from university.part211.USTBRecruitment import get_ustbr_recuitment
 from university.part211.XJURecruitment import get_xju_recruitment
+from university.part211.YNURecruitment import get_ynu_recruitment
 from university.part211.ZZURecruitment import get_zzu_recruit
 from util import util
 
@@ -95,6 +96,12 @@ def get_211_infos():
         get_xju_recruitment()
     except BaseException as e:
         util.format_err(e, "xju")
+        pass
+
+    try:
+        get_ynu_recruitment()
+    except BaseException as e:
+        util.format_err(e, "ynu")
         pass
 
     util.format_err("获取211数据完成")
