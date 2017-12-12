@@ -83,6 +83,7 @@
 - [辽宁大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/part211/LNURecruitment.py)
 - [内蒙古大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/part211/LMURecruitment.py)
 - [太原理工大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/part211/TYUTRecruitment.py)
+- [新疆大学](https://github.com/Maicius/UniversityRecruitment-sSurvey/blob/master/university/part211/XJURecruitment.py)
 
 #### 一本
 

@@ -120,7 +120,6 @@ class jedis(object):
         msg = traceback.format_exc(e)
         print(msg)
 
-
     def clear_list(self, name):
         self.re.ltrim(name, -1, 0)
 
