@@ -41,7 +41,7 @@ $(document).ready(function () {
     let China_private_top500_list = get_Rank_Data(China_private_top500_result);
     let world_investment_top100_list = get_Rank_Data(world_investment_top100_result);
     let world_consult_top75_list = get_Rank_Data(world_consult_top75_result);
-
+    console.log(China_it_top100_list);
     drawRankChart(rank_it, China_it_top100_list, "中国互联网企业一百强", color1);
     drawRankChart(rank_world, World_top500_list, "世界五百强", color2);
     drawRankChart(rank_china, China_top500_list, "中国五百强", color3);
@@ -63,6 +63,7 @@ $(document).ready(function () {
         get_university_class_in_diff_company_list(value[0], value[1])
     });
     console.log(list_c9);
+    console.log(list_211);
     draw_pie_chart(pie_c9, list_c9, "2017年C9高校平均\n校园招聘企业分布情况");
     draw_pie_chart(pie_985, list_985, "2017年985高校平均\n校园招聘企业分布情况");
     draw_pie_chart(pie_211, list_211, "2017年211高校平均\n校园招聘企业分布情况");
@@ -73,15 +74,17 @@ $(document).ready(function () {
 
 function get_Rank_Data(raw_data) {
     let rank_data = [];
-    // console.log("raw_data");
-    // console.log(raw_data);
+    console.log("raw_data");
+
     for (let i = 0; i < raw_data.length; i++) {
+
         rank_data.push([raw_data[i].name[0], raw_data[i].data.length])
     }
 
     return rank_data.sort(function (a, b) {
         return a[1] > b[1]
     });
+
 }
 
 function convertJsonToArray(strData) {
