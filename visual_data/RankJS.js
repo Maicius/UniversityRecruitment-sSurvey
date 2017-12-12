@@ -151,7 +151,7 @@ function get_university_class_in_diff_company_list(raw_data, name) {
     let count_211 = 0;
     let count_top = 0;
     let count_basic = 0;
-    let c9 = 0, p985 = 9, p211 = 0, pTop = 0, pBasic = 0;
+    let c9 = 0, p985 = 0, p211 = 0, pTop = 0, pBasic = 0;
     let total_num_c9 = 0, total_num_985 = 0, total_num_211 = 0, total_num_basic = 0, total_num_top = 0;
     console.log(name);
     console.log(raw_data);
@@ -189,6 +189,7 @@ function get_university_class_in_diff_company_list(raw_data, name) {
     // list_211.push([name, (count_211 / p211).toFixed(float_length), (total_num_211 / p211).toFixed(float_length)]);
     // list_top.push([name, (count_top / pTop).toFixed(float_length), (total_num_top / pTop).toFixed(float_length)]);
     // list_basic.push([name, (count_basic / pBasic).toFixed(float_length), (total_num_basic / pBasic).toFixed(float_length)]);
+    // console.log("c9:" + p985);
     list_c9.push({
         "name": name,
         "value": (count_c9 / c9).toFixed(float_length),
