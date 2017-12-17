@@ -55,7 +55,7 @@ def get_top_public_infos():
     try:
         get_wust_recruitment()
     except BaseException as e:
-        util.format_err(e, "hznu")
+        util.format_err(e, "wust")
         pass
     try:
         get_hbu_recruitment()

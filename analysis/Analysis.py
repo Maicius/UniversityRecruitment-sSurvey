@@ -217,4 +217,4 @@ if __name__ == '__main__':
     analysis = AnalysisTop500()
     analysis.get_top_500_list()
     analysis.get_university_top_500("university")
-    # analysis.test_fenci()
+    analysis.test_fenci()
