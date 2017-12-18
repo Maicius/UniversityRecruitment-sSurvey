@@ -7,11 +7,21 @@ class SmartAnalysisByAddr(SmartAnalysisByName):
     def __init__(self):
         SmartAnalysisByName.__init__(self)
         # C9\985\211分为一类
+        # 数据格式为[{'城市':[('大学', '数量')]}]
         self.p211_up_company_city = {}
         self.p211_up_company_province = {}
+
+        # C9\985\211
+        self.p211_up_company_city_avg = []
+        self.p211_up_company_province_avg = []
+
         # 普通一本和二本分为一类
         self.top_basic_company_city = {}
         self.top_basic_company_province = {}
+
+        self.top_basic_company_city_avg = []
+        self.top_basic_company_province_avg = []
+
         self.p211_up = ('C9', '985', '211')
         self.basic_top = ('一本', '二本')
 
@@ -46,11 +56,30 @@ class SmartAnalysisByAddr(SmartAnalysisByName):
                 else:
                     self.top_basic_company_city[university_city] = [(university_name, value)]
 
+    def get_avg_num(self):
+        self.p211_up_company_city_avg = self.calculate_avg_by_addr(self.p211_up_company_city)
+        self.p211_up_company_province_avg = self.calculate_avg_by_addr(self.p211_up_company_province)
+        self.top_basic_company_city_avg = self.calculate_avg_by_addr(self.top_basic_company_city)
+        self.top_basic_company_province_avg = self.calculate_avg_by_addr(self.top_basic_company_province)
+
+    # 数据为[{'城市':[('大学', '数量')]}]
+    def calculate_avg_by_addr(self, info):
+        result_list = []
+        for index, value in info.items():
+            # 一个城市或省份中的大学211以上大学或普通一二本高校的数量
+            university_num = len(value)
+            total_num = sum(map(lambda x: x[1], value))
+            if university_num != 0:
+                result_list.append((index, int(total_num/university_num)))git
+            else:
+                result_list.append((index, 0))
+        return result_list
 
 if __name__ == '__main__':
     analysis = SmartAnalysisByAddr()
     analysis.calculate_num_by_addr()
-    print(sorted(analysis.p211_up_company_province.items(), key=lambda x: x[1], reverse=True))
-    print(sorted(analysis.p211_up_company_city.items(), key=lambda x: x[1], reverse=True))
-    print(sorted(analysis.top_basic_company_province.items(), key=lambda x: x[1], reverse=True))
-    print(sorted(analysis.top_basic_company_city.items(), key=lambda x: x[1], reverse=True))
+    analysis.get_avg_num()
+    print(sorted(analysis.p211_up_company_province_avg, key=lambda x: x[1], reverse=True))
+    print(sorted(analysis.p211_up_company_city_avg, key=lambda x: x[1], reverse=True))
+    print(sorted(analysis.top_basic_company_province_avg, key=lambda x: x[1], reverse=True))
+    print(sorted(analysis.top_basic_company_city_avg, key=lambda x: x[1], reverse=True))
