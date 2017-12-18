@@ -70,7 +70,7 @@ class SmartAnalysisByAddr(SmartAnalysisByName):
             university_num = len(value)
             total_num = sum(map(lambda x: x[1], value))
             if university_num != 0:
-                result_list.append((index, int(total_num/university_num)))git
+                result_list.append((index, int(total_num/university_num)))
             else:
                 result_list.append((index, 0))
         return result_list
