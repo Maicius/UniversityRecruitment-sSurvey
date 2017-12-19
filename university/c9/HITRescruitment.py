@@ -14,19 +14,16 @@ def get_hit_rescruit():
     base_url = "http://job.hit.edu.cn/index/getZczphData"
     host = "job.hit.edu.cn"
     header = util.get_header(host)
-    header['referer'] = "http://job.hit.edu.cn/"
-    header['accept'] = "*/*"
-    header['X-Requested-With'] = "XMLHttpRequest"
-    header['origin'] = 'http://job.hit.edu.cn'
+
     req = requests.Session()
     header[
-        'cookie'] = "UM_distinctid=15f4cbc5472176-045b38b685b2dd-31657c00-1fa400-15f4cbc547397d; JSESSIONID=83A4F8CEC83B9A2FE72AC2E5B3864FBE; CNZZDATA1261107882=537118496-1508819681-https%253A%252F%252Fwww.baidu.com%252F%7C1513613342"
-    req.get("http://job.hit.edu.cn/info?dj=MjAxNy0xMi0x")
-    req.headers.update()
+        'Cookie'] = 'UM_distinctid=12d92-04155388a776ed-49566e-1fa400-15fef2bf12e643; CNZZDATA1261107882=1341678225-1511543504-https%253A%252F%252Fwww.baidu.com%252F%7C1513672466; JSESSIONID=E8EAAFC1F662C83D57C2D504594BD6CF'
+    # res = req.get("http://job.hit.edu.cn/info?dj=MQ--").content.decode('utf-8')
+    # print(res)
+    # req.headers.update()
     re = jedis.jedis()
     re.connect_redis()
     re.clear_list(table_name)
-    header['referer'] = "http://job.hit.edu.cn/info?dj=MjAxNy0xMi0x"
     # 哈工大最新的就业网站是从2016年9月开始的
     for i in range(0, 16):
         month = 9
@@ -38,10 +35,12 @@ def get_hit_rescruit():
 
         date = datetime.date(year, month, 1)
         params = {'Month': util.get_month(date)}
-        # params = {'Month': '2017-10'}
+        # params = {'Month': '2017-11'}
         params = json.dumps(params)
         print(params)
-        res = req.post(headers=header, url=base_url, data=params)
+        print(base_url)
+        res = req.post(url=base_url, headers=header, data=params)
+        print(res.status_code)
         content = res.content.decode("utf-8")
         # print(content)
         parse_hit_info(content, re)
