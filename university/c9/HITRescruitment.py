@@ -5,23 +5,28 @@ import requests
 from jedis import jedis
 from util import util
 
-
 # 哈尔滨工业大学
 table_name = "hit_company_info"
+
+
 def get_hit_rescruit():
     print("HIT Begin ===================================================")
     base_url = "http://job.hit.edu.cn/index/getZczphData"
     host = "job.hit.edu.cn"
     header = util.get_header(host)
-    header['referer'] = "http://job.hit.edu.cn/info?dj=MQ--"
+    header['referer'] = "http://job.hit.edu.cn/"
     header['accept'] = "*/*"
     header['X-Requested-With'] = "XMLHttpRequest"
+    header['origin'] = 'http://job.hit.edu.cn'
     req = requests.Session()
-    header['cookie'] = "JSESSIONID=A36AAA74D82B3F39C3FD2455853EC081"
-    req.get("http://job.hit.edu.cn/info?dj=MQ--")
+    header[
+        'cookie'] = "UM_distinctid=15f4cbc5472176-045b38b685b2dd-31657c00-1fa400-15f4cbc547397d; JSESSIONID=83A4F8CEC83B9A2FE72AC2E5B3864FBE; CNZZDATA1261107882=537118496-1508819681-https%253A%252F%252Fwww.baidu.com%252F%7C1513613342"
+    req.get("http://job.hit.edu.cn/info?dj=MjAxNy0xMi0x")
+    req.headers.update()
     re = jedis.jedis()
     re.connect_redis()
     re.clear_list(table_name)
+    header['referer'] = "http://job.hit.edu.cn/info?dj=MjAxNy0xMi0x"
     # 哈工大最新的就业网站是从2016年9月开始的
     for i in range(0, 16):
         month = 9

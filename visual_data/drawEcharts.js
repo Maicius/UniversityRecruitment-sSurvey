@@ -55,8 +55,8 @@ function draw_pie_chart(domName, data, chartName) {
             selectedMode: true,
             formatter: function (name) {
                 let total = parseFloat(data[0].total_num);
-                console.log("total");
-                console.log(total);
+                // console.log("total");
+                // console.log(total);
                 return '{total|' + total + '}';
             },
             data: [data[0].name],
@@ -80,8 +80,8 @@ function draw_pie_chart(domName, data, chartName) {
                 normal: {
                     formatter: function (params, ticket, callback) {
                         let percent = (parseFloat(params.value) / parseFloat(params.data.total_num)).toFixed(4);
-                        console.log(params);
-                        console.log(params.data.total_num);
+                        // console.log(params);
+                        // console.log(params.data.total_num);
                         return '{white|' + params.name + '}:{yellow|' + parseFloat(params.value) + '} {blue|' + parseFloat(percent * 100).toFixed(2) + '%}\n';
                     },
                     rich: rich
@@ -307,7 +307,7 @@ function draw_line_chart(domName, data, chartName) {
                 }
             },
             data: data.map(function (item) {
-                return ((item.c9)/9).toFixed(2);
+                return ((item.c9) / 9).toFixed(2);
             })
         }, {
             name: '985高校',
@@ -343,7 +343,7 @@ function draw_line_chart(domName, data, chartName) {
                 }
             },
             data: data.map(function (item) {
-                return ((item.p985)/14).toFixed(2);
+                return ((item.p985) / 14).toFixed(2);
             })
         }, {
             name: '211高校',
@@ -379,7 +379,7 @@ function draw_line_chart(domName, data, chartName) {
                 }
             },
             data: data.map(function (item) {
-                return ((item.p211)/9).toFixed(2)
+                return ((item.p211) / 9).toFixed(2)
             })
         }, {
             name: '普通一本高校',
@@ -415,7 +415,7 @@ function draw_line_chart(domName, data, chartName) {
                 }
             },
             data: data.map(function (item) {
-                return (item.top)/10;
+                return (item.top) / 10;
             })
         }, {
             name: '普通二本高校',
@@ -450,7 +450,7 @@ function draw_line_chart(domName, data, chartName) {
                 }
             },
             data: data.map(function (item) {
-                return ((item.basic)/9).toFixed(2)
+                return ((item.basic) / 9).toFixed(2)
             })
         }
         ]

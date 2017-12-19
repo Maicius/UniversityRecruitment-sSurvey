@@ -30,6 +30,7 @@ $(document).ready(function () {
     let pie_top = echarts.init(document.getElementById("pie_top"));
     let pie_basic = echarts.init(document.getElementById("pie_basic"));
     let line_chart = echarts.init(document.getElementById("line_chart"));
+    let China_map = echarts.init(document.getElementById("china_map"));
 
     //console.log(China_it_top100_result);
     let China_it_top100_list = get_Rank_Data(China_it_top100_result);
@@ -69,7 +70,12 @@ $(document).ready(function () {
     draw_pie_chart(pie_211, list_211, "2017年211高校平均\n校园招聘企业分布情况");
     draw_pie_chart(pie_top, list_top, "2017年一本高校平均\n校园招聘企业分布情况");
     draw_pie_chart(pie_basic, list_basic, "2017年二本高校平均\n校园招聘企业分布情况");
-    draw_line_chart(line_chart, total_date_result, "2013-2017年不同层次高校校园招聘会平均数量分布情况")
+    draw_line_chart(line_chart, total_date_result, "2013-2017年不同层次高校校园招聘会平均数量分布情况");
+
+    let map_data = [];
+    //画中国地图
+    draw_china_map(China_map, '2017年全国企业校园招聘数量分布');
+
 });
 
 function get_Rank_Data(raw_data) {
