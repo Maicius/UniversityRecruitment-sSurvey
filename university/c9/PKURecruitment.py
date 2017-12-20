@@ -15,9 +15,9 @@ def get_pku_recruit():
     base_url = "https://scc.pku.edu.cn/information/base-job-fair!findFairInfoByMonth.action"
     host = "scc.pku.edu.cn"
     headers = util.get_header(host)
-    headers['Referer'] = "https://scc.pku.edu.cn/timeline?fairDate=2017-11-03%2000:00"
+    headers['referer'] = "https://scc.pku.edu.cn/timeline?fairDate=2017-11-03%2000:00"
     headers[
-        'cookie'] = "Hm_lvt_f77188aadf0698598108fbf1f0e5df52=1509938240,1510453941; JSESSIONID=A07EA9A7A0B89A27E64ABB70E7D2C5FD; Hm_lpvt_f77188aadf0698598108fbf1f0e5df52=1510454286"
+        'Cookie'] = "Hm_lvt_f77188aadf0698598108fbf1f0e5df52=1509938240,1510453941; JSESSIONID=A07EA9A7A0B89A27E64ABB70E7D2C5FD; Hm_lpvt_f77188aadf0698598108fbf1f0e5df52=1510454286"
     req = requests.Session()
     re = jedis.jedis()
     re.connect_redis()
@@ -39,13 +39,13 @@ def get_pku_recruit():
     url = "https://scc.pku.edu.cn/home!bigFairJobInfo.action"
     url2 = "https://scc.pku.edu.cn/home!bigFairJobInfo.action"
     data2 = {'start': 0, 'limit': 600, 'currentPage': 1}
-    headers['Referer'] = "https://scc.pku.edu.cn/home!speciaPreach.action"
+    headers['referer'] = "https://scc.pku.edu.cn/home!speciaPreach.action"
     headers[
-        'cookie'] = "JSESSIONID=D1B540F2971CDE78A2CB54E7A58D0808; Hm_lvt_f77188aadf0698598108fbf1f0e5df52=1511245210,1511418901,1513048945; Hm_lpvt_f77188aadf0698598108fbf1f0e5df52=1513048945"
+        'cookie'] = 'Hm_lvt_f77188aadf0698598108fbf1f0e5df52=1511245210,1511418901,1513048945; JSESSIONID=FC1545AABEDA0AA0755B7ADC096AFB91; Hm_lpvt_f77188aadf0698598108fbf1f0e5df52=1513680121'
     headers['X-Requested-With'] = "X-Requested-WithXMLHttpRequest"
     headers['Cache-Control'] = "no-cache"
     req.get(url=url, headers=headers, verify=False)
-    headers['Referer'] = "https://scc.pku.edu.cn/home!bigFairJobInfo.action"
+    headers['referer'] = "https://scc.pku.edu.cn/home!bigFairJobInfo.action"
     info = req.post(headers=headers, url=url2, data=data2, verify=False)
     print("get info success")
     parse_info2(info.content.decode("utf-8"), re)

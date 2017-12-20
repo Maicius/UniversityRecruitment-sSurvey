@@ -25,12 +25,14 @@ class Recruitment(object):
         self.re.clear_list(table_name)
         req = requests.Session()
         scu_header = util.get_header(host)
-        scu_header['referer'] = referer
-        res = req.get(headers=scu_header, url=referer)
+        scu_header['Referer'] = 'http://jy.scu.edu.cn/eweb/jygl/zpfw.so?modcode=jygl_xjhxxck&subsyscode=zpfw&type=searchXjhxx&xjhType=all'
+        scu_header['Cookie'] = 'JSESSIONID=AAE1AC072CA0FFE22AB716D0A7704A0B.tomcat101; _ga=GA1.3.1408142550.1493865109; UM_distinctid=15eb1a380de29-0225c955defbd68-49546c-1aeaa0-15eb1a380df32c; FSSBBIl1UgzbN7N80T=1SsmDKAQpev0U1clYKpNYuA.y6_qLgJewiOYbv050ICkg3Kjqfpn6GRrF2zpRdDBudWJshpCOKN7AlV.9D_O7RjZTwOkQ0qwmU6eQ1gF7iEchZDTQQGl2m9UL2G29T7rpafpS8r.xLXbsM.JjksffyArHJT7WTf1t_FquF0jcX1IukCzZ5x7qoLH1METMKwA7KbxpUg6KRxF9ND0g1kF.KSxSf.892NAeL9Vi0YPpF9KnK0p0khN6bJVbpdY5dhNMInV5._KG2Afw6uly0yFy3SZv85qPRHiU5iQnxT4x4Rz3.CC8HWbI1e2QfYwlyLS8SCG; FSSBBIl1UgzbN7N80S=u7BskQBB0w2Zh.mUmB_yuqB_wQihkv98Qer_gvi01YHWNRmEgnbGfWgXahFLRwT0'
+        res = req.get(headers=scu_header, url=url)
         content = res.content.decode("utf-8")
         index_begin = 8
         index_end = 28
         page_num = self.get_page_num(content)
+        scu_header['Referer'] = referer
         self.get_rescruit(base_url, req, scu_header, table_name, page_num, index_begin, index_end, 2)
         self.re.add_university(table_name)
         self.re.add_to_file(table_name)
@@ -91,20 +93,22 @@ class Recruitment(object):
     # 获取总页数
     def get_page_num(self, content):
         num = re.findall('(/&nbsp;[1-9]+&nbsp;页)', content)
-        num = re.findall('[1-9]+', num[0])
+
         try:
+            num = re.findall('[1-9]+', num[0])
             page_num = int(num[0])
+            print(page_num)
             return page_num
         except BaseException as e:
             print("Failed to find total page num =================================")
             print(e)
             print("=================================")
-            return
+            return 265
 
 
 if __name__ == '__main__':
     recruit = Recruitment()
     recruit.get_scu_recruit()
-    recruit.get_sjtu_rescruit()
+    # recruit.get_sjtu_rescruit()
 
 
