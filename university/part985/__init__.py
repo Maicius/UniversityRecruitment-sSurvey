@@ -24,7 +24,7 @@ from util import util
 def get_985_infos():
     try:
         recruit = Recruitment()
-        recruit.get_sjtu_rescruit()
+        recruit.get_scu_recruit()
     except BaseException as e:
         util.format_err(e)
         pass

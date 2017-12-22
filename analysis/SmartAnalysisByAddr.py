@@ -1,4 +1,6 @@
 # 根据省份对大学数据进行划分
+import json
+
 from analysis.SmartAnalysisByName import SmartAnalysisByName
 from constant.constant import UNIVERSITY_INFO
 
@@ -70,10 +72,18 @@ class SmartAnalysisByAddr(SmartAnalysisByName):
             university_num = len(value)
             total_num = sum(map(lambda x: x[1], value))
             if university_num != 0:
-                result_list.append((index, int(total_num/university_num)))
-            else:
-                result_list.append((index, 0))
+                result_list.append((index, int(total_num / university_num)))
+                # else:
+                #     result_list.append((index, 0))
         return result_list
+
+    def save_result_to_json(self, array, filename):
+        data = list(map(lambda x: {'name': x[0], 'value': x[1]}, array))
+        print(data)
+        with open('../data/result_data/' + filename + '.js', 'w', encoding='UTF_8') as w:
+            data_str = str(data).replace('\'', '\"')
+            w.write("const " + filename + "=" + data_str + ';')
+
 
 if __name__ == '__main__':
     analysis = SmartAnalysisByAddr()
@@ -83,3 +93,4 @@ if __name__ == '__main__':
     print(sorted(analysis.p211_up_company_city_avg, key=lambda x: x[1], reverse=True))
     print(sorted(analysis.top_basic_company_province_avg, key=lambda x: x[1], reverse=True))
     print(sorted(analysis.top_basic_company_city_avg, key=lambda x: x[1], reverse=True))
+    analysis.save_result_to_json(analysis.p211_up_company_city_avg, "p211_up")
