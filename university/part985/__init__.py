@@ -15,6 +15,7 @@ from university.part985.NKURecruitment import get_nku_recruit
 from university.part985.NWAFURecruitment import get_nwafu_recruitment
 from university.part985.OUCRecruitment import get_ouc_recruit
 from university.part985.RUCRecruitment import get_ruc_recruitment
+from university.part985.SCURecruitment import get_scu_recruit
 from university.part985.SCUTRecruitment import get_scut_recuit
 from university.part985.TJURecuitment import get_tju_recruitment
 from university.part985.UESTCRecruitment import get_uestc_recruit
@@ -23,8 +24,7 @@ from util import util
 
 def get_985_infos():
     try:
-        recruit = Recruitment()
-        recruit.get_scu_recruit()
+        get_scu_recruit()
     except BaseException as e:
         util.format_err(e)
         pass
