@@ -22,6 +22,7 @@ def get_data(page, re, table_name):
 def get_uestc_recruit():
     table_name = "uestc_company_info"
     re = jedis.jedis()
+    re.clear_list(table_name)
     max_page_num = 144
     try:
         for i in range(1, max_page_num):

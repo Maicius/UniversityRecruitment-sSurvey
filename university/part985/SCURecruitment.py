@@ -12,6 +12,7 @@ def get_scu_recruit():
     f = open('scu_jy.html', 'r', encoding='utf-8')
     data = f.read()
     redis = jedis.jedis()
+    redis.clear_list(table_name)
     parse_info(data, redis, 8, 5300)
     redis.add_university(table_name)
     redis.add_to_file(table_name)
