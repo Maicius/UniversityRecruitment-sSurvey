@@ -1,5 +1,6 @@
 from university.c9.FDURescruitment import get_fdu_rescruit
 from university.c9.NJURescruitment import get_nju_rescruit
+from university.c9.SJTURecruitment import get_sjtu_rescruit
 from university.c9.THURecruitment import get_tsinghua_recruit
 from university.c9.USTCRecruitment import get_ustc_recruit
 from university.c9.XJTURecruitment import get_XJTU_recruit
@@ -14,8 +15,7 @@ from util import util
 def get_c9_info():
     print("Begin to collect c9's information")
     try:
-        recruit = Recruitment()
-        recruit.get_sjtu_rescruit()
+        get_sjtu_rescruit()
     except BaseException as e:
         util.format_err(e, "sjtu")
         pass

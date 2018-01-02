@@ -41,7 +41,7 @@ def get_pku_recruit():
     data2 = {'start': 0, 'limit': 600, 'currentPage': 1}
     headers['referer'] = "https://scc.pku.edu.cn/home!speciaPreach.action"
     headers[
-        'cookie'] = 'Hm_lvt_f77188aadf0698598108fbf1f0e5df52=1511245210,1511418901,1513048945; JSESSIONID=FC1545AABEDA0AA0755B7ADC096AFB91; Hm_lpvt_f77188aadf0698598108fbf1f0e5df52=1513680121'
+        'cookie'] = 'JSESSIONID=AFBCF8D631C5F757F2790373BE5AB090; Hm_lvt_f77188aadf0698598108fbf1f0e5df52=1513048945,1514907282; Hm_lpvt_f77188aadf0698598108fbf1f0e5df52=1514907290'
     headers['X-Requested-With'] = "X-Requested-WithXMLHttpRequest"
     headers['Cache-Control'] = "no-cache"
     req.get(url=url, headers=headers, verify=False)
