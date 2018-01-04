@@ -27,11 +27,13 @@ def parse_info(content, re, index_begin, index_end):
             # company_name = company[2]
             # company_date = company[4]
             infos = company.split("\n\t")
-            date = infos[4].strip()
-            company_name = infos[2].strip()
-            print(company)
+            date = infos[3].strip()
+            company_name = infos[1].strip()
+            print(date)
             # 在存储之前匹配一下日期格式是否正确，避免在最后一页时存储垃圾数据
             if pattern.match(date):
+                print(company_name)
+                print(date)
                 re.save_info(table_name, date, company_name)
         except IndexError:
             print(len(company_info))

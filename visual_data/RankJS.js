@@ -70,7 +70,7 @@ $(document).ready(function () {
     draw_pie_chart(pie_211, list_211, "2017年211高校平均\n校园招聘企业分布情况");
     draw_pie_chart(pie_top, list_top, "2017年一本高校平均\n校园招聘企业分布情况");
     draw_pie_chart(pie_basic, list_basic, "2017年二本高校平均\n校园招聘企业分布情况");
-    draw_line_chart(line_chart, total_date_result, "2013-2017年不同层次高校校园招聘会平均数量分布情况");
+    draw_line_chart(line_chart, total_date_result, "2017年不同类别高校校园招聘会平均数量分布情况");
 
     let map_data = [];
     //画中国地图

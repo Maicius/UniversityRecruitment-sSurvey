@@ -229,7 +229,7 @@ function draw_line_chart(domName, data, chartName) {
             boundaryGap: false, //坐标轴两边留白策略，类目轴和非类目轴的设置和表现不一样
             axisLine: {
                 lineStyle: {
-                    color: '#57617B' //坐标轴线线的颜色。
+                    color: '#F1F1F3' //坐标轴线线的颜色。
                 }
             },
             data: data.map(function (item) {
@@ -244,7 +244,7 @@ function draw_line_chart(domName, data, chartName) {
             },
             axisLine: {
                 lineStyle: {
-                    color: '#57617B' //坐标轴线线的颜色
+                    color: '#F1F1F3' //坐标轴线线的颜色
                 }
             },
             axisLabel: {
