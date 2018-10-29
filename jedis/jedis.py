@@ -8,10 +8,9 @@ import redis
 # 为没有安装redis的用户提供保存到json文件的接口
 class jedis(object):
     def __init__(self):
-        # 使用redis保存数据，如果没有redis须注释掉这两句代码
         # 使用json文件保存数据
         self.data_array = []
-        self.host = "134.175.58.80"
+        self.host = "127.0.0.1"
         self.port = "6379"
         self.re = self.get_re()
 

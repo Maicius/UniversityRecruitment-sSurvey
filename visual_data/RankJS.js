@@ -146,15 +146,19 @@ function draw_compre_and_ratio_rank() {
         compre_rank_list.push([university_name, compre_value]);
         total_company_list.push([university_name, China_it_top100_result[i].total_num]);
     }
+
     compre_rank_list = compre_rank_list.sort(function (a, b) {
         return parseFloat(a[1]) > parseFloat(b[1])
     });
+
     total_company_list = total_company_list.sort(function (a, b) {
         return a[1] > b[1]
     });
+
     ratio_company_list = ratio_company_list.sort(function (a, b) {
         return parseFloat(a[1]) > parseFloat(b[1])
     });
+
     console.log(compre_rank_list);
     drawRankChart(rank_ratio, ratio_company_list, "2017年来校招聘的知名公司占总公司数量的比例排名", get_random_color());
     drawRankChart(rank_compre, compre_rank_list, "2017年部分高校校园招聘综合排名", get_random_color());
