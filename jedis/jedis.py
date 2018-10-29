@@ -11,14 +11,14 @@ class jedis(object):
         # 使用redis保存数据，如果没有redis须注释掉这两句代码
         # 使用json文件保存数据
         self.data_array = []
-        self.host = "127.0.0.1"
+        self.host = "134.175.58.80"
         self.port = "6379"
         self.re = self.get_re()
 
     # 返回一个原生的redis对象
     def get_re(self):
         try:
-            pool = redis.ConnectionPool(host="127.0.0.1", port=6379, decode_responses=True)
+            pool = redis.ConnectionPool(host=self.host, port=6379, decode_responses=True, password=110110)
             return redis.StrictRedis(connection_pool=pool)
         except BaseException as e:
             self.print_redis_error(e)

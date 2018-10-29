@@ -32,7 +32,8 @@ def get_sjtu_rescruit():
 def get_rescruit(base_url, req, header, table_name, page_num, index_begin, index_end, company_index):
     for i in range(0, page_num):
         url = base_url + str(i)
-        print(url)
+        #
+        # print(url)
         res = req.get(headers=header, url=url)
         content = res.content.decode("utf-8")
         parse_info(content, table_name, index_begin, index_end, company_index)
@@ -50,7 +51,7 @@ def parse_info(content, table_name, index_begin, index_end, company_index):
             infos = company.split("\n\t")
             date = infos[4].strip()
             company_name = infos[company_index].strip()
-            print(company)
+            # print(company)
             # 在存储之前匹配一下日期格式是否正确，避免在最后一页时存储垃圾数据
             if pattern.match(date):
                 redis.save_info(table_name, date, company_name)

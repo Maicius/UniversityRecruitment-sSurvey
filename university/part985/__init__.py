@@ -26,7 +26,7 @@ def get_985_infos():
     try:
         get_scu_recruit()
     except BaseException as e:
-        util.format_err(e)
+        # util.format_err(e)
         pass
     try:
         get_csu_recruit()
