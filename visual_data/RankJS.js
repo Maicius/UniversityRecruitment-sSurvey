@@ -87,9 +87,19 @@ function get_Rank_Data(raw_data) {
         rank_data.push([raw_data[i].name[0], raw_data[i].data.length])
     }
 
+    // chrome在这里的排序有问题，详情参考这篇博客:
+    // console.log("https://www.cnblogs.com/yzeng/p/3949182.html?utm_source=tuicool&utm_medium=referral");
+    for (var i = 0; i < rank_data.length; i++) {
+        rank_data[i].oldIndex = i;
+    }
     return rank_data.sort(function (a, b) {
-        return a[1] > b[1]
+        return a[1] - b[1] || a.oldIndex - b.oldIndex;
     });
+
+    // return rank_data.sort(function (a, b) {
+    //     console.log(a[1], b[1], a[1] > b[1]);
+    //     return a[1] > b[1]
+    // });
 
 }
 
@@ -121,13 +131,13 @@ function draw_compre_and_ratio_rank() {
                 (world_consult_top75_result[i].data.length + world_investment_top100_result[i].data.length) * 1 +
                 (world_top500_result[i].data.length + usa_top500_result[i].data.length + China_top500_result[i].data.length) * 1 +
                 (China_manufacture_top500_result[i].data.length +
-                China_service_top100_result[i].data.length + China_private_top500_result[i].data.length) * 1) / (China_it_top100_result[i].total_num * 1);
+                    China_service_top100_result[i].data.length + China_private_top500_result[i].data.length) * 1) / (China_it_top100_result[i].total_num * 1);
 
             compre_value = (China_it_top100_result[i].data.length * 1 +
                 (world_consult_top75_result[i].data.length + world_investment_top100_result[i].data.length) * 1 +
                 (world_top500_result[i].data.length + usa_top500_result[i].data.length + China_top500_result[i].data.length) * 1 +
                 (China_manufacture_top500_result[i].data.length +
-                China_service_top100_result[i].data.length + China_private_top500_result[i].data.length) * 1) +  (China_it_top100_result[i].total_num * 1);
+                    China_service_top100_result[i].data.length + China_private_top500_result[i].data.length) * 1) + (China_it_top100_result[i].total_num * 1);
         }
         let name = China_it_top100_result[i].name;
         let university_name = name[0];
@@ -226,7 +236,7 @@ function get_university_class_in_diff_company_list(raw_data, name) {
 function get_random_color() {
     let color = ['#66CCCC', '#336666', '#CCFF99', '#339999', '#66CC99', 'orange', '#339999', '#CCFFFF', '#66CC99', '#CCFF99', '#009999', '#CC9933', '#336666', '#CCCC99'];
     let random_color = [];
-    for(let i=0; i<color.length; i++){
+    for (let i = 0; i < color.length; i++) {
         let index = (Math.random() * 14).toFixed(0);
         random_color.push(color[index]);
     }
@@ -236,7 +246,7 @@ function get_random_color() {
 function get_random_color_red() {
     let color = ['#ffffcc', '#ccffff', '#ffcccc', '#ff6666', '#ff6666'];
     let random_color = [];
-    for(let i=0; i<color.length; i++){
+    for (let i = 0; i < color.length; i++) {
         let index = (Math.random() * 5).toFixed(0);
         random_color.push(color[index]);
     }
