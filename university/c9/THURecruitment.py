@@ -8,7 +8,7 @@ from util import util
 
 # 获取清华大学宣讲会信息
 # 清华大学的很多招聘会以 "就业洽谈会"的形式批量进行，需要另外计算
-table_name = "thu_company_info"
+table_name = "thu_company_info_2018"
 def get_tsinghua_recruit():
     print("THU Begin ===================================================")
     base_url = "http://career.cic.tsinghua.edu.cn/xsglxt/b/jyxt/anony/jrqzph?callback=jQuery18303533298941862095_1508665403743&_=1508665403779"

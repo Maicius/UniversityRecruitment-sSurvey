@@ -6,7 +6,7 @@ from jedis import jedis
 from util import util
 
 # 哈尔滨工业大学
-table_name = "hit_company_info"
+table_name = "hit_company_info_2018"
 
 
 def get_hit_rescruit():

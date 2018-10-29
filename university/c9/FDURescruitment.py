@@ -5,7 +5,7 @@ from util import util
 from jedis import jedis
 from bs4 import BeautifulSoup
 
-table_name = "fdu_company_info"
+table_name = "fdu_company_info_2018"
 
 
 # 复旦大学

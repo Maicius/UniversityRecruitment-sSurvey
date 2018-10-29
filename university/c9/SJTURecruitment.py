@@ -7,7 +7,7 @@ from jedis import jedis
 from util import util
 pattern = re.compile('[0-9]+-[0-9][0-9]-[0-9][0-9]')
 redis = jedis.jedis()
-redis.clear_list("sjtu_company_info")
+redis.clear_list("sjtu_company_info_2018")
 
 def get_sjtu_rescruit():
     host = "www.job.sjtu.edu.cn"

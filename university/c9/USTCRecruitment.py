@@ -11,7 +11,7 @@ def get_ustc_recruit():
     base_url = "http://www.job.ustc.edu.cn/API/Web/Recruit.ashx?rand=0.10286254897924929&pagesize=20&action=list&keyword=&pageindex="
     req = requests.Session()
     host = "www.job.ustc.edu.cn"
-    table_name = "ustc_company_info"
+    table_name = "ustc_company_info_2018"
     header = util.get_header(host)
     re = jedis.jedis()
     re.connect_redis()

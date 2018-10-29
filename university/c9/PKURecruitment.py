@@ -6,7 +6,7 @@ from jedis import jedis
 from util import util
 import requests
 from bs4 import BeautifulSoup
-table_name = "pku_company_info"
+table_name = "pku_company_info_2018"
 
 
 # 获取北京大学的宣讲会信息

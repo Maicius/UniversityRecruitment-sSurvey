@@ -5,7 +5,7 @@ from jedis import jedis
 from util import util
 
 
-table_name = "nju_company_info"
+table_name = "nju_company_info_2018"
 
 
 # 获取南京大学数据

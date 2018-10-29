@@ -5,7 +5,7 @@ from jedis import jedis
 
 # 获取浙江大学就业数据
 def get_zju_rescruit():
-    table_name = "zju_company_info"
+    table_name = "zju_company_info_2018"
     base_url = "http://www.career.zju.edu.cn/ejob/zczphxxmorelogin.do"
     params = {'zphix': 0, 'dwmc': '', 'hylb': '', 'zphrq': '', 'pages.pageSize': 30, 'pages.currentPage': 0,
               'pages.maxPage': 20, 'pageno': ''}
