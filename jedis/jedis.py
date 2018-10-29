@@ -17,7 +17,7 @@ class jedis(object):
     # 返回一个原生的redis对象
     def get_re(self):
         try:
-            pool = redis.ConnectionPool(host=self.host, port=6379, decode_responses=True, password=110110)
+            pool = redis.ConnectionPool(host=self.host, port=6379, decode_responses=True)
             return redis.StrictRedis(connection_pool=pool)
         except BaseException as e:
             self.print_redis_error(e)
