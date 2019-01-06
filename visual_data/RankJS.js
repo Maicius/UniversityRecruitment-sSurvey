@@ -95,12 +95,6 @@ function get_Rank_Data(raw_data) {
     return rank_data.sort(function (a, b) {
         return a[1] - b[1] || a.oldIndex - b.oldIndex;
     });
-
-    // return rank_data.sort(function (a, b) {
-    //     console.log(a[1], b[1], a[1] > b[1]);
-    //     return a[1] > b[1]
-    // });
-
 }
 
 function convertJsonToArray(strData) {

@@ -1,6 +1,6 @@
-beautifulsoup4==4.6
-requests==2.12.4
-html5lib==1.0.1
-redis==2.10.6
-jieba==0.38
-xlwt==1.3.0
+beautifulsoup4
+requests
+html5lib
+redis
+jieba
+xlwt
