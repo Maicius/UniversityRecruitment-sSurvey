@@ -1,5 +1,15 @@
 # University Recruitment's Survey
 
+### 分析结果
+
+[2017全国高校校园招聘企业情况调查报告](http://www.xiaomaidong.com/?p=523)
+
+[优酷：一分钟看完校招企业分布情况](https://v.youku.com/v_show/id_XMzg5NTAyNDcyNA==.html?spm=a2hzp.8244740.0.0)
+
+[所有的数据可视化结果](http://www.xiaomaidong.com/visual_data/RankPage.html)
+
+[原始数据下载](https://github.com/Maicius/UniversityRecruitment-sSurvey/tree/master/data)
+
 ### How to Begin
 
 > 1.配置开发环境python3, 建议配置redis，若未配置redis，则使用json文件存储数据
